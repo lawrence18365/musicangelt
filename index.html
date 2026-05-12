@@ -807,17 +807,30 @@
             gap: 1rem;
             flex-wrap: wrap;
         }
-        .band-photo {
+        .band-media {
             grid-column: 3;
             grid-row: 1 / 6;
-            align-self: stretch;
-            min-height: 280px;
+            align-self: start;
+            display: grid;
+            gap: 0.85rem;
+            position: relative;
+            z-index: 1;
+        }
+        .band-photo {
             position: relative;
             z-index: 1;
             overflow: hidden;
             border: 1px solid rgba(247, 214, 228, 0.78);
             background: var(--blush-light);
             box-shadow: 0 18px 42px rgba(34, 25, 28, 0.09);
+        }
+        .band-media .band-photo {
+            grid-column: 1;
+            grid-row: auto;
+            align-self: start;
+            width: 100%;
+            min-height: 0;
+            aspect-ratio: 4 / 3;
         }
         .band-photo img {
             width: 100%;
@@ -831,10 +844,26 @@
             aspect-ratio: 3 / 2;
             min-height: 0;
         }
+        .band-media .band-photo-wide { aspect-ratio: 3 / 2; }
         .band-photo-sway {
             align-self: start;
             aspect-ratio: 1356 / 654;
             min-height: 0;
+        }
+        .band-media .band-photo-sway { aspect-ratio: 1356 / 654; }
+        .band-video {
+            position: relative;
+            overflow: hidden;
+            aspect-ratio: 16 / 9;
+            border: 1px solid rgba(247, 214, 228, 0.78);
+            background: #111;
+            box-shadow: 0 18px 42px rgba(34, 25, 28, 0.09);
+        }
+        .band-video iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0;
         }
         .band-photo::after {
             content: '';
@@ -1400,11 +1429,11 @@
             .band-entry-expanded .band-detail,
             .band-entry-expanded .band-bottom,
             .band-actions { grid-column: 2; }
-            .band-photo {
+            .band-media {
                 grid-column: 1 / -1;
                 grid-row: auto;
-                min-height: 320px;
             }
+            .band-media .band-photo { min-height: 0; }
             .band-photo-sway { min-height: 0; }
             .band-entry {
                 grid-template-columns: 50px 1fr;
@@ -1510,10 +1539,10 @@
             .band-entry-expanded .band-detail,
             .band-entry-expanded .band-bottom,
             .band-actions,
-            .band-photo { grid-column: 1; }
-            .band-photo {
+            .band-media { grid-column: 1; }
+            .band-media .band-photo {
                 grid-row: auto;
-                min-height: 220px;
+                min-height: 0;
             }
             .band-photo-wide,
             .band-photo-sway { min-height: 0; }
@@ -1623,9 +1652,14 @@
                 <!-- THE BEAT BOUTIQUE -->
                 <div class="band-entry-expanded rv" id="beat-boutique">
                     <span class="band-idx">01</span>
-                    <figure class="band-photo">
-                        <img src="assets/bands/the-beat-boutique.webp" alt="The Beat Boutique band in Dublin" width="800" height="534" loading="lazy">
-                    </figure>
+                    <div class="band-media">
+                        <figure class="band-photo">
+                            <img src="assets/bands/the-beat-boutique.webp" alt="The Beat Boutique band in Dublin" width="800" height="534" loading="lazy">
+                        </figure>
+                        <div class="band-video">
+                            <iframe src="https://www.youtube-nocookie.com/embed/E0OroK_izUE?rel=0" title="The Beat Boutique promo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Jazz &middot; Soul &middot; Funk &middot; Rock &middot; Pop</div>
@@ -1648,16 +1682,21 @@
                     </div>
                     <div class="band-actions">
                         <a href="#contact" class="band-cta">Enquire About The Beat Boutique <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        <a href="https://www.youtube.com/watch?v=DJ7IwlkTTfo" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/watch?v=E0OroK_izUE" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
 
                 <!-- SWAY SOCIAL -->
                 <div class="band-entry-expanded rv" id="sway-social">
                     <span class="band-idx">02</span>
-                    <figure class="band-photo band-photo-sway">
-                        <img src="assets/bands/sway-social.webp" alt="Sway Social band beside a graffiti wall" width="1356" height="654" loading="lazy">
-                    </figure>
+                    <div class="band-media">
+                        <figure class="band-photo band-photo-sway">
+                            <img src="assets/bands/sway-social.webp" alt="Sway Social band beside a graffiti wall" width="1356" height="654" loading="lazy">
+                        </figure>
+                        <div class="band-video">
+                            <iframe src="https://www.youtube-nocookie.com/embed/d7FOBPkDxjQ?rel=0" title="Sway Social promo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Pop &middot; Rock &middot; Club Classics &middot; Soul &middot; Party</div>
@@ -1687,9 +1726,14 @@
                 <!-- THE BEST MEN -->
                 <div class="band-entry-expanded rv" id="the-best-men">
                     <span class="band-idx">03</span>
-                    <figure class="band-photo band-photo-wide">
-                        <img src="assets/bands/the-best-men-bird.webp" alt="The Best Men band outside Bird" width="1057" height="683" loading="lazy">
-                    </figure>
+                    <div class="band-media">
+                        <figure class="band-photo band-photo-wide">
+                            <img src="assets/bands/the-best-men-bird.webp" alt="The Best Men band outside Bird" width="1057" height="683" loading="lazy">
+                        </figure>
+                        <div class="band-video">
+                            <iframe src="https://www.youtube-nocookie.com/embed/JbYhuYMQbSg?rel=0" title="The Best Men promo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Pop &middot; Rock &middot; Soul &middot; Floor-Fillers &middot; Party</div>
@@ -1712,16 +1756,21 @@
                     </div>
                     <div class="band-actions">
                         <a href="#contact" class="band-cta">Enquire About The Best Men <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        <a href="https://www.youtube.com/watch?v=xWbEn34Spg4" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/watch?v=JbYhuYMQbSg" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
 
                 <!-- BLACKTYE -->
                 <div class="band-entry-expanded rv" id="blacktye">
                     <span class="band-idx">04</span>
-                    <figure class="band-photo">
-                        <img src="assets/bands/blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="lazy">
-                    </figure>
+                    <div class="band-media">
+                        <figure class="band-photo">
+                            <img src="assets/bands/blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="lazy">
+                        </figure>
+                        <div class="band-video">
+                            <iframe src="https://www.youtube-nocookie.com/embed/jVqePIfC110?rel=0" title="Blacktye promo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                    </div>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Soul &middot; Pop &middot; Funk &middot; R&amp;B &middot; Classics</div>
@@ -1744,7 +1793,7 @@
                     </div>
                     <div class="band-actions">
                         <a href="#contact" class="band-cta">Enquire About Blacktye <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                        <a href="https://www.youtube.com/playlist?list=PLi1zpQIKpYLKm5GU1ub6m6UpGJAv18tLM" class="band-cta secondary" target="_blank" rel="noopener">Watch Videos <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/watch?v=jVqePIfC110" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
             </div>
