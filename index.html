@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MusicAngel — Irish Wedding Band Platform</title>
-    <meta name="description" content="MusicAngel is a platform for four standout Irish wedding bands, helping couples explore live entertainment and check availability for their day.">
+    <title>MusicAngel — Wedding Bands Playing All of Ireland</title>
+    <meta name="description" content="MusicAngel is a platform for four standout live wedding bands playing all of Ireland, helping couples explore live entertainment and check availability for their day.">
     <meta name="theme-color" content="#FBF8F5">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -188,7 +188,9 @@
         .hero {
             position: relative;
             min-height: 100svh;
-            display: flex;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(320px, 0.78fr);
+            gap: clamp(2.2rem, 4.5vw, 5.6rem);
             align-items: center;
             overflow: hidden;
             padding: 0 4.5%;
@@ -199,18 +201,18 @@
         .hero::before {
             content: '';
             position: absolute;
-            inset: auto 4.5% 10% auto;
-            width: min(36vw, 460px);
-            aspect-ratio: 1;
+            inset: 18% 3.2% auto auto;
+            width: min(42vw, 540px);
+            aspect-ratio: 1.08;
             border: 1px solid rgba(200, 178, 138, 0.22);
-            transform: rotate(-8deg);
+            transform: rotate(-4deg);
             pointer-events: none;
         }
         .hero::after {
-            content: 'Four bands for unforgettable rooms';
+            content: 'Four bands, one enquiry';
             position: absolute;
-            right: 7%;
-            bottom: 18%;
+            right: 5.2%;
+            bottom: 8%;
             z-index: 2;
             max-width: 170px;
             font-family: var(--serif);
@@ -223,7 +225,7 @@
         .hero-text {
             position: relative;
             z-index: 3;
-            max-width: 58%;
+            max-width: 650px;
             padding: 6rem 0 4rem;
         }
         .hero-eyebrow {
@@ -328,88 +330,64 @@
             color: var(--text-light);
         }
 
-        /* Watercolor art — right side */
+        /* Hero photo grid — current band website imagery */
         .hero-art {
-            position: absolute;
-            top: 0; right: -5%; bottom: 0;
-            width: 52%;
-            z-index: 1;
-            pointer-events: none;
+            position: relative;
+            z-index: 2;
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: clamp(0.7rem, 1.1vw, 1rem);
+            width: 100%;
+            padding-top: 4rem;
         }
-        .hero-art::before {
+        .hero-photo {
+            position: relative;
+            display: block;
+            aspect-ratio: 4 / 3;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.82);
+            background: var(--blush-light);
+            box-shadow: 0 22px 54px rgba(34, 25, 28, 0.12);
+            color: #fff;
+            text-decoration: none;
+            opacity: 0;
+            animation: riseIn 0.9s cubic-bezier(.25,.46,.45,.94) forwards;
+        }
+        .hero-photo:nth-child(1) { animation-delay: 0.7s; }
+        .hero-photo:nth-child(2) { animation-delay: 0.82s; margin-top: 1.1rem; }
+        .hero-photo:nth-child(3) { animation-delay: 0.94s; margin-top: -0.4rem; }
+        .hero-photo:nth-child(4) { animation-delay: 1.06s; margin-top: 0.7rem; }
+        .hero-photo img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            transition: transform 0.6s var(--ease-out), filter 0.6s var(--ease-out);
+        }
+        .hero-photo::after {
             content: '';
             position: absolute;
-            top: 19%;
-            right: 15%;
-            width: min(31vw, 380px);
-            aspect-ratio: 4 / 5;
-            background:
-                linear-gradient(180deg, rgba(255,255,255,0.86), rgba(253,240,245,0.72)),
-                repeating-linear-gradient(90deg, transparent 0 13px, rgba(242,108,167,0.08) 13px 14px);
-            border: 1px solid rgba(247, 214, 228, 0.86);
-            box-shadow: var(--shadow-soft);
-            transform: rotate(3deg);
+            inset: 0;
+            background: linear-gradient(180deg, transparent 42%, rgba(17, 17, 17, 0.62));
+            pointer-events: none;
         }
-        .hero-art::after {
-            content: 'ceremony  drinks  dinner  dance floor';
+        .hero-photo span {
             position: absolute;
-            top: 34%;
-            right: 19%;
-            width: min(24vw, 280px);
-            font-size: 0.58rem;
+            left: 0.75rem;
+            right: 0.75rem;
+            bottom: 0.72rem;
+            z-index: 1;
+            font-size: 0.54rem;
             font-weight: 600;
-            letter-spacing: 0.22em;
+            letter-spacing: 0.15em;
+            line-height: 1.35;
             text-transform: uppercase;
-            color: rgba(34, 25, 28, 0.34);
-            line-height: 2.2;
-            transform: rotate(3deg);
+            text-shadow: 0 1px 10px rgba(0, 0, 0, 0.34);
         }
-        .blob {
-            position: absolute;
-            filter: blur(50px);
-            will-change: transform;
-        }
-        .blob-a {
-            width: 380px; height: 440px;
-            top: 15%; right: 12%;
-            background: rgba(242, 108, 167, 0.1);
-            border-radius: 62% 38% 52% 48% / 45% 58% 42% 55%;
-            animation: morph1 16s ease-in-out infinite alternate;
-        }
-        .blob-b {
-            width: 300px; height: 350px;
-            top: 28%; right: 22%;
-            background: rgba(247, 214, 228, 0.18);
-            border-radius: 45% 55% 48% 52% / 55% 42% 58% 45%;
-            animation: morph2 20s ease-in-out infinite alternate;
-        }
-        .blob-c {
-            width: 180px; height: 200px;
-            top: 20%; right: 8%;
-            background: rgba(200, 178, 138, 0.07);
-            border-radius: 52% 48% 55% 45% / 48% 52% 48% 52%;
-            animation: morph3 13s ease-in-out infinite alternate;
-        }
-        .blob-d {
-            width: 140px; height: 160px;
-            top: 55%; right: 35%;
-            background: rgba(242, 108, 167, 0.06);
-            border-radius: 48% 52% 45% 55% / 52% 45% 55% 48%;
-            animation: morph1 18s ease-in-out infinite alternate-reverse;
-        }
-        @keyframes morph1 {
-            0%   { border-radius: 62% 38% 52% 48% / 45% 58% 42% 55%; transform: translate(0, 0) rotate(0deg); }
-            50%  { border-radius: 48% 52% 58% 42% / 55% 45% 52% 48%; transform: translate(12px, -18px) rotate(2deg); }
-            100% { border-radius: 55% 45% 42% 58% / 48% 52% 55% 45%; transform: translate(-8px, 12px) rotate(-1deg); }
-        }
-        @keyframes morph2 {
-            0%   { border-radius: 45% 55% 48% 52% / 55% 42% 58% 45%; transform: translate(0, 0) rotate(0deg); }
-            50%  { border-radius: 55% 45% 52% 48% / 42% 58% 45% 55%; transform: translate(-14px, 10px) rotate(-2deg); }
-            100% { border-radius: 48% 52% 55% 45% / 58% 48% 42% 52%; transform: translate(6px, -8px) rotate(1deg); }
-        }
-        @keyframes morph3 {
-            0%   { border-radius: 52% 48% 55% 45% / 48% 52% 48% 52%; transform: translate(0, 0); }
-            100% { border-radius: 45% 55% 48% 52% / 55% 45% 52% 48%; transform: translate(10px, -14px); }
+        .hero-photo:hover img,
+        .hero-photo:focus-visible img {
+            transform: scale(1.04);
+            filter: saturate(1.06);
         }
 
         .scroll-cue {
@@ -740,8 +718,9 @@
         /* Expanded band entry for 2-band layout */
         .band-entry-expanded {
             display: grid;
-            grid-template-columns: 70px 1fr;
-            gap: 1rem 2rem;
+            grid-template-columns: 70px minmax(0, 1fr) minmax(220px, 320px);
+            gap: 1rem 2.2rem;
+            align-items: center;
             padding: 3.25rem 2rem;
             border: 1px solid rgba(247, 214, 228, 0.8);
             border-bottom: none;
@@ -752,6 +731,7 @@
             color: inherit;
             position: relative;
             overflow: hidden;
+            scroll-margin-top: 96px;
         }
         .band-entry-expanded:first-child {
             border-top: 1px solid rgba(247, 214, 228, 0.8);
@@ -779,16 +759,18 @@
             box-shadow: var(--shadow-soft);
         }
         .band-entry-expanded .band-idx {
-            grid-row: 1 / 4;
+            grid-row: 1 / 6;
             padding-top: 0.2rem;
         }
         .band-entry-expanded .band-header {
+            grid-column: 2;
             display: flex;
             align-items: baseline;
             gap: 1.5rem;
             flex-wrap: wrap;
         }
         .band-entry-expanded .band-detail {
+            grid-column: 2;
             font-size: 0.95rem;
             color: var(--text-muted);
             line-height: 1.85;
@@ -818,12 +800,65 @@
             font-weight: 600;
         }
         .band-entry-expanded .band-bottom {
+            grid-column: 2;
             display: flex;
             align-items: center;
             justify-content: space-between;
             gap: 1rem;
             flex-wrap: wrap;
         }
+        .band-photo {
+            grid-column: 3;
+            grid-row: 1 / 6;
+            align-self: stretch;
+            min-height: 280px;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            border: 1px solid rgba(247, 214, 228, 0.78);
+            background: var(--blush-light);
+            box-shadow: 0 18px 42px rgba(34, 25, 28, 0.09);
+        }
+        .band-photo img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+            transition: transform 0.55s var(--ease-out), filter 0.55s var(--ease-out);
+        }
+        .band-photo-wide {
+            align-self: start;
+            aspect-ratio: 3 / 2;
+            min-height: 0;
+        }
+        .band-photo-sway {
+            align-self: start;
+            aspect-ratio: 1356 / 654;
+            min-height: 0;
+        }
+        .band-photo::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(180deg, transparent 48%, rgba(17, 17, 17, 0.18));
+            pointer-events: none;
+        }
+        .band-entry-expanded:hover .band-photo img {
+            transform: scale(1.035);
+            filter: saturate(1.05);
+        }
+        .band-actions {
+            grid-column: 2;
+            display: flex;
+            align-items: center;
+            gap: 1.35rem;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+            margin-top: 0.8rem;
+        }
+        .band-actions .band-cta { margin-top: 0; }
+        .band-cta.secondary { color: var(--ink-soft); }
 
         .band-list { border-top: 1px solid var(--border); }
         .band-entry {
@@ -1337,17 +1372,40 @@
             }
             .nav-toggle { display: block; }
             .nav-end { display: none; }
-            .hero { padding: 0 5%; }
-            .hero-text { max-width: 100%; }
+            .hero {
+                grid-template-columns: 1fr;
+                align-content: center;
+                gap: 2rem;
+                padding: 7rem 5% 4rem;
+            }
+            .hero-text { max-width: 720px; padding: 0; }
             .hero::before,
             .hero::after { display: none; }
-            .hero-art { width: 60%; opacity: 0.5; }
+            .hero-art {
+                width: 100%;
+                max-width: 680px;
+                padding-top: 0;
+            }
             .hero-proof { max-width: 100%; }
             .contain { padding: 0 5%; }
             section { padding: 6rem 0; }
             .about-grid { grid-template-columns: 1fr; gap: 3.5rem; }
             .about-art { max-width: 320px; }
             .about-stats { gap: 2.5rem; flex-wrap: wrap; }
+            .band-entry-expanded {
+                grid-template-columns: 50px 1fr;
+                gap: 1.2rem 1.5rem;
+            }
+            .band-entry-expanded .band-header,
+            .band-entry-expanded .band-detail,
+            .band-entry-expanded .band-bottom,
+            .band-actions { grid-column: 2; }
+            .band-photo {
+                grid-column: 1 / -1;
+                grid-row: auto;
+                min-height: 320px;
+            }
+            .band-photo-sway { min-height: 0; }
             .band-entry {
                 grid-template-columns: 50px 1fr;
                 gap: 1rem 1.5rem;
@@ -1378,6 +1436,7 @@
             .hero {
                 min-height: auto;
                 padding: 5.8rem 5% 3rem;
+                gap: 1.8rem;
             }
             .hero-eyebrow {
                 font-size: 0.56rem;
@@ -1421,7 +1480,22 @@
                 padding: 0.85rem 0;
             }
             .hero-proof-item:last-child { border-bottom: 0; }
-            .hero-art { display: none; }
+            .hero-art {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.55rem;
+            }
+            .hero-photo {
+                aspect-ratio: 1 / 1;
+                margin-top: 0 !important;
+            }
+            .hero-photo span {
+                left: 0.55rem;
+                right: 0.55rem;
+                bottom: 0.5rem;
+                font-size: 0.46rem;
+                letter-spacing: 0.1em;
+            }
             .scroll-cue { display: none; }
             .band-entry,
             .band-entry-expanded {
@@ -1432,7 +1506,17 @@
             .band-entry-expanded::before { width: 100%; opacity: 0.34; }
             .band-entry-expanded .band-idx { grid-row: auto; }
             .band-entry-expanded .band-meta { gap: 0.8rem 1.2rem; }
-            .band-entry-expanded [style*="grid-column"] { grid-column: 1 !important; }
+            .band-entry-expanded .band-header,
+            .band-entry-expanded .band-detail,
+            .band-entry-expanded .band-bottom,
+            .band-actions,
+            .band-photo { grid-column: 1; }
+            .band-photo {
+                grid-row: auto;
+                min-height: 220px;
+            }
+            .band-photo-wide,
+            .band-photo-sway { min-height: 0; }
             .band-idx { font-size: 2rem; }
             .why-grid { grid-template-columns: 1fr; }
             .why-item:nth-child(even) { padding-left: 0; border-left: none; }
@@ -1455,7 +1539,7 @@
             <li><a href="#why">Why Us</a></li>
             <li><a href="#contact">Enquire</a></li>
         </ul>
-        <a href="tel:+353000000000" class="nav-end">+353 87 231 0001</a>
+        <a href="tel:+353872310001" class="nav-end">+353 87 231 0001</a>
         <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-controls="navLinks" aria-expanded="false">
             <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
         </button>
@@ -1464,15 +1548,8 @@
     <main id="main">
     <!-- ========== HERO ========== -->
     <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-art" aria-hidden="true">
-            <div class="blob blob-a"></div>
-            <div class="blob blob-b"></div>
-            <div class="blob blob-c"></div>
-            <div class="blob blob-d"></div>
-        </div>
-
         <div class="hero-text">
-            <p class="hero-eyebrow">Four Irish Wedding Bands</p>
+            <p class="hero-eyebrow">Four bands playing all of Ireland</p>
             <h1 class="hero-h1" id="hero-title">
                 <span class="w1">Music</span>
                 <span class="w2">Angel</span>
@@ -1480,7 +1557,7 @@
             <svg class="hero-stroke" viewBox="0 0 56 3" fill="none">
                 <line x1="0" y1="1.5" x2="56" y2="1.5" stroke="#F26CA7" stroke-width="1.5" stroke-linecap="round"/>
             </svg>
-            <p class="hero-tagline">Explore four standout Irish wedding bands and check availability for a live sound that fits your day.</p>
+            <p class="hero-tagline">Explore four standout live wedding bands playing across Ireland and check availability for a live sound that fits your day.</p>
             <div class="hero-ctas">
                 <a href="#bands" class="btn-pink">Meet Our Bands</a>
                 <a href="#contact" class="btn-ghost">Enquire Now</a>
@@ -1495,10 +1572,29 @@
                     <span>featured bands</span>
                 </div>
                 <div class="hero-proof-item">
-                    <strong>IE</strong>
-                    <span>nationwide</span>
+                    <strong>All</strong>
+                    <span>of Ireland</span>
                 </div>
             </div>
+        </div>
+
+        <div class="hero-art" role="group" aria-label="Featured MusicAngel bands">
+            <a href="#beat-boutique" class="hero-photo">
+                <img src="assets/bands/hero-beat-boutique.webp" alt="The Beat Boutique band" width="1400" height="788" loading="eager" fetchpriority="high">
+                <span>The Beat Boutique</span>
+            </a>
+            <a href="#sway-social" class="hero-photo">
+                <img src="assets/bands/hero-sway-social.webp" alt="Sway Social band in a barbershop" width="1706" height="992" loading="eager">
+                <span>Sway Social</span>
+            </a>
+            <a href="#the-best-men" class="hero-photo">
+                <img src="assets/bands/hero-the-best-men.webp" alt="The Best Men band" width="1200" height="800" loading="eager">
+                <span>The Best Men</span>
+            </a>
+            <a href="#blacktye" class="hero-photo">
+                <img src="assets/bands/hero-blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="eager">
+                <span>Blacktye</span>
+            </a>
         </div>
 
         <div class="scroll-cue">
@@ -1520,13 +1616,16 @@
             <div class="bands-intro">
                 <p class="sec-eye rv">The Roster</p>
                 <h2 class="sec-h2 rv" style="text-align:center;">Our Bands</h2>
-                <p class="rv">Four live wedding bands in one place. Explore the sound, style, and energy that feels right for your celebration.</p>
+                <p class="rv">Four live wedding bands playing across Ireland, all in one place. Explore the sound, style, and energy that feels right for your celebration.</p>
             </div>
 
             <div class="band-list">
                 <!-- THE BEAT BOUTIQUE -->
-                <div class="band-entry-expanded rv">
+                <div class="band-entry-expanded rv" id="beat-boutique">
                     <span class="band-idx">01</span>
+                    <figure class="band-photo">
+                        <img src="assets/bands/the-beat-boutique.webp" alt="The Beat Boutique band in Dublin" width="800" height="534" loading="lazy">
+                    </figure>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Jazz &middot; Soul &middot; Funk &middot; Rock &middot; Pop</div>
@@ -1547,14 +1646,18 @@
                             <span class="band-meta-item"><strong>WBA</strong> approved</span>
                         </div>
                     </div>
-                    <div style="grid-column: 2;">
-                        <a href="#contact" class="band-cta" style="margin-top:0.8rem;">Enquire About The Beat Boutique <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <div class="band-actions">
+                        <a href="#contact" class="band-cta">Enquire About The Beat Boutique <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/watch?v=DJ7IwlkTTfo" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
 
                 <!-- SWAY SOCIAL -->
-                <div class="band-entry-expanded rv">
+                <div class="band-entry-expanded rv" id="sway-social">
                     <span class="band-idx">02</span>
+                    <figure class="band-photo band-photo-sway">
+                        <img src="assets/bands/sway-social.webp" alt="Sway Social band beside a graffiti wall" width="1356" height="654" loading="lazy">
+                    </figure>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Pop &middot; Rock &middot; Club Classics &middot; Soul &middot; Party</div>
@@ -1575,14 +1678,18 @@
                             <span class="band-meta-item"><strong>2017</strong> Band of the Year</span>
                         </div>
                     </div>
-                    <div style="grid-column: 2;">
-                        <a href="#contact" class="band-cta" style="margin-top:0.8rem;">Enquire About Sway Social <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <div class="band-actions">
+                        <a href="#contact" class="band-cta">Enquire About Sway Social <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/watch?v=d7FOBPkDxjQ" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
 
                 <!-- THE BEST MEN -->
-                <div class="band-entry-expanded rv">
+                <div class="band-entry-expanded rv" id="the-best-men">
                     <span class="band-idx">03</span>
+                    <figure class="band-photo band-photo-wide">
+                        <img src="assets/bands/the-best-men-bird.webp" alt="The Best Men band outside Bird" width="1057" height="683" loading="lazy">
+                    </figure>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Pop &middot; Rock &middot; Soul &middot; Floor-Fillers &middot; Party</div>
@@ -1603,14 +1710,18 @@
                             <span class="band-meta-item"><strong>Availability</strong> on request</span>
                         </div>
                     </div>
-                    <div style="grid-column: 2;">
-                        <a href="#contact" class="band-cta" style="margin-top:0.8rem;">Enquire About The Best Men <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <div class="band-actions">
+                        <a href="#contact" class="band-cta">Enquire About The Best Men <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/watch?v=xWbEn34Spg4" class="band-cta secondary" target="_blank" rel="noopener">Watch Video <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
 
                 <!-- BLACKTYE -->
-                <div class="band-entry-expanded rv">
+                <div class="band-entry-expanded rv" id="blacktye">
                     <span class="band-idx">04</span>
+                    <figure class="band-photo">
+                        <img src="assets/bands/blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="lazy">
+                    </figure>
                     <div class="band-header">
                         <div>
                             <div class="band-genre">Soul &middot; Pop &middot; Funk &middot; R&amp;B &middot; Classics</div>
@@ -1631,8 +1742,9 @@
                             <span class="band-meta-item"><strong>Availability</strong> on request</span>
                         </div>
                     </div>
-                    <div style="grid-column: 2;">
-                        <a href="#contact" class="band-cta" style="margin-top:0.8rem;">Enquire About Blacktye <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <div class="band-actions">
+                        <a href="#contact" class="band-cta">Enquire About Blacktye <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="https://www.youtube.com/playlist?list=PLi1zpQIKpYLKm5GU1ub6m6UpGJAv18tLM" class="band-cta secondary" target="_blank" rel="noopener">Watch Videos <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
             </div>
@@ -1703,7 +1815,7 @@
                             </div>
                             <div>
                                 <span class="c-label">Phone</span>
-                                <span class="c-val"><a href="tel:+353000000000">+353 87 231 0001</a></span>
+                                <span class="c-val"><a href="tel:+353872310001">+353 87 231 0001</a></span>
                             </div>
                         </div>
                         <div class="c-row">
@@ -1712,7 +1824,7 @@
                             </div>
                             <div>
                                 <span class="c-label">Email</span>
-                                <span class="c-val"><a href="mailto:hello@example.com">jo.musicangel@gmail.com</a></span>
+                                <span class="c-val"><a href="mailto:jo.musicangel@gmail.com">jo.musicangel@gmail.com</a></span>
                             </div>
                         </div>
                         <div class="c-row">
@@ -1786,10 +1898,10 @@
                     <li><a href="#bands">Our Bands</a></li>
                     <li><a href="#why">Why Us</a></li>
                     <li><a href="#contact">Enquire</a></li>
-                    <li><a href="mailto:hello@example.com">Email</a></li>
+                    <li><a href="mailto:jo.musicangel@gmail.com">Email</a></li>
                 </ul>
                 <div class="footer-rule"></div>
-                <span class="footer-copy">&copy; 2025 MusicAngel.ie &mdash; Irish Wedding Band Platform</span>
+                <span class="footer-copy">&copy; 2025 MusicAngel.ie &mdash; Wedding Bands Playing All of Ireland</span>
             </div>
         </div>
     </footer>
@@ -1825,23 +1937,6 @@
         window.addEventListener('keydown', event => {
             if (event.key === 'Escape') setMenu(false);
         });
-
-        // === Parallax watercolor blobs ===
-        const blobs = document.querySelectorAll('.blob');
-        const speeds = [0.04, -0.03, 0.05, -0.02];
-        let lastScroll = 0;
-        function parallax() {
-            const y = window.scrollY;
-            if (y < window.innerHeight * 1.5) {
-                blobs.forEach((b, i) => {
-                    const s = speeds[i] || 0.03;
-                    b.style.transform += ''; // keep morph animation
-                    b.style.marginTop = (y * s) + 'px';
-                });
-            }
-            lastScroll = y;
-        }
-        window.addEventListener('scroll', () => requestAnimationFrame(parallax), { passive: true });
 
         // === Scroll reveal ===
         const rvs = document.querySelectorAll('.rv');
