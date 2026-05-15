@@ -198,6 +198,28 @@
         ]
     },
     {
+        "slug": "ballybeg-house",
+        "name": "Ballybeg House",
+        "county": "Wicklow",
+        "town": "Grangecon",
+        "style": "Georgian country estate, exclusive-use",
+        "vibe": "boutique-luxury, exclusive country house",
+        "capacityHint": "up to ~180 guests across the house and marquee",
+        "intro": "Ballybeg House in Wicklow has become one of Ireland's most-wanted exclusive-use wedding venues — a Georgian country house, fully yours for the weekend, with an attached pavilion built for evening receptions. It's a venue where couples invest in the entire experience; the band has to land that same standard.",
+        "venueDetail": "The Pavilion is the main evening reception space, with a permanent stage and a sound setup engineered for live music. The Georgian house hosts dinner, drinks, and overnight stays for the inner circle. The exclusive-use format gives a generous schedule for ceremony, drinks, and band sets.",
+        "bandPicks": [
+            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Old Hollywood polish in a Georgian setting — exactly the energy a Ballybeg crowd responds to. Six decades of repertoire keeps the floor full all night." },
+            { "slug": "blacktye", "name": "Blacktye", "why": "Sleek, polished, dance-floor-aware. Builds from elegant evening tempo into full party — the right arc for a Ballybeg pavilion night." },
+            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists and no backing tracks. If the brief is keeping the pavilion floor full from first set to last, this is the answer." }
+        ],
+        "faq": [
+            { "q": "What's the best wedding band for Ballybeg House?", "a": "The Beat Boutique and Blacktye are the most common picks — both fit the venue's boutique-luxury feel. Sway Social is the highest-energy option for couples who want a non-stop dance floor." },
+            { "q": "Does the Ballybeg Pavilion fit a full live band?", "a": "Yes. The Pavilion is purpose-built for live music with a permanent stage and sound setup. All four MusicAngel bands play with full PA and stage lighting sized for the room." },
+            { "q": "Can the band cover ceremony and drinks reception at Ballybeg?", "a": "Yes — acoustic ceremony sets in the grounds or in the house, plus drinks reception music, can be added to the evening package. Ballybeg's exclusive-use format gives plenty of flexibility on timing." },
+            { "q": "How far in advance should I book a band for Ballybeg House?", "a": "Ballybeg books 12-24 months in advance for peak season Saturdays. Enquire as early as possible — both the venue and the strongest band dates go quickly." }
+        ]
+    },
+    {
         "slug": "cabra-castle",
         "name": "Cabra Castle",
         "county": "Cavan",

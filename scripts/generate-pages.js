@@ -545,6 +545,8 @@ function regenerateSitemap() {
         { loc: `${SITE}/sway-social`, priority: '0.9', changefreq: 'monthly' },
         { loc: `${SITE}/the-best-men`, priority: '0.9', changefreq: 'monthly' },
         { loc: `${SITE}/blacktye`, priority: '0.9', changefreq: 'monthly' },
+        { loc: `${SITE}/wedding-band-cost-ireland`, priority: '0.85', changefreq: 'monthly' },
+        { loc: `${SITE}/first-dance-songs`, priority: '0.8', changefreq: 'monthly' },
         ...VENUES.map(v => ({ loc: `${SITE}/wedding-band-${v.slug}`, priority: '0.8', changefreq: 'monthly' })),
         ...COUNTIES.map(c => ({ loc: `${SITE}/wedding-bands-${c.slug}`, priority: '0.7', changefreq: 'monthly' })),
         { loc: `${SITE}/privacy`, priority: '0.2', changefreq: 'yearly' },
