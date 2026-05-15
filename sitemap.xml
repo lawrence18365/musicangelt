@@ -1,92 +1,250 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://musicangel.ie/</loc>
         <lastmod>2026-05-15</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-beat-boutique.webp</image:loc>
-            <image:title>The Beat Boutique</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-sway-social.webp</image:loc>
-            <image:title>Sway Social</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-the-best-men.webp</image:loc>
-            <image:title>The Best Men</image:title>
-        </image:image>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-blacktye.webp</image:loc>
-            <image:title>Blacktye</image:title>
-        </image:image>
     </url>
     <url>
         <loc>https://musicangel.ie/the-beat-boutique</loc>
         <lastmod>2026-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-beat-boutique.webp</image:loc>
-            <image:title>The Beat Boutique</image:title>
-        </image:image>
-        <video:video>
-            <video:thumbnail_loc>https://i.ytimg.com/vi/E0OroK_izUE/hqdefault.jpg</video:thumbnail_loc>
-            <video:title>The Beat Boutique — wedding band showreel</video:title>
-            <video:description>The Beat Boutique live performance showreel — Jazz, Soul, Funk, Rock, Pop wedding band Ireland.</video:description>
-            <video:player_loc>https://www.youtube-nocookie.com/embed/E0OroK_izUE</video:player_loc>
-        </video:video>
     </url>
     <url>
         <loc>https://musicangel.ie/sway-social</loc>
         <lastmod>2026-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-sway-social.webp</image:loc>
-            <image:title>Sway Social</image:title>
-        </image:image>
-        <video:video>
-            <video:thumbnail_loc>https://i.ytimg.com/vi/d7FOBPkDxjQ/hqdefault.jpg</video:thumbnail_loc>
-            <video:title>Sway Social — wedding band showreel</video:title>
-            <video:description>Sway Social live performance showreel — all-male quartet, four lead singers, Pop and Soul wedding band Ireland.</video:description>
-            <video:player_loc>https://www.youtube-nocookie.com/embed/d7FOBPkDxjQ</video:player_loc>
-        </video:video>
     </url>
     <url>
         <loc>https://musicangel.ie/the-best-men</loc>
         <lastmod>2026-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-the-best-men.webp</image:loc>
-            <image:title>The Best Men</image:title>
-        </image:image>
-        <video:video>
-            <video:thumbnail_loc>https://i.ytimg.com/vi/JbYhuYMQbSg/hqdefault.jpg</video:thumbnail_loc>
-            <video:title>The Best Men — wedding band showreel</video:title>
-            <video:description>The Best Men live performance showreel — Pop, Rock, Soul, Floor-Fillers wedding band Ireland.</video:description>
-            <video:player_loc>https://www.youtube-nocookie.com/embed/JbYhuYMQbSg</video:player_loc>
-        </video:video>
     </url>
     <url>
         <loc>https://musicangel.ie/blacktye</loc>
         <lastmod>2026-05-15</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
-        <image:image>
-            <image:loc>https://musicangel.ie/assets/bands/hero-blacktye.webp</image:loc>
-            <image:title>Blacktye</image:title>
-        </image:image>
-        <video:video>
-            <video:thumbnail_loc>https://i.ytimg.com/vi/jVqePIfC110/hqdefault.jpg</video:thumbnail_loc>
-            <video:title>Blacktye — wedding band showreel</video:title>
-            <video:description>Blacktye live performance showreel — Soul, Pop, Funk, R&amp;B and Classics wedding band Ireland.</video:description>
-            <video:player_loc>https://www.youtube-nocookie.com/embed/jVqePIfC110</video:player_loc>
-        </video:video>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-ashford-castle</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-dromoland-castle</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-adare-manor</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-powerscourt-house</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-tankardstown-house</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-the-k-club</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-castle-leslie</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-lough-eske-castle</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-ballyfin-demesne</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-band-cabra-castle</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-dublin</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-cork</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-galway</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-kerry</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-limerick</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-mayo</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-donegal</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-wicklow</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-clare</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-tipperary</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-waterford</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-wexford</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-kilkenny</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-carlow</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-kildare</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-meath</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-louth</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-cavan</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-monaghan</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-leitrim</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-sligo</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-roscommon</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-longford</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-westmeath</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-offaly</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://musicangel.ie/wedding-bands-laois</loc>
+        <lastmod>2026-05-15</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://musicangel.ie/privacy</loc>

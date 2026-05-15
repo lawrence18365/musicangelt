@@ -1634,6 +1634,68 @@
             .footer-links { flex-direction: column; gap: 0.9rem; }
         }
 
+        /* ========== Where we play ========== */
+        .where { padding: 5.5rem 0 4.5rem; }
+        .where-head { text-align: center; max-width: 540px; margin: 0 auto 3rem; }
+        .where-head p {
+            color: var(--text-muted);
+            font-family: var(--serif);
+            font-style: italic;
+            font-size: 1.05rem;
+            margin-top: 0.5rem;
+        }
+        .where-block {
+            max-width: 1000px;
+            margin: 0 auto 3rem;
+            padding: 0 clamp(1rem, 4vw, 2rem);
+        }
+        .where-block:last-child { margin-bottom: 0; }
+        .where-sub {
+            font-family: var(--serif);
+            font-size: 1rem;
+            font-weight: 500;
+            font-style: italic;
+            color: var(--text-muted);
+            text-align: center;
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.02em;
+        }
+        .where-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.55rem;
+            list-style: none;
+            padding: 0;
+        }
+        .where-links li { margin: 0; }
+        .where-links a {
+            display: inline-block;
+            padding: 0.55rem 1.05rem;
+            background: rgba(255,255,255,0.7);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            font-size: 0.84rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            transition: border-color 0.18s, color 0.18s, background 0.18s, transform 0.18s var(--ease-out);
+        }
+        .where-links a:hover {
+            border-color: var(--pink);
+            color: var(--pink);
+            background: #fff;
+            transform: translateY(-2px);
+        }
+        .where-links.small a {
+            font-size: 0.78rem;
+            padding: 0.45rem 0.9rem;
+        }
+        @media (max-width: 520px) {
+            .where { padding: 3.5rem 0 3rem; }
+            .where-links a { font-size: 0.78rem; padding: 0.45rem 0.85rem; }
+            .where-links.small a { font-size: 0.74rem; padding: 0.4rem 0.8rem; }
+        }
+
         /* ========== Pricing chip ========== */
         .price-chip {
             display: inline-block;
@@ -1980,6 +2042,69 @@
                     <h3>Nationwide Enquiries</h3>
                     <p>Whether your wedding is in Dublin, Cork, Galway, Kerry, or further afield, MusicAngel helps start the right band conversation for your day.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="dot-break">
+        <span></span>
+    </div>
+
+    <!-- ========== WHERE WE PLAY ========== -->
+    <section class="where" id="where" aria-labelledby="where-title">
+        <div class="contain">
+            <div class="where-head">
+                <p class="sec-eye rv">Where we play</p>
+                <h2 class="sec-h2 rv" id="where-title" style="text-align:center;">Across <em>all of Ireland</em></h2>
+                <p class="rv" style="max-width: 38rem; margin: 0 auto;">Hand-picked destination venues and county-by-county guides — we travel to every corner of Ireland for the right wedding.</p>
+            </div>
+
+            <div class="where-block rv">
+                <h3 class="where-sub">Destination wedding venues</h3>
+                <ul class="where-links">
+                    <li><a href="/wedding-band-ashford-castle">Ashford Castle</a></li>
+                    <li><a href="/wedding-band-dromoland-castle">Dromoland Castle</a></li>
+                    <li><a href="/wedding-band-adare-manor">Adare Manor</a></li>
+                    <li><a href="/wedding-band-powerscourt-house">Powerscourt House</a></li>
+                    <li><a href="/wedding-band-tankardstown-house">Tankardstown House</a></li>
+                    <li><a href="/wedding-band-the-k-club">The K Club</a></li>
+                    <li><a href="/wedding-band-castle-leslie">Castle Leslie</a></li>
+                    <li><a href="/wedding-band-lough-eske-castle">Lough Eske Castle</a></li>
+                    <li><a href="/wedding-band-ballyfin-demesne">Ballyfin Demesne</a></li>
+                    <li><a href="/wedding-band-cabra-castle">Cabra Castle</a></li>
+                </ul>
+            </div>
+
+            <div class="where-block rv">
+                <h3 class="where-sub">By county</h3>
+                <ul class="where-links small">
+                    <li><a href="/wedding-bands-dublin">Dublin</a></li>
+                    <li><a href="/wedding-bands-cork">Cork</a></li>
+                    <li><a href="/wedding-bands-galway">Galway</a></li>
+                    <li><a href="/wedding-bands-kerry">Kerry</a></li>
+                    <li><a href="/wedding-bands-limerick">Limerick</a></li>
+                    <li><a href="/wedding-bands-mayo">Mayo</a></li>
+                    <li><a href="/wedding-bands-donegal">Donegal</a></li>
+                    <li><a href="/wedding-bands-wicklow">Wicklow</a></li>
+                    <li><a href="/wedding-bands-clare">Clare</a></li>
+                    <li><a href="/wedding-bands-tipperary">Tipperary</a></li>
+                    <li><a href="/wedding-bands-waterford">Waterford</a></li>
+                    <li><a href="/wedding-bands-wexford">Wexford</a></li>
+                    <li><a href="/wedding-bands-kilkenny">Kilkenny</a></li>
+                    <li><a href="/wedding-bands-carlow">Carlow</a></li>
+                    <li><a href="/wedding-bands-kildare">Kildare</a></li>
+                    <li><a href="/wedding-bands-meath">Meath</a></li>
+                    <li><a href="/wedding-bands-louth">Louth</a></li>
+                    <li><a href="/wedding-bands-cavan">Cavan</a></li>
+                    <li><a href="/wedding-bands-monaghan">Monaghan</a></li>
+                    <li><a href="/wedding-bands-leitrim">Leitrim</a></li>
+                    <li><a href="/wedding-bands-sligo">Sligo</a></li>
+                    <li><a href="/wedding-bands-roscommon">Roscommon</a></li>
+                    <li><a href="/wedding-bands-longford">Longford</a></li>
+                    <li><a href="/wedding-bands-westmeath">Westmeath</a></li>
+                    <li><a href="/wedding-bands-offaly">Offaly</a></li>
+                    <li><a href="/wedding-bands-laois">Laois</a></li>
+                </ul>
             </div>
         </div>
     </section>
