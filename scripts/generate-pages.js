@@ -477,7 +477,23 @@ function renderCounty(c) {
                 </article>`;
     }).join('\n');
 
-    const venuesList = c.venues.map(v => `                <li>${esc(v)}</li>`).join('\n');
+    // Cross-link venue names → venue pages where they exist.
+    const venueBySlug = Object.fromEntries(VENUES.map(v => [v.slug, v]));
+    const venueByName = Object.fromEntries(VENUES.map(v => [v.name.toLowerCase(), v.slug]));
+    const venuesList = c.venues.map(rawName => {
+        // Match by exact name OR by leading words ("Ashford Castle (just over the Mayo border)" → "ashford castle")
+        const lower = rawName.toLowerCase();
+        let matchSlug = venueByName[lower] || null;
+        if (!matchSlug) {
+            for (const v of VENUES) {
+                if (lower.startsWith(v.name.toLowerCase())) { matchSlug = v.slug; break; }
+            }
+        }
+        if (matchSlug) {
+            return `                <li><a href="/wedding-band-${matchSlug}" style="text-decoration:none;color:inherit;display:block">${esc(rawName)} &rarr;</a></li>`;
+        }
+        return `                <li>${esc(rawName)}</li>`;
+    }).join('\n');
 
     const faq = [
         { q: `Do MusicAngel bands play weddings in County ${c.name}?`, a: `Yes — all four MusicAngel bands play across all of Ireland, including ${c.name}. Travel logistics are factored into the quote and confirmed with you at booking.` },
@@ -568,6 +584,9 @@ function regenerateSitemap() {
         { loc: `${SITE}/wedding-music-timeline`, priority: '0.75', changefreq: 'monthly' },
         { loc: `${SITE}/when-to-book-wedding-band`, priority: '0.7', changefreq: 'monthly' },
         { loc: `${SITE}/questions-to-ask-wedding-band`, priority: '0.7', changefreq: 'monthly' },
+        { loc: `${SITE}/about`, priority: '0.6', changefreq: 'monthly' },
+        { loc: `${SITE}/song-list`, priority: '0.75', changefreq: 'monthly' },
+        { loc: `${SITE}/corporate-events`, priority: '0.7', changefreq: 'monthly' },
         { loc: `${SITE}/venues`, priority: '0.65', changefreq: 'weekly' },
         ...VENUES.map(v => ({ loc: `${SITE}/wedding-band-${v.slug}`, priority: '0.8', changefreq: 'monthly' })),
         ...COUNTIES.map(c => ({ loc: `${SITE}/wedding-bands-${c.slug}`, priority: '0.7', changefreq: 'monthly' })),
