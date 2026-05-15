@@ -4,207 +4,537 @@
         "name": "Dublin",
         "province": "Leinster",
         "intro": "Dublin weddings sit at the higher end of the Irish market — a mix of grand city hotels, country-house venues just outside the M50, and converted warehouse-style spaces in the city itself. The bar for a wedding band in Dublin is high: couples have seen good live music and won't accept thin backing-track sets.",
-        "venues": ["Powerscourt House (just over the Wicklow border)", "Carton House", "The Westbury", "The Marker", "Tankardstown House (just over the Meath border)"],
-        "topPicks": ["the-beat-boutique", "sway-social", "blacktye"]
+        "venues": [
+            "Powerscourt House (just over the Wicklow border)",
+            "Carton House",
+            "The Westbury",
+            "The Marker",
+            "Tankardstown House (just over the Meath border)"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "sway-social",
+            "blacktye"
+        ]
     },
     {
         "slug": "cork",
         "name": "Cork",
         "province": "Munster",
         "intro": "Cork wedding venues are a balance of coastal, country-house, and city luxury — Castlemartyr, Fota Island, Ballymaloe, Hayfield Manor. The county's wedding scene rewards musicianship; Cork couples tend to choose live bands over DJ-only receptions at a higher rate than the national average.",
-        "venues": ["Castlemartyr Resort", "Fota Island Resort", "Ballymaloe House", "Hayfield Manor", "Castle Lyons"],
-        "topPicks": ["the-beat-boutique", "blacktye", "sway-social"]
+        "venues": [
+            "Castlemartyr Resort",
+            "Fota Island Resort",
+            "Ballymaloe House",
+            "Hayfield Manor",
+            "Castle Lyons"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "sway-social"
+        ]
     },
     {
         "slug": "galway",
         "name": "Galway",
         "province": "Connacht",
         "intro": "Galway weddings split between west-of-Ireland castle settings (Ashford, Ballynahinch), city venues, and Connemara country houses. The atmosphere tends toward warm-and-loud rather than stately-and-quiet, which rewards bands that can build energy and hold a packed floor.",
-        "venues": ["Ashford Castle (just over the Mayo border)", "Glenlo Abbey", "Ballynahinch Castle", "The Lough Rea Hotel", "Cashel House"],
-        "topPicks": ["sway-social", "the-best-men", "the-beat-boutique"]
+        "venues": [
+            "Ashford Castle (just over the Mayo border)",
+            "Glenlo Abbey",
+            "Ballynahinch Castle",
+            "The Lough Rea Hotel",
+            "Cashel House"
+        ],
+        "topPicks": [
+            "sway-social",
+            "the-best-men",
+            "the-beat-boutique"
+        ]
     },
     {
         "slug": "kerry",
         "name": "Kerry",
         "province": "Munster",
         "intro": "Kerry's destination wedding scene is one of Ireland's most distinctive — Killarney lakeside venues, Dingle peninsula intimacy, the Park Hotel Kenmare's exclusivity. Travel matters here, both for guests and bands; couples value the kind of band that justifies the journey.",
-        "venues": ["Park Hotel Kenmare", "Sheen Falls Lodge", "Muckross Park Hotel", "Cahernane House", "Ballygarry Estate"],
-        "topPicks": ["the-beat-boutique", "blacktye", "sway-social"]
+        "venues": [
+            "Park Hotel Kenmare",
+            "Sheen Falls Lodge",
+            "Muckross Park Hotel",
+            "Cahernane House",
+            "Ballygarry Estate"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "sway-social"
+        ]
     },
     {
         "slug": "limerick",
         "name": "Limerick",
         "province": "Munster",
         "intro": "Limerick is anchored by Adare Manor — one of Ireland's most exacting wedding venues — and complemented by Dromoland just over the Clare border. The Limerick wedding standard skews high; bands need to bring real musicianship rather than wedding-set autopilot.",
-        "venues": ["Adare Manor", "The Strand Hotel", "Castletroy Park Hotel", "Glin Castle"],
-        "topPicks": ["blacktye", "the-beat-boutique", "sway-social"]
+        "venues": [
+            "Adare Manor",
+            "The Strand Hotel",
+            "Castletroy Park Hotel",
+            "Glin Castle"
+        ],
+        "topPicks": [
+            "blacktye",
+            "the-beat-boutique",
+            "sway-social"
+        ]
     },
     {
         "slug": "mayo",
         "name": "Mayo",
         "province": "Connacht",
         "intro": "Mayo is Ashford Castle country — the flagship Irish destination wedding venue, set on the shores of Lough Corrib. Beyond Ashford, Mayo offers country-house and seaside-hotel options. The county's wedding scene draws couples from across Ireland and abroad.",
-        "venues": ["Ashford Castle", "Mount Falcon Estate", "Knockranny House Hotel", "The Ice House Hotel"],
-        "topPicks": ["the-beat-boutique", "blacktye", "sway-social"]
+        "venues": [
+            "Ashford Castle",
+            "Mount Falcon Estate",
+            "Knockranny House Hotel",
+            "The Ice House Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "sway-social"
+        ]
     },
     {
         "slug": "donegal",
         "name": "Donegal",
         "province": "Ulster",
         "intro": "Donegal weddings happen against some of Ireland's most dramatic coast and country backdrops. Lough Eske Castle leads the luxury end; the county also offers boutique and beach-adjacent options. Travel logistics matter — but a well-chosen band turns the journey north-west into part of the story.",
-        "venues": ["Lough Eske Castle", "Harvey's Point", "Solis Lough Eske", "Rosapenna Hotel"],
-        "topPicks": ["the-beat-boutique", "sway-social", "blacktye"]
+        "venues": [
+            "Lough Eske Castle",
+            "Harvey's Point",
+            "Solis Lough Eske",
+            "Rosapenna Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "sway-social",
+            "blacktye"
+        ]
     },
     {
         "slug": "wicklow",
         "name": "Wicklow",
         "province": "Leinster",
         "intro": "Wicklow is Dublin's preferred wedding county — Powerscourt House dominates, complemented by Druids Glen, Tinakilly Country House, and Brooklodge. Estate-and-marquee venues dominate, which means bands need both refinement and party-band energy.",
-        "venues": ["Powerscourt House", "Druids Glen", "Tinakilly Country House", "Brooklodge", "The Glenview"],
-        "topPicks": ["sway-social", "the-beat-boutique", "the-best-men"]
+        "venues": [
+            "Powerscourt House",
+            "Druids Glen",
+            "Tinakilly Country House",
+            "Brooklodge",
+            "The Glenview"
+        ],
+        "topPicks": [
+            "sway-social",
+            "the-beat-boutique",
+            "the-best-men"
+        ]
     },
     {
         "slug": "clare",
         "name": "Clare",
         "province": "Munster",
         "intro": "Clare is anchored by Dromoland Castle and a coast of West Clare wedding hotels and houses — Vaughan Lodge, Old Ground, the Falls. The wedding crowd skews mixed-generation and the bands chosen reflect that: versatile, six-decade repertoires that suit both grandparents and the late-night dance floor.",
-        "venues": ["Dromoland Castle", "Vaughan Lodge", "The Old Ground Hotel", "Trump International (Doonbeg)"],
-        "topPicks": ["the-beat-boutique", "blacktye", "sway-social"]
+        "venues": [
+            "Dromoland Castle",
+            "Vaughan Lodge",
+            "The Old Ground Hotel",
+            "Trump International (Doonbeg)"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "sway-social"
+        ]
     },
     {
         "slug": "tipperary",
         "name": "Tipperary",
         "province": "Munster",
         "intro": "Tipperary's wedding venues include Dundrum House, Ballyseede Castle (just over the Kerry border), and Cashel Palace — a careful balance of castle, country house, and historic-hotel style. The county's wedding scene leans toward warm, characterful celebrations rather than corporate polish.",
-        "venues": ["Cashel Palace", "Dundrum House", "Bansha Castle", "Aherlow House"],
-        "topPicks": ["the-beat-boutique", "the-best-men", "blacktye"]
+        "venues": [
+            "Cashel Palace",
+            "Dundrum House",
+            "Bansha Castle",
+            "Aherlow House"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "the-best-men",
+            "blacktye"
+        ]
     },
     {
         "slug": "waterford",
         "name": "Waterford",
         "province": "Munster",
         "intro": "Waterford weddings centre on Faithlegg House, Cliff House, and Mount Congreve. A coastal-leaning county with both period-house formality and contemporary boutique options. Bands chosen here tend toward versatile and energetic rather than stately.",
-        "venues": ["Faithlegg House", "Cliff House Hotel", "Mount Congreve", "Waterford Castle"],
-        "topPicks": ["sway-social", "the-best-men", "the-beat-boutique"]
+        "venues": [
+            "Faithlegg House",
+            "Cliff House Hotel",
+            "Mount Congreve",
+            "Waterford Castle"
+        ],
+        "topPicks": [
+            "sway-social",
+            "the-best-men",
+            "the-beat-boutique"
+        ]
     },
     {
         "slug": "wexford",
         "name": "Wexford",
         "province": "Leinster",
         "intro": "Wexford is one of Ireland's quietly excellent wedding counties — Marlfield House, Brooklodge (just over the Wicklow border), Ferrycarrig. The wedding scene leans warm, coastal, and friendly, with a wedding crowd that responds well to harmony-driven bands.",
-        "venues": ["Marlfield House", "Ferrycarrig Hotel", "Brooklodge", "Loftus Hall"],
-        "topPicks": ["the-best-men", "sway-social", "the-beat-boutique"]
+        "venues": [
+            "Marlfield House",
+            "Ferrycarrig Hotel",
+            "Brooklodge",
+            "Loftus Hall"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "sway-social",
+            "the-beat-boutique"
+        ]
     },
     {
         "slug": "kilkenny",
         "name": "Kilkenny",
         "province": "Leinster",
         "intro": "Kilkenny's wedding circuit is led by Mount Juliet Estate, with Lyrath Estate and Newpark Hotel rounding out the higher end. Country-estate style dominates and bands chosen here tend toward the polished, big-vocal end of the spectrum.",
-        "venues": ["Mount Juliet Estate", "Lyrath Estate", "Newpark Hotel", "Kilkenny Hibernian"],
-        "topPicks": ["the-beat-boutique", "blacktye", "the-best-men"]
+        "venues": [
+            "Mount Juliet Estate",
+            "Lyrath Estate",
+            "Newpark Hotel",
+            "Kilkenny Hibernian"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "the-best-men"
+        ]
     },
     {
         "slug": "carlow",
         "name": "Carlow",
         "province": "Leinster",
         "intro": "Carlow's wedding scene is anchored by the Lord Bagenal Inn, Mount Wolseley, and Step House Hotel — boutique-leaning rather than castle-dominant. The bands chosen here lean toward feel-good and warm rather than stately-formal.",
-        "venues": ["Mount Wolseley Hotel", "Lord Bagenal Inn", "Step House Hotel", "Seven Oaks"],
-        "topPicks": ["the-best-men", "the-beat-boutique", "sway-social"]
+        "venues": [
+            "Mount Wolseley Hotel",
+            "Lord Bagenal Inn",
+            "Step House Hotel",
+            "Seven Oaks"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "the-beat-boutique",
+            "sway-social"
+        ]
     },
     {
         "slug": "kildare",
         "name": "Kildare",
         "province": "Leinster",
         "intro": "Kildare's wedding venue circuit is led by The K Club, Carton House and Barberstown Castle — estate luxury within an easy distance of Dublin. The wedding crowd skews ambitious and the bands need the scale to match.",
-        "venues": ["The K Club", "Carton House", "Barberstown Castle", "Killashee Hotel", "Cliff at Lyons"],
-        "topPicks": ["the-beat-boutique", "sway-social", "blacktye"]
+        "venues": [
+            "The K Club",
+            "Carton House",
+            "Barberstown Castle",
+            "Killashee Hotel",
+            "Cliff at Lyons"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "sway-social",
+            "blacktye"
+        ]
     },
     {
         "slug": "meath",
         "name": "Meath",
         "province": "Leinster",
         "intro": "Meath is the home of Tankardstown House, Bellinter House and Slane Castle — a county that punches above its weight in boutique-luxury wedding venues. Couples here choose bands with attention to detail.",
-        "venues": ["Tankardstown House", "Bellinter House", "Slane Castle", "The Knightsbrook"],
-        "topPicks": ["the-beat-boutique", "blacktye", "the-best-men"]
+        "venues": [
+            "Tankardstown House",
+            "Bellinter House",
+            "Slane Castle",
+            "The Knightsbrook"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "the-best-men"
+        ]
     },
     {
         "slug": "louth",
         "name": "Louth",
         "province": "Leinster",
         "intro": "Louth weddings centre on Ballymascanlon House, Darver Castle, and the Crowne Plaza Dundalk. A mix of country-house and modern-hotel options, with a wedding crowd that responds well to high-energy bands.",
-        "venues": ["Ballymascanlon House", "Darver Castle", "Crowne Plaza Dundalk", "Bellingham Castle"],
-        "topPicks": ["sway-social", "the-best-men", "the-beat-boutique"]
+        "venues": [
+            "Ballymascanlon House",
+            "Darver Castle",
+            "Crowne Plaza Dundalk",
+            "Bellingham Castle"
+        ],
+        "topPicks": [
+            "sway-social",
+            "the-best-men",
+            "the-beat-boutique"
+        ]
     },
     {
         "slug": "cavan",
         "name": "Cavan",
         "province": "Ulster",
         "intro": "Cavan's wedding scene is led by Cabra Castle and Farnham Estate — castle character paired with relaxed-luxury hotels. The county is an easy reach from Dublin and Belfast, which gives weddings a strong mixed-crowd energy.",
-        "venues": ["Cabra Castle", "Farnham Estate", "Slieve Russell Hotel", "Errigal Country House"],
-        "topPicks": ["sway-social", "the-best-men", "the-beat-boutique"]
+        "venues": [
+            "Cabra Castle",
+            "Farnham Estate",
+            "Slieve Russell Hotel",
+            "Errigal Country House"
+        ],
+        "topPicks": [
+            "sway-social",
+            "the-best-men",
+            "the-beat-boutique"
+        ]
     },
     {
         "slug": "monaghan",
         "name": "Monaghan",
         "province": "Ulster",
         "intro": "Monaghan is Castle Leslie country — one of Ireland's most characterful wedding estates. A 1,000-acre country setting that rewards warm, harmony-led bands more than corporate polish.",
-        "venues": ["Castle Leslie", "Hillgrove Hotel", "Nuremore Hotel"],
-        "topPicks": ["the-best-men", "the-beat-boutique", "sway-social"]
+        "venues": [
+            "Castle Leslie",
+            "Hillgrove Hotel",
+            "Nuremore Hotel"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "the-beat-boutique",
+            "sway-social"
+        ]
     },
     {
         "slug": "leitrim",
         "name": "Leitrim",
         "province": "Connacht",
         "intro": "Leitrim weddings happen at Lough Rynn Castle, Bush Hotel, and a handful of country-house venues. A quieter wedding scene than the larger counties but no less demanding on band quality.",
-        "venues": ["Lough Rynn Castle", "Bush Hotel", "The Landmark Hotel"],
-        "topPicks": ["the-beat-boutique", "the-best-men", "sway-social"]
+        "venues": [
+            "Lough Rynn Castle",
+            "Bush Hotel",
+            "The Landmark Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "the-best-men",
+            "sway-social"
+        ]
     },
     {
         "slug": "sligo",
         "name": "Sligo",
         "province": "Connacht",
         "intro": "Sligo's wedding scene is led by Markree Castle, Glasshouse Hotel, and Castle Dargan — a beautiful corner of the west coast with bands chosen for character rather than stadium energy.",
-        "venues": ["Markree Castle", "Castle Dargan", "Glasshouse Hotel", "Yeats Country Hotel"],
-        "topPicks": ["the-beat-boutique", "the-best-men", "blacktye"]
+        "venues": [
+            "Markree Castle",
+            "Castle Dargan",
+            "Glasshouse Hotel",
+            "Yeats Country Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "the-best-men",
+            "blacktye"
+        ]
     },
     {
         "slug": "roscommon",
         "name": "Roscommon",
         "province": "Connacht",
         "intro": "Roscommon weddings centre on Kilronan Castle, Glasson Lakehouse and a smaller circuit of country-house venues. The wedding crowd skews warm and friendly — feel-good bands tend to land best.",
-        "venues": ["Kilronan Castle", "Glasson Lakehouse", "Castlecoote House"],
-        "topPicks": ["the-best-men", "sway-social", "the-beat-boutique"]
+        "venues": [
+            "Kilronan Castle",
+            "Glasson Lakehouse",
+            "Castlecoote House"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "sway-social",
+            "the-beat-boutique"
+        ]
     },
     {
         "slug": "longford",
         "name": "Longford",
         "province": "Leinster",
         "intro": "Longford's smaller wedding circuit is led by Viewmount House and the Longford Arms — boutique and characterful rather than stately. Bands chosen here lean toward feel-good and harmony-driven.",
-        "venues": ["Viewmount House", "Longford Arms Hotel"],
-        "topPicks": ["the-best-men", "the-beat-boutique", "sway-social"]
+        "venues": [
+            "Viewmount House",
+            "Longford Arms Hotel"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "the-beat-boutique",
+            "sway-social"
+        ]
     },
     {
         "slug": "westmeath",
         "name": "Westmeath",
         "province": "Leinster",
         "intro": "Westmeath weddings are anchored by Mullingar Park Hotel, Bloomfield House, and a handful of country-house venues around Athlone. A solid mid-luxury wedding scene with versatile bands the natural fit.",
-        "venues": ["Bloomfield House", "Mullingar Park Hotel", "Hodson Bay Hotel", "Sheraton Athlone"],
-        "topPicks": ["the-beat-boutique", "the-best-men", "sway-social"]
+        "venues": [
+            "Bloomfield House",
+            "Mullingar Park Hotel",
+            "Hodson Bay Hotel",
+            "Sheraton Athlone"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "the-best-men",
+            "sway-social"
+        ]
     },
     {
         "slug": "offaly",
         "name": "Offaly",
         "province": "Leinster",
         "intro": "Offaly weddings centre on Kinnitty Castle and the Bridge House Hotel — character venues with a mid-luxury wedding crowd. The county's wedding scene rewards warm, harmony-led bands.",
-        "venues": ["Kinnitty Castle", "Bridge House Hotel", "Tullamore Court Hotel"],
-        "topPicks": ["the-best-men", "the-beat-boutique", "sway-social"]
+        "venues": [
+            "Kinnitty Castle",
+            "Bridge House Hotel",
+            "Tullamore Court Hotel"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "the-beat-boutique",
+            "sway-social"
+        ]
     },
     {
         "slug": "laois",
         "name": "Laois",
         "province": "Leinster",
         "intro": "Laois is the home of Ballyfin Demesne — Ireland's most exclusive wedding venue — plus a smaller circuit of country-house wedding options. Ballyfin's standard sets the tone for the county.",
-        "venues": ["Ballyfin Demesne", "Heritage Hotel Killenard", "Roundwood House"],
-        "topPicks": ["blacktye", "the-beat-boutique", "the-best-men"]
+        "venues": [
+            "Ballyfin Demesne",
+            "Heritage Hotel Killenard",
+            "Roundwood House"
+        ],
+        "topPicks": [
+            "blacktye",
+            "the-beat-boutique",
+            "the-best-men"
+        ]
+    },
+    {
+        "slug": "antrim",
+        "name": "Antrim",
+        "province": "Ulster",
+        "intro": "Antrim weddings span Belfast city luxury, the Antrim Coast Road's dramatic backdrops, and country-house options just outside the city. Couples here regularly book Republic-of-Ireland bands for their range and quality.",
+        "venues": [
+            "Galgorm Resort",
+            "Belfast Castle",
+            "Hilton Templepatrick",
+            "Ballygally Castle"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "sway-social",
+            "blacktye"
+        ]
+    },
+    {
+        "slug": "down",
+        "name": "Down",
+        "province": "Ulster",
+        "intro": "Down has a strong wedding scene around Newcastle, the Slieve Donard, and the rolling Down countryside. Couples here look for live bands that handle the mixed-generation crowd well.",
+        "venues": [
+            "Slieve Donard Resort",
+            "The Old Inn Crawfordsburn",
+            "Killyhevlin Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "the-best-men",
+            "sway-social"
+        ]
+    },
+    {
+        "slug": "armagh",
+        "name": "Armagh",
+        "province": "Ulster",
+        "intro": "Armagh's wedding scene is anchored by Killeavy Castle and a handful of country-house venues. Smaller wedding market but rewards bands with character.",
+        "venues": [
+            "Killeavy Castle Estate",
+            "Newforge House",
+            "The Argory"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "the-beat-boutique",
+            "blacktye"
+        ]
+    },
+    {
+        "slug": "tyrone",
+        "name": "Tyrone",
+        "province": "Ulster",
+        "intro": "Tyrone weddings span country-house venues, hotels, and traditional Irish settings. The Cohannon Inn, Lough Erne, and Blessingbourne are popular options.",
+        "venues": [
+            "Cohannon Inn",
+            "Blessingbourne Estate",
+            "Hill of The O'Neill"
+        ],
+        "topPicks": [
+            "the-best-men",
+            "the-beat-boutique",
+            "sway-social"
+        ]
+    },
+    {
+        "slug": "fermanagh",
+        "name": "Fermanagh",
+        "province": "Ulster",
+        "intro": "Fermanagh's wedding scene is led by Lough Erne Resort — a Ryder Cup-style luxury venue with a strong international wedding crowd. Plus a quieter circuit of country houses and lakeside hotels.",
+        "venues": [
+            "Lough Erne Resort",
+            "Manor House Country Hotel",
+            "Killyhevlin Lakeside Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "blacktye",
+            "sway-social"
+        ]
+    },
+    {
+        "slug": "derry",
+        "name": "Derry",
+        "province": "Ulster",
+        "intro": "Derry/Londonderry weddings range from urban venues in the city to country-house options across the county. Live wedding bands from across the island travel to Derry regularly.",
+        "venues": [
+            "Beech Hill Country House",
+            "Bishop's Gate Hotel",
+            "Da Vinci's Hotel"
+        ],
+        "topPicks": [
+            "the-beat-boutique",
+            "the-best-men",
+            "sway-social"
+        ]
     }
 ]

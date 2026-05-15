@@ -1654,5 +1654,97 @@
                 "a": "12-18 months for peak Saturdays."
             }
         ]
+    },
+    {
+        "slug": "kilshane-house",
+        "name": "Kilshane House",
+        "county": "Tipperary",
+        "town": "Bansha",
+        "style": "early-19th-century country house, exclusive-use",
+        "vibe": "Tipperary-romantic, exclusive country",
+        "capacityHint": "up to ~180 in the Pavilion",
+        "intro": "Kilshane House is one of Tipperary's most sought-after exclusive-use wedding venues — a Regency-style country house in 175 acres of estate, with a contemporary Pavilion built specifically for evening receptions of up to 180 guests. A venue chosen by couples who want a country-house weekend feel rather than a hotel-day feel.",
+        "venueDetail": "The Pavilion is purpose-built for live music with a permanent stage area and PA infrastructure suited to a 4-piece band. The house itself accommodates the ceremony, dinner, and overnight stays for the inner circle.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for a Tipperary country house that rewards considered live performance."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built to fill a 180-guest Pavilion without overwhelming the country-house feel."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for couples chasing maximum dance-floor energy at an exclusive-use weekend."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best wedding band for Kilshane House?",
+                "a": "The Beat Boutique and Blacktye are the most common Kilshane picks — both deliver the polish the venue rewards. Sway Social is the call for high-energy receptions."
+            },
+            {
+                "q": "Does Kilshane House's Pavilion fit a full live band?",
+                "a": "Yes — purpose-built for live music with a permanent stage and PA infrastructure."
+            },
+            {
+                "q": "Can the band cover ceremony at Kilshane House?",
+                "a": "Yes — both indoor and grounds ceremony music can be added to the evening package, weather permitting."
+            },
+            {
+                "q": "How far in advance to book Kilshane House?",
+                "a": "Kilshane's exclusive-use format means peak weekends book 18-24 months out. Enquire as early as possible."
+            }
+        ]
+    },
+    {
+        "slug": "clonabreany-house",
+        "name": "Clonabreany House",
+        "county": "Meath",
+        "town": "Crossakiel",
+        "style": "country house, exclusive-use",
+        "vibe": "Meath-romantic, intimate country",
+        "capacityHint": "up to ~180 in the ballroom",
+        "intro": "Clonabreany House in County Meath is a beautifully restored exclusive-use wedding venue — a country house on a working farm estate, with an attached ballroom that handles full live music for up to 180 guests. A balance of intimate house feel and proper party space.",
+        "venueDetail": "The Clonabreany ballroom accommodates a 4-piece live band comfortably with PA and stage lighting. Ceremony can happen in the house or grounds; the estate's exclusive-use format gives flexible scheduling.",
+        "bandPicks": [
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, feel-good harmonies — fits Clonabreany's warm Meath country-house atmosphere."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Clonabreany's typically broad guest demographic."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for couples wanting a packed Clonabreany ballroom."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What wedding band suits Clonabreany House?",
+                "a": "The Best Men and The Beat Boutique are the most common Clonabreany picks — both fit the venue's intimate country-house feel."
+            },
+            {
+                "q": "Does the Clonabreany ballroom fit a full live band?",
+                "a": "Yes — sized for receptions up to 180 with a full 4-piece live band."
+            },
+            {
+                "q": "Can the band cover ceremony at Clonabreany?",
+                "a": "Yes — indoor and grounds ceremony music can be added to the evening package."
+            },
+            {
+                "q": "Is Clonabreany House exclusive-use?",
+                "a": "Yes — exclusive-use bookings are available and recommended. Enquire 12-18 months out for peak weekends."
+            }
+        ]
     }
 ]
