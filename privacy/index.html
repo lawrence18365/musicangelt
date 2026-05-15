@@ -7,6 +7,20 @@
     <meta name="description" content="How MusicAngel collects, uses, and protects your personal data when you enquire about wedding bands.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://musicangel.ie/privacy">
+    <script>
+        // Prevent non-production hostnames from being indexed.
+        // Production canonical: musicangel.ie. Block .vercel.app previews and
+        // any other GitHub Pages / staging mirrors.
+        (function(){
+            var h = location.hostname;
+            if (h && h !== 'musicangel.ie' && h !== 'www.musicangel.ie') {
+                var m = document.createElement('meta');
+                m.name = 'robots';
+                m.content = 'noindex, nofollow';
+                document.head.appendChild(m);
+            }
+        })();
+    </script>
     <meta name="theme-color" content="#FBF8F5">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
     <link rel="preconnect" href="https://fonts.googleapis.com">
