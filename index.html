@@ -1763,6 +1763,14 @@
             .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; padding: 0.95rem 1rem 0.85rem; }
         }
     </style>
+
+    <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set the IDs below to activate. -->
+    <script>
+        window.META_PIXEL_ID = window.META_PIXEL_ID || '';
+        window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
+        window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+    </script>
+    <script defer src="/js/marketing-tags.js"></script>
 </head>
 <body>
     <a href="#main" class="skip-link">Skip to content</a>
@@ -2064,6 +2072,8 @@
                 <ul class="where-links">
                     <li><a href="/wedding-band-cost-ireland">Wedding band cost (2026)</a></li>
                     <li><a href="/first-dance-songs">First dance songs guide</a></li>
+                    <li><a href="/wedding-band-showcases">Wedding band showcases</a></li>
+                    <li><a href="/drinks-reception-music">Drinks reception music</a></li>
                 </ul>
             </div>
 
@@ -2071,15 +2081,40 @@
                 <h3 class="where-sub">Destination wedding venues</h3>
                 <ul class="where-links">
                     <li><a href="/wedding-band-ashford-castle">Ashford Castle</a></li>
-                    <li><a href="/wedding-band-dromoland-castle">Dromoland Castle</a></li>
                     <li><a href="/wedding-band-adare-manor">Adare Manor</a></li>
+                    <li><a href="/wedding-band-dromoland-castle">Dromoland Castle</a></li>
                     <li><a href="/wedding-band-powerscourt-house">Powerscourt House</a></li>
-                    <li><a href="/wedding-band-tankardstown-house">Tankardstown House</a></li>
                     <li><a href="/wedding-band-the-k-club">The K Club</a></li>
+                    <li><a href="/wedding-band-carton-house">Carton House</a></li>
+                    <li><a href="/wedding-band-mount-juliet-estate">Mount Juliet Estate</a></li>
+                    <li><a href="/wedding-band-castlemartyr-resort">Castlemartyr Resort</a></li>
+                    <li><a href="/wedding-band-fota-island-resort">Fota Island Resort</a></li>
+                    <li><a href="/wedding-band-glenlo-abbey-hotel">Glenlo Abbey</a></li>
+                    <li><a href="/wedding-band-tankardstown-house">Tankardstown House</a></li>
+                    <li><a href="/wedding-band-bellinter-house">Bellinter House</a></li>
+                    <li><a href="/wedding-band-slane-castle">Slane Castle</a></li>
+                    <li><a href="/wedding-band-cliff-at-lyons">Cliff at Lyons</a></li>
                     <li><a href="/wedding-band-castle-leslie">Castle Leslie</a></li>
-                    <li><a href="/wedding-band-lough-eske-castle">Lough Eske Castle</a></li>
                     <li><a href="/wedding-band-ballyfin-demesne">Ballyfin Demesne</a></li>
                     <li><a href="/wedding-band-ballybeg-house">Ballybeg House</a></li>
+                    <li><a href="/wedding-band-park-hotel-kenmare">Park Hotel Kenmare</a></li>
+                    <li><a href="/wedding-band-sheen-falls-lodge">Sheen Falls Lodge</a></li>
+                    <li><a href="/wedding-band-ballymaloe-house">Ballymaloe House</a></li>
+                    <li><a href="/wedding-band-marlfield-house">Marlfield House</a></li>
+                    <li><a href="/wedding-band-cliff-house-hotel">Cliff House Hotel</a></li>
+                    <li><a href="/wedding-band-faithlegg-house">Faithlegg House</a></li>
+                    <li><a href="/wedding-band-lyrath-estate">Lyrath Estate</a></li>
+                    <li><a href="/wedding-band-lough-eske-castle">Lough Eske Castle</a></li>
+                    <li><a href="/wedding-band-mount-falcon-estate">Mount Falcon Estate</a></li>
+                    <li><a href="/wedding-band-knockranny-house">Knockranny House</a></li>
+                    <li><a href="/wedding-band-markree-castle">Markree Castle</a></li>
+                    <li><a href="/wedding-band-harveys-point">Harvey's Point</a></li>
+                    <li><a href="/wedding-band-tinakilly-country-house">Tinakilly Country House</a></li>
+                    <li><a href="/wedding-band-brooklodge">Brooklodge</a></li>
+                    <li><a href="/wedding-band-druids-glen">Druids Glen</a></li>
+                    <li><a href="/wedding-band-killashee-hotel">Killashee Hotel</a></li>
+                    <li><a href="/wedding-band-trump-international-doonbeg">Trump International Doonbeg</a></li>
+                    <li><a href="/wedding-band-kinnitty-castle">Kinnitty Castle</a></li>
                     <li><a href="/wedding-band-cabra-castle">Cabra Castle</a></li>
                 </ul>
             </div>
@@ -2264,6 +2299,7 @@
                     analytics_storage: granted
                 });
             }
+            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));
             cc.classList.remove('visible');
             setTimeout(() => { cc.hidden = true; }, 350);
         }

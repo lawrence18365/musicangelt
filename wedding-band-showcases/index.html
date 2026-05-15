@@ -115,6 +115,14 @@
         .cc-accept { background: var(--pink); border-color: var(--pink); }
         @media (max-width: 560px) { .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; } }
     </style>
+
+    <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set the IDs below to activate. -->
+    <script>
+        window.META_PIXEL_ID = window.META_PIXEL_ID || '';
+        window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
+        window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+    </script>
+    <script defer src="/js/marketing-tags.js"></script>
 </head>
 <body>
     <nav class="top">
@@ -236,7 +244,8 @@
         if (saved === 'accept' || saved === 'decline') { applyConsent(saved); }
         else { cc.hidden = false; requestAnimationFrame(() => cc.classList.add('visible')); }
         cc.addEventListener('click', (e) => { const btn = e.target.closest('[data-cc]'); if (btn) applyConsent(btn.getAttribute('data-cc')); });
-    })();
+    }
+            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));)();
     </script>
 </body>
 </html>

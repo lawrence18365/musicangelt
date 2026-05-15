@@ -360,6 +360,14 @@
             .quick-facts { gap: 1.25rem; }
         }
     </style>
+
+    <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set the IDs below to activate. -->
+    <script>
+        window.META_PIXEL_ID = window.META_PIXEL_ID || '';
+        window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
+        window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+    </script>
+    <script defer src="/js/marketing-tags.js"></script>
 </head>
 <body>
     <a href="#enquiry" class="skip-link">Skip to enquiry form</a>
@@ -588,6 +596,7 @@
                     ad_personalization: granted, analytics_storage: granted
                 });
             }
+            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));
             cc.classList.remove('visible');
             setTimeout(() => { cc.hidden = true; }, 350);
         }

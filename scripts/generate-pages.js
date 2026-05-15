@@ -92,6 +92,14 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=${GA_ID}"></script>
 
+    <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set IDs to activate. -->
+    <script>
+        window.META_PIXEL_ID = window.META_PIXEL_ID || '';
+        window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
+        window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+    </script>
+    <script defer src="/js/marketing-tags.js"></script>
+
     <script type="application/ld+json">
 ${JSON.stringify(jsonLd, null, 4)}
     </script>
@@ -220,6 +228,7 @@ const sharedFooter = `
             try { localStorage.setItem(CC_KEY, decision); } catch (e) {}
             const granted = decision === 'accept' ? 'granted' : 'denied';
             if (typeof gtag === 'function') gtag('consent', 'update', { ad_storage: granted, ad_user_data: granted, ad_personalization: granted, analytics_storage: granted });
+            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));
             cc.classList.remove('visible');
             setTimeout(() => { cc.hidden = true; }, 350);
         }
