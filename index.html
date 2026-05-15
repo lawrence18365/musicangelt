@@ -6,10 +6,88 @@
     <title>MusicAngel — Wedding Bands Playing All of Ireland</title>
     <meta name="description" content="MusicAngel is a platform for four standout live wedding bands playing all of Ireland, helping couples explore live entertainment and check availability for their day.">
     <meta name="theme-color" content="#FBF8F5">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <link rel="canonical" href="https://musicangel.ie/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="MusicAngel">
+    <meta property="og:title" content="MusicAngel — Wedding Bands Playing All of Ireland">
+    <meta property="og:description" content="Explore four standout live wedding bands playing across Ireland and check availability for a live sound that fits your day.">
+    <meta property="og:url" content="https://musicangel.ie/">
+    <meta property="og:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
+    <meta property="og:image:width" content="1400">
+    <meta property="og:image:height" content="788">
+    <meta property="og:image:alt" content="The Beat Boutique — a MusicAngel wedding band">
+    <meta property="og:locale" content="en_IE">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MusicAngel — Wedding Bands Playing All of Ireland">
+    <meta name="twitter:description" content="Four standout live wedding bands playing all of Ireland.">
+    <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
+
+    <!-- Google Search Console verification — paste content value from GSC (Settings → Ownership verification → HTML tag) -->
+    <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
+
+    <!-- Google Analytics 4 (Consent Mode v2 — default deny for GDPR/ePrivacy, granted after consent) -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {
+            ad_storage: 'denied',
+            ad_user_data: 'denied',
+            ad_personalization: 'denied',
+            analytics_storage: 'denied',
+            functionality_storage: 'granted',
+            security_storage: 'granted',
+            wait_for_update: 500
+        });
+        gtag('set', 'ads_data_redaction', true);
+        gtag('set', 'url_passthrough', true);
+        gtag('js', new Date());
+        gtag('config', 'G-WV874YXC8Z', { anonymize_ip: true });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WV874YXC8Z"></script>
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://musicangel.ie/#organization",
+                "name": "MusicAngel",
+                "url": "https://musicangel.ie/",
+                "logo": "https://musicangel.ie/assets/bands/hero-beat-boutique.webp",
+                "email": "jo.musicangel@gmail.com",
+                "telephone": "+353872310001",
+                "areaServed": { "@type": "Country", "name": "Ireland" }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://musicangel.ie/#website",
+                "url": "https://musicangel.ie/",
+                "name": "MusicAngel",
+                "description": "Platform for four standout live wedding bands playing across Ireland.",
+                "publisher": { "@id": "https://musicangel.ie/#organization" },
+                "inLanguage": "en-IE"
+            },
+            { "@type": "MusicGroup", "name": "The Beat Boutique", "url": "https://musicangel.ie/#beat-boutique", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
+            { "@type": "MusicGroup", "name": "Sway Social", "url": "https://musicangel.ie/#sway-social", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
+            { "@type": "MusicGroup", "name": "The Best Men", "url": "https://musicangel.ie/#the-best-men", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
+            { "@type": "MusicGroup", "name": "Blacktye", "url": "https://musicangel.ie/#blacktye", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } }
+        ]
+    }
+    </script>
+
     <script>document.documentElement.classList.add('js');</script>
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
@@ -1555,6 +1633,53 @@
             .contact-left, .contact-right { padding: 2rem; }
             .footer-links { flex-direction: column; gap: 0.9rem; }
         }
+
+        /* ========== Cookie consent ========== */
+        .cc {
+            position: fixed;
+            bottom: 1rem;
+            left: 1rem;
+            right: 1rem;
+            max-width: 26rem;
+            margin-left: auto;
+            background: var(--ink);
+            color: #fff;
+            padding: 1.05rem 1.15rem 0.95rem;
+            border-radius: 14px;
+            box-shadow: 0 18px 52px rgba(34, 25, 28, 0.32);
+            z-index: 1100;
+            font-family: var(--sans);
+            font-size: 0.78rem;
+            line-height: 1.55;
+            opacity: 0;
+            transform: translateY(8px);
+            transition: opacity 0.35s var(--ease-out), transform 0.35s var(--ease-out);
+        }
+        .cc[hidden] { display: none; }
+        .cc.visible { opacity: 1; transform: translateY(0); }
+        .cc p { margin: 0 0 0.7rem; color: rgba(255, 255, 255, 0.85); }
+        .cc a { color: var(--blush); text-decoration: underline; text-underline-offset: 2px; }
+        .cc-actions { display: flex; gap: 0.5rem; justify-content: flex-end; flex-wrap: wrap; }
+        .cc-btn {
+            border: 1px solid rgba(255, 255, 255, 0.22);
+            background: transparent;
+            color: #fff;
+            padding: 0.5rem 0.95rem;
+            font-family: inherit;
+            font-size: 0.66rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            border-radius: 999px;
+            cursor: pointer;
+            transition: background 0.2s, color 0.2s, border-color 0.2s;
+        }
+        .cc-btn:hover { background: rgba(255, 255, 255, 0.08); }
+        .cc-accept { background: var(--pink); border-color: var(--pink); }
+        .cc-accept:hover { background: var(--pink-hover); border-color: var(--pink-hover); }
+        @media (max-width: 480px) {
+            .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; padding: 0.95rem 1rem 0.85rem; }
+        }
     </style>
 </head>
 <body>
@@ -1955,8 +2080,47 @@
         </div>
     </footer>
 
+    <!-- ========== COOKIE CONSENT ========== -->
+    <div id="cc" class="cc" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
+        <p>We use Google Analytics cookies to understand how visitors use the site. They help us improve. You can accept or decline — you can change your mind anytime.</p>
+        <div class="cc-actions">
+            <button type="button" class="cc-btn" data-cc="decline">Decline</button>
+            <button type="button" class="cc-btn cc-accept" data-cc="accept">Accept</button>
+        </div>
+    </div>
+
     <script>
     (function() {
+        // === Cookie consent → Google Consent Mode v2 ===
+        const CC_KEY = 'mc:consent:v1';
+        const cc = document.getElementById('cc');
+        function applyConsent(decision) {
+            try { localStorage.setItem(CC_KEY, decision); } catch (e) {}
+            const granted = decision === 'accept' ? 'granted' : 'denied';
+            if (typeof gtag === 'function') {
+                gtag('consent', 'update', {
+                    ad_storage: granted,
+                    ad_user_data: granted,
+                    ad_personalization: granted,
+                    analytics_storage: granted
+                });
+            }
+            cc.classList.remove('visible');
+            setTimeout(() => { cc.hidden = true; }, 350);
+        }
+        let saved = null;
+        try { saved = localStorage.getItem(CC_KEY); } catch (e) {}
+        if (saved === 'accept' || saved === 'decline') {
+            applyConsent(saved);
+        } else {
+            cc.hidden = false;
+            requestAnimationFrame(() => cc.classList.add('visible'));
+        }
+        cc.addEventListener('click', (e) => {
+            const btn = e.target.closest('[data-cc]');
+            if (btn) applyConsent(btn.getAttribute('data-cc'));
+        });
+
         // === Nav scroll ===
         const nav = document.getElementById('nav');
         let tick = false;
@@ -2013,6 +2177,34 @@
             btn.disabled = true;
             btn.style.opacity = '0.6';
             status.textContent = 'Thanks. We will reply shortly.';
+            if (typeof gtag === 'function') {
+                const band = (this.querySelector('#band') || {}).value || '';
+                gtag('event', 'form_submit', {
+                    form_id: 'enquiryForm',
+                    enquiry_band: band
+                });
+            }
+        });
+
+        // === Track band clicks ===
+        document.querySelectorAll('.hero-photo, a[href^="#beat-boutique"], a[href^="#sway-social"], a[href^="#the-best-men"], a[href^="#blacktye"]').forEach(el => {
+            el.addEventListener('click', () => {
+                if (typeof gtag !== 'function') return;
+                const target = (el.getAttribute('href') || '').replace('#', '');
+                const label = (el.querySelector('span')?.textContent || el.textContent || target).trim();
+                gtag('event', 'band_click', { band_name: label });
+            });
+        });
+
+        // === Track tel/email clicks ===
+        document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"]').forEach(el => {
+            el.addEventListener('click', () => {
+                if (typeof gtag !== 'function') return;
+                const href = el.getAttribute('href') || '';
+                gtag('event', 'contact_click', {
+                    contact_type: href.startsWith('tel:') ? 'phone' : 'email'
+                });
+            });
         });
     })();
     </script>

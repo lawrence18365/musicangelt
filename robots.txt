@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Block common nuisance bots that don't respect crawl budget
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12bot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+
+Sitemap: https://musicangel.ie/sitemap.xml

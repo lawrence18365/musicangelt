@@ -1,0 +1,94 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [
+        { "source": "/about",             "destination": "/#why",            "statusCode": 301 },
+        { "source": "/about-us",          "destination": "/#why",            "statusCode": 301 },
+        { "source": "/why",               "destination": "/#why",            "statusCode": 301 },
+        { "source": "/why-us",            "destination": "/#why",            "statusCode": 301 },
+        { "source": "/contact",           "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/contact-us",        "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/enquire",           "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/enquiry",           "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/book",              "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/book-us",           "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/booking",           "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/bands",             "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/our-bands",         "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/the-bands",         "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/beat-boutique",     "destination": "/#beat-boutique",  "statusCode": 301 },
+        { "source": "/the-beat-boutique", "destination": "/#beat-boutique",  "statusCode": 301 },
+        { "source": "/sway-social",       "destination": "/#sway-social",    "statusCode": 301 },
+        { "source": "/the-best-men",      "destination": "/#the-best-men",   "statusCode": 301 },
+        { "source": "/best-men",          "destination": "/#the-best-men",   "statusCode": 301 },
+        { "source": "/blacktye",          "destination": "/#blacktye",       "statusCode": 301 },
+        { "source": "/black-tye",         "destination": "/#blacktye",       "statusCode": 301 },
+        { "source": "/reviews",           "destination": "/#why",            "statusCode": 301 },
+        { "source": "/testimonials",      "destination": "/#why",            "statusCode": 301 },
+        { "source": "/our-fans",          "destination": "/#why",            "statusCode": 301 },
+        { "source": "/prices",            "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/pricing",           "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/pricing-guide",     "destination": "/#contact",        "statusCode": 301 },
+        { "source": "/showcase",          "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/showreel",          "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/gallery",           "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/song-list",         "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/playlist",          "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/party-band",        "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/corporate-events",  "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/christmas-parties", "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/locations",         "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/locations/(.*)",    "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/venues",            "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/venues/(.*)",       "destination": "/#bands",          "statusCode": 301 },
+        { "source": "/guides",            "destination": "/",                "statusCode": 301 },
+        { "source": "/guides/(.*)",       "destination": "/",                "statusCode": 301 },
+        { "source": "/blog",              "destination": "/",                "statusCode": 301 },
+        { "source": "/blog/(.*)",         "destination": "/",                "statusCode": 301 },
+        { "source": "/news",              "destination": "/",                "statusCode": 301 },
+        { "source": "/home",              "destination": "/",                "statusCode": 301 },
+        { "source": "/index.html",        "destination": "/",                "statusCode": 301 },
+        { "source": "/index.php",         "destination": "/",                "statusCode": 301 },
+        { "source": "/wp-admin",          "destination": "/",                "statusCode": 301 },
+        { "source": "/wp-login.php",      "destination": "/",                "statusCode": 301 }
+    ],
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                { "key": "X-Content-Type-Options",   "value": "nosniff" },
+                { "key": "X-Frame-Options",          "value": "SAMEORIGIN" },
+                { "key": "Referrer-Policy",          "value": "strict-origin-when-cross-origin" },
+                { "key": "Permissions-Policy",       "value": "camera=(), microphone=(), geolocation=()" },
+                { "key": "Strict-Transport-Security","value": "max-age=63072000; includeSubDomains; preload" }
+            ]
+        },
+        {
+            "source": "/assets/(.*)",
+            "headers": [
+                { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+            ]
+        },
+        {
+            "source": "/sitemap.xml",
+            "headers": [
+                { "key": "Content-Type",  "value": "application/xml; charset=utf-8" },
+                { "key": "Cache-Control", "value": "public, max-age=3600" }
+            ]
+        },
+        {
+            "source": "/robots.txt",
+            "headers": [
+                { "key": "Content-Type",  "value": "text/plain; charset=utf-8" },
+                { "key": "Cache-Control", "value": "public, max-age=86400" }
+            ]
+        },
+        {
+            "source": "/",
+            "headers": [
+                { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+            ]
+        }
+    ]
+}
