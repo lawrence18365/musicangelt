@@ -10,15 +10,39 @@
         "intro": "Ashford Castle in Cong is the closest thing Ireland has to a fairy-tale wedding venue — a 13th-century castle on the shores of Lough Corrib, set on 350 acres of estate. The State Banqueting Hall is the ceremonial heart of the property: stone walls, oversized hearths, chandeliers, and acoustics that punish weak performance. A wedding band at Ashford has to look like it belongs in the room and sound clean against hard surfaces.",
         "venueDetail": "The Connaught Room and the State Banqueting Hall are the two main reception spaces. Both have hard, reflective surfaces and high ceilings — sound carries, and any band with backing tracks or thin arrangements gets exposed quickly. The estate's late curfew gives evening sets the room they deserve.",
         "bandPicks": [
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Tailored to rooms like the State Banqueting Hall. Old-Hollywood styling matches the castle aesthetic, and 100% live performance reads true against hard stone acoustics." },
-            { "slug": "blacktye", "name": "Blacktye", "why": "Polished, sleek arrangements that build from elegant reception energy into full-party tempo — exactly what an Ashford crowd wants without ever feeling out of place." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists, no backing tracks. Big enough sound to fill the hall, agile enough to keep the dance floor full from first set to last call." }
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Tailored to rooms like the State Banqueting Hall. Old-Hollywood styling matches the castle aesthetic, and 100% live performance reads true against hard stone acoustics."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, sleek arrangements that build from elegant reception energy into full-party tempo — exactly what an Ashford crowd wants without ever feeling out of place."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, no backing tracks. Big enough sound to fill the hall, agile enough to keep the dance floor full from first set to last call."
+            }
         ],
         "faq": [
-            { "q": "Which wedding band suits Ashford Castle best?", "a": "Couples typically choose The Beat Boutique or Blacktye for Ashford — both bring the polish and 100%-live musicianship that a venue like the State Banqueting Hall requires. Sway Social is the right call for high-energy weddings that want the floor packed from the first song." },
-            { "q": "Can the band fit in the State Banqueting Hall?", "a": "Yes — all four MusicAngel bands are sized appropriately for Ashford's reception rooms. We'll confirm specific staging and load-in details with the venue events team before the day." },
-            { "q": "Do MusicAngel bands play ceremony or drinks reception music at Ashford?", "a": "Yes. Ceremony music in the castle's chapel or grounds, and acoustic drinks reception sets in the Drawing Room or Dungeon Bar, can be added to any package. Mention what you need in your enquiry." },
-            { "q": "What time can the band play until at Ashford Castle?", "a": "Ashford's curfew is among the most flexible in Ireland. We confirm the actual finish time with you and the venue's events coordinator at booking." }
+            {
+                "q": "Which wedding band suits Ashford Castle best?",
+                "a": "Couples typically choose The Beat Boutique or Blacktye for Ashford — both bring the polish and 100%-live musicianship that a venue like the State Banqueting Hall requires. Sway Social is the right call for high-energy weddings that want the floor packed from the first song."
+            },
+            {
+                "q": "Can the band fit in the State Banqueting Hall?",
+                "a": "Yes — all four MusicAngel bands are sized appropriately for Ashford's reception rooms. We'll confirm specific staging and load-in details with the venue events team before the day."
+            },
+            {
+                "q": "Do MusicAngel bands play ceremony or drinks reception music at Ashford?",
+                "a": "Yes. Ceremony music in the castle's chapel or grounds, and acoustic drinks reception sets in the Drawing Room or Dungeon Bar, can be added to any package. Mention what you need in your enquiry."
+            },
+            {
+                "q": "What time can the band play until at Ashford Castle?",
+                "a": "Ashford's curfew is among the most flexible in Ireland. We confirm the actual finish time with you and the venue's events coordinator at booking."
+            }
         ]
     },
     {
@@ -32,15 +56,39 @@
         "intro": "Dromoland Castle is one of Ireland's most enduring five-star castle hotels, set on 450 acres in County Clare. The grandeur of the Earl of Thomond Restaurant and the Brian Boru Hall doesn't forgive thin entertainment — a band here has to match the venue's classical confidence while still moving guests onto the dance floor.",
         "venueDetail": "Brian Boru Hall is the typical reception space for larger weddings; smaller, more intimate weddings often use the Earl of Thomond Restaurant. The room dimensions handle a full live band comfortably with stage lighting that complements the period interior.",
         "bandPicks": [
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Six decades of repertoire and an instinct for reading the room — exactly the range Dromoland's mixed-generation guests respond to." },
-            { "slug": "blacktye", "name": "Blacktye", "why": "Sleek arrangements built for stately rooms. The transition from dinner energy into late-night dance floor is where Blacktye does its best work." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "Award-winning, four-vocalist live sound that fills Brian Boru Hall without overwhelming it." }
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire and an instinct for reading the room — exactly the range Dromoland's mixed-generation guests respond to."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built for stately rooms. The transition from dinner energy into late-night dance floor is where Blacktye does its best work."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Award-winning, four-vocalist live sound that fills Brian Boru Hall without overwhelming it."
+            }
         ],
         "faq": [
-            { "q": "Which wedding band is the best fit for Dromoland Castle?", "a": "The Beat Boutique and Blacktye are the most common picks — both bring the polish Dromoland deserves and play 100% live. Sway Social is a strong choice for couples who want the highest-energy reception possible." },
-            { "q": "What size band suits Dromoland's reception rooms?", "a": "A 4-piece live band is the right scale for Brian Boru Hall and the Earl of Thomond Restaurant. Larger configurations can be discussed if you have a particular sound in mind." },
-            { "q": "Do MusicAngel bands cover ceremonies on the Dromoland estate?", "a": "Yes — both indoor and grounds ceremonies can be covered. Acoustic ceremony and drinks reception sets are typically added to the evening package." },
-            { "q": "What's the latest the band can play at Dromoland?", "a": "Dromoland's curfew is set by the venue's events team and we confirm it in writing with your booking. Most weddings finish at 1:30am or 2am." }
+            {
+                "q": "Which wedding band is the best fit for Dromoland Castle?",
+                "a": "The Beat Boutique and Blacktye are the most common picks — both bring the polish Dromoland deserves and play 100% live. Sway Social is a strong choice for couples who want the highest-energy reception possible."
+            },
+            {
+                "q": "What size band suits Dromoland's reception rooms?",
+                "a": "A 4-piece live band is the right scale for Brian Boru Hall and the Earl of Thomond Restaurant. Larger configurations can be discussed if you have a particular sound in mind."
+            },
+            {
+                "q": "Do MusicAngel bands cover ceremonies on the Dromoland estate?",
+                "a": "Yes — both indoor and grounds ceremonies can be covered. Acoustic ceremony and drinks reception sets are typically added to the evening package."
+            },
+            {
+                "q": "What's the latest the band can play at Dromoland?",
+                "a": "Dromoland's curfew is set by the venue's events team and we confirm it in writing with your booking. Most weddings finish at 1:30am or 2am."
+            }
         ]
     },
     {
@@ -54,15 +102,39 @@
         "intro": "Adare Manor has spent the last decade rebuilding itself into one of the most exacting wedding venues in Ireland — the kind of room where guests will quietly clock the band's gear, watch the vocalists' breath, and notice the difference between a real live set and a karaoke version of one. The Carriage Wing Ballroom is custom-built for celebrations of this scale.",
         "venueDetail": "The Carriage Wing Ballroom is a purpose-built space with state-of-the-art sound, lighting, and staging integration. The Manor's evening reception flow is meticulously planned; the band needs to slot into the venue's choreography without disruption.",
         "bandPicks": [
-            { "slug": "blacktye", "name": "Blacktye", "why": "Polished, deliberate musicianship matched to one of the most polished rooms in the country. Built for couples who care how the night sounds as much as how it looks." },
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Six decades of live repertoire delivered with the kind of precision Adare Manor's standard demands. Old Hollywood meets contemporary energy." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "If the wedding's brief is 'don't let anyone sit down,' four lead vocalists with no backing tracks is the loudest yes possible." }
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, deliberate musicianship matched to one of the most polished rooms in the country. Built for couples who care how the night sounds as much as how it looks."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of live repertoire delivered with the kind of precision Adare Manor's standard demands. Old Hollywood meets contemporary energy."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "If the wedding's brief is 'don't let anyone sit down,' four lead vocalists with no backing tracks is the loudest yes possible."
+            }
         ],
         "faq": [
-            { "q": "What's the best wedding band for Adare Manor?", "a": "Blacktye and The Beat Boutique are the most natural fits for Adare — both 100% live, both built for venues that pay attention to detail. Sway Social is the call when energy and crowd participation are the priority." },
-            { "q": "Are MusicAngel bands familiar with Adare Manor's load-in and stage setup?", "a": "Yes. All four bands have played five-star Irish hotels and coordinate directly with venue events teams ahead of the day. Adare's stage area is well-equipped for a 4-piece band." },
-            { "q": "Can the band play at Adare's outdoor ceremony spots?", "a": "Acoustic ceremony sets on the manor's grounds — including the Walled Garden and the Cloisters — can be added to your package. Weather contingency is always agreed in advance." },
-            { "q": "How early do I need to book a band for an Adare Manor wedding?", "a": "Adare bookings tend to be made 12-24 months in advance. We recommend enquiring as early as possible, particularly for peak summer dates." }
+            {
+                "q": "What's the best wedding band for Adare Manor?",
+                "a": "Blacktye and The Beat Boutique are the most natural fits for Adare — both 100% live, both built for venues that pay attention to detail. Sway Social is the call when energy and crowd participation are the priority."
+            },
+            {
+                "q": "Are MusicAngel bands familiar with Adare Manor's load-in and stage setup?",
+                "a": "Yes. All four bands have played five-star Irish hotels and coordinate directly with venue events teams ahead of the day. Adare's stage area is well-equipped for a 4-piece band."
+            },
+            {
+                "q": "Can the band play at Adare's outdoor ceremony spots?",
+                "a": "Acoustic ceremony sets on the manor's grounds — including the Walled Garden and the Cloisters — can be added to your package. Weather contingency is always agreed in advance."
+            },
+            {
+                "q": "How early do I need to book a band for an Adare Manor wedding?",
+                "a": "Adare bookings tend to be made 12-24 months in advance. We recommend enquiring as early as possible, particularly for peak summer dates."
+            }
         ]
     },
     {
@@ -76,15 +148,39 @@
         "intro": "Powerscourt is the Irish wedding venue most people picture without realising it — Sugar Loaf in the distance, the formal Italian gardens stepping down toward the lake. It's a marquee-first venue for big celebrations, and that means a band has to perform with mid-sized PA, often outdoors-adjacent, with the energy that pulls guests in from a champagne lawn.",
         "venueDetail": "Most Powerscourt weddings use the McCraith House marquee. Marquee acoustics are forgiving to a confident live band and brutal to anything thin or over-produced. Ceremony often happens in the grounds with the Sugar Loaf as backdrop.",
         "bandPicks": [
-            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists is the right weapon for a marquee crowd that needs to be pulled in from the lawn. Non-stop, high-octane, no backing tracks." },
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Reads-the-room sets shine in a marquee where the energy shifts from gardens-and-prosecco to full dance floor in 30 minutes." },
-            { "slug": "the-best-men", "name": "The Best Men", "why": "Big vocals and feel-good harmonies that carry well in a tent — exactly the sound Powerscourt couples tend to gravitate toward." }
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists is the right weapon for a marquee crowd that needs to be pulled in from the lawn. Non-stop, high-octane, no backing tracks."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Reads-the-room sets shine in a marquee where the energy shifts from gardens-and-prosecco to full dance floor in 30 minutes."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals and feel-good harmonies that carry well in a tent — exactly the sound Powerscourt couples tend to gravitate toward."
+            }
         ],
         "faq": [
-            { "q": "What's the best wedding band for Powerscourt?", "a": "Sway Social and The Beat Boutique are the most common Powerscourt picks — both built for marquee acoustics and high-energy crowds. The Best Men work brilliantly for couples who want a feel-good party-band vibe." },
-            { "q": "Can the band play at a Powerscourt grounds ceremony?", "a": "Yes — acoustic ceremony and drinks reception sets in the grounds (weather permitting) can be added to any package. Weather contingency is agreed with you and the venue ahead of the day." },
-            { "q": "Do the bands provide their own PA for the McCraith marquee?", "a": "Yes, all four MusicAngel bands travel with PA and stage lighting sized for Powerscourt's marquee. Larger guest counts may benefit from additional production." },
-            { "q": "How late can a band play at Powerscourt?", "a": "Powerscourt curfews are coordinated with the venue's events team. Confirm your timeline at booking." }
+            {
+                "q": "What's the best wedding band for Powerscourt?",
+                "a": "Sway Social and The Beat Boutique are the most common Powerscourt picks — both built for marquee acoustics and high-energy crowds. The Best Men work brilliantly for couples who want a feel-good party-band vibe."
+            },
+            {
+                "q": "Can the band play at a Powerscourt grounds ceremony?",
+                "a": "Yes — acoustic ceremony and drinks reception sets in the grounds (weather permitting) can be added to any package. Weather contingency is agreed with you and the venue ahead of the day."
+            },
+            {
+                "q": "Do the bands provide their own PA for the McCraith marquee?",
+                "a": "Yes, all four MusicAngel bands travel with PA and stage lighting sized for Powerscourt's marquee. Larger guest counts may benefit from additional production."
+            },
+            {
+                "q": "How late can a band play at Powerscourt?",
+                "a": "Powerscourt curfews are coordinated with the venue's events team. Confirm your timeline at booking."
+            }
         ]
     },
     {
@@ -98,15 +194,39 @@
         "intro": "Tankardstown is the boutique-luxury alternative to Ireland's big-castle wedding circuit — a Georgian country house in Slane, with the Ballroom as the evening centrepiece. The room rewards close-up musicianship: guests are nearer the band than they would be at Adare or Ashford, and every detail of the live performance reads.",
         "venueDetail": "The Ballroom is the typical reception space — intimate, well-equipped, with mature trees outside the windows. Acoustic ceremony sets work beautifully on the grounds in summer; the Cellar Bar handles late-night drinks once the band's final set is done.",
         "bandPicks": [
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Old Hollywood styling and 100% live delivery suit Tankardstown's boutique-country-house feel exactly." },
-            { "slug": "blacktye", "name": "Blacktye", "why": "Sleek arrangements that build the reception's energy curve from dinner-warm into full dance floor — perfect for a smaller, attentive crowd." },
-            { "slug": "the-best-men", "name": "The Best Men", "why": "Tight, harmony-driven set that doesn't need a stadium to land. Excellent for Tankardstown's Ballroom scale." }
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood styling and 100% live delivery suit Tankardstown's boutique-country-house feel exactly."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements that build the reception's energy curve from dinner-warm into full dance floor — perfect for a smaller, attentive crowd."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Tight, harmony-driven set that doesn't need a stadium to land. Excellent for Tankardstown's Ballroom scale."
+            }
         ],
         "faq": [
-            { "q": "Which wedding band suits Tankardstown House best?", "a": "The Beat Boutique and Blacktye are the most common Tankardstown picks — both deliver the polish a boutique luxury venue rewards. The Best Men are a strong choice for crowds who want big vocals and a packed, friendly dance floor." },
-            { "q": "Is a 4-piece band the right size for Tankardstown's Ballroom?", "a": "Yes — a 4-piece is well matched to the Ballroom's scale. The band sits close enough to the floor that the live performance reads, without overwhelming the room." },
-            { "q": "Do MusicAngel bands cover Tankardstown ceremony music?", "a": "Yes. Acoustic ceremony and drinks reception sets are typically added to the evening band package." },
-            { "q": "What's the average band package for a Tankardstown wedding?", "a": "Packages start from €2,800; the final quote depends on date, package, and any ceremony/drinks-reception add-ons. Send an enquiry with your date and we'll come back with a tailored quote." }
+            {
+                "q": "Which wedding band suits Tankardstown House best?",
+                "a": "The Beat Boutique and Blacktye are the most common Tankardstown picks — both deliver the polish a boutique luxury venue rewards. The Best Men are a strong choice for crowds who want big vocals and a packed, friendly dance floor."
+            },
+            {
+                "q": "Is a 4-piece band the right size for Tankardstown's Ballroom?",
+                "a": "Yes — a 4-piece is well matched to the Ballroom's scale. The band sits close enough to the floor that the live performance reads, without overwhelming the room."
+            },
+            {
+                "q": "Do MusicAngel bands cover Tankardstown ceremony music?",
+                "a": "Yes. Acoustic ceremony and drinks reception sets are typically added to the evening band package."
+            },
+            {
+                "q": "What's the average band package for a Tankardstown wedding?",
+                "a": "Packages start from €2,800; the final quote depends on date, package, and any ceremony/drinks-reception add-ons. Send an enquiry with your date and we'll come back with a tailored quote."
+            }
         ]
     },
     {
@@ -120,15 +240,39 @@
         "intro": "The K Club is one of the most recognisable luxury wedding venues in Ireland — Straffan House, 550 acres of estate, two former Ryder Cups in its history. The Liffey Suite is the principal reception space and is built for ambitious weddings: large guest counts, a sense of occasion, and a band that can handle the scale.",
         "venueDetail": "The Liffey Suite handles 200+ guests comfortably and rewards confident live performance. The K Club's evening reception flow allows for a flexible band schedule across two or more sets.",
         "bandPicks": [
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Built to fill rooms of The Liffey Suite's scale. Old Hollywood polish meets six decades of crowd-tested repertoire." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists is exactly the kind of horsepower a large K Club wedding rewards. Non-stop dance floor energy." },
-            { "slug": "blacktye", "name": "Blacktye", "why": "Polished arrangements that take The Liffey Suite from dinner mode to late-night party with no jolt." }
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Built to fill rooms of The Liffey Suite's scale. Old Hollywood polish meets six decades of crowd-tested repertoire."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists is exactly the kind of horsepower a large K Club wedding rewards. Non-stop dance floor energy."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements that take The Liffey Suite from dinner mode to late-night party with no jolt."
+            }
         ],
         "faq": [
-            { "q": "What wedding band works best at The K Club?", "a": "For larger weddings (180+) The Beat Boutique and Sway Social are the strongest fits — both built for big rooms. Blacktye is the pick for couples who want a more refined arc from dinner into dance floor." },
-            { "q": "Does a 4-piece band fill The Liffey Suite?", "a": "Yes — all four MusicAngel bands play full PA and stage lighting sized for The Liffey Suite. For very large guest counts we discuss extra production." },
-            { "q": "Can the band cover ceremony and drinks reception at The K Club?", "a": "Yes. Acoustic sets for ceremony (indoor or on the grounds) and drinks reception are added to the evening package." },
-            { "q": "How far in advance do I need to book?", "a": "Peak summer dates at The K Club book 12-18 months out. Earlier is better." }
+            {
+                "q": "What wedding band works best at The K Club?",
+                "a": "For larger weddings (180+) The Beat Boutique and Sway Social are the strongest fits — both built for big rooms. Blacktye is the pick for couples who want a more refined arc from dinner into dance floor."
+            },
+            {
+                "q": "Does a 4-piece band fill The Liffey Suite?",
+                "a": "Yes — all four MusicAngel bands play full PA and stage lighting sized for The Liffey Suite. For very large guest counts we discuss extra production."
+            },
+            {
+                "q": "Can the band cover ceremony and drinks reception at The K Club?",
+                "a": "Yes. Acoustic sets for ceremony (indoor or on the grounds) and drinks reception are added to the evening package."
+            },
+            {
+                "q": "How far in advance do I need to book?",
+                "a": "Peak summer dates at The K Club book 12-18 months out. Earlier is better."
+            }
         ]
     },
     {
@@ -142,15 +286,39 @@
         "intro": "Castle Leslie's wedding identity is country-house character rather than corporate polish — peat fires, woodland walks, the Pavilion as a marquee-style reception space. A band at Castle Leslie wants to feel warm and unfussy without losing the precision that holds a 200-guest room.",
         "venueDetail": "The Pavilion is the typical reception venue and handles a full live band with the kind of acoustic forgiveness a marquee gives. The estate's late curfew gives evening sets room to breathe.",
         "bandPicks": [
-            { "slug": "the-best-men", "name": "The Best Men", "why": "Feel-good, harmony-driven sound that fits Castle Leslie's warm, country-estate character perfectly." },
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Six decades of repertoire — the band reads the room rather than playing to a printed setlist, which suits the Pavilion's looser party energy." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "When the brief is 'keep the dance floor full until last call,' four lead vocalists deliver." }
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-driven sound that fits Castle Leslie's warm, country-estate character perfectly."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — the band reads the room rather than playing to a printed setlist, which suits the Pavilion's looser party energy."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "When the brief is 'keep the dance floor full until last call,' four lead vocalists deliver."
+            }
         ],
         "faq": [
-            { "q": "Which band suits Castle Leslie?", "a": "The Best Men and The Beat Boutique are the most common Castle Leslie picks. Both fit the estate's warm, character-driven feel. Sway Social is the right answer for couples chasing the highest possible energy." },
-            { "q": "Is the Pavilion a marquee?", "a": "It's a permanent purpose-built reception space with marquee-style acoustics. All four MusicAngel bands travel with PA suited to the room." },
-            { "q": "Can the band play at Castle Leslie's outdoor ceremony spaces?", "a": "Yes — acoustic ceremony sets on the grounds can be added to the package, weather permitting." },
-            { "q": "How late does the band play at Castle Leslie?", "a": "Castle Leslie's late curfew gives evening sets more room than most venues. We confirm the exact timing at booking." }
+            {
+                "q": "Which band suits Castle Leslie?",
+                "a": "The Best Men and The Beat Boutique are the most common Castle Leslie picks. Both fit the estate's warm, character-driven feel. Sway Social is the right answer for couples chasing the highest possible energy."
+            },
+            {
+                "q": "Is the Pavilion a marquee?",
+                "a": "It's a permanent purpose-built reception space with marquee-style acoustics. All four MusicAngel bands travel with PA suited to the room."
+            },
+            {
+                "q": "Can the band play at Castle Leslie's outdoor ceremony spaces?",
+                "a": "Yes — acoustic ceremony sets on the grounds can be added to the package, weather permitting."
+            },
+            {
+                "q": "How late does the band play at Castle Leslie?",
+                "a": "Castle Leslie's late curfew gives evening sets more room than most venues. We confirm the exact timing at booking."
+            }
         ]
     },
     {
@@ -164,15 +332,39 @@
         "intro": "Lough Eske is Donegal's flagship wedding venue — a five-star restored castle on the shore of the lake of the same name. The Castle Suite is the principal reception space; the location's relative remoteness means the band's quality has to do the talking once guests have made the journey north-west.",
         "venueDetail": "The Castle Suite is purpose-built for receptions and rewards a clean live PA setup. The estate is in genuine Donegal countryside; travel logistics are something the band coordinates with the venue ahead of the day.",
         "bandPicks": [
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Old Hollywood polish, six-decade repertoire — the right energy for a destination Donegal wedding that wants to feel like an event." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists and no backing tracks is the kind of horsepower that justifies the drive to Donegal." },
-            { "slug": "blacktye", "name": "Blacktye", "why": "Sleek arrangements built for stately rooms — Lough Eske's Castle Suite responds well." }
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish, six-decade repertoire — the right energy for a destination Donegal wedding that wants to feel like an event."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists and no backing tracks is the kind of horsepower that justifies the drive to Donegal."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built for stately rooms — Lough Eske's Castle Suite responds well."
+            }
         ],
         "faq": [
-            { "q": "Do MusicAngel bands travel to Lough Eske Castle in Donegal?", "a": "Yes — all four bands play across all of Ireland, including Donegal. Travel logistics are factored into the quote and confirmed with you at booking." },
-            { "q": "What band suits Lough Eske Castle best?", "a": "The Beat Boutique, Sway Social and Blacktye are the most common Lough Eske picks. All three deliver the level of live performance the venue rewards." },
-            { "q": "Will a Donegal venue affect the band's pricing?", "a": "Travel and overnight accommodation may affect the quote for venues in the north-west. We'll be upfront about this in the initial response to your enquiry." },
-            { "q": "Can the band cover ceremony at Lough Eske?", "a": "Yes — indoor ceremony in the castle, or lakeside ceremony in summer, can both be covered with acoustic sets added to the package." }
+            {
+                "q": "Do MusicAngel bands travel to Lough Eske Castle in Donegal?",
+                "a": "Yes — all four bands play across all of Ireland, including Donegal. Travel logistics are factored into the quote and confirmed with you at booking."
+            },
+            {
+                "q": "What band suits Lough Eske Castle best?",
+                "a": "The Beat Boutique, Sway Social and Blacktye are the most common Lough Eske picks. All three deliver the level of live performance the venue rewards."
+            },
+            {
+                "q": "Will a Donegal venue affect the band's pricing?",
+                "a": "Travel and overnight accommodation may affect the quote for venues in the north-west. We'll be upfront about this in the initial response to your enquiry."
+            },
+            {
+                "q": "Can the band cover ceremony at Lough Eske?",
+                "a": "Yes — indoor ceremony in the castle, or lakeside ceremony in summer, can both be covered with acoustic sets added to the package."
+            }
         ]
     },
     {
@@ -186,15 +378,39 @@
         "intro": "Ballyfin is Ireland's most exclusive wedding venue — Regency-era, exclusive-use, capped at fewer than 50 guest rooms. Weddings here are smaller, more intimate, and uncompromising on detail. A band at Ballyfin has to be precise, attentive, and dressed for a room where every guest will see them up close.",
         "venueDetail": "The State Dining Room and the Saloon are the principal reception spaces. Smaller guest counts mean a 4-piece feels right at home, and the room rewards genuine musicianship over volume.",
         "bandPicks": [
-            { "slug": "blacktye", "name": "Blacktye", "why": "Polished, deliberate, sleek — Blacktye is built for rooms like Ballyfin's State Dining Room where every note is in earshot." },
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Old Hollywood styling that belongs in a Regency room. Read-the-room sets handle smaller, intimate crowds with the same care as larger ones." },
-            { "slug": "the-best-men", "name": "The Best Men", "why": "Big vocals at close range, with the harmonies tight enough to hold the room's attention." }
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, deliberate, sleek — Blacktye is built for rooms like Ballyfin's State Dining Room where every note is in earshot."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood styling that belongs in a Regency room. Read-the-room sets handle smaller, intimate crowds with the same care as larger ones."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals at close range, with the harmonies tight enough to hold the room's attention."
+            }
         ],
         "faq": [
-            { "q": "What's the best wedding band for Ballyfin Demesne?", "a": "Blacktye and The Beat Boutique are the natural fits for Ballyfin — both bring the precision and styling that an exclusive, smaller-scale venue rewards." },
-            { "q": "Is a 4-piece band appropriate for a Ballyfin wedding?", "a": "Yes — Ballyfin's typical guest counts make a 4-piece band the right scale. The smaller, intimate setting suits real live performance over arena-sized sound." },
-            { "q": "Can the band cover ceremony at Ballyfin?", "a": "Yes — indoor and grounds ceremony music can be added. We coordinate with Ballyfin's events team to ensure the band's positioning is right for the room." },
-            { "q": "How far in advance should I book a band for Ballyfin?", "a": "Ballyfin's exclusive-use weddings tend to be booked far in advance — 12-24 months is normal. Enquire early." }
+            {
+                "q": "What's the best wedding band for Ballyfin Demesne?",
+                "a": "Blacktye and The Beat Boutique are the natural fits for Ballyfin — both bring the precision and styling that an exclusive, smaller-scale venue rewards."
+            },
+            {
+                "q": "Is a 4-piece band appropriate for a Ballyfin wedding?",
+                "a": "Yes — Ballyfin's typical guest counts make a 4-piece band the right scale. The smaller, intimate setting suits real live performance over arena-sized sound."
+            },
+            {
+                "q": "Can the band cover ceremony at Ballyfin?",
+                "a": "Yes — indoor and grounds ceremony music can be added. We coordinate with Ballyfin's events team to ensure the band's positioning is right for the room."
+            },
+            {
+                "q": "How far in advance should I book a band for Ballyfin?",
+                "a": "Ballyfin's exclusive-use weddings tend to be booked far in advance — 12-24 months is normal. Enquire early."
+            }
         ]
     },
     {
@@ -208,15 +424,39 @@
         "intro": "Ballybeg House in Wicklow has become one of Ireland's most-wanted exclusive-use wedding venues — a Georgian country house, fully yours for the weekend, with an attached pavilion built for evening receptions. It's a venue where couples invest in the entire experience; the band has to land that same standard.",
         "venueDetail": "The Pavilion is the main evening reception space, with a permanent stage and a sound setup engineered for live music. The Georgian house hosts dinner, drinks, and overnight stays for the inner circle. The exclusive-use format gives a generous schedule for ceremony, drinks, and band sets.",
         "bandPicks": [
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Old Hollywood polish in a Georgian setting — exactly the energy a Ballybeg crowd responds to. Six decades of repertoire keeps the floor full all night." },
-            { "slug": "blacktye", "name": "Blacktye", "why": "Sleek, polished, dance-floor-aware. Builds from elegant evening tempo into full party — the right arc for a Ballybeg pavilion night." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists and no backing tracks. If the brief is keeping the pavilion floor full from first set to last, this is the answer." }
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish in a Georgian setting — exactly the energy a Ballybeg crowd responds to. Six decades of repertoire keeps the floor full all night."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek, polished, dance-floor-aware. Builds from elegant evening tempo into full party — the right arc for a Ballybeg pavilion night."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists and no backing tracks. If the brief is keeping the pavilion floor full from first set to last, this is the answer."
+            }
         ],
         "faq": [
-            { "q": "What's the best wedding band for Ballybeg House?", "a": "The Beat Boutique and Blacktye are the most common picks — both fit the venue's boutique-luxury feel. Sway Social is the highest-energy option for couples who want a non-stop dance floor." },
-            { "q": "Does the Ballybeg Pavilion fit a full live band?", "a": "Yes. The Pavilion is purpose-built for live music with a permanent stage and sound setup. All four MusicAngel bands play with full PA and stage lighting sized for the room." },
-            { "q": "Can the band cover ceremony and drinks reception at Ballybeg?", "a": "Yes — acoustic ceremony sets in the grounds or in the house, plus drinks reception music, can be added to the evening package. Ballybeg's exclusive-use format gives plenty of flexibility on timing." },
-            { "q": "How far in advance should I book a band for Ballybeg House?", "a": "Ballybeg books 12-24 months in advance for peak season Saturdays. Enquire as early as possible — both the venue and the strongest band dates go quickly." }
+            {
+                "q": "What's the best wedding band for Ballybeg House?",
+                "a": "The Beat Boutique and Blacktye are the most common picks — both fit the venue's boutique-luxury feel. Sway Social is the highest-energy option for couples who want a non-stop dance floor."
+            },
+            {
+                "q": "Does the Ballybeg Pavilion fit a full live band?",
+                "a": "Yes. The Pavilion is purpose-built for live music with a permanent stage and sound setup. All four MusicAngel bands play with full PA and stage lighting sized for the room."
+            },
+            {
+                "q": "Can the band cover ceremony and drinks reception at Ballybeg?",
+                "a": "Yes — acoustic ceremony sets in the grounds or in the house, plus drinks reception music, can be added to the evening package. Ballybeg's exclusive-use format gives plenty of flexibility on timing."
+            },
+            {
+                "q": "How far in advance should I book a band for Ballybeg House?",
+                "a": "Ballybeg books 12-24 months in advance for peak season Saturdays. Enquire as early as possible — both the venue and the strongest band dates go quickly."
+            }
         ]
     },
     {
@@ -230,15 +470,1189 @@
         "intro": "Cabra Castle is a strong mid-luxury wedding venue in Cavan — castle character, a flexible reception marquee, grounds that suit photographs in any season. The marquee gives bands a forgiving acoustic, and the venue's curfew is generous enough to give two solid evening sets.",
         "venueDetail": "Cabra's marquee reception space handles 200 guests comfortably with a 4-piece live band. The room is built for a full party.",
         "bandPicks": [
-            { "slug": "the-best-men", "name": "The Best Men", "why": "Feel-good, harmony-led set that suits Cabra's relaxed-castle vibe and packed marquee floor." },
-            { "slug": "sway-social", "name": "Sway Social", "why": "Four lead vocalists, non-stop energy — a Cabra marquee at 11pm is exactly where Sway Social does its best work." },
-            { "slug": "the-beat-boutique", "name": "The Beat Boutique", "why": "Six decades of crowd-tested repertoire, played 100% live. Reads the room from drinks reception through to the last song." }
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led set that suits Cabra's relaxed-castle vibe and packed marquee floor."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — a Cabra marquee at 11pm is exactly where Sway Social does its best work."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of crowd-tested repertoire, played 100% live. Reads the room from drinks reception through to the last song."
+            }
         ],
         "faq": [
-            { "q": "What's the best band for Cabra Castle?", "a": "Sway Social and The Best Men are the typical Cabra picks — both are high-energy and built for a packed marquee floor. The Beat Boutique is the right choice if you want a more versatile, generation-spanning setlist." },
-            { "q": "Does the marquee at Cabra fit a full live band?", "a": "Yes. The reception marquee accommodates a 4-piece live band with PA and stage lighting comfortably." },
-            { "q": "Can the band play at Cabra's outdoor ceremony spots?", "a": "Yes — acoustic ceremony and drinks reception sets on the grounds can be added to the evening package, weather permitting." },
-            { "q": "What's the average price of a wedding band at Cabra Castle?", "a": "Packages start from €2,800 and the final quote depends on date, location, package and any add-ons. Send an enquiry with your date for a tailored quote." }
+            {
+                "q": "What's the best band for Cabra Castle?",
+                "a": "Sway Social and The Best Men are the typical Cabra picks — both are high-energy and built for a packed marquee floor. The Beat Boutique is the right choice if you want a more versatile, generation-spanning setlist."
+            },
+            {
+                "q": "Does the marquee at Cabra fit a full live band?",
+                "a": "Yes. The reception marquee accommodates a 4-piece live band with PA and stage lighting comfortably."
+            },
+            {
+                "q": "Can the band play at Cabra's outdoor ceremony spots?",
+                "a": "Yes — acoustic ceremony and drinks reception sets on the grounds can be added to the evening package, weather permitting."
+            },
+            {
+                "q": "What's the average price of a wedding band at Cabra Castle?",
+                "a": "Packages start from €2,800 and the final quote depends on date, location, package and any add-ons. Send an enquiry with your date for a tailored quote."
+            }
+        ]
+    },
+    {
+        "slug": "mount-juliet-estate",
+        "name": "Mount Juliet Estate",
+        "county": "Kilkenny",
+        "town": "Thomastown",
+        "style": "18th-century country estate, five-star hotel",
+        "vibe": "stately, country-luxury",
+        "capacityHint": "up to ~220 in the Manor House marquee",
+        "intro": "Mount Juliet Estate is Kilkenny's flagship wedding venue — 500 acres of Georgian estate with a five-star hotel, a championship golf course, and a wedding-events team that runs to a near-corporate standard. The Manor House is the ceremonial heart; the marquee handles bigger receptions.",
+        "venueDetail": "The Manor House and the marquee both accommodate full live bands comfortably. The estate's experienced events team coordinates load-in and stage logistics with the band ahead of the day.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of crowd-tested repertoire — the right band for Mount Juliet's mixed-generation guest list."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, deliberate musicianship matched to an estate that rewards detail."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for couples chasing a high-energy Manor House marquee reception."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which wedding band suits Mount Juliet Estate?",
+                "a": "The Beat Boutique and Blacktye are the most common Mount Juliet picks — both 100% live and built for estate-scale receptions. Sway Social is the call for couples who want the highest possible energy."
+            },
+            {
+                "q": "Does a 4-piece live band fit Mount Juliet's reception space?",
+                "a": "Yes. The Manor House and the marquee both accommodate a full 4-piece band with PA and stage lighting."
+            },
+            {
+                "q": "Can the band cover ceremony at Mount Juliet?",
+                "a": "Yes — indoor and grounds ceremony music can be added to the evening package."
+            },
+            {
+                "q": "How early should I book a band for Mount Juliet?",
+                "a": "12-18 months in advance for peak summer Saturdays. Earlier is always better."
+            }
+        ]
+    },
+    {
+        "slug": "carton-house",
+        "name": "Carton House",
+        "county": "Kildare",
+        "town": "Maynooth",
+        "style": "18th-century estate, modern five-star hotel",
+        "vibe": "estate-grand, Dublin-adjacent luxury",
+        "capacityHint": "up to ~250 in The Gold Saloon or Atrium",
+        "intro": "Carton House is one of the most-booked luxury wedding venues for couples whose guest list spans Dublin and the country — a Georgian estate fewer than 30 minutes from the M50, with reception spaces (The Gold Saloon, The Atrium) that handle large guest counts without losing the country-house feel.",
+        "venueDetail": "Both the Gold Saloon and the Atrium handle a 4-piece live band comfortably. The Atrium suits high-energy parties; the Gold Saloon is the more stately choice. The estate's late curfew gives a full evening's run.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish and 100% live delivery — built for a venue at Carton's scale and finish."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists is exactly the kind of horsepower a large Carton wedding rewards."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements that build from elegant evening tempo into full-party — the right arc for The Gold Saloon."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best wedding band for Carton House?",
+                "a": "The Beat Boutique and Sway Social are the most common Carton picks — both built for 200+ guest weddings. Blacktye is the choice for a more refined, polished evening arc."
+            },
+            {
+                "q": "Does Carton House have multiple reception rooms?",
+                "a": "Yes — The Gold Saloon, The Atrium, and a marquee option for larger weddings. All accommodate a full live band."
+            },
+            {
+                "q": "Can the band play at Carton's ceremony spaces?",
+                "a": "Yes — both indoor (the Chapel) and grounds ceremonies can be covered with acoustic sets added to the evening package."
+            },
+            {
+                "q": "How late does the band play at Carton House?",
+                "a": "Carton's curfew is flexible and confirmed with you at booking — typically 1:30am-2am."
+            }
+        ]
+    },
+    {
+        "slug": "castlemartyr-resort",
+        "name": "Castlemartyr Resort",
+        "county": "Cork",
+        "town": "Castlemartyr",
+        "style": "17th-century manor, five-star resort",
+        "vibe": "Cork-luxury, balanced formal and warm",
+        "capacityHint": "up to ~200 in the ballroom",
+        "intro": "Castlemartyr Resort is East Cork's leading luxury wedding venue — a 17th-century manor, a five-star hotel, championship golf, and a ballroom built for weddings that lean polished without losing warmth.",
+        "venueDetail": "The ballroom handles a 4-piece live band with PA and stage lighting sized for the room. The estate's experienced events team coordinates timing with the band ahead of the day.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Versatile six-decade repertoire — the right call for Castlemartyr's mixed Cork-and-Dublin guest mix."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements built for an East Cork crowd that values musicianship."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-driven — works beautifully for couples wanting an unfussy packed dance floor."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which wedding band suits Castlemartyr Resort?",
+                "a": "The Beat Boutique and Blacktye are the most common Castlemartyr picks — both balance polish with energy. The Best Men is a strong choice for warmer, party-led weddings."
+            },
+            {
+                "q": "Can the band fit in Castlemartyr's ballroom?",
+                "a": "Yes — all four MusicAngel bands play full PA and stage lighting sized for the room."
+            },
+            {
+                "q": "Do you cover ceremony music at Castlemartyr?",
+                "a": "Yes — indoor and grounds ceremony sets can be added to the evening package."
+            },
+            {
+                "q": "How far in advance to book for Castlemartyr?",
+                "a": "12-18 months for peak Saturday dates. Off-peak and midweek dates often have shorter lead times."
+            }
+        ]
+    },
+    {
+        "slug": "fota-island-resort",
+        "name": "Fota Island Resort",
+        "county": "Cork",
+        "town": "Fota Island",
+        "style": "five-star island resort, championship golf",
+        "vibe": "Cork-coastal, modern luxury",
+        "capacityHint": "up to ~250 in the Ballroom",
+        "intro": "Fota Island Resort is Cork's island-set luxury venue — a five-star hotel on Fota Island, with a ballroom that handles 250-guest weddings and grounds that frame photographs across all seasons.",
+        "venueDetail": "Fota's main ballroom is purpose-built for larger weddings with the kind of stage area and PA infrastructure a full live band needs.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists is the right horsepower for a 200+ guest Fota wedding."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — keeps the floor full across Fota's typically diverse guest list."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements for couples who want the ballroom's evening arc to feel polished from first set to last."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best wedding band for Fota Island Resort?",
+                "a": "Sway Social and The Beat Boutique are the most common Fota picks for larger weddings. Blacktye is the call for a more refined polished tempo."
+            },
+            {
+                "q": "Does the Fota ballroom handle a full live band?",
+                "a": "Yes — purpose-built for receptions at this scale with full PA infrastructure."
+            },
+            {
+                "q": "Can the band play at Fota's outdoor ceremony spots?",
+                "a": "Yes — acoustic ceremony sets on the grounds can be added, weather permitting."
+            },
+            {
+                "q": "Are travel costs included for Fota Island?",
+                "a": "Travel within Cork is included in standard packages. Confirm with us at enquiry."
+            }
+        ]
+    },
+    {
+        "slug": "glenlo-abbey-hotel",
+        "name": "Glenlo Abbey Hotel",
+        "county": "Galway",
+        "town": "Galway",
+        "style": "five-star country house on Lough Corrib",
+        "vibe": "Galway-romantic, country-house intimate",
+        "capacityHint": "up to ~190 in the Ballroom",
+        "intro": "Glenlo Abbey is Galway's most enduring five-star wedding venue — a country-house hotel on the shores of Lough Corrib, with the Pullman Restaurant (in restored Orient Express carriages) and a ballroom that frames receptions beautifully.",
+        "venueDetail": "Glenlo's ballroom is purpose-built for receptions of up to ~190 with a full 4-piece live band. The grounds offer lakeside ceremony options.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of crowd-tested repertoire — the natural fit for a Galway venue with a wide guest demographic."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — keeps the Glenlo ballroom floor full from first set to last."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits Glenlo's intimate Galway-romantic feel."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What wedding band works best at Glenlo Abbey?",
+                "a": "The Beat Boutique and Sway Social are the most common Glenlo Abbey picks. The Best Men suit warmer, party-led weddings."
+            },
+            {
+                "q": "Can the band cover Glenlo's lakeside ceremony?",
+                "a": "Yes — acoustic ceremony sets at the lakeside or in the chapel can be added to the evening package, weather permitting."
+            },
+            {
+                "q": "What's the latest the band plays at Glenlo?",
+                "a": "Glenlo's curfew is confirmed with you at booking — typically 1:30am-2am."
+            },
+            {
+                "q": "How early should I book a band for Glenlo Abbey?",
+                "a": "12-18 months for peak Saturdays in Galway's summer wedding season."
+            }
+        ]
+    },
+    {
+        "slug": "ballymaloe-house",
+        "name": "Ballymaloe House",
+        "county": "Cork",
+        "town": "Shanagarry",
+        "style": "boutique country house, food-led",
+        "vibe": "warm, intimate, character-rich",
+        "capacityHint": "up to ~160 in the Drawing Room and Yellow Room",
+        "intro": "Ballymaloe House is East Cork's beloved country-house wedding venue — small enough to feel personal, big enough to hold a real party, and famous enough that guests will mention it for years. The atmosphere is unfussy and warm, which suits live bands with character over corporate polish.",
+        "venueDetail": "The Drawing Room and Yellow Room together host receptions of up to ~160; the venue's intimacy means a 4-piece live band plays close to the floor.",
+        "bandPicks": [
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — Ballymaloe's warm, personal feel rewards bands with character."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — perfect for Ballymaloe's mixed-generation, food-loving crowd."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, intimate musicianship for couples who want a sleek finish to a relaxed Ballymaloe day."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which wedding band suits Ballymaloe House?",
+                "a": "The Best Men and The Beat Boutique are the most common Ballymaloe picks — both fit the venue's warm, character-rich feel."
+            },
+            {
+                "q": "Is a 4-piece the right size band for Ballymaloe?",
+                "a": "Yes. Ballymaloe's intimate scale means a 4-piece band sits close to the floor and the live performance reads strongly."
+            },
+            {
+                "q": "Can the band play at Ballymaloe's ceremony spaces?",
+                "a": "Yes — acoustic ceremony sets in the house or grounds can be added to the evening package."
+            },
+            {
+                "q": "How early to book for Ballymaloe?",
+                "a": "Ballymaloe books 12-18 months in advance for peak season; earlier is recommended."
+            }
+        ]
+    },
+    {
+        "slug": "mount-falcon-estate",
+        "name": "Mount Falcon Estate",
+        "county": "Mayo",
+        "town": "Ballina",
+        "style": "Victorian country house, 100-acre estate",
+        "vibe": "Mayo-romantic, country-luxury",
+        "capacityHint": "up to ~220 in the marquee",
+        "intro": "Mount Falcon is a Victorian estate just outside Ballina — 100 acres, a country house at its centre, and a marquee built specifically for receptions of up to 220 guests. A Mayo wedding venue with the scale of the bigger castle hotels but a more intimate, country feel.",
+        "venueDetail": "The reception marquee is engineered for full live music with permanent stage and lighting setup. The estate's exclusive-use options give the band a generous schedule.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists with the volume to fill the Mount Falcon marquee floor from first set to last."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish meets six-decade repertoire — keeps a 200-guest marquee buzzing."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits the warm Mayo wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best wedding band for Mount Falcon?",
+                "a": "Sway Social and The Beat Boutique are the most common Mount Falcon picks — both fit the marquee's scale and crowd."
+            },
+            {
+                "q": "Does Mount Falcon's marquee suit a full live band?",
+                "a": "Yes — purpose-built for live music with permanent stage and PA infrastructure."
+            },
+            {
+                "q": "Can the band cover ceremony at Mount Falcon?",
+                "a": "Yes — indoor and grounds ceremony sets can be added to the evening package."
+            },
+            {
+                "q": "Are travel costs included for Mount Falcon in Mayo?",
+                "a": "Most of Mayo is included in standard packages. We'll be upfront in the initial response to your enquiry."
+            }
+        ]
+    },
+    {
+        "slug": "marlfield-house",
+        "name": "Marlfield House",
+        "county": "Wexford",
+        "town": "Gorey",
+        "style": "Regency country house, exclusive-use option",
+        "vibe": "Wexford-classical, boutique-luxury",
+        "capacityHint": "up to ~180 in the Conservatory",
+        "intro": "Marlfield House is Wexford's flagship country-house wedding venue — a Regency estate, exclusive-use available, with the glass Conservatory as the main reception space. A venue chosen by couples who want classical luxury without the scale of the bigger castle hotels.",
+        "venueDetail": "The Conservatory is the main reception venue — bright, full-glass, and acoustically rewarding for confident live performance.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, deliberate musicianship — Marlfield's Conservatory rewards the kind of arrangements Blacktye specialises in."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish meets six-decade repertoire — fits Marlfield's classical luxury feel."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — keeps the Conservatory floor full without overwhelming the space."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best wedding band for Marlfield House?",
+                "a": "Blacktye and The Beat Boutique are the most common Marlfield picks — both polished, both 100% live."
+            },
+            {
+                "q": "Is the Marlfield Conservatory suited to a full band?",
+                "a": "Yes — the room accommodates a 4-piece with PA and stage lighting."
+            },
+            {
+                "q": "Does Marlfield offer exclusive use?",
+                "a": "Yes — exclusive-use bookings are available and recommended for larger weddings. Confirm with the venue's events team."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays; earlier for exclusive-use weekend bookings."
+            }
+        ]
+    },
+    {
+        "slug": "faithlegg-house",
+        "name": "Faithlegg House Hotel",
+        "county": "Waterford",
+        "town": "Waterford",
+        "style": "18th-century country house, four-star hotel",
+        "vibe": "Waterford-coastal, country-luxury",
+        "capacityHint": "up to ~220 in the Ballroom",
+        "intro": "Faithlegg is one of Waterford's most-booked wedding venues — an 18th-century country house with championship golf, a coastal-leaning location near the estuary, and a ballroom built for 200+ guest receptions.",
+        "venueDetail": "The Faithlegg ballroom handles a full 4-piece live band comfortably with PA and stage lighting sized for the room.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — keeps the Faithlegg ballroom floor full."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led — fits the warm, party-led Waterford wedding atmosphere."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Faithlegg's typically broad guest demographic."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What wedding band works best at Faithlegg?",
+                "a": "Sway Social and The Best Men are the most common Faithlegg picks. The Beat Boutique is the call for couples who want a versatile, decade-spanning set."
+            },
+            {
+                "q": "Does Faithlegg's ballroom fit a full live band?",
+                "a": "Yes — purpose-built for receptions at this scale."
+            },
+            {
+                "q": "Can the band cover ceremony at Faithlegg?",
+                "a": "Yes — both indoor and grounds ceremony music can be added to the evening package."
+            },
+            {
+                "q": "How early to book for a Faithlegg wedding?",
+                "a": "12-18 months for peak season Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "cliff-house-hotel",
+        "name": "Cliff House Hotel",
+        "county": "Waterford",
+        "town": "Ardmore",
+        "style": "five-star cliffside hotel, modern luxury",
+        "vibe": "Waterford-coastal, design-forward luxury",
+        "capacityHint": "up to ~140 in the main reception room",
+        "intro": "Cliff House Hotel is Waterford's cliff-edge five-star wedding venue — Ardmore Bay, contemporary design, and a wedding crowd that skews toward smaller, design-conscious celebrations rather than 200-guest events.",
+        "venueDetail": "Cliff House's main reception space is intimate by design. A 4-piece live band suits the scale; the room rewards musicianship over volume.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, deliberate musicianship at intimate range — exactly what Cliff House's design-led crowd responds to."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for couples who want their Cliff House evening to feel as considered as the venue."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals at close range, tight harmonies — keeps a smaller floor packed and moving."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best wedding band for Cliff House Hotel?",
+                "a": "Blacktye and The Beat Boutique are the natural fits for Cliff House — both built for intimate, design-led venues."
+            },
+            {
+                "q": "Is a 4-piece band right for Cliff House?",
+                "a": "Yes — the venue's intimate scale suits a 4-piece live band well."
+            },
+            {
+                "q": "Can the band play outdoor at Cliff House?",
+                "a": "Acoustic ceremony sets on the cliff terraces or in the hotel can be added, weather permitting."
+            },
+            {
+                "q": "How early to book?",
+                "a": "Cliff House books 12-18 months for peak weekends."
+            }
+        ]
+    },
+    {
+        "slug": "lyrath-estate",
+        "name": "Lyrath Estate",
+        "county": "Kilkenny",
+        "town": "Kilkenny",
+        "style": "17th-century estate, five-star hotel",
+        "vibe": "Kilkenny-luxury, stately",
+        "capacityHint": "up to ~250 in the Pembroke Suite",
+        "intro": "Lyrath Estate is Kilkenny's larger-scale luxury wedding venue — 170 acres of estate, a five-star hotel, and the Pembroke Suite as the principal reception space for weddings up to 250 guests.",
+        "venueDetail": "The Pembroke Suite is engineered for larger receptions with the stage and PA infrastructure to match. The estate accommodates parallel ceremonies and drinks reception flows.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Built to fill rooms at Lyrath's scale — six decades of repertoire keeps a 200+ guest floor full."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a 250-guest Lyrath wedding that wants the floor packed all night."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements that take Lyrath from dinner mode into full-party tempo cleanly."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best band for Lyrath Estate?",
+                "a": "The Beat Boutique and Sway Social are the most common Lyrath picks — both built for the Pembroke Suite's scale."
+            },
+            {
+                "q": "Does a 4-piece fill the Pembroke Suite?",
+                "a": "Yes — with full PA and stage lighting. For very large guest counts we discuss extra production."
+            },
+            {
+                "q": "Can the band cover ceremony and drinks reception?",
+                "a": "Yes — both can be added to the evening package."
+            },
+            {
+                "q": "How far in advance to book Lyrath?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "bellinter-house",
+        "name": "Bellinter House",
+        "county": "Meath",
+        "town": "Bellinter",
+        "style": "18th-century Palladian villa, boutique",
+        "vibe": "boutique-luxury, design-led",
+        "capacityHint": "up to ~180 in the Ballroom",
+        "intro": "Bellinter House is Meath's design-led boutique wedding venue — an 18th-century Palladian villa restored with contemporary luxury, set on a private estate. A venue chosen by couples who care about the styling as much as the celebration.",
+        "venueDetail": "The Ballroom is the principal reception space and handles a full 4-piece live band comfortably.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek, design-conscious musicianship — exactly what Bellinter's couples respond to."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish that fits the Palladian setting without missing a beat."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — feel-good energy that suits Bellinter's warmer, party-led weddings."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which wedding band suits Bellinter House?",
+                "a": "Blacktye and The Beat Boutique are the most common Bellinter picks — both fit the boutique-luxury feel."
+            },
+            {
+                "q": "Does Bellinter's Ballroom fit a full live band?",
+                "a": "Yes — purpose-built for receptions at this scale."
+            },
+            {
+                "q": "Can the band cover ceremony at Bellinter?",
+                "a": "Yes — indoor and grounds ceremony music can be added."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "park-hotel-kenmare",
+        "name": "Park Hotel Kenmare",
+        "county": "Kerry",
+        "town": "Kenmare",
+        "style": "five-star Kenmare luxury hotel",
+        "vibe": "Kerry-romantic, considered luxury",
+        "capacityHint": "up to ~140 in the main reception",
+        "intro": "Park Hotel Kenmare is Kerry's most considered luxury wedding venue — a five-star hotel in Kenmare town with a wedding scene that skews intimate, exclusive, and beautifully detailed.",
+        "venueDetail": "The Park's reception spaces are intimate by design — perfectly scaled for a 4-piece live band where every guest sees the performance up close.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished musicianship at intimate range — the right answer for a considered Kerry wedding."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for couples who want a Kenmare wedding to feel like an event."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — keeps the intimate floor full and warm."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best band for Park Hotel Kenmare?",
+                "a": "Blacktye and The Beat Boutique are the natural fits — both built for intimate, considered venues."
+            },
+            {
+                "q": "Is a 4-piece right for The Park's reception?",
+                "a": "Yes — the venue's intimate scale suits a 4-piece live band."
+            },
+            {
+                "q": "Do MusicAngel bands travel to Kerry?",
+                "a": "Yes — all four bands play all of Ireland including Kerry. Travel and accommodation may add a modest supplement; we're upfront about it."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak Saturdays in Kerry's summer wedding season."
+            }
+        ]
+    },
+    {
+        "slug": "sheen-falls-lodge",
+        "name": "Sheen Falls Lodge",
+        "county": "Kerry",
+        "town": "Kenmare",
+        "style": "five-star waterfall-side lodge",
+        "vibe": "Kerry-cinematic, romantic",
+        "capacityHint": "up to ~180 in the Dining Room",
+        "intro": "Sheen Falls Lodge sits at the edge of a waterfall outside Kenmare — Kerry's most cinematically located luxury wedding venue. Five-star, romantic, and the kind of place couples bring guests when they want the venue to do half of the work.",
+        "venueDetail": "The Dining Room and the marquee handle full live bands. The estate offers riverside ceremony spots with the falls as backdrop.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for a Kerry venue that already looks like a film set."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built for rooms with this much going on visually — keeps the music as considered as the venue."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — for couples who want the Sheen Falls dance floor packed."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What wedding band suits Sheen Falls Lodge?",
+                "a": "The Beat Boutique and Blacktye are the most common Sheen Falls picks. Sway Social is the call for high-energy receptions."
+            },
+            {
+                "q": "Can the band cover a riverside ceremony at Sheen Falls?",
+                "a": "Yes — acoustic ceremony sets at the falls or in the lodge can be added, weather permitting."
+            },
+            {
+                "q": "Are travel costs included for Kerry venues?",
+                "a": "Most of Kerry is included; some venues add a small travel/accommodation supplement which we're upfront about."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak summer Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "trump-international-doonbeg",
+        "name": "Trump International Doonbeg",
+        "county": "Clare",
+        "town": "Doonbeg",
+        "style": "links-side luxury hotel",
+        "vibe": "Clare-coastal, golf-luxury",
+        "capacityHint": "up to ~220 in the ballroom",
+        "intro": "Trump International Doonbeg is West Clare's coastal luxury wedding venue — Atlantic-edge, championship links golf, and a ballroom built for larger weddings with a confident party energy.",
+        "venueDetail": "The main ballroom handles full live bands and 200+ guest weddings.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a Doonbeg ballroom that needs filling."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of crowd-tested repertoire — works across the typically diverse Doonbeg guest list."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits the warm, dance-floor-led West Clare wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Trump International Doonbeg?",
+                "a": "Sway Social and The Beat Boutique are the most common Doonbeg picks for larger weddings."
+            },
+            {
+                "q": "Does the Doonbeg ballroom fit a full live band?",
+                "a": "Yes — purpose-built for receptions at this scale."
+            },
+            {
+                "q": "Can the band play at Doonbeg ceremony spots?",
+                "a": "Yes — ceremony music indoor or coastal, weather permitting."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "brooklodge",
+        "name": "Brooklodge & Macreddin Village",
+        "county": "Wicklow",
+        "town": "Macreddin",
+        "style": "country-house resort, foodie destination",
+        "vibe": "Wicklow-country, warm and unfussy",
+        "capacityHint": "up to ~200 in the Ballroom",
+        "intro": "Brooklodge in Macreddin is one of Wicklow's most-loved country wedding venues — known as much for its food and atmosphere as for its scale. The Ballroom hosts the evening reception with the kind of acoustic forgiveness a confident live band needs.",
+        "venueDetail": "The Brooklodge Ballroom handles full live bands; the wider Macreddin Village setting accommodates exclusive-use weekend bookings.",
+        "bandPicks": [
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits Brooklodge's warm, foodie atmosphere perfectly."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Brooklodge's typically Dublin-and-country guest mix."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — for couples chasing maximum dance-floor energy."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which band suits Brooklodge?",
+                "a": "The Best Men and The Beat Boutique are the most common Brooklodge picks."
+            },
+            {
+                "q": "Does Brooklodge's Ballroom fit a full live band?",
+                "a": "Yes — accommodates a 4-piece with PA and stage lighting."
+            },
+            {
+                "q": "Can the band cover ceremony at Macreddin Village?",
+                "a": "Yes — indoor and grounds ceremony sets can be added to the evening package."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak summer Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "tinakilly-country-house",
+        "name": "Tinakilly Country House",
+        "county": "Wicklow",
+        "town": "Rathnew",
+        "style": "Victorian country house, four-star hotel",
+        "vibe": "Wicklow-classic, romantic country",
+        "capacityHint": "up to ~180 in the Brunel Restaurant",
+        "intro": "Tinakilly Country House is Wicklow's enduring romantic country-house wedding venue — a Victorian estate, four-star hotel, and reception spaces that suit considered evening weddings rather than 250-guest blockbusters.",
+        "venueDetail": "The Brunel Restaurant and main reception spaces accommodate a full 4-piece live band.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — exactly the right call for Tinakilly's mixed-generation crowd."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements — Tinakilly rewards bands with character and finesse."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, feel-good — fits Tinakilly's warm Wicklow wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Tinakilly Country House?",
+                "a": "The Beat Boutique and Blacktye are the most common Tinakilly picks."
+            },
+            {
+                "q": "Does Tinakilly's reception room fit a 4-piece band?",
+                "a": "Yes — handles a full live band comfortably with PA and stage lighting."
+            },
+            {
+                "q": "Can the band play at Tinakilly's grounds ceremony?",
+                "a": "Yes — acoustic ceremony sets on the grounds can be added, weather permitting."
+            },
+            {
+                "q": "How early to book Tinakilly?",
+                "a": "12-18 months for peak Wicklow summer Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "druids-glen",
+        "name": "Druids Glen Hotel & Golf Resort",
+        "county": "Wicklow",
+        "town": "Newtownmountkennedy",
+        "style": "championship golf resort, four-star",
+        "vibe": "Wicklow-modern, golf-luxury",
+        "capacityHint": "up to ~220 in the Wicklow Suite",
+        "intro": "Druids Glen is Wicklow's championship-golf-led wedding venue — a four-star hotel in 400 acres of Wicklow countryside with the Wicklow Suite as the principal reception space.",
+        "venueDetail": "The Wicklow Suite handles 200+ guest weddings with full live band infrastructure.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — keeps the Druids Glen floor full."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Druids Glen's broad guest demographic."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — feel-good energy for a Wicklow wedding."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Druids Glen?",
+                "a": "Sway Social and The Beat Boutique are the most common Druids Glen picks."
+            },
+            {
+                "q": "Does the Wicklow Suite handle a full band?",
+                "a": "Yes — purpose-built for receptions of this scale."
+            },
+            {
+                "q": "Can the band cover ceremony at Druids Glen?",
+                "a": "Yes — indoor and grounds ceremony music can be added."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "slane-castle",
+        "name": "Slane Castle",
+        "county": "Meath",
+        "town": "Slane",
+        "style": "18th-century castle, exclusive-use",
+        "vibe": "Meath-historic, Boyne Valley luxury",
+        "capacityHint": "up to ~180 in the Castle's State Rooms",
+        "intro": "Slane Castle is the historic Meath wedding venue — 18th-century castle in the Boyne Valley, famous for its concerts, increasingly available for exclusive-use weddings with the State Rooms as the reception heart.",
+        "venueDetail": "The Slane Castle State Rooms host receptions of up to ~180; the courtyard and grounds offer ceremony and drinks reception options.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for a castle that's seen the biggest acts in music history."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built for stately rooms — Slane's State Rooms reward considered live performance."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists with the volume to fill a castle."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What wedding band suits Slane Castle?",
+                "a": "The Beat Boutique and Blacktye are the most common Slane picks — both fit the venue's historic setting."
+            },
+            {
+                "q": "Does the Slane Castle State Room handle a 4-piece live band?",
+                "a": "Yes — with PA and stage lighting suited to the room."
+            },
+            {
+                "q": "Can the band cover ceremony in the castle?",
+                "a": "Yes — indoor and grounds ceremony sets can be added to the evening package."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-24 months for exclusive-use weekends."
+            }
+        ]
+    },
+    {
+        "slug": "cliff-at-lyons",
+        "name": "Cliff at Lyons",
+        "county": "Kildare",
+        "town": "Celbridge",
+        "style": "boutique village resort, exclusive-use",
+        "vibe": "Kildare-modern, country-luxury",
+        "capacityHint": "up to ~200 in the marquee",
+        "intro": "Cliff at Lyons in Celbridge is a boutique village resort — design-led, exclusive-use, and built around a restored 18th-century village setting. A wedding here feels deliberately small-scale even at 200 guests.",
+        "venueDetail": "The reception marquee handles a full live band with PA and stage lighting. The village setting suits ceremony and drinks across multiple grounds spaces.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Design-led, sleek musicianship that mirrors Cliff at Lyons' aesthetic."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for couples who want a Cliff at Lyons evening to feel considered from first note to last."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a packed marquee that wants energy from the first set."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which band suits Cliff at Lyons?",
+                "a": "Blacktye and The Beat Boutique are the most common Cliff at Lyons picks."
+            },
+            {
+                "q": "Does the Cliff at Lyons marquee fit a full live band?",
+                "a": "Yes — sized for 200-guest receptions with full live music."
+            },
+            {
+                "q": "Can the band cover ceremony at the village?",
+                "a": "Yes — multiple grounds and indoor ceremony spots can be covered."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-24 months for peak weekends."
+            }
+        ]
+    },
+    {
+        "slug": "markree-castle",
+        "name": "Markree Castle",
+        "county": "Sligo",
+        "town": "Collooney",
+        "style": "17th-century castle, four-star hotel",
+        "vibe": "Sligo-romantic, country-castle",
+        "capacityHint": "up to ~180 in the Knockmuldowney Suite",
+        "intro": "Markree Castle is Sligo's flagship wedding venue — a 17th-century castle in 500 acres of estate, with the Knockmuldowney Suite hosting larger evening receptions.",
+        "venueDetail": "The Knockmuldowney Suite accommodates a full 4-piece live band; the castle's other reception rooms work for smaller weddings.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for a castle setting that rewards considered performance."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits Sligo's warm wedding atmosphere."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements that build energy across an evening at Markree's pace."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Markree Castle?",
+                "a": "The Beat Boutique and The Best Men are the most common Markree picks."
+            },
+            {
+                "q": "Does Markree's Knockmuldowney Suite handle a full band?",
+                "a": "Yes — purpose-built for receptions at this scale."
+            },
+            {
+                "q": "Can the band cover ceremony at Markree?",
+                "a": "Yes — indoor and grounds ceremony music can be added."
+            },
+            {
+                "q": "Do you travel to Sligo?",
+                "a": "Yes — all four bands play across all of Ireland including Sligo."
+            }
+        ]
+    },
+    {
+        "slug": "killashee-hotel",
+        "name": "Killashee Hotel",
+        "county": "Kildare",
+        "town": "Naas",
+        "style": "Victorian country house, four-star hotel",
+        "vibe": "Kildare-classic, mid-luxury",
+        "capacityHint": "up to ~280 in The Killashee Suite",
+        "intro": "Killashee is one of Kildare's largest-capacity wedding venues — a Victorian country house with the Killashee Suite hosting some of the biggest weddings in the county. A venue for couples whose guest list runs to 250+ without losing the country-house feel.",
+        "venueDetail": "The Killashee Suite accommodates 280-guest weddings with full live band PA and stage infrastructure.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — keeps the Killashee Suite floor full across a long evening."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for one of Kildare's biggest wedding rooms."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, feel-good harmonies — fits Killashee's warm party-led wedding crowd."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best band for Killashee Hotel?",
+                "a": "The Beat Boutique and Sway Social are the most common Killashee picks for larger weddings."
+            },
+            {
+                "q": "Does the Killashee Suite fit a full band?",
+                "a": "Yes — with full PA and stage lighting; for 250+ guest weddings we discuss extra production."
+            },
+            {
+                "q": "Can the band cover ceremony at Killashee?",
+                "a": "Yes — indoor and grounds ceremony music can be added."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "kinnitty-castle",
+        "name": "Kinnitty Castle",
+        "county": "Offaly",
+        "town": "Kinnitty",
+        "style": "neo-Gothic castle, character hotel",
+        "vibe": "Offaly-storybook, character-rich",
+        "capacityHint": "up to ~180 in the banqueting hall",
+        "intro": "Kinnitty Castle is the storybook Offaly wedding venue — a neo-Gothic castle in the Slieve Bloom Mountains, characterful rather than corporate, with banqueting hall acoustics that reward a confident live band.",
+        "venueDetail": "The banqueting hall accommodates a 4-piece live band; the castle's intimate scale means the performance sits close to the floor.",
+        "bandPicks": [
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led — fits Kinnitty's character-rich, warm atmosphere."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of crowd-tested repertoire — keeps a castle floor full."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for high-energy castle weddings."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Kinnitty Castle?",
+                "a": "The Best Men and The Beat Boutique are the most common Kinnitty picks."
+            },
+            {
+                "q": "Does the banqueting hall fit a full live band?",
+                "a": "Yes — sized appropriately for a 4-piece with PA and stage lighting."
+            },
+            {
+                "q": "Can the band cover ceremony at Kinnitty?",
+                "a": "Yes — castle and grounds ceremony sets can be added."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "knockranny-house",
+        "name": "Knockranny House Hotel",
+        "county": "Mayo",
+        "town": "Westport",
+        "style": "country-house four-star, Westport",
+        "vibe": "Mayo-coastal, west-of-Ireland warm",
+        "capacityHint": "up to ~220 in the Castletown Suite",
+        "intro": "Knockranny House in Westport is Mayo's biggest non-castle wedding venue — a four-star country-house hotel just outside the town, with the Castletown Suite hosting weddings up to 220 guests.",
+        "venueDetail": "The Castletown Suite is purpose-built for receptions of this scale with full live band infrastructure.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a Westport wedding that wants the floor packed."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — keeps a 200-guest Knockranny floor full."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, feel-good — fits the warm Mayo wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Knockranny House?",
+                "a": "Sway Social and The Beat Boutique are the most common Knockranny picks."
+            },
+            {
+                "q": "Does the Castletown Suite fit a full live band?",
+                "a": "Yes — built for larger receptions."
+            },
+            {
+                "q": "Do you travel to Westport?",
+                "a": "Yes — all four bands play Mayo."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "harveys-point",
+        "name": "Harvey's Point",
+        "county": "Donegal",
+        "town": "Donegal",
+        "style": "lakeside four-star hotel",
+        "vibe": "Donegal-lakeside, considered luxury",
+        "capacityHint": "up to ~180 in the Ballroom",
+        "intro": "Harvey's Point is one of Donegal's best-loved wedding venues — a lakeside four-star hotel set on Lough Eske, with a ballroom that handles considered, warm wedding receptions.",
+        "venueDetail": "The Harvey's Point Ballroom handles a 4-piece live band comfortably with PA and stage lighting.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Donegal's typically broad guest list."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a destination Donegal wedding that wants to feel like an event."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements for couples wanting a considered evening arc."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Harvey's Point?",
+                "a": "The Beat Boutique and Sway Social are the most common Harvey's Point picks."
+            },
+            {
+                "q": "Does Harvey's Point Ballroom fit a full live band?",
+                "a": "Yes — built for receptions with live music."
+            },
+            {
+                "q": "Do you travel to Donegal?",
+                "a": "Yes — all four bands cover Donegal; travel may add a small supplement."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
         ]
     }
 ]
