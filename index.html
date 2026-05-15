@@ -1634,6 +1634,26 @@
             .footer-links { flex-direction: column; gap: 0.9rem; }
         }
 
+        /* ========== Pricing chip ========== */
+        .price-chip {
+            display: inline-block;
+            margin: 1.4rem auto 0;
+            padding: 0.7rem 1.15rem;
+            background: rgba(247, 214, 228, 0.35);
+            border: 1px solid var(--border-strong);
+            border-radius: 999px;
+            font-family: var(--sans);
+            font-style: normal;
+            font-size: 0.78rem;
+            color: var(--ink-soft) !important;
+            letter-spacing: 0.01em;
+            line-height: 1.5;
+        }
+        .price-chip strong { color: var(--ink); font-weight: 600; }
+        @media (max-width: 520px) {
+            .price-chip { font-size: 0.74rem; padding: 0.6rem 1rem; line-height: 1.45; }
+        }
+
         /* ========== Cookie consent ========== */
         .cc {
             position: fixed;
@@ -1718,8 +1738,8 @@
             </div>
             <div class="hero-proof" aria-label="MusicAngel highlights">
                 <div class="hero-proof-item">
-                    <strong>380+</strong>
-                    <span>five-star reviews</span>
+                    <strong>From €2,800</strong>
+                    <span>wedding packages</span>
                 </div>
                 <div class="hero-proof-item">
                     <strong>4</strong>
@@ -1800,9 +1820,9 @@
                             <span class="band-tag">100% Live</span>
                         </div>
                         <div class="band-meta">
-                            <span class="band-meta-item"><strong>186+</strong> five-star reviews</span>
-                            <span class="band-meta-item"><strong>4-piece</strong> band</span>
-                            <span class="band-meta-item"><strong>WBA</strong> approved</span>
+                            <span class="band-meta-item"><strong>Hundreds</strong> of weddings played</span>
+                            <span class="band-meta-item"><strong>4-piece</strong> live band</span>
+                            <span class="band-meta-item"><strong>100%</strong> live, no backing tracks</span>
                         </div>
                     </div>
                     <div class="band-actions">
@@ -1837,9 +1857,9 @@
                             <span class="band-tag">100% Live</span>
                         </div>
                         <div class="band-meta">
-                            <span class="band-meta-item"><strong>194</strong> five-star reviews</span>
+                            <span class="band-meta-item"><strong>Hundreds</strong> of weddings played</span>
                             <span class="band-meta-item"><strong>4 lead</strong> singers</span>
-                            <span class="band-meta-item"><strong>2017</strong> Band of the Year</span>
+                            <span class="band-meta-item"><strong>Award-winning</strong> live band</span>
                         </div>
                     </div>
                     <div class="band-actions">
@@ -1975,6 +1995,7 @@
                 <p class="sec-eye rv">Get in Touch</p>
                 <h2 class="sec-h2 rv" style="text-align:center;">Let&rsquo;s find your <em>perfect</em> sound</h2>
                 <p class="rv">Tell us about your day and we&rsquo;ll check availability, then match you with a band that fits the style, venue, and energy you&rsquo;re looking for.</p>
+                <p class="price-chip rv" aria-label="Pricing"><strong>Wedding bands from &euro;2,800.</strong> Final quote depends on date, location, band, and package.</p>
             </div>
             <div class="contact-split rv">
                 <div class="contact-left">
@@ -2173,6 +2194,7 @@
         });
 
         // === Form ===
+        const formLoadedAt = Date.now();
         document.getElementById('enquiryForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             const form = this;
@@ -2180,6 +2202,7 @@
             const status = document.getElementById('formStatus');
             const original = btn.textContent;
             const data = Object.fromEntries(new FormData(form).entries());
+            data._t = formLoadedAt;
 
             btn.disabled = true;
             btn.style.opacity = '0.6';
