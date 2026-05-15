@@ -1,0 +1,37 @@
+{
+    "_comment": "Reviews template. Add real Google Maps / Facebook / wedding-directory reviews here as they come in. Each band can have an array of reviews. The site generator will read this and emit Review schema + a visual block on each band page.",
+    "_format": "ratings 1-5, body verbatim from the source, source URL where the review lives publicly.",
+    "the-beat-boutique": {
+        "googleMapsUrl": "",
+        "facebookPageUrl": "",
+        "weddingsOnlineUrl": "",
+        "reviews": []
+    },
+    "sway-social": {
+        "googleMapsUrl": "",
+        "facebookPageUrl": "",
+        "weddingsOnlineUrl": "",
+        "reviews": []
+    },
+    "the-best-men": {
+        "googleMapsUrl": "",
+        "facebookPageUrl": "",
+        "weddingsOnlineUrl": "",
+        "reviews": []
+    },
+    "blacktye": {
+        "googleMapsUrl": "",
+        "facebookPageUrl": "",
+        "weddingsOnlineUrl": "",
+        "reviews": []
+    },
+    "_exampleReview": {
+        "author": "Sarah and Conor",
+        "rating": 5,
+        "date": "2024-08-15",
+        "venue": "Ashford Castle",
+        "body": "The band were the absolute highlight of our day. From the moment they walked in they were professional, friendly, and they read the room perfectly. Our guests are still talking about them.",
+        "source": "Google",
+        "sourceUrl": "https://maps.google.com/?cid=..."
+    }
+}

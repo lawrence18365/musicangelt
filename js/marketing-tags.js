@@ -10,6 +10,8 @@
  *   window.META_PIXEL_ID = '123456789012345';        // 15-digit Meta pixel ID
  *   window.LINKEDIN_PARTNER_ID = '1234567';           // 7-digit LinkedIn partner ID
  *   window.GOOGLE_ADS_CONVERSION_ID = 'AW-XXXXXXX';   // Google Ads (optional)
+ *   window.HOTJAR_SITE_ID = '1234567';                // Hotjar (heatmaps + recordings)
+ *   window.CLARITY_PROJECT_ID = 'abcdef1234';         // Microsoft Clarity (free heatmaps + recordings)
  *
  * The script listens for a `consent:granted` event that the cookie banner
  * fires when the user accepts. It will also auto-fire if consent was
@@ -18,7 +20,7 @@
 (function () {
     'use strict';
 
-    var STATE = { loaded: { meta: false, linkedin: false, googleAds: false } };
+    var STATE = { loaded: { meta: false, linkedin: false, googleAds: false, hotjar: false, clarity: false } };
 
     function consentGranted() {
         try { return localStorage.getItem('mc:consent:v1') === 'accept'; }
@@ -71,11 +73,36 @@
         gtag('config', awId);
     }
 
+    function loadHotjar(siteId) {
+        if (STATE.loaded.hotjar || !siteId) return;
+        STATE.loaded.hotjar = true;
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments); };
+            h._hjSettings = { hjid: siteId, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    }
+
+    function loadClarity(projectId) {
+        if (STATE.loaded.clarity || !projectId) return;
+        STATE.loaded.clarity = true;
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments); };
+            t = l.createElement(r); t.async = 1; t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
+        })(window, document, 'clarity', 'script', projectId);
+    }
+
     function maybeLoadAll() {
         if (!consentGranted()) return;
         loadMetaPixel(window.META_PIXEL_ID);
         loadLinkedInInsight(window.LINKEDIN_PARTNER_ID);
         loadGoogleAds(window.GOOGLE_ADS_CONVERSION_ID);
+        loadHotjar(window.HOTJAR_SITE_ID);
+        loadClarity(window.CLARITY_PROJECT_ID);
     }
 
     document.addEventListener('consent:granted', maybeLoadAll, { once: false });

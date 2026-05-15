@@ -97,6 +97,8 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
         window.META_PIXEL_ID = window.META_PIXEL_ID || '';
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+        window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
+        window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
     <script defer src="/js/marketing-tags.js"></script>
 
@@ -560,6 +562,8 @@ function regenerateSitemap() {
         { loc: `${SITE}/drinks-reception-music`, priority: '0.7', changefreq: 'monthly' },
         { loc: `${SITE}/wedding-band-and-dj-package`, priority: '0.7', changefreq: 'monthly' },
         { loc: `${SITE}/compare-bands`, priority: '0.75', changefreq: 'monthly' },
+        { loc: `${SITE}/ceremony-music`, priority: '0.75', changefreq: 'monthly' },
+        { loc: `${SITE}/wedding-songs-by-decade`, priority: '0.7', changefreq: 'monthly' },
         { loc: `${SITE}/venues`, priority: '0.65', changefreq: 'weekly' },
         ...VENUES.map(v => ({ loc: `${SITE}/wedding-band-${v.slug}`, priority: '0.8', changefreq: 'monthly' })),
         ...COUNTIES.map(c => ({ loc: `${SITE}/wedding-bands-${c.slug}`, priority: '0.7', changefreq: 'monthly' })),
