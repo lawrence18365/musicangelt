@@ -2054,6 +2054,8 @@
                             <label for="message">Tell Us About Your Day</label>
                             <textarea id="message" name="message" placeholder="Your vision, guest count, special requests..."></textarea>
                         </div>
+                        <!-- Honeypot for bots -->
+                        <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
                         <button type="submit" class="btn-pink f-full">Send Enquiry</button>
                         <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
                     </form>
@@ -2073,6 +2075,8 @@
                     <li><a href="#why">Why Us</a></li>
                     <li><a href="#contact">Enquire</a></li>
                     <li><a href="mailto:jo.musicangel@gmail.com">Email</a></li>
+                    <li><a href="/privacy">Privacy</a></li>
+                    <li><a href="/cookies">Cookies</a></li>
                 </ul>
                 <div class="footer-rule"></div>
                 <span class="footer-copy">&copy; 2025 MusicAngel.ie &mdash; Wedding Bands Playing All of Ireland</span>
@@ -2082,7 +2086,7 @@
 
     <!-- ========== COOKIE CONSENT ========== -->
     <div id="cc" class="cc" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
-        <p>We use Google Analytics cookies to understand how visitors use the site. They help us improve. You can accept or decline — you can change your mind anytime.</p>
+        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy">privacy policy</a> and <a href="/cookies">cookies policy</a> for details.</p>
         <div class="cc-actions">
             <button type="button" class="cc-btn" data-cc="decline">Decline</button>
             <button type="button" class="cc-btn cc-accept" data-cc="accept">Accept</button>
@@ -2169,20 +2173,70 @@
         });
 
         // === Form ===
-        document.getElementById('enquiryForm').addEventListener('submit', function(e) {
+        document.getElementById('enquiryForm').addEventListener('submit', async function(e) {
             e.preventDefault();
-            const btn = this.querySelector('button');
+            const form = this;
+            const btn = form.querySelector('button[type="submit"]');
             const status = document.getElementById('formStatus');
-            btn.textContent = 'Sent with love';
+            const original = btn.textContent;
+            const data = Object.fromEntries(new FormData(form).entries());
+
             btn.disabled = true;
             btn.style.opacity = '0.6';
-            status.textContent = 'Thanks. We will reply shortly.';
-            if (typeof gtag === 'function') {
-                const band = (this.querySelector('#band') || {}).value || '';
-                gtag('event', 'form_submit', {
-                    form_id: 'enquiryForm',
-                    enquiry_band: band
+            btn.textContent = 'Sending...';
+            status.textContent = '';
+            status.style.color = '';
+
+            const fireGA = () => {
+                if (typeof gtag === 'function') {
+                    gtag('event', 'form_submit', {
+                        form_id: 'enquiryForm',
+                        enquiry_band: data.band || ''
+                    });
+                }
+            };
+
+            const openMailtoFallback = () => {
+                const subject = encodeURIComponent('Wedding enquiry — MusicAngel');
+                const body = encodeURIComponent(
+                    `Name: ${data.name || ''}\nPartner: ${data.partner || ''}\n` +
+                    `Email: ${data.email || ''}\nWedding Date: ${data.date || ''}\n` +
+                    `Venue: ${data.venue || ''}\nBand: ${data.band || ''}\n\n` +
+                    `Message:\n${data.message || ''}`
+                );
+                window.location.href = `mailto:jo.musicangel@gmail.com?subject=${subject}&body=${body}`;
+            };
+
+            try {
+                const res = await fetch('/api/enquiry', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
                 });
+                if (res.ok) {
+                    fireGA();
+                    btn.textContent = 'Sent with love';
+                    status.textContent = 'Thanks. We will reply shortly.';
+                    return;
+                }
+                if (res.status === 503) {
+                    // Backend not configured yet — open user's email client.
+                    fireGA();
+                    status.textContent = 'Opening your email to finish — we\'ll reply shortly.';
+                    openMailtoFallback();
+                    btn.disabled = false;
+                    btn.style.opacity = '';
+                    btn.textContent = original;
+                    return;
+                }
+                throw new Error('HTTP ' + res.status);
+            } catch (err) {
+                status.style.color = '#b04040';
+                status.textContent = 'Connection issue — opening your email instead.';
+                openMailtoFallback();
+                btn.disabled = false;
+                btn.style.opacity = '';
+                btn.textContent = original;
             }
         });
 
