@@ -1,0 +1,266 @@
+[
+  {
+    "name": "Ashford Castle",
+    "domain": "ashfordcastle.com",
+    "emails": [
+      "reservations@ashfordcastle.com",
+      "concierge@ashfordcastle.com",
+      "niallrochford@ashfordcastle.com",
+      "influencers@rchmail.com"
+    ]
+  },
+  {
+    "name": "Dromoland Castle",
+    "domain": "dromoland.ie",
+    "emails": [
+      "sales@dromoland.ie",
+      "reservations@dromoland.ie"
+    ]
+  },
+  {
+    "name": "Adare Manor",
+    "domain": "adaremanor.com",
+    "emails": [
+      "info@adaremanor.com"
+    ]
+  },
+  {
+    "name": "Powerscourt Hotel",
+    "domain": "powerscourthotel.com",
+    "emails": []
+  },
+  {
+    "name": "The K Club",
+    "domain": "kclub.ie",
+    "emails": [
+      "reservations@kclub.ie"
+    ]
+  },
+  {
+    "name": "Mount Juliet Estate",
+    "domain": "mountjuliet.com",
+    "emails": []
+  },
+  {
+    "name": "Carton House",
+    "domain": "cartonhouse.com",
+    "emails": []
+  },
+  {
+    "name": "Castlemartyr Resort",
+    "domain": "castlemartyrresort.ie",
+    "emails": [
+      "events@castlemartyrresort.ie",
+      "reservations@castlemartyrresort.ie",
+      "dining@castlemartyrresort.ie"
+    ]
+  },
+  {
+    "name": "Fota Island Resort",
+    "domain": "fotaisland.ie",
+    "emails": [
+      "weddings@fotaisland.ie",
+      "info@fotacollection.ie",
+      "reservations@fotaisland.ie",
+      "hr@fotacollection.ie"
+    ]
+  },
+  {
+    "name": "Glenlo Abbey Hotel",
+    "domain": "glenloabbeyhotel.ie",
+    "emails": [
+      "info@glenloabbey.ie"
+    ]
+  },
+  {
+    "name": "Ballymaloe House",
+    "domain": "ballymaloe.ie",
+    "emails": [
+      "info@ballymaloehouse.com"
+    ]
+  },
+  {
+    "name": "Mount Falcon Estate",
+    "domain": "mountfalcon.com",
+    "emails": [
+      "info@mountfalcon.com"
+    ]
+  },
+  {
+    "name": "Marlfield House",
+    "domain": "marlfieldhouse.com",
+    "emails": []
+  },
+  {
+    "name": "Faithlegg House Hotel",
+    "domain": "faithlegg.com",
+    "emails": []
+  },
+  {
+    "name": "Cliff House Hotel",
+    "domain": "cliffhousehotel.ie",
+    "emails": [
+      "info@cliffhousehotel.ie",
+      "reservations@cliffhousehotel.ie",
+      "dining@cliffhousehotel.ie",
+      "thewell@cliffhousehotel.ie"
+    ]
+  },
+  {
+    "name": "Lyrath Estate",
+    "domain": "lyrath.com",
+    "emails": [
+      "weddings@lyrath.com",
+      "info@lyrath.com"
+    ]
+  },
+  {
+    "name": "Bellinter House",
+    "domain": "bellinterhouse.com",
+    "emails": [
+      "events@bellinterhouse.com",
+      "sales@ardancollective.com",
+      "reservations@bellinterhouse.com",
+      "spa@bellinterhouse.com"
+    ]
+  },
+  {
+    "name": "Park Hotel Kenmare",
+    "domain": "parkkenmare.com",
+    "emails": [
+      "info@parkkenmare.com"
+    ]
+  },
+  {
+    "name": "Sheen Falls Lodge",
+    "domain": "sheenfallslodge.ie",
+    "emails": [
+      "events@sheenfallslodge.ie",
+      "info@sheenfallslodge.ie",
+      "thestablebrasserie@sheenfallslodge.ie"
+    ]
+  },
+  {
+    "name": "Trump International Doonbeg",
+    "domain": "trumpdoonbeg.com",
+    "emails": []
+  },
+  {
+    "name": "Brooklodge",
+    "domain": "brooklodge.com",
+    "emails": [
+      "info@brooklodge.com"
+    ]
+  },
+  {
+    "name": "Tinakilly Country House",
+    "domain": "tinakilly.ie",
+    "emails": [
+      "weddingteam@tinakilly.ie",
+      "reception@tinakilly.ie"
+    ]
+  },
+  {
+    "name": "Druids Glen",
+    "domain": "druidsglenresort.com",
+    "emails": [
+      "reservations@druidsglenresort.com"
+    ]
+  },
+  {
+    "name": "Slane Castle",
+    "domain": "slanecastle.ie",
+    "emails": [
+      "weddings@slanecastle.ie",
+      "events@slanecastle.ie",
+      "info@slanecastle.ie",
+      "info@rockfarmslane.ie"
+    ]
+  },
+  {
+    "name": "Cliff at Lyons",
+    "domain": "cliffatlyons.ie",
+    "emails": [
+      "info@cliffatlyons.ie",
+      "reservations@cliffatlyons.ie",
+      "dining@cliffatlyons.ie",
+      "spa@cliffatlyons.ie"
+    ]
+  },
+  {
+    "name": "Markree Castle",
+    "domain": "markreecastle.ie",
+    "emails": []
+  },
+  {
+    "name": "Killashee Hotel",
+    "domain": "killasheehotel.com",
+    "emails": []
+  },
+  {
+    "name": "Kinnitty Castle",
+    "domain": "kinnittycastle.com",
+    "emails": []
+  },
+  {
+    "name": "Knockranny House",
+    "domain": "knockrannyhousehotel.ie",
+    "emails": []
+  },
+  {
+    "name": "Harvey's Point",
+    "domain": "harveyspoint.com",
+    "emails": [
+      "events@harveyspoint.com",
+      "stay@harveyspoint.com"
+    ]
+  },
+  {
+    "name": "Ballyfin Demesne",
+    "domain": "ballyfin.com",
+    "emails": [
+      "reservations@ballyfin.com"
+    ]
+  },
+  {
+    "name": "Castle Leslie",
+    "domain": "castleleslie.com",
+    "emails": [
+      "emailevents@castleleslie.com",
+      "events@castleleslie.com",
+      "info@castleleslie.com"
+    ]
+  },
+  {
+    "name": "Cabra Castle",
+    "domain": "cabracastle.com",
+    "emails": []
+  },
+  {
+    "name": "Tankardstown House",
+    "domain": "tankardstown.ie",
+    "emails": [
+      "info@tankardstown.ie"
+    ]
+  },
+  {
+    "name": "Lough Eske Castle",
+    "domain": "lougheskecastle.com",
+    "emails": []
+  },
+  {
+    "name": "Ballybeg House",
+    "domain": "ballybeghouse.com",
+    "emails": []
+  },
+  {
+    "name": "Kilshane House",
+    "domain": "kilshanehouse.com",
+    "emails": []
+  },
+  {
+    "name": "Clonabreany House",
+    "domain": "clonabreany.com",
+    "emails": []
+  }
+]

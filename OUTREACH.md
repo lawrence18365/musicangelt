@@ -128,49 +128,60 @@ Jo
 
 ---
 
-## Send queue — first 30 venues (5/day for 6 days)
+## Send queue — verified emails (scraped 2026-05-15)
+
+Emails marked ✅ were scraped directly from the venue's site and are confirmed reachable. Emails marked ⚠️ need manual verification (the venue gates contact behind a form, JS-rendered content, or wasn't reachable to the scraper).
 
 ### Day 1 — Luxury castles (template A)
-1. Ashford Castle — `weddings@ashfordcastle.com` (verify)
-2. Dromoland Castle — `events@dromoland.ie` (verify)
-3. Adare Manor — `weddings@adaremanor.com` (verify)
-4. Powerscourt House — events team via their wedding contact form
-5. The K Club — `events@kclub.ie` (verify)
+1. Ashford Castle — `reservations@ashfordcastle.com` ✅ *(no public weddings@ — start here, ask for events lead)*
+2. Dromoland Castle — `sales@dromoland.ie` ✅
+3. Adare Manor — `info@adaremanor.com` ✅
+4. Powerscourt Hotel — ⚠️ use contact form at https://powerscourthotel.com/contact/
+5. The K Club — `reservations@kclub.ie` ✅ *(ask to be forwarded to wedding-sales)*
 
 ### Day 2 — More luxury castles (template A)
-6. Mount Juliet Estate — `events@mountjuliet.ie` (verify)
-7. Carton House — `weddings@cartonhouse.com` (verify)
-8. Lough Eske Castle — events team
-9. Slane Castle — `info@slanecastle.ie` (verify)
-10. Cabra Castle — `info@cabracastle.com` (verify)
+6. Mount Juliet Estate — ⚠️ use contact form (try `weddings@mountjuliet.com`)
+7. Carton House — ⚠️ use contact form (try `events@cartonhouse.com`)
+8. Slane Castle — `weddings@slanecastle.ie` ✅
+9. Cabra Castle — ⚠️ scraper found nothing; check site contact page
+10. Lough Eske Castle — ⚠️ scraper found nothing; try `weddings@solishotels.com` (their parent group)
 
 ### Day 3 — Boutique exclusive-use (template B)
-11. Ballyfin Demesne — `info@ballyfin.com` (verify)
-12. Ballybeg House — `info@ballybeghouse.ie` (verify)
-13. Tankardstown House — `weddings@tankardstown.ie` (verify)
-14. Bellinter House — `info@bellinterhouse.com` (verify)
-15. Marlfield House — `info@marlfieldhouse.ie` (verify)
+11. Ballyfin Demesne — `reservations@ballyfin.com` ✅ *(ask to be forwarded to events)*
+12. Tankardstown House — `info@tankardstown.ie` ✅
+13. Bellinter House — `events@bellinterhouse.com` ✅
+14. Marlfield House — ⚠️ scraper found nothing; their contact page is JS-rendered
+15. Ballybeg House — ⚠️ scraper found nothing; their site is contact-form only
 
-### Day 4 — More boutique (template B)
-16. Cliff at Lyons — `weddings@cliffatlyons.ie` (verify)
-17. Castle Leslie — `info@castleleslie.com` (verify)
-18. Park Hotel Kenmare — `info@parkkenmare.com` (verify)
-19. Sheen Falls Lodge — `weddings@sheenfallslodge.ie` (verify)
-20. Cliff House Hotel — `weddings@cliffhousehotel.ie` (verify)
+### Day 4 — Boutique cont'd (template B)
+16. Cliff at Lyons — `info@cliffatlyons.ie` ✅
+17. Castle Leslie — `events@castleleslie.com` ✅
+18. Park Hotel Kenmare — `info@parkkenmare.com` ✅
+19. Sheen Falls Lodge — `events@sheenfallslodge.ie` ✅
+20. Cliff House Hotel — `info@cliffhousehotel.ie` ✅
 
 ### Day 5 — Mid-luxury and resort (template C)
-21. Castlemartyr Resort — `weddings@castlemartyrresort.ie` (verify)
-22. Fota Island Resort — `weddings@fotaisland.ie` (verify)
-23. Glenlo Abbey — `info@glenloabbey.ie` (verify)
-24. Mount Falcon Estate — `info@mountfalcon.com` (verify)
-25. Faithlegg House — `weddings@faithlegg.com` (verify)
+21. Castlemartyr Resort — `events@castlemartyrresort.ie` ✅
+22. Fota Island Resort — `weddings@fotaisland.ie` ✅
+23. Glenlo Abbey — `info@glenloabbey.ie` ✅
+24. Mount Falcon Estate — `info@mountfalcon.com` ✅
+25. Faithlegg House — ⚠️ scraper found nothing; check contact page
 
-### Day 6 — More mid-luxury (template C)
-26. Lyrath Estate — `weddings@lyrath.com` (verify)
-27. Killashee Hotel — `weddings@killashee.com` (verify)
-28. Druids Glen — `weddings@druidsglenresort.com` (verify)
-29. Trump International Doonbeg — `weddings@trumphotels.com` (verify)
-30. Harvey's Point — `weddings@harveyspoint.com` (verify)
+### Day 6 — Mid-luxury cont'd (template C)
+26. Lyrath Estate — `weddings@lyrath.com` ✅
+27. Brooklodge — `info@brooklodge.com` ✅
+28. Tinakilly Country House — `weddingteam@tinakilly.ie` ✅
+29. Druids Glen — `reservations@druidsglenresort.com` ✅
+30. Harvey's Point — `events@harveyspoint.com` ✅
+
+### Day 7 — Smaller / harder-to-reach (template B or C)
+31. Trump International Doonbeg — ⚠️ contact form only
+32. Markree Castle — ⚠️ scraper found nothing
+33. Killashee Hotel — ⚠️ scraper found nothing
+34. Knockranny House — ⚠️ scraper found nothing
+35. Kinnitty Castle — ⚠️ scraper found nothing
+36. Kilshane House — ⚠️ scraper found nothing
+37. Clonabreany House — ⚠️ scraper found nothing
 
 ## What to track
 
