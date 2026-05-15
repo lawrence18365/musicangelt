@@ -41,6 +41,14 @@
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WV874YXC8Z"></script>
 
+    <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set IDs to activate. -->
+    <script>
+        window.META_PIXEL_ID = window.META_PIXEL_ID || '';
+        window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
+        window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+    </script>
+    <script defer src="/js/marketing-tags.js"></script>
+
     <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -248,14 +256,6 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
 .cc-accept:hover { background: var(--pink-hover); border-color: var(--pink-hover); }
 @media (max-width: 640px) { section { padding: 2.6rem 0; } .f-row { grid-template-columns: 1fr; } .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; } }
 </style>
-
-    <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set the IDs below to activate. -->
-    <script>
-        window.META_PIXEL_ID = window.META_PIXEL_ID || '';
-        window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
-        window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
-    </script>
-    <script defer src="/js/marketing-tags.js"></script>
 </head>
 <body>
     <a href="#enquiry" class="skip-link">Skip to enquiry form</a>
@@ -415,6 +415,7 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
             try { localStorage.setItem(CC_KEY, decision); } catch (e) {}
             const granted = decision === 'accept' ? 'granted' : 'denied';
             if (typeof gtag === 'function') gtag('consent', 'update', { ad_storage: granted, ad_user_data: granted, ad_personalization: granted, analytics_storage: granted });
+            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));
             cc.classList.remove('visible');
             setTimeout(() => { cc.hidden = true; }, 350);
         }
@@ -436,8 +437,7 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
             data._t = formLoadedAt;
             btn.disabled = true; btn.style.opacity = '0.6'; btn.textContent = 'Sending...';
             status.textContent = ''; status.style.color = '';
-            const fireGA = () => { if (typeof gtag === 'function') gtag('event', 'form_submit', { form_id: 'enquiry_seo_page', enquiry_band: data.band || '', enquiry_venue: data.venue || '' }); }
-            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));;
+            const fireGA = () => { if (typeof gtag === 'function') gtag('event', 'form_submit', { form_id: 'enquiry_seo_page', enquiry_band: data.band || '', enquiry_venue: data.venue || '' }); };
             const openMailto = () => {
                 const subject = encodeURIComponent('Wedding enquiry — MusicAngel');
                 const body = encodeURIComponent('Name: ' + (data.name || '') + '\nPartner: ' + (data.partner || '') + '\nEmail: ' + (data.email || '') + '\nWedding Date: ' + (data.date || '') + '\nVenue: ' + (data.venue || '') + '\nBand: ' + (data.band || '') + '\n\nMessage:\n' + (data.message || ''));

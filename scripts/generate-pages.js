@@ -556,6 +556,11 @@ function regenerateSitemap() {
         { loc: `${SITE}/blacktye`, priority: '0.9', changefreq: 'monthly' },
         { loc: `${SITE}/wedding-band-cost-ireland`, priority: '0.85', changefreq: 'monthly' },
         { loc: `${SITE}/first-dance-songs`, priority: '0.8', changefreq: 'monthly' },
+        { loc: `${SITE}/wedding-band-showcases`, priority: '0.7', changefreq: 'monthly' },
+        { loc: `${SITE}/drinks-reception-music`, priority: '0.7', changefreq: 'monthly' },
+        { loc: `${SITE}/wedding-band-and-dj-package`, priority: '0.7', changefreq: 'monthly' },
+        { loc: `${SITE}/compare-bands`, priority: '0.75', changefreq: 'monthly' },
+        { loc: `${SITE}/venues`, priority: '0.65', changefreq: 'weekly' },
         ...VENUES.map(v => ({ loc: `${SITE}/wedding-band-${v.slug}`, priority: '0.8', changefreq: 'monthly' })),
         ...COUNTIES.map(c => ({ loc: `${SITE}/wedding-bands-${c.slug}`, priority: '0.7', changefreq: 'monthly' })),
         { loc: `${SITE}/privacy`, priority: '0.2', changefreq: 'yearly' },
@@ -577,8 +582,95 @@ ${body}
     fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), xml);
 }
 
+function renderVenuesIndex() {
+    const canonical = `${SITE}/venues`;
+    const byCounty = {};
+    for (const v of VENUES) {
+        (byCounty[v.county] = byCounty[v.county] || []).push(v);
+    }
+    const counties = Object.keys(byCounty).sort();
+    const countyBlocks = counties.map(c => {
+        const items = byCounty[c]
+            .sort((a, b) => a.name.localeCompare(b.name))
+            .map(v => `                <li><a href="/wedding-band-${v.slug}"><strong>${esc(v.name)}</strong><span> &middot; ${esc(v.town)}, Co. ${esc(v.county)}</span></a></li>`)
+            .join('\n');
+        return `        <section class="county-block">
+            <h2 class="county-h"><em>Co. ${esc(c)}</em></h2>
+            <ul class="venue-list">
+${items}
+            </ul>
+        </section>`;
+    }).join('\n');
+
+    const jsonLd = {
+        "@context": "https://schema.org",
+        "@graph": [
+            { "@type": "CollectionPage", "name": "Irish Wedding Venues — MusicAngel", "url": canonical, "description": "Directory of every Irish wedding venue MusicAngel has bespoke pages for, grouped by county." },
+            { "@type": "BreadcrumbList", "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": `${SITE}/` },
+                { "@type": "ListItem", "position": 2, "name": "Venues", "item": canonical }
+            ]},
+            { "@type": "ItemList", "itemListElement": VENUES.map((v, i) => ({
+                "@type": "ListItem", "position": i + 1,
+                "item": { "@type": "Place", "name": v.name, "url": `${SITE}/wedding-band-${v.slug}` }
+            }))}
+        ]
+    };
+
+    return `${sharedHead({
+        title: 'Wedding Venues Directory — Every Venue We Cover in Ireland | MusicAngel',
+        description: `Every Irish wedding venue we have a dedicated page for — ${VENUES.length} venues across Ireland, grouped by county. Find the right wedding band for your venue.`,
+        canonical,
+        ogImage: `${SITE}/assets/bands/hero-beat-boutique.webp`,
+        ogImageW: 1400,
+        ogImageH: 788,
+        jsonLd
+    })}
+<body>
+    <nav class="top">
+        <a href="/" class="nav-brand">Music<i>Angel</i></a>
+        <a href="/#bands" class="nav-back">&larr; All Bands</a>
+    </nav>
+    <div class="wrap" style="max-width: 1000px;">
+        <nav class="crumb" aria-label="Breadcrumb">
+            <a href="/">MusicAngel</a><span class="sep">/</span><span>Wedding Venues Directory</span>
+        </nav>
+        <header class="hero" style="padding: 1rem 0 2rem;">
+            <p class="eye">All venues · Ireland</p>
+            <h1>Irish wedding <em>venues</em> we cover</h1>
+            <p class="lede" style="font-size: 1.05rem; color: var(--text-muted); font-family: var(--serif); font-style: italic;">${VENUES.length} destination wedding venues across Ireland — each with a dedicated page, recommended bands, and a tailored enquiry form. Grouped by county.</p>
+        </header>
+
+        <style>
+            .county-block { margin-bottom: 3rem; }
+            .county-h { font-family: var(--serif); font-size: 1.6rem; color: var(--ink); font-weight: 400; margin-bottom: 1.25rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border); }
+            .county-h em { font-style: italic; color: var(--pink); font-weight: 500; }
+            .venue-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 0.5rem; }
+            .venue-list li a { display: block; padding: 0.85rem 1.05rem; background: #fff; border: 1px solid var(--border); border-radius: 10px; text-decoration: none; color: inherit; transition: border-color 0.18s, transform 0.18s; }
+            .venue-list li a:hover { border-color: var(--pink); transform: translateY(-1px); }
+            .venue-list li a strong { display: block; font-family: var(--serif); font-weight: 500; color: var(--ink); font-size: 1.08rem; line-height: 1.2; }
+            .venue-list li a span { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.01em; }
+        </style>
+
+${countyBlocks}
+    </div>
+
+    <div class="price-band" style="background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 3rem 0 2rem;">
+        <div class="wrap" style="text-align: center;">
+            <h2 style="font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.2rem); font-weight: 400; color: var(--ink); margin-bottom: 0.5rem;">Don't see your venue? <em style="font-style: italic; color: var(--pink);">We play everywhere.</em></h2>
+            <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1rem; margin-bottom: 1.4rem;">These are venues with bespoke pages. We play all of Ireland — send any venue when you enquire.</p>
+            <a href="/#contact" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        </div>
+    </div>
+
+    ${sharedFooter}
+`;
+}
+
 function main() {
     let venueCount = 0, countyCount = 0;
+    fs.mkdirSync(path.join(ROOT, 'venues'), { recursive: true });
+    fs.writeFileSync(path.join(ROOT, 'venues/index.html'), renderVenuesIndex());
     for (const v of VENUES) {
         const dir = path.join(ROOT, `wedding-band-${v.slug}`);
         fs.mkdirSync(dir, { recursive: true });
