@@ -1,1 +1,6 @@
 .vercel
+.env
+.env.*
+.gsc-write-token.json
+node_modules
+.wrangler

@@ -196,11 +196,12 @@ MusicAngel Ireland (account)
 
 **Before any spend, configure these conversion events in Google Ads:**
 
-1. **Primary: enquiry_form_submit** — currently fired by `gtag('event', 'form_submit', …)` in the form handlers. Import from GA4 as a Google Ads conversion.
+1. **Primary: generate_lead** — fired only after the enquiry API returns success. Import this from GA4 as the Google Ads conversion.
 2. **Secondary: contact_click** — phone/email click. Lower value but useful for bidding signals.
 3. **Secondary: band_click** — band page deep engagement.
+4. **Diagnostic only: form_submit_attempt / lead_mailto_fallback** — useful for debugging form demand and backend outages, but do not import these as paid-search conversions.
 
-In GA4 → Admin → Events → mark `form_submit` as a Key Event. Then link GA4 to Google Ads in Admin → Product Links → Google Ads. Import as conversion.
+In GA4 → Admin → Events → mark `generate_lead` as a Key Event. Then link GA4 to Google Ads in Admin → Product Links → Google Ads. Import as conversion.
 
 **Set the enquiry conversion value to €500** (target customer LTV / 6 = estimated value per enquiry — adjust after first 30 conversions).
 

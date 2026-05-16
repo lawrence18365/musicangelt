@@ -1,4 +1,4 @@
-// Vercel serverless function — POST /api/enquiry
+// Vercel serverless function: POST /api/enquiry
 // 1. Validates input + spam defenses (honeypot, time-to-fill, origin, rate limit).
 // 2. Forwards the enquiry to jo.musicangel@gmail.com via Resend.
 // 3. Sends an auto-reply confirmation to the enquirer.
@@ -90,7 +90,7 @@ module.exports = async function handler(req, res) {
     if (req.method === 'OPTIONS') { res.status(204).end(); return; }
     if (req.method !== 'POST') { res.status(405).json({ error: 'Method not allowed' }); return; }
 
-    // Origin check — block requests not from our site (in production).
+    // Origin check: block requests not from our site (in production).
     if (process.env.VERCEL_ENV === 'production' && origin && !ALLOWED_ORIGINS.has(origin)) {
         res.status(403).json({ error: 'Origin not allowed' });
         return;
@@ -117,7 +117,7 @@ module.exports = async function handler(req, res) {
     // Honeypot.
     if (body.hp) { res.status(200).json({ ok: true }); return; }
 
-    // Time-to-fill check — front-end stamps `_t` (page load ms) into payload.
+    // Time-to-fill check: front-end stamps `_t` (page load ms) into payload.
     if (typeof body._t === 'number') {
         const seconds = (Date.now() - body._t) / 1000;
         if (seconds < MIN_FILL_SECONDS) {
@@ -133,6 +133,17 @@ module.exports = async function handler(req, res) {
     const venue = clean(body.venue, 240);
     const band = clean(body.band, 80);
     const message = clean(body.message, 4000);
+    const page = clean(body.page, 500);
+    const referrer = clean(body.referrer, 500);
+    const campaign = {
+        utm_source: clean(body.utm_source, 120),
+        utm_medium: clean(body.utm_medium, 120),
+        utm_campaign: clean(body.utm_campaign, 180),
+        utm_term: clean(body.utm_term, 180),
+        utm_content: clean(body.utm_content, 180),
+        gclid: clean(body.gclid, 180),
+        fbclid: clean(body.fbclid, 180)
+    };
 
     if (!name || !validEmail(email)) {
         res.status(400).json({ error: 'Name and a valid email are required' });
@@ -141,7 +152,7 @@ module.exports = async function handler(req, res) {
 
     const firstName = name.split(/\s+/)[0];
     const bandLine = band ? ` · ${esc(band)}` : '';
-    const subject = `New MusicAngel enquiry — ${esc(name)}${bandLine}`;
+    const subject = `New MusicAngel enquiry: ${esc(name)}${bandLine}`;
 
     const internalHtml = `
         <h2 style="font-family:Georgia,serif;color:#111">New MusicAngel enquiry</h2>
@@ -153,20 +164,23 @@ module.exports = async function handler(req, res) {
             <tr><td><strong>Venue</strong></td><td>${esc(venue)}</td></tr>
             <tr><td><strong>Band of interest</strong></td><td>${esc(band)}</td></tr>
             <tr><td valign="top"><strong>Message</strong></td><td style="white-space:pre-wrap">${esc(message)}</td></tr>
+            <tr><td><strong>Source page</strong></td><td>${page ? `<a href="${esc(page)}">${esc(page)}</a>` : ''}</td></tr>
+            <tr><td><strong>Referrer</strong></td><td>${referrer ? `<a href="${esc(referrer)}">${esc(referrer)}</a>` : ''}</td></tr>
+            <tr><td><strong>Campaign</strong></td><td>${esc(Object.entries(campaign).filter(([, v]) => v).map(([k, v]) => `${k}=${v}`).join(' · '))}</td></tr>
         </table>
         <p style="color:#888;font-size:12px;margin-top:24px">Sent from musicangel.ie · IP ${esc(ip)}</p>
     `;
 
     const replyHtml = `
         <div style="font-family:Georgia,serif;color:#222;max-width:560px;margin:0 auto;padding:24px 8px;line-height:1.6">
-            <h2 style="font-family:Georgia,serif;color:#111;font-weight:500;margin:0 0 16px">Thanks, ${esc(firstName)} — your enquiry has landed.</h2>
-            <p style="margin:0 0 14px">I'll personally check the band's availability for your date${date ? ' (' + esc(date) + ')' : ''}${venue ? ' at ' + esc(venue) : ''} and come back to you within one working day — usually much faster.</p>
+            <h2 style="font-family:Georgia,serif;color:#111;font-weight:500;margin:0 0 16px">Thanks, ${esc(firstName)}. Your enquiry has landed.</h2>
+            <p style="margin:0 0 14px">I'll personally check the band's availability for your date${date ? ' (' + esc(date) + ')' : ''}${venue ? ' at ' + esc(venue) : ''} and come back to you within one working day, usually much faster.</p>
             ${band ? `<p style="margin:0 0 14px">You asked about <strong>${esc(band)}</strong>. I'll start there.</p>` : ''}
             <p style="margin:0 0 14px">If you'd like to chat sooner, you can call me on <a href="tel:+353872310001" style="color:#F26CA7">+353 87 231 0001</a>.</p>
             <p style="margin:24px 0 6px">Looking forward to it,</p>
             <p style="margin:0 0 24px"><strong style="color:#111">${REPLY_NAME}</strong></p>
             <hr style="border:none;border-top:1px solid #eee;margin:24px 0">
-            <p style="font-size:12px;color:#888;margin:0">MusicAngel — wedding bands playing all of Ireland · <a href="https://musicangel.ie" style="color:#888">musicangel.ie</a></p>
+            <p style="font-size:12px;color:#888;margin:0">MusicAngel, wedding bands playing all of Ireland · <a href="https://musicangel.ie" style="color:#888">musicangel.ie</a></p>
         </div>
     `;
 
@@ -186,7 +200,7 @@ module.exports = async function handler(req, res) {
                 from: FROM,
                 to: [email],
                 reply_to: TO_INTERNAL,
-                subject: 'Your MusicAngel enquiry — we got it',
+                subject: 'Your MusicAngel enquiry: we got it',
                 html: replyHtml
             });
         } catch (autoErr) {

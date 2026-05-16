@@ -23,28 +23,36 @@ const SITE = 'https://musicangel.ie';
 const BANDS = {
     'the-beat-boutique': {
         name: 'The Beat Boutique',
-        genre: 'Jazz · Soul · Funk · Rock · Pop',
-        blurb: 'Old Hollywood glamour meets modern electricity. 233+ songs, six decades, every note played 100% live.'
+        genre: 'Jazz · Soul · Funk · Rock · Pop · Dance',
+        blurb: 'Fixed four-piece line-up with a 200+ song repertoire, boutique polish and real room-reading.'
     },
     'sway-social': {
         name: 'Sway Social',
-        genre: 'Pop · Rock · Soul · Party',
-        blurb: 'All-male quartet — every member a lead vocalist. High-energy, non-stop, award-winning.'
+        genre: 'Pop · Rock · Soul · Club Classics',
+        blurb: 'Four musicians, four vocalists and a live set built for fast, high-energy floor filling.'
     },
     'the-best-men': {
         name: 'The Best Men',
         genre: 'Pop · Rock · Soul · Floor-Fillers',
-        blurb: 'Sharp, feel-good wedding band built around big vocals, tight harmonies and a packed dance floor.'
+        blurb: 'Four-piece party band with long-running experience, big harmonies and proven crowd-reading.'
     },
     'blacktye': {
         name: 'Blacktye',
-        genre: 'Soul · Pop · Funk · R&B · Classics',
-        blurb: 'Sleek live band balancing polished musicianship with the songs guests actually dance to.'
+        genre: 'Chart · Soul · Funk · Rock · Irish',
+        blurb: 'Versatile five-piece band with two lead vocalists, full-day package options and a huge setlist.'
     }
 };
 
+function cleanText(s) {
+    return String(s == null ? '' : s).replace(/\s+\u2014\s+/g, ', ').replace(/\u2014/g, '-');
+}
+
+function cleanJsonLd(value) {
+    return JSON.parse(JSON.stringify(value, (_key, item) => typeof item === 'string' ? cleanText(item) : item));
+}
+
 function esc(s) {
-    return String(s == null ? '' : s)
+    return cleanText(s)
         .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
         .replace(/"/g, '&quot;');
 }
@@ -103,7 +111,7 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
     <script defer src="/js/marketing-tags.js"></script>
 
     <script type="application/ld+json">
-${JSON.stringify(jsonLd, null, 4)}
+${JSON.stringify(cleanJsonLd(jsonLd), null, 4)}
     </script>
 
     <style>${PAGE_CSS}</style>
@@ -111,7 +119,7 @@ ${JSON.stringify(jsonLd, null, 4)}
 
 const PAGE_CSS = `
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-:root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #F26CA7; --pink-hover: #d95c96; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #8a8285; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
+:root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #F26CA7; --pink-hover: #d95c96; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
 html { scroll-behavior: smooth; }
 body { background: radial-gradient(circle at 8% 12%, rgba(247, 214, 228, 0.42), transparent 28rem), linear-gradient(180deg, var(--ivory) 0%, #fff 36%, var(--ivory) 100%); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 ::selection { background: var(--blush); color: var(--ink); }
@@ -147,6 +155,8 @@ section { padding: 3.5rem 0; }
 .sec-h2 { font-family: var(--serif); font-size: clamp(2rem, 4vw, 2.8rem); font-weight: 400; color: var(--ink); line-height: 1.18; margin-bottom: 1.5rem; }
 .sec-h2 em { font-style: italic; color: var(--pink); font-weight: 500; }
 .detail p { font-size: 1.02rem; line-height: 1.75; color: var(--ink-soft); margin-bottom: 1.1rem; max-width: 42rem; }
+.detail ul { margin: 1rem 0 0 1.1rem; max-width: 44rem; }
+.detail li { margin-bottom: 0.65rem; color: var(--ink-soft); }
 .picks { display: grid; gap: 1.25rem; margin-top: 2rem; }
 .pick { display: grid; grid-template-columns: 1fr; gap: 0.4rem; padding: 1.75rem 1.6rem; background: #fff; border: 1px solid var(--border); border-radius: 14px; transition: border-color 0.18s, box-shadow 0.18s; }
 .pick:hover { border-color: var(--border-strong); box-shadow: var(--shadow-soft); }
@@ -222,54 +232,7 @@ const sharedFooter = `
         </div>
     </div>
 
-    <script>
-    (function() {
-        const CC_KEY = 'mc:consent:v1';
-        const cc = document.getElementById('cc');
-        function applyConsent(decision) {
-            try { localStorage.setItem(CC_KEY, decision); } catch (e) {}
-            const granted = decision === 'accept' ? 'granted' : 'denied';
-            if (typeof gtag === 'function') gtag('consent', 'update', { ad_storage: granted, ad_user_data: granted, ad_personalization: granted, analytics_storage: granted });
-            if (decision === 'accept') document.dispatchEvent(new CustomEvent('consent:granted'));
-            cc.classList.remove('visible');
-            setTimeout(() => { cc.hidden = true; }, 350);
-        }
-        let saved = null;
-        try { saved = localStorage.getItem(CC_KEY); } catch (e) {}
-        if (saved === 'accept' || saved === 'decline') { applyConsent(saved); }
-        else { cc.hidden = false; requestAnimationFrame(() => cc.classList.add('visible')); }
-        cc.addEventListener('click', (e) => { const btn = e.target.closest('[data-cc]'); if (btn) applyConsent(btn.getAttribute('data-cc')); });
-
-        const formLoadedAt = Date.now();
-        const form = document.getElementById('enquiry');
-        if (!form) return;
-        form.addEventListener('submit', async function(e) {
-            e.preventDefault();
-            const btn = form.querySelector('button[type="submit"]');
-            const status = document.getElementById('formStatus');
-            const original = btn.innerHTML;
-            const data = Object.fromEntries(new FormData(form).entries());
-            data._t = formLoadedAt;
-            btn.disabled = true; btn.style.opacity = '0.6'; btn.textContent = 'Sending...';
-            status.textContent = ''; status.style.color = '';
-            const fireGA = () => { if (typeof gtag === 'function') gtag('event', 'form_submit', { form_id: 'enquiry_seo_page', enquiry_band: data.band || '', enquiry_venue: data.venue || '' }); };
-            const openMailto = () => {
-                const subject = encodeURIComponent('Wedding enquiry — MusicAngel');
-                const body = encodeURIComponent('Name: ' + (data.name || '') + '\\nPartner: ' + (data.partner || '') + '\\nEmail: ' + (data.email || '') + '\\nWedding Date: ' + (data.date || '') + '\\nVenue: ' + (data.venue || '') + '\\nBand: ' + (data.band || '') + '\\n\\nMessage:\\n' + (data.message || ''));
-                window.location.href = 'mailto:jo.musicangel@gmail.com?subject=' + subject + '&body=' + body;
-            };
-            try {
-                const res = await fetch('/api/enquiry', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) });
-                if (res.ok) { fireGA(); btn.textContent = 'Sent with love'; status.textContent = 'Thanks. We will reply within one working day.'; return; }
-                if (res.status === 503) { fireGA(); status.textContent = "Opening your email to finish \\u2014 we'll reply shortly."; openMailto(); btn.disabled = false; btn.style.opacity = ''; btn.innerHTML = original; return; }
-                throw new Error('HTTP ' + res.status);
-            } catch (err) {
-                status.style.color = '#b04040'; status.textContent = 'Connection issue \\u2014 opening your email instead.';
-                openMailto(); btn.disabled = false; btn.style.opacity = ''; btn.innerHTML = original;
-            }
-        });
-    })();
-    </script>
+    <script defer src="/js/site.js"></script>
 </body>
 </html>
 `;
@@ -312,7 +275,7 @@ function enquirySection({ heading, prefillBand = '', prefillVenue = '' }) {
                     <option${prefillBand === 'Sway Social' ? ' selected' : ''}>Sway Social</option>
                     <option${prefillBand === 'The Best Men' ? ' selected' : ''}>The Best Men</option>
                     <option${prefillBand === 'Blacktye' ? ' selected' : ''}>Blacktye</option>
-                    <option value="Not sure yet">Not sure yet — help me choose</option>
+                    <option value="Not sure yet">Not sure yet, help me choose</option>
                 </select></div>
                 <div class="fg"><label for="message">Tell us about your day</label><textarea id="message" name="message" placeholder="Guest count, ceremony or drinks-reception music, anything special..."></textarea></div>
                 <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
@@ -325,7 +288,7 @@ function enquirySection({ heading, prefillBand = '', prefillVenue = '' }) {
 
 function renderVenue(v) {
     const canonical = `${SITE}/wedding-band-${v.slug}`;
-    const title = `Wedding Band for ${v.name} — ${v.county}, Ireland | MusicAngel`;
+    const title = `Wedding Band for ${v.name} | ${v.county}, Ireland | MusicAngel`;
     const description = `Looking for a wedding band at ${v.name}, ${v.county}? Compare four live wedding bands matched to ${v.name}'s ${v.style}. 100% live, pricing from €2,800.`;
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
     const topBand = v.bandPicks[0];
@@ -403,10 +366,29 @@ function renderVenue(v) {
         </div>
     </section>
 
+    <section>
+        <div class="wrap">
+            <p class="sec-eye">Before you book</p>
+            <h2 class="sec-h2">What matters for a band at <em>${esc(v.name)}</em></h2>
+            <div class="detail">
+                <p>A wedding band quote for ${esc(v.name)} should be based on the actual reception room, guest count, finish time, and whether you need ceremony or drinks-reception music before the evening set. For a ${esc(v.style)} with a ${esc(v.vibe)} feel, the wrong band can look underpowered even if the song list is good.</p>
+                <ul>
+                    <li><strong>Room and guest count:</strong> tell us which room you are using and roughly how many guests are attending, so the PA and stage footprint are right.</li>
+                    <li><strong>Timeline:</strong> confirm speeches, first dance time, band start time, and whether the venue needs the band loaded in before guests enter the room.</li>
+                    <li><strong>Music brief:</strong> share three songs you love and three you do not want. That helps us point you toward the closest MusicAngel band.</li>
+                    <li><strong>Extras:</strong> ceremony music, drinks-reception sets, sax, or a later DJ finish should be quoted upfront rather than added late.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section id="picks">
         <div class="wrap">
             <p class="sec-eye">Our recommended bands</p>
             <h2 class="sec-h2">Which band suits <em>${esc(v.name)}</em>?</h2>
+            <div class="detail">
+                <p>We shortlist bands by room size, visual fit, live musicianship, and how the set should move from first dance into a full floor. These are the strongest fits for ${esc(v.name)} based on that brief.</p>
+            </div>
             <div class="picks">
 ${picksHtml}
             </div>
@@ -433,7 +415,7 @@ ${picksHtml}
 
 function renderCounty(c) {
     const canonical = `${SITE}/wedding-bands-${c.slug}`;
-    const title = `Wedding Bands in ${c.name} — MusicAngel`;
+    const title = `Wedding Bands in ${c.name} | MusicAngel`;
     const description = `Looking for a wedding band in County ${c.name}? Compare four live wedding bands serving ${c.name} and the rest of Ireland. 100% live, pricing from €2,800.`;
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
 
@@ -496,7 +478,7 @@ function renderCounty(c) {
     }).join('\n');
 
     const faq = [
-        { q: `Do MusicAngel bands play weddings in County ${c.name}?`, a: `Yes — all four MusicAngel bands play across all of Ireland, including ${c.name}. Travel logistics are factored into the quote and confirmed with you at booking.` },
+        { q: `Do MusicAngel bands play weddings in County ${c.name}?`, a: `Yes. All four MusicAngel bands play across all of Ireland, including ${c.name}. Travel logistics are factored into the quote and confirmed with you at booking.` },
         { q: `Which wedding band is most popular in County ${c.name}?`, a: `${BANDS[c.topPicks[0]].name} and ${BANDS[c.topPicks[1]].name} are the most common picks for ${c.name} weddings. Send an enquiry with your venue and date and we'll suggest the closest fit.` },
         { q: `How much does a wedding band cost in County ${c.name}?`, a: `Packages start from €2,800. The final quote depends on your wedding date, the venue location within ${c.name}, ceremony or drinks-reception add-ons, and the package you choose.` },
         { q: `When should I book a wedding band for a ${c.name} wedding?`, a: `12-18 months in advance is normal for peak summer Saturday dates, particularly at the larger venues. Earlier is always better; popular bands and dates go quickly.` }
@@ -529,6 +511,9 @@ function renderCounty(c) {
         <div class="wrap">
             <p class="sec-eye">Recommended for ${esc(c.name)}</p>
             <h2 class="sec-h2">Bands suited to <em>${esc(c.name)}</em> weddings</h2>
+            <div class="detail">
+                <p>For County ${esc(c.name)}, the right band depends less on the county itself and more on the venue type, guest count, access, and finish time. These are the MusicAngel bands we would usually shortlist first for weddings in this part of ${esc(c.province)}.</p>
+            </div>
             <div class="picks">
 ${picksHtml}
             </div>
@@ -537,9 +522,25 @@ ${picksHtml}
 
     <section>
         <div class="wrap">
+            <p class="sec-eye">Booking advice</p>
+            <h2 class="sec-h2">How to book a wedding band in <em>${esc(c.name)}</em></h2>
+            <div class="detail">
+                <p>Peak summer Saturdays in ${esc(c.name)} should be checked 12-18 months ahead, especially if you are using one of the better-known venues below. Midweek, Sunday, and winter dates usually have more flexibility and can sometimes open up better package options.</p>
+                <ul>
+                    <li>Send the wedding date, venue, expected guest count, and whether you need ceremony or drinks-reception music.</li>
+                    <li>Ask whether travel, PA, lighting, DJ-style music after the band, and a first dance song are included.</li>
+                    <li>Confirm whether the band is 100% live or using backing tracks. All MusicAngel bands play live.</li>
+                    <li>Compare quotes against the actual package, not just the headline price.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="wrap">
             <p class="sec-eye">Where in ${esc(c.name)}</p>
             <h2 class="sec-h2">Top wedding venues in <em>${esc(c.name)}</em></h2>
-            <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1.05rem;">A selection of well-known wedding venues across the county — we play across all of Ireland, including yours.</p>
+            <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1.05rem;">A selection of well-known wedding venues across the county. We play across all of Ireland, including yours.</p>
             <ul class="venues-list">
 ${venuesList}
             </ul>
@@ -632,7 +633,7 @@ ${items}
     const jsonLd = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "CollectionPage", "name": "Irish Wedding Venues — MusicAngel", "url": canonical, "description": "Directory of every Irish wedding venue MusicAngel has bespoke pages for, grouped by county." },
+            { "@type": "CollectionPage", "name": "Irish Wedding Venues | MusicAngel", "url": canonical, "description": "Directory of every Irish wedding venue MusicAngel has bespoke pages for, grouped by county." },
             { "@type": "BreadcrumbList", "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": `${SITE}/` },
                 { "@type": "ListItem", "position": 2, "name": "Venues", "item": canonical }
@@ -645,8 +646,8 @@ ${items}
     };
 
     return `${sharedHead({
-        title: 'Wedding Venues Directory — Every Venue We Cover in Ireland | MusicAngel',
-        description: `Every Irish wedding venue we have a dedicated page for — ${VENUES.length} venues across Ireland, grouped by county. Find the right wedding band for your venue.`,
+        title: 'Wedding Venues Directory | Every Venue We Cover in Ireland | MusicAngel',
+        description: `Every Irish wedding venue we have a dedicated page for, ${VENUES.length} venues across Ireland, grouped by county. Find the right wedding band for your venue.`,
         canonical,
         ogImage: `${SITE}/assets/bands/hero-beat-boutique.webp`,
         ogImageW: 1400,
@@ -665,7 +666,7 @@ ${items}
         <header class="hero" style="padding: 1rem 0 2rem;">
             <p class="eye">All venues · Ireland</p>
             <h1>Irish wedding <em>venues</em> we cover</h1>
-            <p class="lede" style="font-size: 1.05rem; color: var(--text-muted); font-family: var(--serif); font-style: italic;">${VENUES.length} destination wedding venues across Ireland — each with a dedicated page, recommended bands, and a tailored enquiry form. Grouped by county.</p>
+            <p class="lede" style="font-size: 1.05rem; color: var(--text-muted); font-family: var(--serif); font-style: italic;">${VENUES.length} destination wedding venues across Ireland, each with a dedicated page, recommended bands, and a tailored enquiry form. Grouped by county.</p>
         </header>
 
         <style>
@@ -685,7 +686,7 @@ ${countyBlocks}
     <div class="price-band" style="background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 3rem 0 2rem;">
         <div class="wrap" style="text-align: center;">
             <h2 style="font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.2rem); font-weight: 400; color: var(--ink); margin-bottom: 0.5rem;">Don't see your venue? <em style="font-style: italic; color: var(--pink);">We play everywhere.</em></h2>
-            <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1rem; margin-bottom: 1.4rem;">These are venues with bespoke pages. We play all of Ireland — send any venue when you enquire.</p>
+            <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1rem; margin-bottom: 1.4rem;">These are venues with bespoke pages. We play all of Ireland, so send any venue when you enquire.</p>
             <a href="/#contact" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
         </div>
     </div>

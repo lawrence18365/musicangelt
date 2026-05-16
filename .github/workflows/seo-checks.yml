@@ -1,0 +1,44 @@
+name: SEO and deployment checks
+
+on:
+  pull_request: {}
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: JavaScript syntax checks
+        run: |
+          node --check js/site.js
+          node --check api/enquiry.js
+          node --check scripts/generate-pages.js
+          node --check scripts/deployment-check.js
+          node --check scripts/replace-gsc-token.js
+          node --check scripts/setup-gsc.js
+
+      - name: Regenerate pages and sitemap
+        run: node scripts/generate-pages.js
+
+      - name: Ensure generated output is committed
+        run: |
+          if ! git diff --quiet -- sitemap.xml venues/ wedding-band-*/ wedding-bands-*/; then
+            echo "Generated pages or sitemap are stale. Run node scripts/generate-pages.js and commit the output."
+            git diff --stat -- sitemap.xml venues/ wedding-band-*/ wedding-bands-*/
+            exit 1
+          fi
+
+      - name: Canonical audit
+        run: node scripts/audit-canonicals.js
+
+      - name: Internal link audit
+        run: node scripts/find-broken-links.js

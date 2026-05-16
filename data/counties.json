@@ -3,7 +3,7 @@
         "slug": "dublin",
         "name": "Dublin",
         "province": "Leinster",
-        "intro": "Dublin weddings sit at the higher end of the Irish market — a mix of grand city hotels, country-house venues just outside the M50, and converted warehouse-style spaces in the city itself. The bar for a wedding band in Dublin is high: couples have seen good live music and won't accept thin backing-track sets.",
+        "intro": "Dublin weddings sit at the higher end of the Irish market, a mix of grand city hotels, country-house venues just outside the M50, and converted warehouse-style spaces in the city itself. The bar for a wedding band in Dublin is high: couples have seen good live music and won't accept thin backing-track sets.",
         "venues": [
             "Powerscourt House (just over the Wicklow border)",
             "Carton House",
@@ -21,7 +21,7 @@
         "slug": "cork",
         "name": "Cork",
         "province": "Munster",
-        "intro": "Cork wedding venues are a balance of coastal, country-house, and city luxury — Castlemartyr, Fota Island, Ballymaloe, Hayfield Manor. The county's wedding scene rewards musicianship; Cork couples tend to choose live bands over DJ-only receptions at a higher rate than the national average.",
+        "intro": "Cork wedding venues are a balance of coastal, country-house, and city luxury, Castlemartyr, Fota Island, Ballymaloe, Hayfield Manor. The county's wedding scene rewards musicianship; Cork couples tend to choose live bands over DJ-only receptions at a higher rate than the national average.",
         "venues": [
             "Castlemartyr Resort",
             "Fota Island Resort",
@@ -57,7 +57,7 @@
         "slug": "kerry",
         "name": "Kerry",
         "province": "Munster",
-        "intro": "Kerry's destination wedding scene is one of Ireland's most distinctive — Killarney lakeside venues, Dingle peninsula intimacy, the Park Hotel Kenmare's exclusivity. Travel matters here, both for guests and bands; couples value the kind of band that justifies the journey.",
+        "intro": "Kerry's destination wedding scene is one of Ireland's most distinctive, Killarney lakeside venues, Dingle peninsula intimacy, the Park Hotel Kenmare's exclusivity. Travel matters here, both for guests and bands; couples value the kind of band that justifies the journey.",
         "venues": [
             "Park Hotel Kenmare",
             "Sheen Falls Lodge",
@@ -75,7 +75,7 @@
         "slug": "limerick",
         "name": "Limerick",
         "province": "Munster",
-        "intro": "Limerick is anchored by Adare Manor — one of Ireland's most exacting wedding venues — and complemented by Dromoland just over the Clare border. The Limerick wedding standard skews high; bands need to bring real musicianship rather than wedding-set autopilot.",
+        "intro": "Limerick is anchored by Adare Manor, one of Ireland's most exacting wedding venues, and complemented by Dromoland just over the Clare border. The Limerick wedding standard skews high; bands need to bring real musicianship rather than wedding-set autopilot.",
         "venues": [
             "Adare Manor",
             "The Strand Hotel",
@@ -92,7 +92,7 @@
         "slug": "mayo",
         "name": "Mayo",
         "province": "Connacht",
-        "intro": "Mayo is Ashford Castle country — the flagship Irish destination wedding venue, set on the shores of Lough Corrib. Beyond Ashford, Mayo offers country-house and seaside-hotel options. The county's wedding scene draws couples from across Ireland and abroad.",
+        "intro": "Mayo is Ashford Castle country, the flagship Irish destination wedding venue, set on the shores of Lough Corrib. Beyond Ashford, Mayo offers country-house and seaside-hotel options. The county's wedding scene draws couples from across Ireland and abroad.",
         "venues": [
             "Ashford Castle",
             "Mount Falcon Estate",
@@ -109,7 +109,7 @@
         "slug": "donegal",
         "name": "Donegal",
         "province": "Ulster",
-        "intro": "Donegal weddings happen against some of Ireland's most dramatic coast and country backdrops. Lough Eske Castle leads the luxury end; the county also offers boutique and beach-adjacent options. Travel logistics matter — but a well-chosen band turns the journey north-west into part of the story.",
+        "intro": "Donegal weddings happen against some of Ireland's most dramatic coast and country backdrops. Lough Eske Castle leads the luxury end; the county also offers boutique and beach-adjacent options. Travel logistics matter, but a well-chosen band turns the journey north-west into part of the story.",
         "venues": [
             "Lough Eske Castle",
             "Harvey's Point",
@@ -126,7 +126,7 @@
         "slug": "wicklow",
         "name": "Wicklow",
         "province": "Leinster",
-        "intro": "Wicklow is Dublin's preferred wedding county — Powerscourt House dominates, complemented by Druids Glen, Tinakilly Country House, and Brooklodge. Estate-and-marquee venues dominate, which means bands need both refinement and party-band energy.",
+        "intro": "Wicklow is Dublin's preferred wedding county, Powerscourt House dominates, complemented by Druids Glen, Tinakilly Country House, and Brooklodge. Estate-and-marquee venues dominate, which means bands need both refinement and party-band energy.",
         "venues": [
             "Powerscourt House",
             "Druids Glen",
@@ -144,7 +144,7 @@
         "slug": "clare",
         "name": "Clare",
         "province": "Munster",
-        "intro": "Clare is anchored by Dromoland Castle and a coast of West Clare wedding hotels and houses — Vaughan Lodge, Old Ground, the Falls. The wedding crowd skews mixed-generation and the bands chosen reflect that: versatile, six-decade repertoires that suit both grandparents and the late-night dance floor.",
+        "intro": "Clare is anchored by Dromoland Castle and a coast of West Clare wedding hotels and houses, Vaughan Lodge, Old Ground, the Falls. The wedding crowd skews mixed-generation and the bands chosen reflect that: versatile, six-decade repertoires that suit both grandparents and the late-night dance floor.",
         "venues": [
             "Dromoland Castle",
             "Vaughan Lodge",
@@ -161,7 +161,7 @@
         "slug": "tipperary",
         "name": "Tipperary",
         "province": "Munster",
-        "intro": "Tipperary's wedding venues include Dundrum House, Ballyseede Castle (just over the Kerry border), and Cashel Palace — a careful balance of castle, country house, and historic-hotel style. The county's wedding scene leans toward warm, characterful celebrations rather than corporate polish.",
+        "intro": "Tipperary's wedding venues include Dundrum House, Ballyseede Castle (just over the Kerry border), and Cashel Palace, a careful balance of castle, country house, and historic-hotel style. The county's wedding scene leans toward warm, characterful celebrations rather than corporate polish.",
         "venues": [
             "Cashel Palace",
             "Dundrum House",
@@ -195,7 +195,7 @@
         "slug": "wexford",
         "name": "Wexford",
         "province": "Leinster",
-        "intro": "Wexford is one of Ireland's quietly excellent wedding counties — Marlfield House, Brooklodge (just over the Wicklow border), Ferrycarrig. The wedding scene leans warm, coastal, and friendly, with a wedding crowd that responds well to harmony-driven bands.",
+        "intro": "Wexford is one of Ireland's quietly excellent wedding counties, Marlfield House, Brooklodge (just over the Wicklow border), Ferrycarrig. The wedding scene leans warm, coastal, and friendly, with a wedding crowd that responds well to harmony-driven bands.",
         "venues": [
             "Marlfield House",
             "Ferrycarrig Hotel",
@@ -229,7 +229,7 @@
         "slug": "carlow",
         "name": "Carlow",
         "province": "Leinster",
-        "intro": "Carlow's wedding scene is anchored by the Lord Bagenal Inn, Mount Wolseley, and Step House Hotel — boutique-leaning rather than castle-dominant. The bands chosen here lean toward feel-good and warm rather than stately-formal.",
+        "intro": "Carlow's wedding scene is anchored by the Lord Bagenal Inn, Mount Wolseley, and Step House Hotel, boutique-leaning rather than castle-dominant. The bands chosen here lean toward feel-good and warm rather than stately-formal.",
         "venues": [
             "Mount Wolseley Hotel",
             "Lord Bagenal Inn",
@@ -246,7 +246,7 @@
         "slug": "kildare",
         "name": "Kildare",
         "province": "Leinster",
-        "intro": "Kildare's wedding venue circuit is led by The K Club, Carton House and Barberstown Castle — estate luxury within an easy distance of Dublin. The wedding crowd skews ambitious and the bands need the scale to match.",
+        "intro": "Kildare's wedding venue circuit is led by The K Club, Carton House and Barberstown Castle, estate luxury within an easy distance of Dublin. The wedding crowd skews ambitious and the bands need the scale to match.",
         "venues": [
             "The K Club",
             "Carton House",
@@ -264,7 +264,7 @@
         "slug": "meath",
         "name": "Meath",
         "province": "Leinster",
-        "intro": "Meath is the home of Tankardstown House, Bellinter House and Slane Castle — a county that punches above its weight in boutique-luxury wedding venues. Couples here choose bands with attention to detail.",
+        "intro": "Meath is the home of Tankardstown House, Bellinter House and Slane Castle, a county that punches above its weight in boutique-luxury wedding venues. Couples here choose bands with attention to detail.",
         "venues": [
             "Tankardstown House",
             "Bellinter House",
@@ -298,7 +298,7 @@
         "slug": "cavan",
         "name": "Cavan",
         "province": "Ulster",
-        "intro": "Cavan's wedding scene is led by Cabra Castle and Farnham Estate — castle character paired with relaxed-luxury hotels. The county is an easy reach from Dublin and Belfast, which gives weddings a strong mixed-crowd energy.",
+        "intro": "Cavan's wedding scene is led by Cabra Castle and Farnham Estate, castle character paired with relaxed-luxury hotels. The county is an easy reach from Dublin and Belfast, which gives weddings a strong mixed-crowd energy.",
         "venues": [
             "Cabra Castle",
             "Farnham Estate",
@@ -315,7 +315,7 @@
         "slug": "monaghan",
         "name": "Monaghan",
         "province": "Ulster",
-        "intro": "Monaghan is Castle Leslie country — one of Ireland's most characterful wedding estates. A 1,000-acre country setting that rewards warm, harmony-led bands more than corporate polish.",
+        "intro": "Monaghan is Castle Leslie country, one of Ireland's most characterful wedding estates. A 1,000-acre country setting that rewards warm, harmony-led bands more than corporate polish.",
         "venues": [
             "Castle Leslie",
             "Hillgrove Hotel",
@@ -347,7 +347,7 @@
         "slug": "sligo",
         "name": "Sligo",
         "province": "Connacht",
-        "intro": "Sligo's wedding scene is led by Markree Castle, Glasshouse Hotel, and Castle Dargan — a beautiful corner of the west coast with bands chosen for character rather than stadium energy.",
+        "intro": "Sligo's wedding scene is led by Markree Castle, Glasshouse Hotel, and Castle Dargan, a beautiful corner of the west coast with bands chosen for character rather than stadium energy.",
         "venues": [
             "Markree Castle",
             "Castle Dargan",
@@ -364,7 +364,7 @@
         "slug": "roscommon",
         "name": "Roscommon",
         "province": "Connacht",
-        "intro": "Roscommon weddings centre on Kilronan Castle, Glasson Lakehouse and a smaller circuit of country-house venues. The wedding crowd skews warm and friendly — feel-good bands tend to land best.",
+        "intro": "Roscommon weddings centre on Kilronan Castle, Glasson Lakehouse and a smaller circuit of country-house venues. The wedding crowd skews warm and friendly, feel-good bands tend to land best.",
         "venues": [
             "Kilronan Castle",
             "Glasson Lakehouse",
@@ -380,7 +380,7 @@
         "slug": "longford",
         "name": "Longford",
         "province": "Leinster",
-        "intro": "Longford's smaller wedding circuit is led by Viewmount House and the Longford Arms — boutique and characterful rather than stately. Bands chosen here lean toward feel-good and harmony-driven.",
+        "intro": "Longford's smaller wedding circuit is led by Viewmount House and the Longford Arms, boutique and characterful rather than stately. Bands chosen here lean toward feel-good and harmony-driven.",
         "venues": [
             "Viewmount House",
             "Longford Arms Hotel"
@@ -412,7 +412,7 @@
         "slug": "offaly",
         "name": "Offaly",
         "province": "Leinster",
-        "intro": "Offaly weddings centre on Kinnitty Castle and the Bridge House Hotel — character venues with a mid-luxury wedding crowd. The county's wedding scene rewards warm, harmony-led bands.",
+        "intro": "Offaly weddings centre on Kinnitty Castle and the Bridge House Hotel, character venues with a mid-luxury wedding crowd. The county's wedding scene rewards warm, harmony-led bands.",
         "venues": [
             "Kinnitty Castle",
             "Bridge House Hotel",
@@ -428,7 +428,7 @@
         "slug": "laois",
         "name": "Laois",
         "province": "Leinster",
-        "intro": "Laois is the home of Ballyfin Demesne — Ireland's most exclusive wedding venue — plus a smaller circuit of country-house wedding options. Ballyfin's standard sets the tone for the county.",
+        "intro": "Laois is the home of Ballyfin Demesne, Ireland's most exclusive wedding venue, plus a smaller circuit of country-house wedding options. Ballyfin's standard sets the tone for the county.",
         "venues": [
             "Ballyfin Demesne",
             "Heritage Hotel Killenard",
@@ -509,7 +509,7 @@
         "slug": "fermanagh",
         "name": "Fermanagh",
         "province": "Ulster",
-        "intro": "Fermanagh's wedding scene is led by Lough Erne Resort — a Ryder Cup-style luxury venue with a strong international wedding crowd. Plus a quieter circuit of country houses and lakeside hotels.",
+        "intro": "Fermanagh's wedding scene is led by Lough Erne Resort, a Ryder Cup-style luxury venue with a strong international wedding crowd. Plus a quieter circuit of country houses and lakeside hotels.",
         "venues": [
             "Lough Erne Resort",
             "Manor House Country Hotel",
