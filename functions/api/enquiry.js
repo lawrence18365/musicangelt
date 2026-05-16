@@ -2,7 +2,7 @@
 // Mirrors the Vercel API route so the site can run fully on Cloudflare Pages.
 
 const TO_INTERNAL_DEFAULT = 'jo.musicangel@gmail.com';
-const FROM_DEFAULT = 'MusicAngel <onboarding@resend.dev>';
+const FROM_DEFAULT = 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
 
 const ALLOWED_ORIGINS = new Set([

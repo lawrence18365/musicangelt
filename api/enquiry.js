@@ -6,7 +6,7 @@
 // front-end falls back to a mailto: link.
 
 const TO_INTERNAL = process.env.NOTIFY_TO || 'jo.musicangel@gmail.com';
-const FROM = process.env.RESEND_FROM || 'MusicAngel <onboarding@resend.dev>';
+const FROM = process.env.RESEND_FROM || 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
 
 const ALLOWED_ORIGINS = new Set([

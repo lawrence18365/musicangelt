@@ -41,7 +41,7 @@ These are set on the `musicangelt` Cloudflare Pages project:
 | Name | Purpose |
 |---|---|
 | `RESEND_API_KEY` | Resend API key used by `/api/enquiry` |
-| `RESEND_FROM` | Sender, currently `MusicAngel <onboarding@resend.dev>` |
+| `RESEND_FROM` | Sender, currently `MusicAngel <hello@ratetapmx.com>` until `musicangel.ie` is verified in Resend |
 | `NOTIFY_TO` | Internal enquiry recipient, `jo.musicangel@gmail.com` |
 
 ## Final DNS Cutover
@@ -77,7 +77,7 @@ curl -I https://musicangel.ie/api/enquiry
 
 Vercel production was deployed successfully and has `RESEND_API_KEY`,
 `RESEND_FROM`, and `NOTIFY_TO` set. Use Vercel only if Cloudflare Pages is
-abandoned.
+abandoned. Keep the Resend values in sync with the Cloudflare Pages project.
 
 Vercel DNS target:
 
