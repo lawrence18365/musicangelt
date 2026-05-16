@@ -10,6 +10,7 @@
  */
 const dns = require('dns').promises;
 const fs = require('fs');
+const https = require('https');
 const path = require('path');
 
 const HOSTS = ['musicangel.ie', 'www.musicangel.ie'];
@@ -40,18 +41,31 @@ async function resolveSafe(kind, host) {
     return [];
 }
 
-async function headSafe(url) {
-    try {
-        const resp = await fetch(url, { method: 'HEAD', redirect: 'manual' });
-        return {
-            status: resp.status,
-            server: resp.headers.get('server') || '',
-            location: resp.headers.get('location') || '',
-            robots: resp.headers.get('x-robots-tag') || ''
-        };
-    } catch (err) {
-        return { error: err.message };
-    }
+async function headSafe(url, ip = '') {
+    return new Promise(resolve => {
+        const target = new URL(url);
+        // Connect to the freshly resolved IP so macOS DNS cache cannot mask a cutover.
+        const req = https.request({
+            method: 'HEAD',
+            hostname: ip || target.hostname,
+            servername: target.hostname,
+            path: `${target.pathname}${target.search}`,
+            headers: { Host: target.host },
+            timeout: 10000
+        }, resp => {
+            resp.resume();
+            resp.on('end', () => resolve({
+                status: resp.statusCode,
+                server: resp.headers.server || '',
+                location: resp.headers.location || '',
+                robots: resp.headers['x-robots-tag'] || ''
+            }));
+        });
+
+        req.on('timeout', () => req.destroy(new Error('request timed out')));
+        req.on('error', err => resolve({ error: err.message }));
+        req.end();
+    });
 }
 
 function classify(aRecords, server) {
@@ -128,8 +142,9 @@ async function main() {
     for (const host of HOSTS) {
         const a = await resolveSafe('A', host);
         const cname = await resolveSafe('CNAME', host);
-        const https = await headSafe(`https://${host}/`);
-        const api = await headSafe(`https://${host}/api/enquiry`);
+        const resolvedIp = a[0] || '';
+        const https = await headSafe(`https://${host}/`, resolvedIp);
+        const api = await headSafe(`https://${host}/api/enquiry`, resolvedIp);
         const platform = classify(a, https.server || '');
 
         console.log(`\n${host}`);
