@@ -67,6 +67,18 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
     <meta name="theme-color" content="#FBF8F5">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="${canonical}">
+    <script>
+        // Prevent staging and preview hostnames from being indexed.
+        (function(){
+            var h = location.hostname;
+            if (h && h !== 'musicangel.ie' && h !== 'www.musicangel.ie') {
+                var m = document.createElement('meta');
+                m.name = 'robots';
+                m.content = 'noindex, nofollow';
+                document.head.appendChild(m);
+            }
+        })();
+    </script>
 
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="MusicAngel">
@@ -82,8 +94,6 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
     <meta name="twitter:title" content="${esc(title)}">
     <meta name="twitter:description" content="${esc(description)}">
     <meta name="twitter:image" content="${ogImage}">
-
-    <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -288,8 +298,9 @@ function enquirySection({ heading, prefillBand = '', prefillVenue = '' }) {
 
 function renderVenue(v) {
     const canonical = `${SITE}/wedding-band-${v.slug}`;
-    const title = `Wedding Band for ${v.name} | ${v.county}, Ireland | MusicAngel`;
-    const description = `Looking for a wedding band at ${v.name}, ${v.county}? Compare four live wedding bands matched to ${v.name}'s ${v.style}. 100% live, pricing from €2,800.`;
+    const titleWithCounty = `Wedding Band for ${v.name}, ${v.county} | MusicAngel`;
+    const title = titleWithCounty.length <= 68 ? titleWithCounty : `Wedding Band for ${v.name} | MusicAngel`;
+    const description = `Wedding band for ${v.name}, ${v.county}. Compare four live Irish bands matched to your venue, with 100% live sets and pricing from €2,800.`;
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
     const topBand = v.bandPicks[0];
 
@@ -646,7 +657,7 @@ ${items}
     };
 
     return `${sharedHead({
-        title: 'Wedding Venues Directory | Every Venue We Cover in Ireland | MusicAngel',
+        title: 'Irish Wedding Venues Directory | MusicAngel',
         description: `Every Irish wedding venue we have a dedicated page for, ${VENUES.length} venues across Ireland, grouped by county. Find the right wedding band for your venue.`,
         canonical,
         ogImage: `${SITE}/assets/bands/hero-beat-boutique.webp`,

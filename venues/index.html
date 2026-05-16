@@ -3,15 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wedding Venues Directory | Every Venue We Cover in Ireland | MusicAngel</title>
+    <title>Irish Wedding Venues Directory | MusicAngel</title>
     <meta name="description" content="Every Irish wedding venue we have a dedicated page for, 50 venues across Ireland, grouped by county. Find the right wedding band for your venue.">
     <meta name="theme-color" content="#FBF8F5">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://musicangel.ie/venues">
+    <script>
+        // Prevent staging and preview hostnames from being indexed.
+        (function(){
+            var h = location.hostname;
+            if (h && h !== 'musicangel.ie' && h !== 'www.musicangel.ie') {
+                var m = document.createElement('meta');
+                m.name = 'robots';
+                m.content = 'noindex, nofollow';
+                document.head.appendChild(m);
+            }
+        })();
+    </script>
 
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="MusicAngel">
-    <meta property="og:title" content="Wedding Venues Directory | Every Venue We Cover in Ireland | MusicAngel">
+    <meta property="og:title" content="Irish Wedding Venues Directory | MusicAngel">
     <meta property="og:description" content="Every Irish wedding venue we have a dedicated page for, 50 venues across Ireland, grouped by county. Find the right wedding band for your venue.">
     <meta property="og:url" content="https://musicangel.ie/venues">
     <meta property="og:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
@@ -20,11 +32,9 @@
     <meta property="og:locale" content="en_IE">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Wedding Venues Directory | Every Venue We Cover in Ireland | MusicAngel">
+    <meta name="twitter:title" content="Irish Wedding Venues Directory | MusicAngel">
     <meta name="twitter:description" content="Every Irish wedding venue we have a dedicated page for, 50 venues across Ireland, grouped by county. Find the right wedding band for your venue.">
     <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
-
-    <meta name="google-site-verification" content="REPLACE_WITH_GSC_TOKEN">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -1,5 +1,5 @@
 // Vercel serverless function: POST /api/enquiry
-// 1. Validates input + spam defenses (honeypot, time-to-fill, origin, rate limit).
+// 1. Validates input + spam defenses (honeypot, fast-submit check, origin, rate limit).
 // 2. Forwards the enquiry to jo.musicangel@gmail.com via Resend.
 // 3. Sends an auto-reply confirmation to the enquirer.
 // Set RESEND_API_KEY in Vercel env to enable. Without it, returns 503 so the
@@ -117,11 +117,13 @@ module.exports = async function handler(req, res) {
     // Honeypot.
     if (body.hp) { res.status(200).json({ ok: true }); return; }
 
-    // Time-to-fill check: front-end stamps `_t` (page load ms) into payload.
+    // Fast-submit check: front-end stamps `_t` (page load ms) into payload.
+    // Return a real error so the browser falls back to mailto instead of
+    // showing success for a lead that was silently dropped.
     if (typeof body._t === 'number') {
         const seconds = (Date.now() - body._t) / 1000;
         if (seconds < MIN_FILL_SECONDS) {
-            res.status(200).json({ ok: true });  // silent bot drop
+            res.status(400).json({ error: 'Please wait a moment and try again' });
             return;
         }
     }

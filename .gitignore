@@ -2,5 +2,6 @@
 .env
 .env.*
 .gsc-write-token.json
+.tokens
 node_modules
 .wrangler

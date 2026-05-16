@@ -26,9 +26,20 @@ function json(data, status = 200, headers = {}) {
     });
 }
 
+function isAllowedOrigin(origin) {
+    if (!origin) return false;
+    if (ALLOWED_ORIGINS.has(origin)) return true;
+    try {
+        const host = new URL(origin).hostname;
+        return host === 'musicangelt.pages.dev' || host.endsWith('.musicangelt.pages.dev');
+    } catch {
+        return false;
+    }
+}
+
 function corsHeaders(request) {
     const origin = request.headers.get('Origin') || '';
-    if (ALLOWED_ORIGINS.has(origin) || origin.endsWith('.pages.dev')) {
+    if (isAllowedOrigin(origin)) {
         return {
             'Access-Control-Allow-Origin': origin,
             'Access-Control-Allow-Methods': 'POST, OPTIONS',
@@ -105,7 +116,7 @@ async function handlePost({ request, env }) {
     const origin = request.headers.get('Origin') || '';
     const requestOrigin = new URL(request.url).origin;
 
-    if (origin && origin !== requestOrigin && !ALLOWED_ORIGINS.has(origin) && !origin.endsWith('.pages.dev')) {
+    if (origin && origin !== requestOrigin && !isAllowedOrigin(origin)) {
         return json({ error: 'Origin not allowed' }, 403, headers);
     }
 
@@ -130,7 +141,9 @@ async function handlePost({ request, env }) {
 
     if (typeof body._t === 'number') {
         const seconds = (Date.now() - body._t) / 1000;
-        if (seconds < MIN_FILL_SECONDS) return json({ ok: true }, 200, headers);
+        if (seconds < MIN_FILL_SECONDS) {
+            return json({ error: 'Please wait a moment and try again' }, 400, headers);
+        }
     }
 
     const name = clean(body.name, 120);

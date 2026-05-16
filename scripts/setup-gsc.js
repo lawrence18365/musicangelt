@@ -181,7 +181,7 @@ async function main() {
         console.log(`  ✓ Verified: ${verifyResult.id || 'OK'}`);
     } catch (e) {
         console.log(`  ⚠️  ANALYTICS verification failed: ${e.message}`);
-        console.log('  Trying META tag verification (token already injected at /index.html line ~32)...');
+        console.log('  Trying META tag verification as a fallback...');
         try {
             // Get the META token GSC expects
             const tokenResp = await siteVerification('POST',
@@ -190,8 +190,8 @@ async function main() {
                 token
             );
             console.log(`  ⚠️  GSC expects this <meta> token: ${tokenResp.token}`);
-            console.log(`     Run: node scripts/replace-gsc-token.js "${tokenResp.token}"`);
-            console.log(`     Then re-run this script to call verify.`);
+            console.log('     This repo no longer ships a placeholder meta tag because the domain property is verified.');
+            console.log('     Prefer the active sc-domain:musicangel.ie property, or add a real token intentionally before verifying a URL-prefix property.');
         } catch (innerErr) {
             console.log(`  ⚠️  META token request also failed: ${innerErr.message}`);
         }

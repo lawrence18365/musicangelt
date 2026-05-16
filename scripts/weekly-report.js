@@ -8,22 +8,19 @@
  *
  * Output: a Markdown report at reports/YYYY-MM-DD-report.md
  *
- * Reads credentials from:
- *   /Users/lawrence/Desktop/thebeatboutique/.gsc-token.json
- *   /Users/lawrence/Desktop/thebeatboutique/.ga4-admin-token.json
+ * Reads credentials from env-configured token paths. GitHub Actions restores:
+ *   .tokens/.gsc-token.json
+ *   .tokens/.ga4-admin-token.json
  *
- * Note: GSC token currently has webmasters.readonly. It can read but not
- * submit sitemaps. Default site is the sibling thebeatboutique.ie until
- * musicangel.ie is added to GSC.
+ * Default Search Console site: sc-domain:musicangel.ie.
  */
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const REPORTS_DIR = path.join(ROOT, 'reports');
-const GSC_TOKEN_PATH = process.env.GSC_TOKEN_PATH || '/Users/lawrence/Desktop/thebeatboutique/.gsc-token.json';
-const GA4_TOKEN_PATH = process.env.GA4_TOKEN_PATH || '/Users/lawrence/Desktop/thebeatboutique/.ga4-admin-token.json';
+const GSC_TOKEN_PATH = process.env.GSC_TOKEN_PATH || path.join(ROOT, '.tokens/.gsc-token.json');
+const GA4_TOKEN_PATH = process.env.GA4_TOKEN_PATH || path.join(ROOT, '.tokens/.ga4-admin-token.json');
 const CLIENT_ID = process.env.GOOGLE_OAUTH_CLIENT_ID;
 const CLIENT_SECRET = process.env.GOOGLE_OAUTH_CLIENT_SECRET;
 const GA4_PROPERTY = process.env.GA4_PROPERTY || 'properties/537964782';
@@ -37,15 +34,14 @@ Set them in your shell profile or pass inline:
     export GOOGLE_OAUTH_CLIENT_SECRET='...your client secret...'
     node scripts/weekly-report.js
 
-Both values can be extracted from the existing thebeatboutique scripts
-(scripts/audit-search-console.js). They are the same Google Cloud OAuth
-client credentials used to refresh the GSC/GA4 tokens in this repo.
+Use the Google Cloud OAuth client that owns the MusicAngel Search Console
+and GA4 access tokens restored by the workflow.
 `);
     process.exit(1);
 }
 
 function parseArgs() {
-    const args = { days: 7, site: 'sc-domain:musicangel.ie', fallbackSite: 'sc-domain:thebeatboutique.ie' };
+    const args = { days: 7, site: 'sc-domain:musicangel.ie' };
     for (const a of process.argv.slice(2)) {
         if (a.startsWith('--days=')) args.days = parseInt(a.slice(7), 10);
         if (a.startsWith('--site=')) args.site = a.slice(7);
@@ -113,21 +109,19 @@ async function main() {
 
     console.log(`Pulling ${args.days}-day report (${start} to ${end})...`);
 
-    // Auto-fallback to sibling if musicangel.ie isn't in GSC yet.
     let gscToken = await getToken(GSC_TOKEN_PATH);
     const sites = await listGscSites(gscToken);
     const ourSites = (sites.siteEntry || []).map(s => s.siteUrl);
-    let effectiveSite = args.site;
     if (!ourSites.includes(args.site)) {
-        console.log(`  ⚠️  ${args.site} not in GSC. Falling back to ${args.fallbackSite}.`);
-        effectiveSite = args.fallbackSite;
+        const available = ourSites.filter(s => s.includes('musicangel')).join(', ') || 'none containing musicangel';
+        throw new Error(`${args.site} is not available to this GSC token. Available MusicAngel sites: ${available}`);
     }
 
     // GSC: top queries + top pages + key counts
     const [queries, pages, total] = await Promise.all([
-        gscQuery(gscToken, effectiveSite, { startDate: start, endDate: end, dimensions: ['query'], rowLimit: 30 }),
-        gscQuery(gscToken, effectiveSite, { startDate: start, endDate: end, dimensions: ['page'], rowLimit: 20 }),
-        gscQuery(gscToken, effectiveSite, { startDate: start, endDate: end, rowLimit: 1 })
+        gscQuery(gscToken, args.site, { startDate: start, endDate: end, dimensions: ['query'], rowLimit: 30 }),
+        gscQuery(gscToken, args.site, { startDate: start, endDate: end, dimensions: ['page'], rowLimit: 20 }),
+        gscQuery(gscToken, args.site, { startDate: start, endDate: end, rowLimit: 1 })
     ]);
 
     const totalImpr = (total.rows && total.rows[0] && total.rows[0].impressions) || 0;
@@ -170,7 +164,7 @@ async function main() {
     // Build report
     let md = `# Weekly Report — ${end}\n\n`;
     md += `**Window:** ${start} to ${end} (${args.days} days)\n`;
-    md += `**GSC site:** \`${effectiveSite}\`${effectiveSite !== args.site ? ` _(fallback — ${args.site} not yet in GSC)_` : ''}\n`;
+    md += `**GSC site:** \`${args.site}\`\n`;
     md += `**GA4 property:** \`${GA4_PROPERTY}\` (MusicAngel)\n\n`;
     md += `---\n\n`;
 
