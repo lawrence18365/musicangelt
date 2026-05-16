@@ -44,7 +44,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="/assets/bands/hero-beat-boutique.webp" fetchpriority="high">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
 
     <!-- Google Analytics 4 (Consent Mode v2: default deny for GDPR/ePrivacy, granted after consent) -->
@@ -107,8 +109,8 @@
             --ink: #111111;
             --ink-soft: #2a2a2a;
             --ink-warm: #22191c;
-            --pink: #F26CA7;
-            --pink-hover: #d95c96;
+            --pink: #C2185B;
+            --pink-hover: #A9144E;
             --blush: #F7D6E4;
             --blush-light: #FDF0F5;
             --cloud: #F7F5F6;
@@ -354,6 +356,7 @@
             display: block;
             width: 56px;
             margin: 2rem 0;
+            color: var(--pink);
             opacity: 0;
             animation: fadeIn 0.6s 1.15s ease forwards;
         }
@@ -501,6 +504,24 @@
             letter-spacing: 0.2em;
             text-transform: uppercase;
             color: var(--text-light);
+        }
+
+        .hero-eyebrow,
+        .hero-h1 .w1,
+        .hero-h1 .w2,
+        .hero-stroke,
+        .hero-tagline,
+        .hero-ctas,
+        .hero-proof,
+        .hero-photo,
+        .scroll-cue {
+            opacity: 1;
+            transform: none;
+            animation: none;
+        }
+        .hero-stroke line {
+            stroke-dashoffset: 0;
+            animation: none;
         }
 
         /* =========================================
@@ -1812,7 +1833,7 @@
                 <span class="w2">Angel</span>
             </h1>
             <svg class="hero-stroke" viewBox="0 0 56 3" fill="none">
-                <line x1="0" y1="1.5" x2="56" y2="1.5" stroke="#F26CA7" stroke-width="1.5" stroke-linecap="round"/>
+                <line x1="0" y1="1.5" x2="56" y2="1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
             </svg>
             <p class="hero-tagline">Explore four standout live wedding bands playing across Ireland and check availability for a live sound that fits your day.</p>
             <div class="hero-ctas">
@@ -1836,20 +1857,20 @@
         </div>
 
         <div class="hero-art" role="group" aria-label="Featured MusicAngel bands">
-            <a href="/the-beat-boutique" class="hero-photo">
-                <img src="assets/bands/hero-beat-boutique.webp" alt="The Beat Boutique band" width="1400" height="788" loading="eager" fetchpriority="high">
+            <a href="/the-beat-boutique/" class="hero-photo">
+                <img src="assets/bands/hero-beat-boutique.webp" alt="The Beat Boutique band" width="1400" height="788" loading="eager" fetchpriority="high" decoding="async">
                 <span>The Beat Boutique</span>
             </a>
-            <a href="/sway-social" class="hero-photo">
-                <img src="assets/bands/hero-sway-social.webp" alt="Sway Social band in a barbershop" width="1706" height="992" loading="eager">
+            <a href="/sway-social/" class="hero-photo">
+                <img src="assets/bands/hero-sway-social.webp" alt="Sway Social band in a barbershop" width="1706" height="992" loading="eager" decoding="async">
                 <span>Sway Social</span>
             </a>
-            <a href="/the-best-men" class="hero-photo">
-                <img src="assets/bands/hero-the-best-men.webp" alt="The Best Men band" width="1200" height="800" loading="eager">
+            <a href="/the-best-men/" class="hero-photo">
+                <img src="assets/bands/hero-the-best-men.webp" alt="The Best Men band" width="1200" height="800" loading="eager" decoding="async">
                 <span>The Best Men</span>
             </a>
-            <a href="/blacktye" class="hero-photo">
-                <img src="assets/bands/hero-blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="eager">
+            <a href="/blacktye/" class="hero-photo">
+                <img src="assets/bands/hero-blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="eager" decoding="async">
                 <span>Blacktye</span>
             </a>
         </div>
@@ -1909,7 +1930,7 @@
                         </div>
                     </div>
                     <div class="band-actions">
-                        <a href="/the-beat-boutique" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="/the-beat-boutique/" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                         <a href="#contact" class="band-cta secondary">Enquire <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
@@ -1946,7 +1967,7 @@
                         </div>
                     </div>
                     <div class="band-actions">
-                        <a href="/sway-social" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="/sway-social/" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                         <a href="#contact" class="band-cta secondary">Enquire <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
@@ -1983,7 +2004,7 @@
                         </div>
                     </div>
                     <div class="band-actions">
-                        <a href="/the-best-men" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="/the-best-men/" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                         <a href="#contact" class="band-cta secondary">Enquire <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
@@ -2020,7 +2041,7 @@
                         </div>
                     </div>
                     <div class="band-actions">
-                        <a href="/blacktye" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                        <a href="/blacktye/" class="band-cta">Full Profile &amp; Showreel <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                         <a href="#contact" class="band-cta secondary">Enquire <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
                     </div>
                 </div>
@@ -2083,88 +2104,88 @@
             <div class="where-block rv">
                 <h3 class="where-sub">Wedding planning guides</h3>
                 <ul class="where-links">
-                    <li><a href="/wedding-band-cost-ireland">Wedding band cost (2026)</a></li>
-                    <li><a href="/compare-bands">Compare our four bands</a></li>
-                    <li><a href="/first-dance-songs">First dance songs</a></li>
-                    <li><a href="/ceremony-music">Ceremony music</a></li>
-                    <li><a href="/drinks-reception-music">Drinks reception music</a></li>
-                    <li><a href="/wedding-songs-by-decade">Songs by decade</a></li>
-                    <li><a href="/wedding-band-and-dj-package">Band + DJ package</a></li>
-                    <li><a href="/wedding-band-showcases">Wedding band showcases</a></li>
+                    <li><a href="/wedding-band-cost-ireland/">Wedding band cost (2026)</a></li>
+                    <li><a href="/compare-bands/">Compare our four bands</a></li>
+                    <li><a href="/first-dance-songs/">First dance songs</a></li>
+                    <li><a href="/ceremony-music/">Ceremony music</a></li>
+                    <li><a href="/drinks-reception-music/">Drinks reception music</a></li>
+                    <li><a href="/wedding-songs-by-decade/">Songs by decade</a></li>
+                    <li><a href="/wedding-band-and-dj-package/">Band + DJ package</a></li>
+                    <li><a href="/wedding-band-showcases/">Wedding band showcases</a></li>
                 </ul>
             </div>
 
             <div class="where-block rv">
                 <h3 class="where-sub">Destination wedding venues</h3>
                 <ul class="where-links">
-                    <li><a href="/wedding-band-ashford-castle">Ashford Castle</a></li>
-                    <li><a href="/wedding-band-adare-manor">Adare Manor</a></li>
-                    <li><a href="/wedding-band-dromoland-castle">Dromoland Castle</a></li>
-                    <li><a href="/wedding-band-powerscourt-house">Powerscourt House</a></li>
-                    <li><a href="/wedding-band-the-k-club">The K Club</a></li>
-                    <li><a href="/wedding-band-carton-house">Carton House</a></li>
-                    <li><a href="/wedding-band-mount-juliet-estate">Mount Juliet Estate</a></li>
-                    <li><a href="/wedding-band-castlemartyr-resort">Castlemartyr Resort</a></li>
-                    <li><a href="/wedding-band-fota-island-resort">Fota Island Resort</a></li>
-                    <li><a href="/wedding-band-glenlo-abbey-hotel">Glenlo Abbey</a></li>
-                    <li><a href="/wedding-band-tankardstown-house">Tankardstown House</a></li>
-                    <li><a href="/wedding-band-bellinter-house">Bellinter House</a></li>
-                    <li><a href="/wedding-band-slane-castle">Slane Castle</a></li>
-                    <li><a href="/wedding-band-cliff-at-lyons">Cliff at Lyons</a></li>
-                    <li><a href="/wedding-band-castle-leslie">Castle Leslie</a></li>
-                    <li><a href="/wedding-band-ballyfin-demesne">Ballyfin Demesne</a></li>
-                    <li><a href="/wedding-band-ballybeg-house">Ballybeg House</a></li>
-                    <li><a href="/wedding-band-park-hotel-kenmare">Park Hotel Kenmare</a></li>
-                    <li><a href="/wedding-band-sheen-falls-lodge">Sheen Falls Lodge</a></li>
-                    <li><a href="/wedding-band-ballymaloe-house">Ballymaloe House</a></li>
-                    <li><a href="/wedding-band-marlfield-house">Marlfield House</a></li>
-                    <li><a href="/wedding-band-cliff-house-hotel">Cliff House Hotel</a></li>
-                    <li><a href="/wedding-band-faithlegg-house">Faithlegg House</a></li>
-                    <li><a href="/wedding-band-lyrath-estate">Lyrath Estate</a></li>
-                    <li><a href="/wedding-band-lough-eske-castle">Lough Eske Castle</a></li>
-                    <li><a href="/wedding-band-mount-falcon-estate">Mount Falcon Estate</a></li>
-                    <li><a href="/wedding-band-knockranny-house">Knockranny House</a></li>
-                    <li><a href="/wedding-band-markree-castle">Markree Castle</a></li>
-                    <li><a href="/wedding-band-harveys-point">Harvey's Point</a></li>
-                    <li><a href="/wedding-band-tinakilly-country-house">Tinakilly Country House</a></li>
-                    <li><a href="/wedding-band-brooklodge">Brooklodge</a></li>
-                    <li><a href="/wedding-band-druids-glen">Druids Glen</a></li>
-                    <li><a href="/wedding-band-killashee-hotel">Killashee Hotel</a></li>
-                    <li><a href="/wedding-band-trump-international-doonbeg">Trump International Doonbeg</a></li>
-                    <li><a href="/wedding-band-kinnitty-castle">Kinnitty Castle</a></li>
-                    <li><a href="/wedding-band-cabra-castle">Cabra Castle</a></li>
+                    <li><a href="/wedding-band-ashford-castle/">Ashford Castle</a></li>
+                    <li><a href="/wedding-band-adare-manor/">Adare Manor</a></li>
+                    <li><a href="/wedding-band-dromoland-castle/">Dromoland Castle</a></li>
+                    <li><a href="/wedding-band-powerscourt-house/">Powerscourt House</a></li>
+                    <li><a href="/wedding-band-the-k-club/">The K Club</a></li>
+                    <li><a href="/wedding-band-carton-house/">Carton House</a></li>
+                    <li><a href="/wedding-band-mount-juliet-estate/">Mount Juliet Estate</a></li>
+                    <li><a href="/wedding-band-castlemartyr-resort/">Castlemartyr Resort</a></li>
+                    <li><a href="/wedding-band-fota-island-resort/">Fota Island Resort</a></li>
+                    <li><a href="/wedding-band-glenlo-abbey-hotel/">Glenlo Abbey</a></li>
+                    <li><a href="/wedding-band-tankardstown-house/">Tankardstown House</a></li>
+                    <li><a href="/wedding-band-bellinter-house/">Bellinter House</a></li>
+                    <li><a href="/wedding-band-slane-castle/">Slane Castle</a></li>
+                    <li><a href="/wedding-band-cliff-at-lyons/">Cliff at Lyons</a></li>
+                    <li><a href="/wedding-band-castle-leslie/">Castle Leslie</a></li>
+                    <li><a href="/wedding-band-ballyfin-demesne/">Ballyfin Demesne</a></li>
+                    <li><a href="/wedding-band-ballybeg-house/">Ballybeg House</a></li>
+                    <li><a href="/wedding-band-park-hotel-kenmare/">Park Hotel Kenmare</a></li>
+                    <li><a href="/wedding-band-sheen-falls-lodge/">Sheen Falls Lodge</a></li>
+                    <li><a href="/wedding-band-ballymaloe-house/">Ballymaloe House</a></li>
+                    <li><a href="/wedding-band-marlfield-house/">Marlfield House</a></li>
+                    <li><a href="/wedding-band-cliff-house-hotel/">Cliff House Hotel</a></li>
+                    <li><a href="/wedding-band-faithlegg-house/">Faithlegg House</a></li>
+                    <li><a href="/wedding-band-lyrath-estate/">Lyrath Estate</a></li>
+                    <li><a href="/wedding-band-lough-eske-castle/">Lough Eske Castle</a></li>
+                    <li><a href="/wedding-band-mount-falcon-estate/">Mount Falcon Estate</a></li>
+                    <li><a href="/wedding-band-knockranny-house/">Knockranny House</a></li>
+                    <li><a href="/wedding-band-markree-castle/">Markree Castle</a></li>
+                    <li><a href="/wedding-band-harveys-point/">Harvey's Point</a></li>
+                    <li><a href="/wedding-band-tinakilly-country-house/">Tinakilly Country House</a></li>
+                    <li><a href="/wedding-band-brooklodge/">Brooklodge</a></li>
+                    <li><a href="/wedding-band-druids-glen/">Druids Glen</a></li>
+                    <li><a href="/wedding-band-killashee-hotel/">Killashee Hotel</a></li>
+                    <li><a href="/wedding-band-trump-international-doonbeg/">Trump International Doonbeg</a></li>
+                    <li><a href="/wedding-band-kinnitty-castle/">Kinnitty Castle</a></li>
+                    <li><a href="/wedding-band-cabra-castle/">Cabra Castle</a></li>
                 </ul>
             </div>
 
             <div class="where-block rv">
                 <h3 class="where-sub">By county</h3>
                 <ul class="where-links small">
-                    <li><a href="/wedding-bands-dublin">Dublin</a></li>
-                    <li><a href="/wedding-bands-cork">Cork</a></li>
-                    <li><a href="/wedding-bands-galway">Galway</a></li>
-                    <li><a href="/wedding-bands-kerry">Kerry</a></li>
-                    <li><a href="/wedding-bands-limerick">Limerick</a></li>
-                    <li><a href="/wedding-bands-mayo">Mayo</a></li>
-                    <li><a href="/wedding-bands-donegal">Donegal</a></li>
-                    <li><a href="/wedding-bands-wicklow">Wicklow</a></li>
-                    <li><a href="/wedding-bands-clare">Clare</a></li>
-                    <li><a href="/wedding-bands-tipperary">Tipperary</a></li>
-                    <li><a href="/wedding-bands-waterford">Waterford</a></li>
-                    <li><a href="/wedding-bands-wexford">Wexford</a></li>
-                    <li><a href="/wedding-bands-kilkenny">Kilkenny</a></li>
-                    <li><a href="/wedding-bands-carlow">Carlow</a></li>
-                    <li><a href="/wedding-bands-kildare">Kildare</a></li>
-                    <li><a href="/wedding-bands-meath">Meath</a></li>
-                    <li><a href="/wedding-bands-louth">Louth</a></li>
-                    <li><a href="/wedding-bands-cavan">Cavan</a></li>
-                    <li><a href="/wedding-bands-monaghan">Monaghan</a></li>
-                    <li><a href="/wedding-bands-leitrim">Leitrim</a></li>
-                    <li><a href="/wedding-bands-sligo">Sligo</a></li>
-                    <li><a href="/wedding-bands-roscommon">Roscommon</a></li>
-                    <li><a href="/wedding-bands-longford">Longford</a></li>
-                    <li><a href="/wedding-bands-westmeath">Westmeath</a></li>
-                    <li><a href="/wedding-bands-offaly">Offaly</a></li>
-                    <li><a href="/wedding-bands-laois">Laois</a></li>
+                    <li><a href="/wedding-bands-dublin/">Dublin</a></li>
+                    <li><a href="/wedding-bands-cork/">Cork</a></li>
+                    <li><a href="/wedding-bands-galway/">Galway</a></li>
+                    <li><a href="/wedding-bands-kerry/">Kerry</a></li>
+                    <li><a href="/wedding-bands-limerick/">Limerick</a></li>
+                    <li><a href="/wedding-bands-mayo/">Mayo</a></li>
+                    <li><a href="/wedding-bands-donegal/">Donegal</a></li>
+                    <li><a href="/wedding-bands-wicklow/">Wicklow</a></li>
+                    <li><a href="/wedding-bands-clare/">Clare</a></li>
+                    <li><a href="/wedding-bands-tipperary/">Tipperary</a></li>
+                    <li><a href="/wedding-bands-waterford/">Waterford</a></li>
+                    <li><a href="/wedding-bands-wexford/">Wexford</a></li>
+                    <li><a href="/wedding-bands-kilkenny/">Kilkenny</a></li>
+                    <li><a href="/wedding-bands-carlow/">Carlow</a></li>
+                    <li><a href="/wedding-bands-kildare/">Kildare</a></li>
+                    <li><a href="/wedding-bands-meath/">Meath</a></li>
+                    <li><a href="/wedding-bands-louth/">Louth</a></li>
+                    <li><a href="/wedding-bands-cavan/">Cavan</a></li>
+                    <li><a href="/wedding-bands-monaghan/">Monaghan</a></li>
+                    <li><a href="/wedding-bands-leitrim/">Leitrim</a></li>
+                    <li><a href="/wedding-bands-sligo/">Sligo</a></li>
+                    <li><a href="/wedding-bands-roscommon/">Roscommon</a></li>
+                    <li><a href="/wedding-bands-longford/">Longford</a></li>
+                    <li><a href="/wedding-bands-westmeath/">Westmeath</a></li>
+                    <li><a href="/wedding-bands-offaly/">Offaly</a></li>
+                    <li><a href="/wedding-bands-laois/">Laois</a></li>
                 </ul>
             </div>
         </div>
@@ -2282,8 +2303,8 @@
                     <li><a href="#why">Why Us</a></li>
                     <li><a href="#contact">Enquire</a></li>
                     <li><a href="mailto:jo.musicangel@gmail.com">Email</a></li>
-                    <li><a href="/privacy">Privacy</a></li>
-                    <li><a href="/cookies">Cookies</a></li>
+                    <li><a href="/privacy/">Privacy</a></li>
+                    <li><a href="/cookies/">Cookies</a></li>
                 </ul>
                 <div class="footer-rule"></div>
                 <span class="footer-copy">&copy; 2025 MusicAngel.ie, Wedding Bands Playing All of Ireland</span>
@@ -2293,7 +2314,7 @@
 
     <!-- ========== COOKIE CONSENT ========== -->
     <div id="cc" class="cc" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
-        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy">privacy policy</a> and <a href="/cookies">cookies policy</a> for details.</p>
+        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy/">privacy policy</a> and <a href="/cookies/">cookies policy</a> for details.</p>
         <div class="cc-actions">
             <button type="button" class="cc-btn" data-cc="decline">Decline</button>
             <button type="button" class="cc-btn cc-accept" data-cc="accept">Accept</button>

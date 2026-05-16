@@ -33,7 +33,7 @@ function expectedCanonical(filePath) {
     const rel = path.relative(ROOT, filePath).replace(/\\/g, '/');
     if (rel === 'index.html') return SITE + '/';
     if (rel.endsWith('/index.html')) {
-        return SITE + '/' + rel.replace(/\/index\.html$/, '');
+        return SITE + '/' + rel.replace(/\/index\.html$/, '') + '/';
     }
     return SITE + '/' + rel.replace(/\.html$/, '');
 }
@@ -58,14 +58,7 @@ for (const f of files) {
     } else if (canonicals.length > 1) {
         issues.push({ file: rel, type: 'DUPLICATE', expected, actual: canonicals });
     } else if (canonicals[0] !== expected) {
-        // Homepage tolerance: both "https://musicangel.ie/" and "https://musicangel.ie" are valid
-        const a = canonicals[0].replace(/\/$/, '');
-        const b = expected.replace(/\/$/, '');
-        if (a !== b) {
-            issues.push({ file: rel, type: 'MISMATCH', expected, actual: canonicals[0] });
-        } else {
-            okCount++;
-        }
+        issues.push({ file: rel, type: 'MISMATCH', expected, actual: canonicals[0] });
     } else {
         okCount++;
     }

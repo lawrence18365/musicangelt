@@ -7,7 +7,7 @@
     <meta name="description" content="Sway Social are a four-piece Irish wedding band with four vocalists, live guitar, bass, keys and drums, and a decade-spanning party repertoire. Pricing from €2,800.">
     <meta name="theme-color" content="#FBF8F5">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-    <link rel="canonical" href="https://musicangel.ie/sway-social">
+    <link rel="canonical" href="https://musicangel.ie/sway-social/">
     <script>
         // Prevent non-production hostnames from being indexed.
         // Production canonical: musicangel.ie. Block .vercel.app previews and
@@ -27,7 +27,7 @@
     <meta property="og:site_name" content="MusicAngel">
     <meta property="og:title" content="Sway Social | Wedding Band Ireland">
     <meta property="og:description" content="A four-piece Irish wedding band with four vocalists, live guitar, bass, keys and drums, and a decade-spanning party repertoire.">
-    <meta property="og:url" content="https://musicangel.ie/sway-social">
+    <meta property="og:url" content="https://musicangel.ie/sway-social/">
     <meta property="og:image" content="https://musicangel.ie/assets/bands/hero-sway-social.webp">
     <meta property="og:image:width" content="1706">
     <meta property="og:image:height" content="992">
@@ -42,7 +42,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://www.youtube-nocookie.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" as="image" href="/assets/bands/hero-sway-social.webp" fetchpriority="high">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
 
     <script>
@@ -66,9 +68,9 @@
         "@graph": [
             {
                 "@type": "MusicGroup",
-                "@id": "https://musicangel.ie/sway-social#band",
+                "@id": "https://musicangel.ie/sway-social/#band",
                 "name": "Sway Social",
-                "url": "https://musicangel.ie/sway-social",
+                "url": "https://musicangel.ie/sway-social/",
                 "image": "https://musicangel.ie/assets/bands/hero-sway-social.webp",
                 "description": "A four-piece Irish wedding band with four vocalists, live guitar, bass, keys and drums, and a decade-spanning party repertoire across all of Ireland.",
                 "genre": ["Pop", "Rock", "Soul", "Club Classics", "Party", "Wedding music"],
@@ -92,7 +94,7 @@
                 "itemListElement": [
                     { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": "https://musicangel.ie/" },
                     { "@type": "ListItem", "position": 2, "name": "Our Bands", "item": "https://musicangel.ie/#bands" },
-                    { "@type": "ListItem", "position": 3, "name": "Sway Social", "item": "https://musicangel.ie/sway-social" }
+                    { "@type": "ListItem", "position": 3, "name": "Sway Social", "item": "https://musicangel.ie/sway-social/" }
                 ]
             },
             {
@@ -139,7 +141,7 @@
 
         :root {
             --ink: #111111; --ink-soft: #2a2a2a;
-            --pink: #F26CA7; --pink-hover: #d95c96;
+            --pink: #C2185B; --pink-hover: #A9144E;
             --blush: #F7D6E4; --blush-light: #FDF0F5;
             --ivory: #FBF8F5; --champagne: #C8B28A; --sage: #7E8D82;
             --text: #2a2a2a; --text-muted: #6a6266;
@@ -414,7 +416,7 @@
                 </div>
             </div>
             <figure class="hero-photo">
-                <img src="/assets/bands/hero-sway-social.webp" alt="Sway Social, four-vocalist wedding band from Ireland" width="1706" height="992" loading="eager" fetchpriority="high">
+                <img src="/assets/bands/hero-sway-social.webp" alt="Sway Social, four-vocalist wedding band from Ireland" width="1706" height="992" loading="eager" fetchpriority="high" decoding="async">
             </figure>
         </header>
     </div>
@@ -529,15 +531,15 @@
             <h2 class="sec-h2">Featured <em>wedding venues</em></h2>
             <p style="max-width: 36rem; color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1.05rem;">We play across all of Ireland. A selection of the destination venues most of our couples ask about.</p>
             <div class="other-bands-grid" style="margin-top: 2rem;">
-                <a href="/wedding-band-ashford-castle" class="ob-card"><h3>Ashford Castle</h3><p>13th-century castle, Co. Mayo. Fairy-tale destination luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-adare-manor" class="ob-card"><h3>Adare Manor</h3><p>Five-star Neo-Gothic manor, Co. Limerick. Contemporary luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-dromoland-castle" class="ob-card"><h3>Dromoland Castle</h3><p>16th-century five-star castle, Co. Clare. Stately classic luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-powerscourt-house" class="ob-card"><h3>Powerscourt House</h3><p>18th-century Palladian estate, Co. Wicklow.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-the-k-club" class="ob-card"><h3>The K Club</h3><p>Five-star Kildare estate, two-time Ryder Cup venue.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-tankardstown-house" class="ob-card"><h3>Tankardstown House</h3><p>Georgian country estate, Co. Meath. Boutique luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-ballyfin-demesne" class="ob-card"><h3>Ballyfin Demesne</h3><p>Regency-era estate, Co. Laois. Exclusive-use, intimate.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-castle-leslie" class="ob-card"><h3>Castle Leslie</h3><p>1,000-acre country estate, Co. Monaghan. Rustic luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
-                <a href="/wedding-band-mount-juliet-estate" class="ob-card"><h3>Mount Juliet Estate</h3><p>18th-century estate, Co. Kilkenny. Country-luxury hotel.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-ashford-castle/" class="ob-card"><h3>Ashford Castle</h3><p>13th-century castle, Co. Mayo. Fairy-tale destination luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-adare-manor/" class="ob-card"><h3>Adare Manor</h3><p>Five-star Neo-Gothic manor, Co. Limerick. Contemporary luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-dromoland-castle/" class="ob-card"><h3>Dromoland Castle</h3><p>16th-century five-star castle, Co. Clare. Stately classic luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-powerscourt-house/" class="ob-card"><h3>Powerscourt House</h3><p>18th-century Palladian estate, Co. Wicklow.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-the-k-club/" class="ob-card"><h3>The K Club</h3><p>Five-star Kildare estate, two-time Ryder Cup venue.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-tankardstown-house/" class="ob-card"><h3>Tankardstown House</h3><p>Georgian country estate, Co. Meath. Boutique luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-ballyfin-demesne/" class="ob-card"><h3>Ballyfin Demesne</h3><p>Regency-era estate, Co. Laois. Exclusive-use, intimate.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-castle-leslie/" class="ob-card"><h3>Castle Leslie</h3><p>1,000-acre country estate, Co. Monaghan. Rustic luxury.</p><span class="ob-cta">View Venue &rarr;</span></a>
+                <a href="/wedding-band-mount-juliet-estate/" class="ob-card"><h3>Mount Juliet Estate</h3><p>18th-century estate, Co. Kilkenny. Country-luxury hotel.</p><span class="ob-cta">View Venue &rarr;</span></a>
             </div>
             <p style="margin-top: 2.5rem; text-align: center;"><a href="/" style="font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--pink); text-decoration: none;">See all venues &amp; counties &rarr;</a></p>
         </div>
@@ -549,19 +551,19 @@
             <p class="sec-eye">Or explore</p>
             <h2 class="sec-h2">The other <em>three bands</em></h2>
             <div class="other-bands-grid">
-                <a href="/the-beat-boutique" class="ob-card">
+                <a href="/the-beat-boutique/" class="ob-card">
                     <p class="ob-genre">Jazz · Soul · Funk · Rock · Pop</p>
                     <h3>The Beat Boutique</h3>
                     <p>Fixed four-piece line-up with a 200+ song repertoire, boutique polish and real room-reading.</p>
                     <span class="ob-cta">View Band &rarr;</span>
                 </a>
-                <a href="/the-best-men" class="ob-card">
+                <a href="/the-best-men/" class="ob-card">
                     <p class="ob-genre">Pop · Rock · Soul · Floor-Fillers</p>
                     <h3>The Best Men</h3>
                     <p>Four-piece party band with long-running experience, big harmonies and proven crowd-reading.</p>
                     <span class="ob-cta">View Band &rarr;</span>
                 </a>
-                <a href="/blacktye" class="ob-card">
+                <a href="/blacktye/" class="ob-card">
                     <p class="ob-genre">Chart · Soul · Funk · Rock · Irish</p>
                     <h3>Blacktye</h3>
                     <p>Versatile five-piece band with two lead vocalists, full-day package options and a huge setlist.</p>
@@ -580,8 +582,8 @@
                     <li><a href="/#why">Why Us</a></li>
                     <li><a href="/#contact">Enquire</a></li>
                     <li><a href="mailto:jo.musicangel@gmail.com">Email</a></li>
-                    <li><a href="/privacy">Privacy</a></li>
-                    <li><a href="/cookies">Cookies</a></li>
+                    <li><a href="/privacy/">Privacy</a></li>
+                    <li><a href="/cookies/">Cookies</a></li>
                 </ul>
                 <span>&copy; 2026 MusicAngel.ie</span>
             </div>
@@ -589,7 +591,7 @@
     </footer>
 
     <div id="cc" class="cc" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
-        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy">privacy policy</a> and <a href="/cookies">cookies policy</a>.</p>
+        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy/">privacy policy</a> and <a href="/cookies/">cookies policy</a>.</p>
         <div class="cc-actions">
             <button type="button" class="cc-btn" data-cc="decline">Decline</button>
             <button type="button" class="cc-btn cc-accept" data-cc="accept">Accept</button>

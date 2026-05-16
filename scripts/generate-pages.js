@@ -19,6 +19,7 @@ const COUNTIES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/counties.json'
 
 const GA_ID = 'G-WV874YXC8Z';
 const SITE = 'https://musicangel.ie';
+const pageUrl = slug => slug ? `${SITE}/${slug}/` : `${SITE}/`;
 
 const BANDS = {
     'the-beat-boutique': {
@@ -98,7 +99,8 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
 
     <script>
@@ -129,7 +131,7 @@ ${JSON.stringify(cleanJsonLd(jsonLd), null, 4)}
 
 const PAGE_CSS = `
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-:root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #F26CA7; --pink-hover: #d95c96; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
+:root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #C2185B; --pink-hover: #A9144E; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
 html { scroll-behavior: smooth; }
 body { background: radial-gradient(circle at 8% 12%, rgba(247, 214, 228, 0.42), transparent 28rem), linear-gradient(180deg, var(--ivory) 0%, #fff 36%, var(--ivory) 100%); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 ::selection { background: var(--blush); color: var(--ink); }
@@ -226,8 +228,8 @@ const sharedFooter = `
                     <li><a href="/#bands">All Bands</a></li>
                     <li><a href="/#why">Why Us</a></li>
                     <li><a href="/#contact">Enquire</a></li>
-                    <li><a href="/privacy">Privacy</a></li>
-                    <li><a href="/cookies">Cookies</a></li>
+                    <li><a href="/privacy/">Privacy</a></li>
+                    <li><a href="/cookies/">Cookies</a></li>
                 </ul>
                 <span>&copy; 2026 MusicAngel.ie</span>
             </div>
@@ -235,7 +237,7 @@ const sharedFooter = `
     </footer>
 
     <div id="cc" class="cc" hidden role="dialog" aria-live="polite" aria-label="Cookie consent">
-        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy">privacy policy</a> and <a href="/cookies">cookies policy</a>.</p>
+        <p>We use Google Analytics cookies to understand how visitors use the site. See our <a href="/privacy/">privacy policy</a> and <a href="/cookies/">cookies policy</a>.</p>
         <div class="cc-actions">
             <button type="button" class="cc-btn" data-cc="decline">Decline</button>
             <button type="button" class="cc-btn cc-accept" data-cc="accept">Accept</button>
@@ -297,7 +299,7 @@ function enquirySection({ heading, prefillBand = '', prefillVenue = '' }) {
 }
 
 function renderVenue(v) {
-    const canonical = `${SITE}/wedding-band-${v.slug}`;
+    const canonical = pageUrl(`wedding-band-${v.slug}`);
     const titleWithCounty = `Wedding Band for ${v.name}, ${v.county} | MusicAngel`;
     const title = titleWithCounty.length <= 68 ? titleWithCounty : `Wedding Band for ${v.name} | MusicAngel`;
     const description = `Wedding band for ${v.name}, ${v.county}. Compare four live Irish bands matched to your venue, with 100% live sets and pricing from €2,800.`;
@@ -316,7 +318,7 @@ function renderVenue(v) {
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": `${SITE}/` },
+                    { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": pageUrl('') },
                     { "@type": "ListItem", "position": 2, "name": "Wedding Venues", "item": `${SITE}/#bands` },
                     { "@type": "ListItem", "position": 3, "name": `Wedding Band for ${v.name}`, "item": canonical }
                 ]
@@ -326,7 +328,7 @@ function renderVenue(v) {
                 "name": `Wedding bands suited to ${v.name}`,
                 "itemListElement": v.bandPicks.map((b, i) => ({
                     "@type": "ListItem", "position": i + 1,
-                    "item": { "@type": "MusicGroup", "name": b.name, "url": `${SITE}/${b.slug}` }
+                    "item": { "@type": "MusicGroup", "name": b.name, "url": pageUrl(b.slug) }
                 }))
             },
             {
@@ -338,9 +340,9 @@ function renderVenue(v) {
 
     const picksHtml = v.bandPicks.map(b => `                <article class="pick">
                     <p class="pick-genre">${BANDS[b.slug].genre}</p>
-                    <h3><a href="/${b.slug}">${esc(b.name)}</a></h3>
+                    <h3><a href="/${b.slug}/">${esc(b.name)}</a></h3>
                     <p class="why">${esc(b.why)}</p>
-                    <a href="/${b.slug}" class="pick-cta">View ${esc(b.name)} &rarr;</a>
+                    <a href="/${b.slug}/" class="pick-cta">View ${esc(b.name)} &rarr;</a>
                 </article>`).join('\n');
 
     return `${sharedHead({ title, description, canonical, ogImage: heroImage, ogImageW: 1400, ogImageH: 788, jsonLd })}
@@ -425,7 +427,7 @@ ${picksHtml}
 }
 
 function renderCounty(c) {
-    const canonical = `${SITE}/wedding-bands-${c.slug}`;
+    const canonical = pageUrl(`wedding-bands-${c.slug}`);
     const title = `Wedding Bands in ${c.name} | MusicAngel`;
     const description = `Looking for a wedding band in County ${c.name}? Compare four live wedding bands serving ${c.name} and the rest of Ireland. 100% live, pricing from €2,800.`;
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
@@ -437,14 +439,14 @@ function renderCounty(c) {
                 "@type": "Service",
                 "@id": `${canonical}#service`,
                 "serviceType": "Wedding band booking",
-                "provider": { "@type": "Organization", "name": "MusicAngel", "url": `${SITE}/` },
+                "provider": { "@type": "Organization", "name": "MusicAngel", "url": pageUrl('') },
                 "areaServed": { "@type": "AdministrativeArea", "name": `County ${c.name}`, "containedInPlace": { "@type": "Country", "name": "Ireland" } },
                 "url": canonical
             },
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": `${SITE}/` },
+                    { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": pageUrl('') },
                     { "@type": "ListItem", "position": 2, "name": "Wedding Bands", "item": `${SITE}/#bands` },
                     { "@type": "ListItem", "position": 3, "name": `Wedding Bands in ${c.name}`, "item": canonical }
                 ]
@@ -454,7 +456,7 @@ function renderCounty(c) {
                 "name": `Wedding bands serving County ${c.name}`,
                 "itemListElement": c.topPicks.map((slug, i) => ({
                     "@type": "ListItem", "position": i + 1,
-                    "item": { "@type": "MusicGroup", "name": BANDS[slug].name, "url": `${SITE}/${slug}` }
+                    "item": { "@type": "MusicGroup", "name": BANDS[slug].name, "url": pageUrl(slug) }
                 }))
             }
         ]
@@ -464,9 +466,9 @@ function renderCounty(c) {
         const b = BANDS[slug];
         return `                <article class="pick">
                     <p class="pick-genre">${b.genre}</p>
-                    <h3><a href="/${slug}">${esc(b.name)}</a></h3>
+                    <h3><a href="/${slug}/">${esc(b.name)}</a></h3>
                     <p>${esc(b.blurb)}</p>
-                    <a href="/${slug}" class="pick-cta">View ${esc(b.name)} &rarr;</a>
+                    <a href="/${slug}/" class="pick-cta">View ${esc(b.name)} &rarr;</a>
                 </article>`;
     }).join('\n');
 
@@ -483,7 +485,7 @@ function renderCounty(c) {
             }
         }
         if (matchSlug) {
-            return `                <li><a href="/wedding-band-${matchSlug}" style="text-decoration:none;color:inherit;display:block">${esc(rawName)} &rarr;</a></li>`;
+            return `                <li><a href="/wedding-band-${matchSlug}/" style="text-decoration:none;color:inherit;display:block">${esc(rawName)} &rarr;</a></li>`;
         }
         return `                <li>${esc(rawName)}</li>`;
     }).join('\n');
@@ -579,31 +581,31 @@ ${venuesList}
 function regenerateSitemap() {
     const today = new Date().toISOString().split('T')[0];
     const urls = [
-        { loc: `${SITE}/`, priority: '1.0', changefreq: 'weekly' },
-        { loc: `${SITE}/the-beat-boutique`, priority: '0.9', changefreq: 'monthly' },
-        { loc: `${SITE}/sway-social`, priority: '0.9', changefreq: 'monthly' },
-        { loc: `${SITE}/the-best-men`, priority: '0.9', changefreq: 'monthly' },
-        { loc: `${SITE}/blacktye`, priority: '0.9', changefreq: 'monthly' },
-        { loc: `${SITE}/wedding-band-cost-ireland`, priority: '0.85', changefreq: 'monthly' },
-        { loc: `${SITE}/first-dance-songs`, priority: '0.8', changefreq: 'monthly' },
-        { loc: `${SITE}/wedding-band-showcases`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/drinks-reception-music`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/wedding-band-and-dj-package`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/compare-bands`, priority: '0.75', changefreq: 'monthly' },
-        { loc: `${SITE}/ceremony-music`, priority: '0.75', changefreq: 'monthly' },
-        { loc: `${SITE}/wedding-songs-by-decade`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/wedding-band-vs-dj`, priority: '0.85', changefreq: 'monthly' },
-        { loc: `${SITE}/wedding-music-timeline`, priority: '0.75', changefreq: 'monthly' },
-        { loc: `${SITE}/when-to-book-wedding-band`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/questions-to-ask-wedding-band`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/about`, priority: '0.6', changefreq: 'monthly' },
-        { loc: `${SITE}/song-list`, priority: '0.75', changefreq: 'monthly' },
-        { loc: `${SITE}/corporate-events`, priority: '0.7', changefreq: 'monthly' },
-        { loc: `${SITE}/venues`, priority: '0.65', changefreq: 'weekly' },
-        ...VENUES.map(v => ({ loc: `${SITE}/wedding-band-${v.slug}`, priority: '0.8', changefreq: 'monthly' })),
-        ...COUNTIES.map(c => ({ loc: `${SITE}/wedding-bands-${c.slug}`, priority: '0.7', changefreq: 'monthly' })),
-        { loc: `${SITE}/privacy`, priority: '0.2', changefreq: 'yearly' },
-        { loc: `${SITE}/cookies`, priority: '0.2', changefreq: 'yearly' }
+        { loc: pageUrl(''), priority: '1.0', changefreq: 'weekly' },
+        { loc: pageUrl('the-beat-boutique'), priority: '0.9', changefreq: 'monthly' },
+        { loc: pageUrl('sway-social'), priority: '0.9', changefreq: 'monthly' },
+        { loc: pageUrl('the-best-men'), priority: '0.9', changefreq: 'monthly' },
+        { loc: pageUrl('blacktye'), priority: '0.9', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-band-cost-ireland'), priority: '0.85', changefreq: 'monthly' },
+        { loc: pageUrl('first-dance-songs'), priority: '0.8', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-band-showcases'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('drinks-reception-music'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-band-and-dj-package'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('compare-bands'), priority: '0.75', changefreq: 'monthly' },
+        { loc: pageUrl('ceremony-music'), priority: '0.75', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-songs-by-decade'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-band-vs-dj'), priority: '0.85', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-music-timeline'), priority: '0.75', changefreq: 'monthly' },
+        { loc: pageUrl('when-to-book-wedding-band'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('questions-to-ask-wedding-band'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('about'), priority: '0.6', changefreq: 'monthly' },
+        { loc: pageUrl('song-list'), priority: '0.75', changefreq: 'monthly' },
+        { loc: pageUrl('corporate-events'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('venues'), priority: '0.65', changefreq: 'weekly' },
+        ...VENUES.map(v => ({ loc: pageUrl(`wedding-band-${v.slug}`), priority: '0.8', changefreq: 'monthly' })),
+        ...COUNTIES.map(c => ({ loc: pageUrl(`wedding-bands-${c.slug}`), priority: '0.7', changefreq: 'monthly' })),
+        { loc: pageUrl('privacy'), priority: '0.2', changefreq: 'yearly' },
+        { loc: pageUrl('cookies'), priority: '0.2', changefreq: 'yearly' }
     ];
 
     const body = urls.map(u => `    <url>
@@ -622,7 +624,7 @@ ${body}
 }
 
 function renderVenuesIndex() {
-    const canonical = `${SITE}/venues`;
+    const canonical = pageUrl('venues');
     const byCounty = {};
     for (const v of VENUES) {
         (byCounty[v.county] = byCounty[v.county] || []).push(v);
@@ -631,7 +633,7 @@ function renderVenuesIndex() {
     const countyBlocks = counties.map(c => {
         const items = byCounty[c]
             .sort((a, b) => a.name.localeCompare(b.name))
-            .map(v => `                <li><a href="/wedding-band-${v.slug}"><strong>${esc(v.name)}</strong><span> &middot; ${esc(v.town)}, Co. ${esc(v.county)}</span></a></li>`)
+            .map(v => `                <li><a href="/wedding-band-${v.slug}/"><strong>${esc(v.name)}</strong><span> &middot; ${esc(v.town)}, Co. ${esc(v.county)}</span></a></li>`)
             .join('\n');
         return `        <section class="county-block">
             <h2 class="county-h"><em>Co. ${esc(c)}</em></h2>
@@ -646,12 +648,12 @@ ${items}
         "@graph": [
             { "@type": "CollectionPage", "name": "Irish Wedding Venues | MusicAngel", "url": canonical, "description": "Directory of every Irish wedding venue MusicAngel has bespoke pages for, grouped by county." },
             { "@type": "BreadcrumbList", "itemListElement": [
-                { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": `${SITE}/` },
+                { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": pageUrl('') },
                 { "@type": "ListItem", "position": 2, "name": "Venues", "item": canonical }
             ]},
             { "@type": "ItemList", "itemListElement": VENUES.map((v, i) => ({
                 "@type": "ListItem", "position": i + 1,
-                "item": { "@type": "Place", "name": v.name, "url": `${SITE}/wedding-band-${v.slug}` }
+                "item": { "@type": "Place", "name": v.name, "url": pageUrl(`wedding-band-${v.slug}`) }
             }))}
         ]
     };

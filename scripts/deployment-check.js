@@ -9,11 +9,19 @@
  * Cloudflare Pages API bridge; the handler drops that payload without email.
  */
 const dns = require('dns').promises;
+const fs = require('fs');
+const path = require('path');
 
 const HOSTS = ['musicangel.ie', 'www.musicangel.ie'];
 const EXPECTED_VERCEL_A = '76.76.21.21';
 const CLOUDFLARE_PAGES_TARGET = 'musicangelt.pages.dev';
 const CLOUDFLARE_API = `https://${CLOUDFLARE_PAGES_TARGET}/api/enquiry`;
+const CLOUDFLARE_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID || '5f96fef6f6606249f9ab055ae29545ff';
+const CLOUDFLARE_PROJECT = 'musicangelt';
+const WRANGLER_CONFIG = path.join(
+    process.env.HOME || '',
+    'Library/Preferences/.wrangler/config/default.toml'
+);
 const GITHUB_PAGES_A = new Set([
     '185.199.108.153',
     '185.199.109.153',
@@ -72,6 +80,44 @@ async function testCloudflareBridge() {
     }
 }
 
+function readWranglerToken() {
+    try {
+        const text = fs.readFileSync(WRANGLER_CONFIG, 'utf8');
+        const expires = text.match(/^expiration_time\s*=\s*"?([^"\n]+)"?/m)?.[1];
+        if (expires && Date.parse(expires) <= Date.now() + 60 * 1000) return '';
+        return text.match(/^oauth_token\s*=\s*"([^"]+)"/m)?.[1]
+            || text.match(/^oauth_token\s*=\s*'([^']+)'/m)?.[1]
+            || text.match(/^oauth_token\s*=\s*(\S+)/m)?.[1];
+    } catch (_) {
+        return '';
+    }
+}
+
+async function getCloudflarePagesDomains() {
+    const token = process.env.CLOUDFLARE_API_TOKEN || readWranglerToken();
+    if (!token) return { skipped: 'no Cloudflare token found' };
+
+    try {
+        const resp = await fetch(
+            `https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/pages/projects/${CLOUDFLARE_PROJECT}/domains`,
+            {
+                headers: {
+                    Authorization: `Bearer ${token}`,
+                    'Content-Type': 'application/json'
+                }
+            }
+        );
+        const body = await resp.json();
+        if (!resp.ok || body.success === false) {
+            const errors = (body.errors || []).map(err => err.message).join('; ') || resp.statusText;
+            return { error: errors };
+        }
+        return { domains: body.result || [] };
+    } catch (err) {
+        return { error: err.message };
+    }
+}
+
 async function main() {
     const ns = await resolveSafe('NS', 'musicangel.ie');
     console.log('\nMusicAngel deployment check\n');
@@ -109,6 +155,22 @@ async function main() {
     console.log('\nCloudflare Pages API bridge:');
     console.log(`  URL:    ${CLOUDFLARE_API}`);
     console.log(`  POST:   ${bridge.error ? bridge.error : `${bridge.status} ${bridge.body}`}`);
+
+    const pageDomains = await getCloudflarePagesDomains();
+    console.log('\nCloudflare Pages custom domains:');
+    if (pageDomains.skipped) {
+        console.log(`  ${pageDomains.skipped}`);
+    } else if (pageDomains.error) {
+        console.log(`  fetch failed: ${pageDomains.error}`);
+    } else if (!pageDomains.domains.length) {
+        console.log('  no custom domains configured');
+    } else {
+        for (const domain of pageDomains.domains) {
+            const verification = domain.verification_data && domain.verification_data.status;
+            const error = domain.verification_data && domain.verification_data.error_message;
+            console.log(`  ${domain.name}: ${domain.status}${verification ? ` verification=${verification}` : ''}${error ? ` (${error})` : ''}`);
+        }
+    }
 
     console.log('\nExpected final Cloudflare Pages DNS:');
     console.log(`  CNAME @   ${CLOUDFLARE_PAGES_TARGET}  proxied`);

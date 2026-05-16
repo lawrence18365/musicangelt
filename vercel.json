@@ -1,7 +1,7 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "cleanUrls": true,
-    "trailingSlash": false,
+    "trailingSlash": true,
     "redirects": [
         { "source": "/about-us",          "destination": "/#why",            "statusCode": 301 },
         { "source": "/why",               "destination": "/#why",            "statusCode": 301 },

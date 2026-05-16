@@ -21,15 +21,15 @@ const PSI = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
 
 const URLS = [
     'https://musicangel.ie/',
-    'https://musicangel.ie/the-beat-boutique',
-    'https://musicangel.ie/sway-social',
-    'https://musicangel.ie/wedding-band-cost-ireland',
-    'https://musicangel.ie/first-dance-songs',
-    'https://musicangel.ie/wedding-band-vs-dj',
-    'https://musicangel.ie/wedding-bands-dublin',
-    'https://musicangel.ie/wedding-band-ashford-castle',
-    'https://musicangel.ie/compare-bands',
-    'https://musicangel.ie/about'
+    'https://musicangel.ie/the-beat-boutique/',
+    'https://musicangel.ie/sway-social/',
+    'https://musicangel.ie/wedding-band-cost-ireland/',
+    'https://musicangel.ie/first-dance-songs/',
+    'https://musicangel.ie/wedding-band-vs-dj/',
+    'https://musicangel.ie/wedding-bands-dublin/',
+    'https://musicangel.ie/wedding-band-ashford-castle/',
+    'https://musicangel.ie/compare-bands/',
+    'https://musicangel.ie/about/'
 ];
 
 function parseArgs() {
@@ -54,6 +54,13 @@ async function auditViaCli(url, strategy) {
             '--only-categories=performance,accessibility,best-practices,seo',
             '--chrome-flags=--headless --no-sandbox'
         ];
+        if (strategy === 'desktop') {
+            args.push('--screenEmulation.mobile=false');
+            args.push('--screenEmulation.width=1350');
+            args.push('--screenEmulation.height=940');
+            args.push('--screenEmulation.deviceScaleFactor=1');
+            args.push('--throttling-method=simulate');
+        }
         const proc = spawn('npx', args, { stdio: 'pipe' });
         proc.on('error', reject);
         proc.on('close', code => {
@@ -191,7 +198,7 @@ async function main() {
     const perfs = results.filter(r => r.scores).map(r => r.scores.performance);
     if (perfs.length) {
         const avg = Math.round(perfs.reduce((a, b) => a + b, 0) / perfs.length);
-        console.log(`    Average performance score: ${avg}/100 (mobile)`);
+        console.log(`    Average performance score: ${avg}/100 (${strategy})`);
     }
 }
 

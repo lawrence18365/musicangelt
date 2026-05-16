@@ -26,8 +26,8 @@ As of 2026-05-16, the practical live setup is:
 - Cloudflare Pages project: `musicangelt`
 - Cloudflare Pages URL: `https://musicangelt.pages.dev`
 - Cloudflare Pages domains added:
-  - `musicangel.ie`
-  - `www.musicangel.ie`
+  - `musicangel.ie` — pending until DNS points at Cloudflare Pages
+  - `www.musicangel.ie` — pending until DNS points at Cloudflare Pages
 - Cloudflare Pages `/api/enquiry` returns `{"ok":true}` for honeypot test
   submissions, which confirms the Function and `RESEND_API_KEY` secret load.
 - The available Cloudflare OAuth token can create Pages projects/domains but
@@ -48,6 +48,17 @@ These are set on the `musicangelt` Cloudflare Pages project:
 
 When a Cloudflare token/session with DNS write permission is available, replace
 the old GitHub Pages records with Cloudflare Pages records.
+
+The repo includes a dry-run/execute helper for this exact cutover:
+
+```bash
+node scripts/cloudflare-dns-cutover.js
+CLOUDFLARE_API_TOKEN=... node scripts/cloudflare-dns-cutover.js --execute
+```
+
+The current local Wrangler OAuth token can deploy Pages and read Pages domain
+status, but DNS record API calls return 403. Use a token with DNS read/write
+permission for the `musicangel.ie` zone.
 
 Recommended Cloudflare DNS target:
 
