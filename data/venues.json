@@ -1746,5 +1746,557 @@
                 "a": "Yes — exclusive-use bookings are available and recommended. Enquire 12-18 months out for peak weekends."
             }
         ]
+    },
+    {
+        "slug": "ballymagarvey-village",
+        "name": "Ballymagarvey Village",
+        "county": "Meath",
+        "town": "Balrath",
+        "style": "country-house village, exclusive-use",
+        "vibe": "Meath-rustic, intimate country",
+        "capacityHint": "up to ~180 in the Lighthouse marquee",
+        "intro": "Ballymagarvey Village is one of Meath's most-loved exclusive-use wedding venues — a restored 18th-century country house surrounded by cottages, plus an attached Lighthouse marquee built for evening receptions of up to 180 guests. A weekend-feel wedding for couples who want the country-house experience without the hotel polish.",
+        "venueDetail": "The Lighthouse marquee is the principal reception space, with a permanent stage and PA suitable for a 4-piece band. The cottages accommodate the inner circle for the weekend.",
+        "bandPicks": [
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits Ballymagarvey's warm rustic feel perfectly."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Ballymagarvey's typically broad guest list."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for couples wanting a packed Lighthouse marquee floor."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best band for Ballymagarvey Village?",
+                "a": "The Best Men and The Beat Boutique are the most common Ballymagarvey picks — both fit the warm, intimate country-house atmosphere."
+            },
+            {
+                "q": "Does the Lighthouse marquee fit a 4-piece live band?",
+                "a": "Yes — purpose-built for live music with permanent stage and PA infrastructure."
+            },
+            {
+                "q": "Can the band cover ceremony at Ballymagarvey?",
+                "a": "Yes — indoor and grounds ceremony music can be added to the evening package."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak weekends. Ballymagarvey's exclusive-use weddings book fast."
+            }
+        ]
+    },
+    {
+        "slug": "bunratty-castle-hotel",
+        "name": "Bunratty Castle Hotel",
+        "county": "Clare",
+        "town": "Bunratty",
+        "style": "four-star hotel, castle-adjacent",
+        "vibe": "Clare-traditional, accessible heritage",
+        "capacityHint": "up to ~200 in the ballroom",
+        "intro": "Bunratty Castle Hotel sits next to the famous 15th-century Bunratty Castle in County Clare — a mid-luxury wedding venue with a 200-guest ballroom and proximity to Shannon Airport, making it a popular destination wedding venue for couples bringing international guests.",
+        "venueDetail": "The Bunratty ballroom handles a 4-piece live band with full PA. Ceremony often happens in the adjacent castle or hotel chapel.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six-decade repertoire works well for the international Bunratty wedding crowd."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — fills a 200-guest ballroom."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led — fits the warm Clare wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which wedding band suits Bunratty Castle Hotel?",
+                "a": "The Beat Boutique and Sway Social are the most common Bunratty picks — both built for international-flavoured 200-guest weddings."
+            },
+            {
+                "q": "Can the band cover the castle ceremony?",
+                "a": "Yes — Bunratty Castle ceremony coverage can be added."
+            },
+            {
+                "q": "Do MusicAngel bands travel to Clare?",
+                "a": "Yes — all four bands play across all of Ireland including Clare."
+            },
+            {
+                "q": "How early to book Bunratty?",
+                "a": "12-18 months for peak summer Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "galgorm-resort",
+        "name": "Galgorm Resort",
+        "county": "Antrim",
+        "town": "Ballymena",
+        "style": "luxury spa resort, country estate",
+        "vibe": "Northern Ireland-luxury, contemporary",
+        "capacityHint": "up to ~280 in the River Room",
+        "intro": "Galgorm Resort is one of Northern Ireland's most-booked luxury wedding venues — a 380-acre estate with the Wedding Pavilion and River Room handling weddings up to 280 guests. The standard at Galgorm is high; couples here want bands that match the venue's contemporary luxury feel.",
+        "venueDetail": "The River Room is the larger reception space; the Wedding Pavilion suits smaller, more intimate weddings. Both accommodate full 4-piece live bands.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for one of NI's most-recognised wedding venues."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a 280-guest River Room wedding that wants the floor packed."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished arrangements that match Galgorm's contemporary luxury aesthetic."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Galgorm Resort?",
+                "a": "The Beat Boutique and Sway Social are the most common Galgorm picks for larger weddings. Blacktye is the call for couples wanting a more polished, considered tempo."
+            },
+            {
+                "q": "Does Galgorm's River Room fit a full live band?",
+                "a": "Yes — purpose-built for receptions of 280+ guests with full live music infrastructure."
+            },
+            {
+                "q": "Do you travel to Northern Ireland?",
+                "a": "Yes — all four bands play across Ireland including all six NI counties."
+            },
+            {
+                "q": "How far in advance to book Galgorm?",
+                "a": "18-24 months for peak weekends; Galgorm is one of NI's most-booked venues."
+            }
+        ]
+    },
+    {
+        "slug": "hayfield-manor",
+        "name": "Hayfield Manor",
+        "county": "Cork",
+        "town": "Cork",
+        "style": "five-star city manor",
+        "vibe": "Cork-city-luxury, classical",
+        "capacityHint": "up to ~180 in the main reception room",
+        "intro": "Hayfield Manor is Cork city's five-star country-house wedding venue — owned by the Scally family, set in mature private gardens just minutes from the city centre. The wedding scene at Hayfield skews classical-luxury rather than party-led.",
+        "venueDetail": "The main reception room handles a 4-piece live band with PA and stage lighting suited to the room's intimate scale.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, deliberate musicianship that matches Hayfield's classical luxury feel."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood styling fits a Cork-city five-star manor perfectly."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, tight harmonies — fits the warm Cork-city wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Which wedding band suits Hayfield Manor?",
+                "a": "Blacktye and The Beat Boutique are the most common Hayfield picks — both fit the venue's classical luxury standard."
+            },
+            {
+                "q": "Is a 4-piece band the right size for Hayfield?",
+                "a": "Yes — Hayfield's main reception room is well matched to a 4-piece live band's scale."
+            },
+            {
+                "q": "Can the band cover ceremony at Hayfield?",
+                "a": "Yes — indoor and gardens ceremony music can be added to the evening package."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Cork-city Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "cashel-palace",
+        "name": "Cashel Palace Hotel",
+        "county": "Tipperary",
+        "town": "Cashel",
+        "style": "Palladian palace, five-star hotel",
+        "vibe": "Tipperary-historic, restored luxury",
+        "capacityHint": "up to ~180 in The Bishop's Buttery",
+        "intro": "Cashel Palace Hotel is a five-star restored 18th-century Palladian palace at the foot of the Rock of Cashel — one of Tipperary's most distinctive wedding venues, recently rebuilt to international luxury standards.",
+        "venueDetail": "The Bishop's Buttery handles a 4-piece live band with PA and stage lighting matched to the period interior.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for a Palladian-era wedding venue — the styling matches."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built for stately rooms — Cashel Palace rewards considered live performance."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for couples wanting energetic floor energy at a historic Tipperary wedding."
+            }
+        ],
+        "faq": [
+            {
+                "q": "What's the best band for Cashel Palace?",
+                "a": "The Beat Boutique and Blacktye are the most common Cashel Palace picks — both fit the Palladian luxury setting."
+            },
+            {
+                "q": "Does the Bishop's Buttery handle a full band?",
+                "a": "Yes — sized appropriately for a 4-piece live band."
+            },
+            {
+                "q": "Can the band cover ceremony at Cashel?",
+                "a": "Yes — indoor and grounds ceremony music available. The Rock of Cashel itself is sometimes used for outdoor moments."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak Tipperary summer Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "mount-wolseley",
+        "name": "Mount Wolseley Hotel",
+        "county": "Carlow",
+        "town": "Tullow",
+        "style": "four-star country house, championship golf",
+        "vibe": "Carlow-traditional, golf-luxury",
+        "capacityHint": "up to ~220 in the Aughavanagh Suite",
+        "intro": "Mount Wolseley is Carlow's flagship four-star wedding venue — a Victorian country house with a championship golf course, and the Aughavanagh Suite as the principal reception space for weddings up to 220 guests.",
+        "venueDetail": "The Aughavanagh Suite handles a 4-piece live band comfortably with PA and stage lighting.",
+        "bandPicks": [
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led — fits the warm Carlow wedding atmosphere."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists, non-stop energy — keeps a 200+ guest Mount Wolseley floor packed."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Mount Wolseley's typically broad guest demographic."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Mount Wolseley?",
+                "a": "The Best Men and Sway Social are the most common Mount Wolseley picks. The Beat Boutique works for crowds wanting a more versatile setlist."
+            },
+            {
+                "q": "Does the Aughavanagh Suite fit a full band?",
+                "a": "Yes — purpose-built for receptions of 220+ guests with live music."
+            },
+            {
+                "q": "Can the band cover ceremony at Mount Wolseley?",
+                "a": "Yes — indoor and grounds ceremony music can be added."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "barberstown-castle",
+        "name": "Barberstown Castle",
+        "county": "Kildare",
+        "town": "Straffan",
+        "style": "13th-century castle hotel",
+        "vibe": "Kildare-historic, character-rich",
+        "capacityHint": "up to ~200 in the Tara Suite",
+        "intro": "Barberstown Castle is a 13th-century castle hotel in Straffan, Co. Kildare — a wedding venue with genuine historic character and a 200-guest ballroom for evening receptions. A balance of castle-grandeur and accessible luxury.",
+        "venueDetail": "The Tara Suite is the main reception space with a 4-piece band stage area and full PA.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for a castle setting — the styling matches."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a Barberstown wedding wanting maximum dance-floor energy."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, harmonies — fits Barberstown's warm character."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Barberstown Castle?",
+                "a": "The Beat Boutique and Sway Social are the most common Barberstown picks."
+            },
+            {
+                "q": "Does the Tara Suite fit a full band?",
+                "a": "Yes — purpose-built for 200-guest weddings with full live music."
+            },
+            {
+                "q": "Can the band cover ceremony at Barberstown?",
+                "a": "Yes — castle and grounds ceremony music available."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "roganstown-hotel",
+        "name": "Roganstown Hotel & Country Club",
+        "county": "Dublin",
+        "town": "Swords",
+        "style": "four-star country hotel, championship golf",
+        "vibe": "Dublin-airport-adjacent, accessible luxury",
+        "capacityHint": "up to ~250 in the ballroom",
+        "intro": "Roganstown Hotel in Swords is north Dublin's most-booked four-star wedding venue — championship golf, a 250-guest ballroom, and proximity to Dublin Airport. A practical choice for couples with international guests.",
+        "venueDetail": "The Roganstown ballroom handles a 4-piece live band with PA and stage lighting comfortably at 250-guest scale.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a 250-guest north Dublin wedding wanting maximum energy."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Roganstown's typically international guest mix."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led — fits the warm north Dublin wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Roganstown?",
+                "a": "Sway Social and The Beat Boutique are the most common Roganstown picks for larger weddings."
+            },
+            {
+                "q": "Does Roganstown's ballroom fit a 250-guest wedding with a band?",
+                "a": "Yes — built for receptions at this scale with full PA infrastructure."
+            },
+            {
+                "q": "Can the band cover ceremony at Roganstown?",
+                "a": "Yes — indoor ceremony music available."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "newpark-hotel",
+        "name": "Newpark Hotel",
+        "county": "Kilkenny",
+        "town": "Kilkenny",
+        "style": "four-star city hotel",
+        "vibe": "Kilkenny-city-modern, accessible luxury",
+        "capacityHint": "up to ~250 in the Lakeshore Suite",
+        "intro": "Newpark Hotel in Kilkenny is one of the south-east's largest-capacity wedding venues — a four-star hotel in the city with the Lakeshore Suite handling weddings up to 250 guests. A balance of accessible luxury and substantial scale.",
+        "venueDetail": "The Lakeshore Suite is purpose-built for larger receptions with full live band infrastructure.",
+        "bandPicks": [
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a 250-guest Kilkenny wedding."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire keeps the Lakeshore Suite floor full."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals, feel-good — fits the south-east wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Newpark Hotel?",
+                "a": "Sway Social and The Beat Boutique are the most common Newpark picks for larger weddings."
+            },
+            {
+                "q": "Does the Lakeshore Suite fit a full band?",
+                "a": "Yes — built for 250-guest weddings with live music."
+            },
+            {
+                "q": "Can the band cover ceremony at Newpark?",
+                "a": "Yes — indoor ceremony music available."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "killyhevlin-lakeside",
+        "name": "Killyhevlin Lakeside Hotel",
+        "county": "Fermanagh",
+        "town": "Enniskillen",
+        "style": "lakeside four-star hotel",
+        "vibe": "Fermanagh-lakeside, considered country",
+        "capacityHint": "up to ~250 in the Killyhevlin Suite",
+        "intro": "Killyhevlin Lakeside Hotel sits on the shores of Lough Erne in Enniskillen — one of Northern Ireland's most picturesque wedding venues with a 250-guest suite and lakeside grounds for outdoor moments.",
+        "venueDetail": "The Killyhevlin Suite handles a 4-piece live band with full PA at 200-250 guest scale.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Six decades of repertoire — works across Fermanagh's typically broad wedding demographic."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for a destination Fermanagh wedding."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Feel-good, harmony-led — fits the warm NI wedding atmosphere."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for Killyhevlin Lakeside?",
+                "a": "The Beat Boutique and Sway Social are the most common Killyhevlin picks."
+            },
+            {
+                "q": "Do MusicAngel bands travel to Fermanagh?",
+                "a": "Yes — all four bands cover Northern Ireland including Fermanagh."
+            },
+            {
+                "q": "Can the band cover lakeside ceremony at Killyhevlin?",
+                "a": "Yes — acoustic ceremony sets on the lakeside can be added, weather permitting."
+            },
+            {
+                "q": "How early to book?",
+                "a": "12-18 months for peak NI summer Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "cliff-townhouse",
+        "name": "The Cliff Townhouse",
+        "county": "Dublin",
+        "town": "Dublin",
+        "style": "boutique city hotel, restaurant-led",
+        "vibe": "Dublin-city-modern, design-led",
+        "capacityHint": "up to ~80 — intimate city weddings",
+        "intro": "The Cliff Townhouse on St. Stephen's Green is Dublin city's design-led boutique wedding venue — small, exclusive, restaurant-led. Suits intimate city weddings rather than 200-guest celebrations.",
+        "venueDetail": "The townhouse's reception spaces are intimate by design — a 4-piece live band would be tight; couples often opt for an acoustic trio or duo here. We tailor the band configuration to match the venue.",
+        "bandPicks": [
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Polished, intimate musicianship for a small Dublin-city wedding where every guest sees the band up close."
+            },
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood styling for a design-led Dublin venue."
+            },
+            {
+                "slug": "the-best-men",
+                "name": "The Best Men",
+                "why": "Big vocals at intimate range — keeps a small Dublin floor warm."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for The Cliff Townhouse?",
+                "a": "Blacktye and The Beat Boutique are the most common Cliff Townhouse picks — both work at intimate range."
+            },
+            {
+                "q": "Is The Cliff Townhouse too small for a full live band?",
+                "a": "The townhouse suits smaller wedding parties (under 80 guests). A 4-piece band can play but often we recommend a stripped-down acoustic configuration. We'll confirm the right setup with you and the venue."
+            },
+            {
+                "q": "Can the band cover ceremony at The Cliff Townhouse?",
+                "a": "Yes — ceremony music can be added."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Dublin-city Saturdays."
+            }
+        ]
+    },
+    {
+        "slug": "the-westbury-hotel",
+        "name": "The Westbury Hotel",
+        "county": "Dublin",
+        "town": "Dublin",
+        "style": "five-star city hotel",
+        "vibe": "Dublin-city-luxury, classical",
+        "capacityHint": "up to ~180 in the Grafton Suite",
+        "intro": "The Westbury is Dublin city's most-recognised five-star wedding venue — off Grafton Street, with the Grafton Suite as the principal reception space for weddings up to 180 guests.",
+        "venueDetail": "The Grafton Suite is purpose-built for receptions with full live band PA infrastructure. The hotel's central Dublin location makes it a popular pick for couples with city-based guest lists.",
+        "bandPicks": [
+            {
+                "slug": "the-beat-boutique",
+                "name": "The Beat Boutique",
+                "why": "Old Hollywood polish for one of Dublin's most-recognised five-star venues."
+            },
+            {
+                "slug": "blacktye",
+                "name": "Blacktye",
+                "why": "Sleek arrangements built for the Grafton Suite's classical luxury feel."
+            },
+            {
+                "slug": "sway-social",
+                "name": "Sway Social",
+                "why": "Four lead vocalists for couples wanting a packed Dublin-city wedding floor."
+            }
+        ],
+        "faq": [
+            {
+                "q": "Best band for The Westbury Hotel?",
+                "a": "The Beat Boutique and Blacktye are the most common Westbury picks — both fit the venue's classical luxury feel."
+            },
+            {
+                "q": "Does the Grafton Suite fit a 4-piece live band?",
+                "a": "Yes — purpose-built for receptions with full live music infrastructure."
+            },
+            {
+                "q": "Can the band cover ceremony at The Westbury?",
+                "a": "Yes — indoor ceremony music available."
+            },
+            {
+                "q": "How far in advance to book?",
+                "a": "12-18 months for peak Dublin-city Saturdays."
+            }
+        ]
     }
 ]
