@@ -276,11 +276,33 @@
         });
     }
 
+    function setupVideoEmbeds() {
+        document.querySelectorAll('[data-video-src]').forEach(function (button) {
+            button.addEventListener('click', function () {
+                var src = button.getAttribute('data-video-src') || '';
+                var title = button.getAttribute('data-video-title') || 'MusicAngel showreel video';
+                if (!src) return;
+
+                var iframe = document.createElement('iframe');
+                iframe.src = src + (src.indexOf('?') === -1 ? '?' : '&') + 'autoplay=1';
+                iframe.title = title;
+                iframe.loading = 'lazy';
+                iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+                iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+                iframe.allowFullscreen = true;
+
+                var frame = button.parentElement;
+                if (frame) frame.replaceChildren(iframe);
+            });
+        });
+    }
+
     function init() {
         setupConsent();
         setupNavigation();
         setupForms();
         setupTracking();
+        setupVideoEmbeds();
     }
 
     if (document.readyState === 'loading') {

@@ -257,6 +257,20 @@
             margin-top: 1.5rem;
         }
         .video-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+        .video-frame .video-lite-button {
+            position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+            color: #fff; background: linear-gradient(180deg, rgba(17,17,17,0.22), rgba(17,17,17,0.76));
+            cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 0.8rem;
+            font-family: var(--sans); font-size: 0.7rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase;
+        }
+        .video-frame .video-lite-button::before {
+            content: ''; width: 3.2rem; height: 3.2rem; border-radius: 50%; background: var(--pink);
+            box-shadow: 0 16px 36px rgba(17, 17, 17, 0.28);
+        }
+        .video-frame .video-lite-button::after {
+            content: ''; position: absolute; left: calc(50% - 0.23rem); top: calc(50% - 0.46rem);
+            border-left: 0.72rem solid #fff; border-top: 0.46rem solid transparent; border-bottom: 0.46rem solid transparent;
+        }
 
         /* === About === */
         .about-body p { font-size: 1.05rem; line-height: 1.75; color: var(--ink-soft); margin-bottom: 1.15rem; max-width: 42rem; }
@@ -426,7 +440,7 @@
             <p class="sec-eye">Hear them live</p>
             <h2 class="sec-h2">The <em>showreel</em></h2>
             <div class="video-frame">
-                <iframe src="https://www.youtube-nocookie.com/embed/JbYhuYMQbSg?rel=0" title="The Best Men promo video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <button type="button" class="video-lite-button" data-video-src="https://www.youtube-nocookie.com/embed/JbYhuYMQbSg?rel=0" data-video-title="The Best Men promo video" aria-label="Play The Best Men promo video"><span>Play showreel</span></button>
             </div>
         </div>
     </section>
