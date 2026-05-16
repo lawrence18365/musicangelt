@@ -27,10 +27,13 @@ jobs:
           GA4_TOKEN_JSON: ${{ secrets.GA4_TOKEN_JSON }}
         run: |
           mkdir -p .tokens
-          echo "$GSC_TOKEN_JSON" > .tokens/.gsc-token.json
-          echo "$GA4_TOKEN_JSON" > .tokens/.ga4-admin-token.json
-          # Reasonable file permissions
-          chmod 600 .tokens/*.json
+          # printf is more reliable than echo for content with backslashes
+          printf '%s' "$GSC_TOKEN_JSON" > .tokens/.gsc-token.json
+          printf '%s' "$GA4_TOKEN_JSON" > .tokens/.ga4-admin-token.json
+          chmod 600 .tokens/.gsc-token.json .tokens/.ga4-admin-token.json
+          # Verify files have plausible JSON content
+          echo "GSC token file: $(wc -c < .tokens/.gsc-token.json) bytes"
+          echo "GA4 token file: $(wc -c < .tokens/.ga4-admin-token.json) bytes"
 
       - name: Generate weekly report
         env:
