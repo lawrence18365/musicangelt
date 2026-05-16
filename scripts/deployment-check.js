@@ -4,13 +4,16 @@
  *
  *   node scripts/deployment-check.js
  *
- * This is intentionally read-only. It reports DNS, HTTP server headers, and
- * whether the live host is still GitHub Pages or has moved to Vercel.
+ * Reports DNS, HTTP server headers, and whether the live host is still GitHub
+ * Pages, Cloudflare Pages, or Vercel. It also sends a honeypot POST to the
+ * Cloudflare Pages API bridge; the handler drops that payload without email.
  */
 const dns = require('dns').promises;
 
 const HOSTS = ['musicangel.ie', 'www.musicangel.ie'];
 const EXPECTED_VERCEL_A = '76.76.21.21';
+const CLOUDFLARE_PAGES_TARGET = 'musicangelt.pages.dev';
+const CLOUDFLARE_API = `https://${CLOUDFLARE_PAGES_TARGET}/api/enquiry`;
 const GITHUB_PAGES_A = new Set([
     '185.199.108.153',
     '185.199.109.153',
@@ -45,8 +48,28 @@ async function headSafe(url) {
 
 function classify(aRecords, server) {
     if (aRecords.includes(EXPECTED_VERCEL_A) || /vercel/i.test(server)) return 'Vercel';
+    if (/cloudflare/i.test(server)) return 'Cloudflare Pages';
     if (aRecords.some(ip => GITHUB_PAGES_A.has(ip)) || /github/i.test(server)) return 'GitHub Pages';
     return 'Unknown';
+}
+
+async function testCloudflareBridge() {
+    try {
+        const resp = await fetch(CLOUDFLARE_API, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Origin: 'https://musicangel.ie'
+            },
+            body: JSON.stringify({ hp: 'deployment-check' })
+        });
+        return {
+            status: resp.status,
+            body: await resp.text()
+        };
+    } catch (err) {
+        return { error: err.message };
+    }
 }
 
 async function main() {
@@ -71,17 +94,29 @@ async function main() {
         console.log(`  Host:   ${platform}`);
 
         if (platform === 'GitHub Pages') {
-            console.log('  Action: still pointed at GitHub Pages. Move DNS to Vercel when ready.');
+            console.log('  Action: live static host is still GitHub Pages. This is acceptable while js/site.js uses the Cloudflare API bridge.');
+            console.log('          Final cutover requires Cloudflare DNS write access.');
         } else if (platform === 'Vercel' && api.status === 503) {
             console.log('  Action: Vercel is live, but RESEND_API_KEY is missing or email backend is not configured.');
         } else if (platform === 'Vercel') {
             console.log('  Action: DNS is on Vercel. Confirm enquiry POST works with a real form test.');
+        } else if (platform === 'Cloudflare Pages') {
+            console.log('  Action: DNS is on Cloudflare Pages. Confirm musicangel.ie/api/enquiry accepts POST.');
         }
     }
 
-    console.log('\nExpected Vercel DNS:');
-    console.log(`  A @   ${EXPECTED_VERCEL_A}`);
-    console.log(`  A www ${EXPECTED_VERCEL_A}`);
+    const bridge = await testCloudflareBridge();
+    console.log('\nCloudflare Pages API bridge:');
+    console.log(`  URL:    ${CLOUDFLARE_API}`);
+    console.log(`  POST:   ${bridge.error ? bridge.error : `${bridge.status} ${bridge.body}`}`);
+
+    console.log('\nExpected final Cloudflare Pages DNS:');
+    console.log(`  CNAME @   ${CLOUDFLARE_PAGES_TARGET}  proxied`);
+    console.log(`  CNAME www ${CLOUDFLARE_PAGES_TARGET}  proxied`);
+
+    console.log('\nVercel fallback DNS if Cloudflare Pages is abandoned:');
+    console.log(`  A @   ${EXPECTED_VERCEL_A}  DNS only`);
+    console.log(`  A www ${EXPECTED_VERCEL_A}  DNS only`);
 }
 
 main().catch(err => {
