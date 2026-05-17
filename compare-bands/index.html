@@ -37,12 +37,7 @@
     <meta name="twitter:title" content="Compare the Four MusicAngel Wedding Bands">
     <meta name="twitter:description" content="Side-by-side comparison.">
     <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -57,6 +52,7 @@
         window.META_PIXEL_ID = window.META_PIXEL_ID || '';
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+        window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
@@ -98,7 +94,7 @@
 
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-        :root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #C2185B; --pink-hover: #A9144E; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
+        :root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #C2185B; --pink-hover: #A9144E; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: Georgia, 'Times New Roman', serif; --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
         html { scroll-behavior: smooth; }
         body { background: radial-gradient(circle at 8% 12%, rgba(247, 214, 228, 0.42), transparent 28rem), linear-gradient(180deg, var(--ivory) 0%, #fff 36%, var(--ivory) 100%); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; }
         nav.top { position: sticky; top: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 1.1rem clamp(1rem, 5vw, 3rem); background: rgba(251, 248, 245, 0.88); backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
@@ -146,6 +142,14 @@
         .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.95rem 1.6rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; border-radius: 999px; text-decoration: none; cursor: pointer; transition: transform 0.18s, background 0.18s; border: 1px solid transparent; }
         .btn-pink { background: var(--pink); color: #fff; box-shadow: 0 12px 34px rgba(242, 108, 167, 0.28); }
         .btn-pink:hover { background: var(--pink-hover); transform: translateY(-2px); }
+        .lead-form { display: grid; gap: 1rem; max-width: 42rem; margin: 1.8rem auto 0; text-align: left; background: #fff; padding: clamp(1.35rem, 4vw, 2rem); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow-soft); }
+        .f-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+        .fg label { display: block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; }
+        .fg input, .fg select, .fg textarea { width: 100%; font-family: var(--sans); font-size: 0.95rem; padding: 0.75rem 0.9rem; border: 1px solid var(--border-strong); background: var(--ivory); border-radius: 10px; color: var(--ink); transition: border-color 0.2s, background 0.2s, box-shadow 0.2s; }
+        .fg input:focus, .fg select:focus, .fg textarea:focus { outline: none; border-color: var(--pink); background: #fff; box-shadow: 0 0 0 3px rgba(242, 108, 167, 0.15); }
+        .fg textarea { min-height: 92px; resize: vertical; }
+        .btn-submit { width: 100%; justify-content: center; }
+        .form-status { font-size: 0.85rem; color: var(--text-muted); text-align: center; min-height: 1.2rem; margin-top: 0.2rem; }
         footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
         .footer-inner { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); }
         .footer-inner a { color: var(--text-muted); text-decoration: none; }
@@ -159,7 +163,7 @@
         .cc-actions { display: flex; gap: 0.5rem; justify-content: flex-end; flex-wrap: wrap; }
         .cc-btn { border: 1px solid rgba(255, 255, 255, 0.22); background: transparent; color: #fff; padding: 0.5rem 0.95rem; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 999px; cursor: pointer; }
         .cc-accept { background: var(--pink); border-color: var(--pink); }
-        @media (max-width: 560px) { .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; } }
+        @media (max-width: 560px) { .f-row { grid-template-columns: 1fr; } .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; } }
     </style>
 </head>
 <body>
@@ -301,7 +305,31 @@
         <div class="cta-band">
             <h2 style="margin-top: 0;">Still narrowing it down? <em>We'll help</em></h2>
             <p style="font-family: var(--serif); font-style: italic; color: var(--text-muted); margin-bottom: 1.5rem;">Send your date and venue. We'll suggest the closest fit and confirm availability.</p>
-            <a href="/#contact" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+            <form id="enquiry" class="lead-form">
+                <div class="f-row">
+                    <div class="fg"><label for="name">Your Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+                    <div class="fg"><label for="partner">Partner's Name</label><input id="partner" name="partner" type="text"></div>
+                </div>
+                <div class="f-row">
+                    <div class="fg"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+                    <div class="fg"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+                </div>
+                <div class="f-row">
+                    <div class="fg"><label for="date">Wedding Date</label><input id="date" name="date" type="date"></div>
+                    <div class="fg"><label for="venue">Venue</label><input id="venue" name="venue" type="text" placeholder="Venue and county"></div>
+                </div>
+                <div class="fg"><label for="band">Band you're considering</label><select id="band" name="band">
+                    <option value="">Not sure yet, help me choose</option>
+                    <option>The Beat Boutique</option>
+                    <option>Sway Social</option>
+                    <option>The Best Men</option>
+                    <option>Blacktye</option>
+                </select></div>
+                <div class="fg"><label for="message">Tell us what matters most</label><textarea id="message" name="message" placeholder="Guest count, venue room, music style, bands you're comparing..."></textarea></div>
+                <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+                <button type="submit" class="btn btn-pink btn-submit">Send Enquiry <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
         </div>
     </div>
 

@@ -155,8 +155,7 @@ async function main() {
         console.log(`  Host:   ${platform}`);
 
         if (platform === 'GitHub Pages') {
-            console.log('  Action: live static host is still GitHub Pages. This is acceptable while js/site.js uses the Cloudflare API bridge.');
-            console.log('          Final cutover requires Cloudflare DNS write access.');
+            console.log('  Action: production DNS has drifted back to GitHub Pages. Restore Cloudflare Pages DNS.');
         } else if (platform === 'Vercel' && api.status === 503) {
             console.log('  Action: Vercel is live, but RESEND_API_KEY is missing or email backend is not configured.');
         } else if (platform === 'Vercel') {

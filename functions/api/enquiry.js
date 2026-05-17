@@ -149,6 +149,7 @@ async function handlePost({ request, env }) {
     const name = clean(body.name, 120);
     const partner = clean(body.partner, 120);
     const email = clean(body.email, 254);
+    const phone = clean(body.phone, 80);
     const date = clean(body.date, 32);
     const venue = clean(body.venue, 240);
     const band = clean(body.band, 80);
@@ -181,6 +182,7 @@ async function handlePost({ request, env }) {
             <tr><td><strong>Name</strong></td><td>${esc(name)}</td></tr>
             <tr><td><strong>Partner</strong></td><td>${esc(partner)}</td></tr>
             <tr><td><strong>Email</strong></td><td><a href="mailto:${esc(email)}">${esc(email)}</a></td></tr>
+            <tr><td><strong>Phone</strong></td><td>${phone ? `<a href="tel:${esc(phone)}">${esc(phone)}</a>` : ''}</td></tr>
             <tr><td><strong>Wedding date</strong></td><td>${esc(date)}</td></tr>
             <tr><td><strong>Venue</strong></td><td>${esc(venue)}</td></tr>
             <tr><td><strong>Band of interest</strong></td><td>${esc(band)}</td></tr>

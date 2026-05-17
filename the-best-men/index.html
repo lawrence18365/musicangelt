@@ -37,14 +37,9 @@
     <meta name="twitter:title" content="The Best Men | Wedding Band Ireland">
     <meta name="twitter:description" content="Sharp, feel-good wedding band with big vocals, tight harmonies and a packed dance floor.">
     <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-the-best-men.webp">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preconnect" href="https://www.youtube-nocookie.com">
-    <link rel="preload" as="image" href="/assets/bands/hero-the-best-men.webp" fetchpriority="high">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" as="image" href="/assets/bands/hero-the-best-men-640.webp" imagesrcset="/assets/bands/hero-the-best-men-640.webp 640w, /assets/bands/hero-the-best-men-960.webp 960w, /assets/bands/hero-the-best-men.webp 1200w" imagesizes="(max-width: 760px) 100vw, 44vw" fetchpriority="high">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
 
     <script>
@@ -146,8 +141,8 @@
             --ivory: #FBF8F5; --champagne: #C8B28A; --sage: #7E8D82;
             --text: #2a2a2a; --text-muted: #6a6266;
             --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22);
-            --serif: 'Cormorant Garamond', Georgia, serif;
-            --sans: 'Manrope', system-ui, sans-serif;
+            --serif: Georgia, 'Times New Roman', serif;
+            --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08);
             --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
         }
@@ -394,6 +389,7 @@
         window.META_PIXEL_ID = window.META_PIXEL_ID || '';
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+        window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
@@ -430,7 +426,7 @@
                 </div>
             </div>
             <figure class="hero-photo">
-                <img src="/assets/bands/hero-the-best-men.webp" alt="The Best Men, feel-good live wedding band from Ireland" width="1200" height="800" loading="eager" fetchpriority="high" decoding="async">
+                <img src="/assets/bands/hero-the-best-men.webp" srcset="/assets/bands/hero-the-best-men-640.webp 640w, /assets/bands/hero-the-best-men-960.webp 960w, /assets/bands/hero-the-best-men.webp 1200w" sizes="(max-width: 760px) 100vw, 44vw" alt="The Best Men, feel-good live wedding band from Ireland" width="1200" height="800" loading="eager" fetchpriority="high" decoding="async">
             </figure>
         </header>
     </div>
@@ -526,9 +522,12 @@
                 </div>
                 <div class="f-row">
                     <div class="fg"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-                    <div class="fg"><label for="date">Wedding Date</label><input id="date" name="date" type="date"></div>
+                    <div class="fg"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
                 </div>
-                <div class="fg"><label for="venue">Venue</label><input id="venue" name="venue" type="text" placeholder="Ashford Castle, Co. Mayo"></div>
+                <div class="f-row">
+                    <div class="fg"><label for="date">Wedding Date</label><input id="date" name="date" type="date"></div>
+                    <div class="fg"><label for="venue">Venue</label><input id="venue" name="venue" type="text" placeholder="Ashford Castle, Co. Mayo"></div>
+                </div>
                 <input type="hidden" name="band" value="The Best Men">
                 <div class="fg"><label for="message">Tell us about your day</label><textarea id="message" name="message" placeholder="Guest count, ceremony or drinks-reception music, anything special..."></textarea></div>
                 <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">

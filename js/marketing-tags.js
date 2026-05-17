@@ -10,6 +10,7 @@
  *   window.META_PIXEL_ID = '123456789012345';        // 15-digit Meta pixel ID
  *   window.LINKEDIN_PARTNER_ID = '1234567';           // 7-digit LinkedIn partner ID
  *   window.GOOGLE_ADS_CONVERSION_ID = 'AW-XXXXXXX';   // Google Ads (optional)
+ *   window.GOOGLE_ADS_LEAD_LABEL = 'AbCdEfGhIjk';     // Google Ads lead conversion label
  *   window.HOTJAR_SITE_ID = '1234567';                // Hotjar (heatmaps + recordings)
  *   window.CLARITY_PROJECT_ID = 'abcdef1234';         // Microsoft Clarity (free heatmaps + recordings)
  *
@@ -105,7 +106,22 @@
         loadClarity(window.CLARITY_PROJECT_ID);
     }
 
+    function fireGoogleAdsLead(event) {
+        var awId = window.GOOGLE_ADS_CONVERSION_ID || '';
+        var label = window.GOOGLE_ADS_LEAD_LABEL || '';
+        if (!awId || !label || typeof gtag !== 'function' || !consentGranted()) return;
+        loadGoogleAds(awId);
+        var detail = event && event.detail || {};
+        gtag('event', 'conversion', {
+            send_to: awId + '/' + label,
+            value: detail.value || 500,
+            currency: detail.currency || 'EUR',
+            event_callback: function () {}
+        });
+    }
+
     document.addEventListener('consent:granted', maybeLoadAll, { once: false });
+    document.addEventListener('musicangel:lead', fireGoogleAdsLead, { once: false });
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', maybeLoadAll);
     } else {

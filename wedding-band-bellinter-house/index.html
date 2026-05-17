@@ -36,11 +36,7 @@
     <meta name="twitter:description" content="Wedding band for Bellinter House, Meath. Compare four live Irish bands matched to your venue, with 100% live sets and pricing from €2,800.">
     <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
 
     <script>
@@ -57,6 +53,7 @@
         window.META_PIXEL_ID = window.META_PIXEL_ID || '';
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+        window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
@@ -176,7 +173,7 @@
 
     <style>
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-:root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #C2185B; --pink-hover: #A9144E; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: 'Cormorant Garamond', Georgia, serif; --sans: 'Manrope', system-ui, sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
+:root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #C2185B; --pink-hover: #A9144E; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: Georgia, 'Times New Roman', serif; --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
 html { scroll-behavior: smooth; }
 body { background: radial-gradient(circle at 8% 12%, rgba(247, 214, 228, 0.42), transparent 28rem), linear-gradient(180deg, var(--ivory) 0%, #fff 36%, var(--ivory) 100%); color: var(--text); font-family: var(--sans); font-size: 16px; line-height: 1.75; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 ::selection { background: var(--blush); color: var(--ink); }
@@ -387,9 +384,12 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
                 </div>
                 <div class="f-row">
                     <div class="fg"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
-                    <div class="fg"><label for="date">Wedding Date</label><input id="date" name="date" type="date"></div>
+                    <div class="fg"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
                 </div>
-                <div class="fg"><label for="venue">Venue</label><input id="venue" name="venue" type="text" value="Bellinter House, Co. Meath"></div>
+                <div class="f-row">
+                    <div class="fg"><label for="date">Wedding Date</label><input id="date" name="date" type="date"></div>
+                    <div class="fg"><label for="venue">Venue</label><input id="venue" name="venue" type="text" value="Bellinter House, Co. Meath"></div>
+                </div>
                 <div class="fg"><label for="band">Which Band</label><select id="band" name="band">
                     <option value="">Suggested: Blacktye</option>
                     <option>The Beat Boutique</option>

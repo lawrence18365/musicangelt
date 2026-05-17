@@ -71,6 +71,7 @@
             'Name: ' + (data.name || ''),
             "Partner: " + (data.partner || ''),
             'Email: ' + (data.email || ''),
+            'Phone: ' + (data.phone || ''),
             'Wedding Date: ' + (data.date || ''),
             'Venue: ' + (data.venue || ''),
             'Band: ' + (data.band || ''),
@@ -127,6 +128,18 @@
     function setupForms() {
         var forms = document.querySelectorAll('form#enquiry, form#enquiryForm, form[data-enquiry]');
         forms.forEach(function (form) {
+            var formStarted = false;
+            function trackFormStart() {
+                if (formStarted) return;
+                formStarted = true;
+                track('form_start', {
+                    form_id: form.getAttribute('id') || form.getAttribute('data-enquiry') || 'enquiry',
+                    page_path: window.location.pathname
+                });
+            }
+            form.addEventListener('focusin', trackFormStart, { once: true });
+            form.addEventListener('input', trackFormStart, { once: true });
+
             form.addEventListener('submit', async function (event) {
                 event.preventDefault();
 
@@ -169,6 +182,16 @@
                             enquiry_band: data.band || '',
                             enquiry_venue: data.venue || ''
                         });
+                        document.dispatchEvent(new CustomEvent('musicangel:lead', {
+                            detail: {
+                                currency: 'EUR',
+                                value: 500,
+                                form_id: formId,
+                                enquiry_band: data.band || '',
+                                enquiry_venue: data.venue || '',
+                                page_path: window.location.pathname
+                            }
+                        }));
                         if (typeof window.fbq === 'function') window.fbq('track', 'Lead');
                         if (btn) btn.textContent = 'Sent';
                         if (status) status.textContent = 'Thanks. We will reply within one working day.';
@@ -282,6 +305,10 @@
                 var src = button.getAttribute('data-video-src') || '';
                 var title = button.getAttribute('data-video-title') || 'MusicAngel showreel video';
                 if (!src) return;
+                track('video_play', {
+                    video_title: title,
+                    page_path: window.location.pathname
+                });
 
                 var iframe = document.createElement('iframe');
                 iframe.src = src + (src.indexOf('?') === -1 ? '?' : '&') + 'autoplay=1';

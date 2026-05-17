@@ -40,13 +40,8 @@
     <meta name="twitter:title" content="MusicAngel | Wedding Bands Playing All of Ireland">
     <meta name="twitter:description" content="Four standout live wedding bands playing all of Ireland.">
     <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://www.googletagmanager.com">
-    <link rel="preload" as="image" href="/assets/bands/hero-beat-boutique.webp" fetchpriority="high">
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+    <link rel="preload" as="image" href="/assets/bands/hero-beat-boutique-small.webp" imagesrcset="/assets/bands/hero-beat-boutique-small.webp 640w, /assets/bands/hero-beat-boutique-960.webp 960w, /assets/bands/hero-beat-boutique.webp 1400w" imagesizes="(max-width: 980px) 45vw, 18vw" fetchpriority="high">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
 
     <!-- Google Analytics 4 (Consent Mode v2: default deny for GDPR/ePrivacy, granted after consent) -->
@@ -123,8 +118,8 @@
             --text-light: #b5aeb0;
             --border: rgba(247, 214, 228, 0.5);
             --border-strong: rgba(242, 108, 167, 0.22);
-            --serif: 'Cormorant Garamond', Georgia, serif;
-            --sans: 'Manrope', system-ui, sans-serif;
+            --serif: Georgia, 'Times New Roman', serif;
+            --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
             --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08);
             --shadow-pink: 0 18px 52px rgba(242, 108, 167, 0.18);
             --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -1839,6 +1834,7 @@
         window.META_PIXEL_ID = window.META_PIXEL_ID || '';
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
+        window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
@@ -1876,7 +1872,8 @@
             <p class="hero-tagline">Explore four standout live wedding bands playing across Ireland and check availability for a live sound that fits your day.</p>
             <div class="hero-ctas">
                 <a href="#bands" class="btn-pink">Meet Our Bands</a>
-                <a href="#contact" class="btn-ghost">Enquire Now</a>
+                <a href="#contact" class="btn-ghost">Check Availability</a>
+                <a href="tel:+353872310001" class="btn-ghost">Call Jo</a>
             </div>
             <div class="hero-proof" aria-label="MusicAngel highlights">
                 <div class="hero-proof-item">
@@ -1896,19 +1893,19 @@
 
         <div class="hero-art" role="group" aria-label="Featured MusicAngel bands">
             <a href="/the-beat-boutique/" class="hero-photo">
-                <img src="assets/bands/hero-beat-boutique.webp" alt="The Beat Boutique band" width="1400" height="788" loading="eager" fetchpriority="high" decoding="async">
+                <img src="assets/bands/hero-beat-boutique.webp" srcset="assets/bands/hero-beat-boutique-small.webp 640w, assets/bands/hero-beat-boutique-960.webp 960w, assets/bands/hero-beat-boutique.webp 1400w" sizes="(max-width: 980px) 45vw, 18vw" alt="The Beat Boutique band" width="1400" height="788" loading="eager" fetchpriority="high" decoding="async">
                 <span>The Beat Boutique</span>
             </a>
             <a href="/sway-social/" class="hero-photo">
-                <img src="assets/bands/hero-sway-social.webp" alt="Sway Social band in a barbershop" width="1706" height="992" loading="lazy" decoding="async">
+                <img src="assets/bands/hero-sway-social.webp" srcset="assets/bands/hero-sway-social-640.webp 640w, assets/bands/hero-sway-social-960.webp 960w, assets/bands/hero-sway-social.webp 1706w" sizes="(max-width: 980px) 45vw, 18vw" alt="Sway Social band in a barbershop" width="1706" height="992" loading="lazy" decoding="async">
                 <span>Sway Social</span>
             </a>
             <a href="/the-best-men/" class="hero-photo">
-                <img src="assets/bands/hero-the-best-men.webp" alt="The Best Men band" width="1200" height="800" loading="lazy" decoding="async">
+                <img src="assets/bands/hero-the-best-men.webp" srcset="assets/bands/hero-the-best-men-640.webp 640w, assets/bands/hero-the-best-men-960.webp 960w, assets/bands/hero-the-best-men.webp 1200w" sizes="(max-width: 980px) 45vw, 18vw" alt="The Best Men band" width="1200" height="800" loading="lazy" decoding="async">
                 <span>The Best Men</span>
             </a>
             <a href="/blacktye/" class="hero-photo">
-                <img src="assets/bands/hero-blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="lazy" decoding="async">
+                <img src="assets/bands/hero-blacktye.webp" srcset="assets/bands/hero-blacktye-640.webp 640w, assets/bands/hero-blacktye-960.webp 960w, assets/bands/hero-blacktye.webp 1400w" sizes="(max-width: 980px) 45vw, 18vw" alt="Blacktye band performing" width="1400" height="934" loading="lazy" decoding="async">
                 <span>Blacktye</span>
             </a>
         </div>
@@ -1941,7 +1938,7 @@
                     <span class="band-idx">01</span>
                     <div class="band-media">
                         <figure class="band-photo">
-                            <img src="assets/bands/the-beat-boutique.webp" alt="The Beat Boutique band in Dublin" width="800" height="534" loading="lazy">
+                            <img src="assets/bands/the-beat-boutique.webp" srcset="assets/bands/the-beat-boutique-640.webp 640w, assets/bands/the-beat-boutique.webp 800w" sizes="(max-width: 980px) 100vw, 42vw" alt="The Beat Boutique band in Dublin" width="800" height="534" loading="lazy">
                         </figure>
                         <div class="band-video">
                             <button type="button" class="video-lite-button" data-video-src="https://www.youtube-nocookie.com/embed/E0OroK_izUE?rel=0" data-video-title="The Beat Boutique promo video" aria-label="Play The Beat Boutique promo video"><span>Play showreel</span></button>
@@ -1978,7 +1975,7 @@
                     <span class="band-idx">02</span>
                     <div class="band-media">
                         <figure class="band-photo band-photo-sway">
-                            <img src="assets/bands/sway-social.webp" alt="Sway Social band beside a graffiti wall" width="1356" height="654" loading="lazy">
+                            <img src="assets/bands/sway-social.webp" srcset="assets/bands/sway-social-640.webp 640w, assets/bands/sway-social-960.webp 960w, assets/bands/sway-social.webp 1356w" sizes="(max-width: 980px) 100vw, 42vw" alt="Sway Social band beside a graffiti wall" width="1356" height="654" loading="lazy">
                         </figure>
                         <div class="band-video">
                             <button type="button" class="video-lite-button" data-video-src="https://www.youtube-nocookie.com/embed/d7FOBPkDxjQ?rel=0" data-video-title="Sway Social promo video" aria-label="Play Sway Social promo video"><span>Play showreel</span></button>
@@ -2015,7 +2012,7 @@
                     <span class="band-idx">03</span>
                     <div class="band-media">
                         <figure class="band-photo band-photo-wide">
-                            <img src="assets/bands/the-best-men-bird.webp" alt="The Best Men band outside Bird" width="1057" height="683" loading="lazy">
+                            <img src="assets/bands/the-best-men-bird.webp" srcset="assets/bands/the-best-men-bird-640.webp 640w, assets/bands/the-best-men-bird-960.webp 960w, assets/bands/the-best-men-bird.webp 1057w" sizes="(max-width: 980px) 100vw, 42vw" alt="The Best Men band outside Bird" width="1057" height="683" loading="lazy">
                         </figure>
                         <div class="band-video">
                             <button type="button" class="video-lite-button" data-video-src="https://www.youtube-nocookie.com/embed/JbYhuYMQbSg?rel=0" data-video-title="The Best Men promo video" aria-label="Play The Best Men promo video"><span>Play showreel</span></button>
@@ -2052,7 +2049,7 @@
                     <span class="band-idx">04</span>
                     <div class="band-media">
                         <figure class="band-photo">
-                            <img src="assets/bands/blacktye.webp" alt="Blacktye band performing" width="1400" height="934" loading="lazy">
+                            <img src="assets/bands/blacktye.webp" srcset="assets/bands/blacktye-640.webp 640w, assets/bands/blacktye-960.webp 960w, assets/bands/blacktye.webp 1400w" sizes="(max-width: 980px) 100vw, 42vw" alt="Blacktye band performing" width="1400" height="934" loading="lazy">
                         </figure>
                         <div class="band-video">
                             <button type="button" class="video-lite-button" data-video-src="https://www.youtube-nocookie.com/embed/jVqePIfC110?rel=0" data-video-title="Blacktye promo video" aria-label="Play Blacktye promo video"><span>Play showreel</span></button>
@@ -2297,13 +2294,19 @@
                                 <input id="email" name="email" type="email" placeholder="jane@example.com" autocomplete="email" required>
                             </div>
                             <div class="fg">
+                                <label for="phone">Phone</label>
+                                <input id="phone" name="phone" type="tel" placeholder="+353 87 231 0001" autocomplete="tel">
+                            </div>
+                        </div>
+                        <div class="f-row">
+                            <div class="fg">
                                 <label for="date">Wedding Date</label>
                                 <input id="date" name="date" type="date">
                             </div>
-                        </div>
-                        <div class="fg">
-                            <label for="venue">Venue</label>
-                            <input id="venue" name="venue" type="text" placeholder="Ashford Castle, Co. Mayo">
+                            <div class="fg">
+                                <label for="venue">Venue</label>
+                                <input id="venue" name="venue" type="text" placeholder="Ashford Castle, Co. Mayo">
+                            </div>
                         </div>
                         <div class="fg">
                             <label for="band">Which Band</label>
@@ -2345,7 +2348,7 @@
                     <li><a href="/cookies/">Cookies</a></li>
                 </ul>
                 <div class="footer-rule"></div>
-                <span class="footer-copy">&copy; 2025 MusicAngel.ie, Wedding Bands Playing All of Ireland</span>
+                <span class="footer-copy">&copy; 2026 MusicAngel.ie, Wedding Bands Playing All of Ireland</span>
             </div>
         </div>
     </footer>
