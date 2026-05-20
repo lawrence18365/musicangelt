@@ -19,6 +19,7 @@ const CLOUDFLARE_PAGES_TARGET = 'musicangelt.pages.dev';
 const CLOUDFLARE_API = `https://${CLOUDFLARE_PAGES_TARGET}/api/enquiry`;
 const CLOUDFLARE_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID || '5f96fef6f6606249f9ab055ae29545ff';
 const CLOUDFLARE_PROJECT = 'musicangelt';
+const NOT_FOUND_TEST_PATH = '/definitely-not-a-real-page-deployment-check/';
 const WRANGLER_CONFIG = path.join(
     process.env.HOME || '',
     'Library/Preferences/.wrangler/config/default.toml'
@@ -145,6 +146,7 @@ async function main() {
         const resolvedIp = a[0] || '';
         const https = await headSafe(`https://${host}/`, resolvedIp);
         const api = await headSafe(`https://${host}/api/enquiry`, resolvedIp);
+        const notFound = await headSafe(`https://${host}${NOT_FOUND_TEST_PATH}`, resolvedIp);
         const platform = classify(a, https.server || '');
 
         console.log(`\n${host}`);
@@ -152,6 +154,7 @@ async function main() {
         console.log(`  CNAME:  ${cname.length ? cname.join(', ') : '-'}`);
         console.log(`  HTTPS:  ${https.error ? https.error : `${https.status} server=${https.server || '-'}`}`);
         console.log(`  API:    ${api.error ? api.error : `${api.status} server=${api.server || '-'}`}`);
+        console.log(`  404:    ${notFound.error ? notFound.error : `${notFound.status} ${NOT_FOUND_TEST_PATH}`}`);
         console.log(`  Host:   ${platform}`);
 
         if (platform === 'GitHub Pages') {
@@ -162,6 +165,9 @@ async function main() {
             console.log('  Action: DNS is on Vercel. Confirm enquiry POST works with a real form test.');
         } else if (platform === 'Cloudflare Pages') {
             console.log('  Action: DNS is on Cloudflare Pages. Confirm musicangel.ie/api/enquiry accepts POST.');
+        }
+        if (notFound.status && notFound.status !== 404) {
+            console.log('  Action: unknown paths should return 404. Deploy the top-level 404.html before requesting indexing.');
         }
     }
 
