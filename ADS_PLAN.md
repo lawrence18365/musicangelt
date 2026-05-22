@@ -42,7 +42,7 @@ MusicAngel Ireland (account)
 
 **Headlines:**
 - MusicAngel — Four Live Wedding Bands
-- Wedding Bands Ireland — From €2,800
+- Wedding Bands Ireland — From €2450
 - 100% Live · No Backing Tracks · Ireland
 - Real Live Music for Your Wedding Day
 - Compare Four Award-Winning Bands
@@ -51,7 +51,7 @@ MusicAngel Ireland (account)
 - Wedding Bands Playing All of Ireland
 
 **Descriptions:**
-- Four standout live wedding bands. 100% live, every note, all of Ireland. Pricing from €2,800. Check availability.
+- Four standout live wedding bands. 100% live, every note, all of Ireland. Pricing from €2450. Check availability.
 - The Beat Boutique, Sway Social, The Best Men, Blacktye. Compare side by side. Real live music, your day, our team.
 
 **Final URL:** `https://musicangel.ie/`
@@ -76,14 +76,14 @@ MusicAngel Ireland (account)
 
 **Ad headlines:**
 - Wedding Band Cost Ireland · 2026 Guide
-- From €2,800 — Honest Irish Pricing
+- From €2450 — Honest Irish Pricing
 - What You Really Pay for an Irish Band
-- 4-Piece Live · From €2,800
+- 4-Piece Live · From €2450
 - No Hidden Fees · Quote in 24 Hours
 
 **Descriptions:**
 - Honest 2026 guide: typical ranges, what's included, what changes the price. Get a tailored quote for your date.
-- 4-piece live wedding bands from €2,800. Travel + DJ music included. Check availability today.
+- 4-piece live wedding bands from €2450. Travel + DJ music included. Check availability today.
 
 ### Ad group 2.2 — Direct booking intent
 **Keywords:**
@@ -98,7 +98,7 @@ MusicAngel Ireland (account)
 **Ad headlines:**
 - Four Live Wedding Bands · Ireland-Wide
 - Compare Four Bands Side by Side
-- Real Live Music · From €2,800
+- Real Live Music · From €2450
 - Picked for Your Day · Same-Day Reply
 - Award-Winning Live Wedding Bands
 
@@ -143,7 +143,7 @@ MusicAngel Ireland (account)
 - Wedding Band for Ashford Castle
 - Live Bands That Suit Ashford Castle
 - 4 Bands · State Banqueting Hall Tested
-- From €2,800 · Check Date Now
+- From €2450 · Check Date Now
 
 **Repeat for:** Dromoland Castle, Adare Manor, Powerscourt, The K Club, Mount Juliet, Carton House, Tankardstown, Castle Leslie, Ballyfin, Cabra Castle, Cliff at Lyons, Sheen Falls Lodge, Park Hotel Kenmare, etc.
 
@@ -166,7 +166,7 @@ MusicAngel Ireland (account)
 **Headlines:**
 - Wedding Bands for Dublin Weddings
 - Four Bands · Greater Dublin Area
-- 100% Live · From €2,800
+- 100% Live · From €2450
 
 **Repeat for:** Cork, Galway, Kerry, Limerick, Mayo, Donegal, Wicklow, Clare, Kilkenny, Tipperary, Waterford, Wexford, Kildare, Meath.
 

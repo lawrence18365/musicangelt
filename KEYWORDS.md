@@ -18,7 +18,7 @@ The sibling's `/guides/first-dance-songs/` page gets **9,096 impressions and 217
 ### 2. Wedding band cost ireland (228+ impressions)
 The sibling's `/pricing-guide/` gets **7,265 impressions, 62 clicks at position 4**. You have `/wedding-band-cost-ireland` already built and well-targeted.
 
-- **What to do:** Add a comparison table of "what €2,800 gets you" vs "what €4,500 gets you" vs "what €6,000+ gets you" — that table generates featured-snippet eligibility.
+- **What to do:** Add a comparison table of "what €2450 gets you" vs "what €4,500 gets you" vs "what €6,000+ gets you" — that table generates featured-snippet eligibility.
 - **Expected rank:** 3-5 within 60 days.
 - **Estimated lift:** 100+ clicks/month organic.
 

@@ -302,7 +302,7 @@ function renderVenue(v) {
     const canonical = pageUrl(`wedding-band-${v.slug}`);
     const titleWithCounty = `Wedding Band for ${v.name}, ${v.county} | MusicAngel`;
     const title = titleWithCounty.length <= 68 ? titleWithCounty : `Wedding Band for ${v.name} | MusicAngel`;
-    const description = `Wedding band for ${v.name}, ${v.county}. Compare four live Irish bands matched to your venue, with 100% live sets and pricing from €2,800.`;
+    const description = `Wedding band for ${v.name}, ${v.county}. Explore four live Irish bands for your venue, with 100% live sets and pricing from €2450.`;
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
     const topBand = v.bandPicks[0];
 
@@ -325,7 +325,7 @@ function renderVenue(v) {
             },
             {
                 "@type": "ItemList",
-                "name": `Wedding bands suited to ${v.name}`,
+                "name": `MusicAngel bands for ${v.name}`,
                 "itemListElement": v.bandPicks.map((b, i) => ({
                     "@type": "ListItem", "position": i + 1,
                     "item": { "@type": "MusicGroup", "name": b.name, "url": pageUrl(b.slug) }
@@ -363,7 +363,7 @@ function renderVenue(v) {
             <p class="lede">${esc(v.intro)}</p>
             <div class="ctas">
                 <a href="#enquiry" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                <a href="#picks" class="btn btn-ghost">See Recommended Bands</a>
+                <a href="#picks" class="btn btn-ghost">See MusicAngel Bands</a>
             </div>
         </header>
     </div>
@@ -388,7 +388,7 @@ function renderVenue(v) {
                 <ul>
                     <li><strong>Room and guest count:</strong> tell us which room you are using and roughly how many guests are attending, so the PA and stage footprint are right.</li>
                     <li><strong>Timeline:</strong> confirm speeches, first dance time, band start time, and whether the venue needs the band loaded in before guests enter the room.</li>
-                    <li><strong>Music brief:</strong> share three songs you love and three you do not want. That helps us point you toward the closest MusicAngel band.</li>
+                    <li><strong>Music brief:</strong> share three songs you love and three you do not want. That helps us understand the live-music priorities for your day.</li>
                     <li><strong>Extras:</strong> ceremony music, drinks-reception sets, sax, or a later DJ finish should be quoted upfront rather than added late.</li>
                 </ul>
             </div>
@@ -397,10 +397,10 @@ function renderVenue(v) {
 
     <section id="picks">
         <div class="wrap">
-            <p class="sec-eye">Our recommended bands</p>
-            <h2 class="sec-h2">Which band suits <em>${esc(v.name)}</em>?</h2>
+            <p class="sec-eye">MusicAngel bands</p>
+            <h2 class="sec-h2">Explore bands for <em>${esc(v.name)}</em></h2>
             <div class="detail">
-                <p>We shortlist bands by room size, visual fit, live musicianship, and how the set should move from first dance into a full floor. These are the strongest fits for ${esc(v.name)} based on that brief.</p>
+                <p>Browse MusicAngel bands that can be checked for your date, venue room, guest count and live-music brief.</p>
             </div>
             <div class="picks">
 ${picksHtml}
@@ -411,7 +411,7 @@ ${picksHtml}
     <div class="price-band">
         <div class="wrap">
             <div class="price-band-inner">
-                <h2>Packages from <strong>€2,800</strong></h2>
+                <h2>Packages from <strong>€2450</strong></h2>
                 <p>Final quote depends on date, package, and any ceremony or drinks-reception add-ons.</p>
                 <a href="#enquiry" class="btn btn-pink">Get a Quote <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
@@ -429,7 +429,7 @@ ${picksHtml}
 function renderCounty(c) {
     const canonical = pageUrl(`wedding-bands-${c.slug}`);
     const title = `Wedding Bands in ${c.name} | MusicAngel`;
-    const description = `Looking for a wedding band in County ${c.name}? Compare four live wedding bands serving ${c.name} and the rest of Ireland. 100% live, pricing from €2,800.`;
+    const description = `Looking for a wedding band in County ${c.name}? Explore four live wedding bands serving ${c.name} and the rest of Ireland. 100% live, pricing from €2450.`;
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
 
     const jsonLd = {
@@ -492,8 +492,8 @@ function renderCounty(c) {
 
     const faq = [
         { q: `Do MusicAngel bands play weddings in County ${c.name}?`, a: `Yes. All four MusicAngel bands play across all of Ireland, including ${c.name}. Travel logistics are factored into the quote and confirmed with you at booking.` },
-        { q: `Which wedding band is most popular in County ${c.name}?`, a: `${BANDS[c.topPicks[0]].name} and ${BANDS[c.topPicks[1]].name} are the most common picks for ${c.name} weddings. Send an enquiry with your venue and date and we'll suggest the closest fit.` },
-        { q: `How much does a wedding band cost in County ${c.name}?`, a: `Packages start from €2,800. The final quote depends on your wedding date, the venue location within ${c.name}, ceremony or drinks-reception add-ons, and the package you choose.` },
+        { q: `Which MusicAngel bands can we check for County ${c.name}?`, a: `Send an enquiry with your venue and date and we'll check availability across the MusicAngel bands for your day.` },
+        { q: `How much does a wedding band cost in County ${c.name}?`, a: `Packages start from €2450. The final quote depends on your wedding date, the venue location within ${c.name}, ceremony or drinks-reception add-ons, and the package you choose.` },
         { q: `When should I book a wedding band for a ${c.name} wedding?`, a: `12-18 months in advance is normal for peak summer Saturday dates, particularly at the larger venues. Earlier is always better; popular bands and dates go quickly.` }
     ];
 
@@ -515,17 +515,17 @@ function renderCounty(c) {
             <p class="lede">${esc(c.intro)}</p>
             <div class="ctas">
                 <a href="#enquiry" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
-                <a href="#picks" class="btn btn-ghost">See Recommended Bands</a>
+                <a href="#picks" class="btn btn-ghost">See MusicAngel Bands</a>
             </div>
         </header>
     </div>
 
     <section id="picks">
         <div class="wrap">
-            <p class="sec-eye">Recommended for ${esc(c.name)}</p>
-            <h2 class="sec-h2">Bands suited to <em>${esc(c.name)}</em> weddings</h2>
+            <p class="sec-eye">MusicAngel bands</p>
+            <h2 class="sec-h2">Explore bands for <em>${esc(c.name)}</em> weddings</h2>
             <div class="detail">
-                <p>For County ${esc(c.name)}, the right band depends less on the county itself and more on the venue type, guest count, access, and finish time. These are the MusicAngel bands we would usually shortlist first for weddings in this part of ${esc(c.province)}.</p>
+                <p>For County ${esc(c.name)}, share your venue type, guest count, access details and finish time so availability and package details can be checked clearly.</p>
             </div>
             <div class="picks">
 ${picksHtml}
@@ -563,7 +563,7 @@ ${venuesList}
     <div class="price-band">
         <div class="wrap">
             <div class="price-band-inner">
-                <h2>Packages from <strong>€2,800</strong></h2>
+                <h2>Packages from <strong>€2450</strong></h2>
                 <p>Final quote depends on date, location within ${esc(c.name)}, package and any ceremony or drinks-reception add-ons.</p>
                 <a href="#enquiry" class="btn btn-pink">Get a Quote <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
             </div>
@@ -679,7 +679,7 @@ ${items}
         <header class="hero" style="padding: 1rem 0 2rem;">
             <p class="eye">All venues · Ireland</p>
             <h1>Irish wedding <em>venues</em> we cover</h1>
-            <p class="lede" style="font-size: 1.05rem; color: var(--text-muted); font-family: var(--serif); font-style: italic;">${VENUES.length} destination wedding venues across Ireland, each with a dedicated page, recommended bands, and a tailored enquiry form. Grouped by county.</p>
+            <p class="lede" style="font-size: 1.05rem; color: var(--text-muted); font-family: var(--serif); font-style: italic;">${VENUES.length} destination wedding venues across Ireland, each with a dedicated page, MusicAngel band profiles, and a tailored enquiry form. Grouped by county.</p>
         </header>
 
         <style>
