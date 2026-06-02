@@ -1,0 +1,41 @@
+name: SEO content automation
+
+on:
+  schedule:
+    # Tuesdays at 08:15 UTC, after the Monday GSC/GA4 report has landed.
+    - cron: '15 8 * * 2'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  content-automation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Check script syntax
+        run: node --check scripts/content-automation.js
+
+      - name: Generate content queue and briefs
+        run: node scripts/content-automation.js --from-latest-report --max-briefs=10
+
+      - name: Commit content automation output
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/content-automation/ content-briefs/
+          if git diff --cached --quiet; then
+            echo "No content automation changes."
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            git commit -m "chore: content automation ${DATE} [skip ci]"
+            git push
+          fi
