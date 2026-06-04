@@ -22,6 +22,7 @@ jobs:
           node --check js/site.js
           node --check api/enquiry.js
           node --check functions/api/enquiry.js
+          node --check functions/_middleware.js
           node --check scripts/generate-pages.js
           node --check scripts/deployment-check.js
           node --check scripts/replace-gsc-token.js
