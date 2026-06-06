@@ -62,6 +62,50 @@ function clean(s, max) {
     return String(s).slice(0, max).trim();
 }
 
+function randomHex(bytes = 4) {
+    const arr = new Uint8Array(bytes);
+    globalThis.crypto.getRandomValues(arr);
+    return Array.from(arr).map(n => n.toString(16).padStart(2, '0')).join('');
+}
+
+function generateLeadId(date = new Date()) {
+    const day = date.toISOString().slice(0, 10).replace(/-/g, '');
+    return `MA-${day}-${randomHex(5).toUpperCase()}`;
+}
+
+function cleanKey(value, max = 80) {
+    return clean(value, max).toLowerCase();
+}
+
+function containsTestMarker(values) {
+    return values.some(value => /\btest\b|TEST_|codex|do not count|do-not-count/i.test(String(value || '')));
+}
+
+function classifyLead({ name, email, message, campaign }) {
+    const source = cleanKey(campaign.utm_source);
+    const medium = cleanKey(campaign.utm_medium);
+    const attribution = cleanKey(campaign.attribution_source);
+    const hasPaidClickId = Boolean(campaign.gclid || campaign.gbraid || campaign.wbraid);
+    const isTest = containsTestMarker([
+        name, email, message, campaign.gclid, campaign.gbraid, campaign.wbraid,
+        campaign.utm_campaign, campaign.utm_content, campaign.utm_term
+    ]);
+
+    if (isTest) return { status: 'test', classification: 'test', countAsGoogleAds: false };
+    if (hasPaidClickId || attribution === 'google_ads' || (source === 'google' && /^(cpc|ppc|paid|paid_search)$/.test(medium))) {
+        return { status: 'new', classification: 'google_ads', countAsGoogleAds: true };
+    }
+    if (attribution === 'organic_search') return { status: 'new', classification: 'organic_search', countAsGoogleAds: false };
+    if (attribution === 'referral') return { status: 'new', classification: 'referral', countAsGoogleAds: false };
+    return { status: 'new', classification: 'direct_or_unknown', countAsGoogleAds: false };
+}
+
+function tableRows(rows) {
+    return rows.map(([label, value]) => `
+        <tr><td style="vertical-align:top"><strong>${esc(label)}</strong></td><td style="white-space:pre-wrap">${value ? esc(value) : ''}</td></tr>
+    `).join('');
+}
+
 async function sendEmail(key, payload) {
     const resp = await fetch('https://api.resend.com/emails', {
         method: 'POST',
@@ -134,6 +178,7 @@ module.exports = async function handler(req, res) {
     const phone = clean(body.phone, 80);
     const date = clean(body.date, 32);
     const venue = clean(body.venue, 240);
+    const county = clean(body.county, 120);
     const band = clean(body.band, 80);
     const message = clean(body.message, 4000);
     const page = clean(body.page, 500);
@@ -141,6 +186,8 @@ module.exports = async function handler(req, res) {
     const device = clean(body.device, 40);
     const viewport = clean(body.viewport, 40);
     const userAgent = clean(body.user_agent, 500);
+    const formId = clean(body.form_id, 120);
+    const sessionId = clean(body.session_id, 160);
     const campaign = {
         utm_source: clean(body.utm_source, 120),
         utm_medium: clean(body.utm_medium, 120),
@@ -179,33 +226,72 @@ module.exports = async function handler(req, res) {
         return;
     }
 
+    const leadId = generateLeadId();
+    const classification = classifyLead({ name, email, message, campaign });
     const firstName = name.split(/\s+/)[0];
-    const bandLine = band ? ` · ${esc(band)}` : '';
-    const subject = `New MusicAngel enquiry: ${esc(name)}${bandLine}`;
+    const subjectPrefix = classification.status === 'test' ? 'TEST MusicAngel enquiry' : 'New MusicAngel enquiry';
+    const subject = `${subjectPrefix} — ${band || 'General'} — ${name} — ${leadId}`;
     const leadSource = [campaign.attribution_source, campaign.attribution_source_detail]
         .filter(Boolean)
         .join(' · ');
 
     const internalHtml = `
-        <h2 style="font-family:Georgia,serif;color:#111">New MusicAngel enquiry</h2>
+        <h2 style="font-family:Georgia,serif;color:#111">${esc(subjectPrefix)}</h2>
+        <p style="font-family:system-ui,sans-serif;font-size:14px;margin:0 0 16px"><strong>Lead ID:</strong> ${esc(leadId)} · <strong>Source:</strong> ${esc(classification.classification)} · <strong>Google Ads candidate:</strong> ${classification.countAsGoogleAds ? 'yes' : 'no'} · <strong>D1 stored:</strong> no, Vercel fallback path</p>
+        <h3 style="font-family:Georgia,serif;color:#111;margin-top:20px">Lead summary</h3>
         <table cellpadding="6" style="font-family:system-ui,sans-serif;font-size:14px;border-collapse:collapse">
-            <tr><td><strong>Name</strong></td><td>${esc(name)}</td></tr>
-            <tr><td><strong>Partner</strong></td><td>${esc(partner)}</td></tr>
-            <tr><td><strong>Email</strong></td><td><a href="mailto:${esc(email)}">${esc(email)}</a></td></tr>
-            <tr><td><strong>Phone</strong></td><td>${phone ? `<a href="tel:${esc(phone)}">${esc(phone)}</a>` : ''}</td></tr>
-            <tr><td><strong>Wedding date</strong></td><td>${esc(date)}</td></tr>
-            <tr><td><strong>Venue</strong></td><td>${esc(venue)}</td></tr>
-            <tr><td><strong>Band of interest</strong></td><td>${esc(band)}</td></tr>
-            <tr><td valign="top"><strong>Message</strong></td><td style="white-space:pre-wrap">${esc(message)}</td></tr>
-            <tr><td><strong>Source page</strong></td><td>${page ? `<a href="${esc(page)}">${esc(page)}</a>` : ''}</td></tr>
-            <tr><td><strong>Referrer</strong></td><td>${referrer ? `<a href="${esc(referrer)}">${esc(referrer)}</a>` : ''}</td></tr>
-            <tr><td><strong>Device</strong></td><td>${esc(device)}</td></tr>
-            <tr><td><strong>Viewport</strong></td><td>${esc(viewport)}</td></tr>
-            <tr><td><strong>User agent</strong></td><td>${esc(userAgent)}</td></tr>
-            <tr><td><strong>Lead source</strong></td><td>${esc(leadSource)}</td></tr>
-            <tr><td><strong>Campaign</strong></td><td>${esc(Object.entries(campaign).filter(([, v]) => v).map(([k, v]) => `${k}=${v}`).join(' · '))}</td></tr>
+            ${tableRows([
+                ['lead_id', leadId],
+                ['status', classification.status],
+                ['source classification', classification.classification],
+                ['count_as_google_ads_candidate', classification.countAsGoogleAds ? 'yes' : 'no'],
+                ['name', name],
+                ['partner', partner],
+                ['email', email],
+                ['phone', phone],
+                ['band requested', band],
+                ['wedding date', date],
+                ['venue', venue],
+                ['county', county],
+                ['message', message]
+            ])}
         </table>
-        <p style="color:#888;font-size:12px;margin-top:24px">Sent from musicangel.ie · IP ${esc(ip)}</p>
+        <h3 style="font-family:Georgia,serif;color:#111;margin-top:20px">Attribution</h3>
+        <table cellpadding="6" style="font-family:system-ui,sans-serif;font-size:14px;border-collapse:collapse">
+            ${tableRows([
+                ['gclid', campaign.gclid],
+                ['gbraid', campaign.gbraid],
+                ['wbraid', campaign.wbraid],
+                ['utm_source', campaign.utm_source],
+                ['utm_medium', campaign.utm_medium],
+                ['utm_campaign', campaign.utm_campaign],
+                ['utm_content', campaign.utm_content],
+                ['utm_term', campaign.utm_term],
+                ['campaign', campaign.utm_campaign || campaign.gad_campaignid],
+                ['ad_group', campaign.utm_adgroup || campaign.gad_adgroupid],
+                ['keyword', campaign.utm_term || campaign.gad_keyword],
+                ['match_type', campaign.utm_matchtype || campaign.gad_matchtype],
+                ['landing_page', campaign.first_landing_page || page],
+                ['submitted_page_url', campaign.landing_page || page],
+                ['referrer', campaign.landing_referrer || referrer],
+                ['first_seen_referrer', campaign.first_landing_referrer],
+                ['lead source detail', leadSource]
+            ])}
+        </table>
+        <h3 style="font-family:Georgia,serif;color:#111;margin-top:20px">Technical</h3>
+        <table cellpadding="6" style="font-family:system-ui,sans-serif;font-size:14px;border-collapse:collapse">
+            ${tableRows([
+                ['device', device],
+                ['viewport', viewport],
+                ['user_agent', userAgent],
+                ['form_id', formId],
+                ['session_id', sessionId],
+                ['lead_store', 'not stored: Vercel fallback path']
+            ])}
+        </table>
+        <h3 style="font-family:Georgia,serif;color:#111;margin-top:20px">Sales outcome fields to update</h3>
+        <p style="font-family:system-ui,sans-serif;font-size:14px">replied? · qualified? · quoted? · booked? · booking value? · notes?</p>
+        <p style="color:#888;font-size:12px;margin-top:24px">Sent from musicangel.ie · lead_id ${esc(leadId)}</p>
     `;
 
     const replyHtml = `
@@ -217,7 +303,7 @@ module.exports = async function handler(req, res) {
             <p style="margin:24px 0 6px">Looking forward to it,</p>
             <p style="margin:0 0 24px"><strong style="color:#111">${REPLY_NAME}</strong></p>
             <hr style="border:none;border-top:1px solid #eee;margin:24px 0">
-            <p style="font-size:12px;color:#888;margin:0">MusicAngel, wedding bands playing all of Ireland · <a href="https://musicangel.ie" style="color:#888">musicangel.ie</a></p>
+            <p style="font-size:12px;color:#888;margin:0">MusicAngel, wedding bands playing all of Ireland · <a href="https://musicangel.ie" style="color:#888">musicangel.ie</a> · Reference ${esc(leadId)}</p>
         </div>
     `;
 
@@ -244,7 +330,7 @@ module.exports = async function handler(req, res) {
             console.error('Auto-reply failed (non-fatal):', autoErr.message);
         }
 
-        res.status(200).json({ ok: true });
+        res.status(200).json({ ok: true, lead_id: leadId, lead_store: 'not_stored' });
     } catch (err) {
         console.error('Enquiry handler error:', err);
         res.status(502).json({ error: 'Email provider error' });

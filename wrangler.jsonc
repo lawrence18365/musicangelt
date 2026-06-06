@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "musicangelt",
+  "compatibility_date": "2026-06-06",
+  "pages_build_output_dir": ".",
+  "d1_databases": [
+    {
+      "binding": "LEADS_DB",
+      "database_name": "musicangel_leads",
+      "database_id": "67f9c7f4-e1c4-465e-b7b2-6aa7c3bc3745"
+    }
+  ]
+}

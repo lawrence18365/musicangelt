@@ -12,6 +12,7 @@
     var CC_KEY = 'mc:consent:v1';
     var ATTRIBUTION_KEY = 'mc:paid-attribution:v1';
     var SESSION_ATTRIBUTION_KEY = 'mc:session-attribution:v1';
+    var SESSION_ID_KEY = 'mc:session-id:v1';
     var ATTRIBUTION_PARAMS = [
         'utm_source', 'utm_medium', 'utm_campaign', 'utm_id', 'utm_term', 'utm_content',
         'utm_adgroup', 'utm_matchtype', 'utm_network',
@@ -110,6 +111,18 @@
         return 'desktop';
     }
 
+    function sessionId() {
+        try {
+            var existing = sessionStorage.getItem(SESSION_ID_KEY);
+            if (existing) return existing;
+            var id = 'mas-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 10);
+            sessionStorage.setItem(SESSION_ID_KEY, id);
+            return id;
+        } catch (e) {
+            return '';
+        }
+    }
+
     function readSessionAttribution() {
         try {
             var stored = JSON.parse(sessionStorage.getItem(SESSION_ATTRIBUTION_KEY) || '{}');
@@ -202,13 +215,15 @@
         });
     }
 
-    function enrichPayload(data) {
+    function enrichPayload(data, formId) {
         data._t = FORM_LOADED_AT;
         data.page = window.location.href;
         data.referrer = document.referrer || '';
         data.device = deviceClass();
         data.viewport = window.innerWidth + 'x' + window.innerHeight;
         data.user_agent = navigator.userAgent || '';
+        data.form_id = formId || '';
+        data.session_id = sessionId();
 
         Object.assign(data, readSessionAttribution(), readStoredAttribution(), attributionFromUrl());
         Object.assign(data, classifyAttribution(data));
@@ -302,8 +317,8 @@
                 var btn = form.querySelector('button[type="submit"]');
                 var status = form.querySelector('.form-status') || document.getElementById('formStatus');
                 var original = btn ? btn.innerHTML : '';
-                var data = enrichPayload(Object.fromEntries(new FormData(form).entries()));
                 var formId = form.getAttribute('id') || form.getAttribute('data-enquiry') || 'enquiry';
+                var data = enrichPayload(Object.fromEntries(new FormData(form).entries()), formId);
 
                 if (btn) {
                     btn.disabled = true;
