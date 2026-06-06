@@ -21,6 +21,18 @@ const GA_ID = 'G-WV874YXC8Z';
 const SITE = 'https://musicangel.ie';
 const pageUrl = slug => slug ? `${SITE}/${slug}/` : `${SITE}/`;
 
+function sitemapLastmod() {
+    const sitemapPath = path.join(ROOT, 'sitemap.xml');
+    try {
+        const existing = fs.readFileSync(sitemapPath, 'utf8');
+        const match = existing.match(/<lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/);
+        if (match) return match[1];
+    } catch {
+        // First-time generation fallback.
+    }
+    return '2026-06-06';
+}
+
 const BANDS = {
     'the-beat-boutique': {
         name: 'The Beat Boutique',
@@ -241,7 +253,7 @@ const sharedFooter = `
         </div>
     </div>
 
-    <script defer src="/js/site.js"></script>
+    <script defer src="/js/site.js?v=20260606-sot1"></script>
 </body>
 </html>
 `;
@@ -579,7 +591,7 @@ ${venuesList}
 }
 
 function regenerateSitemap() {
-    const today = new Date().toISOString().split('T')[0];
+    const lastmod = sitemapLastmod();
     const urls = [
         { loc: pageUrl(''), priority: '1.0', changefreq: 'weekly' },
         { loc: pageUrl('the-beat-boutique'), priority: '0.9', changefreq: 'monthly' },
@@ -610,7 +622,7 @@ function regenerateSitemap() {
 
     const body = urls.map(u => `    <url>
         <loc>${u.loc}</loc>
-        <lastmod>${today}</lastmod>
+        <lastmod>${lastmod}</lastmod>
         <changefreq>${u.changefreq}</changefreq>
         <priority>${u.priority}</priority>
     </url>`).join('\n');
