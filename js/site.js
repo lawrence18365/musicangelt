@@ -10,10 +10,158 @@
     var ENQUIRY_FALLBACK_ENDPOINT = window.MUSICANGEL_ENQUIRY_FALLBACK_ENDPOINT || 'https://musicangelt.pages.dev/api/enquiry';
     var CONTACT_EMAIL = window.MUSICANGEL_CONTACT_EMAIL || 'jo.musicangel@gmail.com';
     var CC_KEY = 'mc:consent:v1';
+    var ATTRIBUTION_KEY = 'mc:paid-attribution:v1';
+    var SESSION_ATTRIBUTION_KEY = 'mc:session-attribution:v1';
+    var ATTRIBUTION_PARAMS = [
+        'utm_source', 'utm_medium', 'utm_campaign', 'utm_id', 'utm_term', 'utm_content',
+        'utm_adgroup', 'utm_matchtype', 'utm_network',
+        'gclid', 'gbraid', 'wbraid',
+        'gad_source', 'gad_campaignid', 'gad_adgroupid', 'gad_creativeid',
+        'gad_keyword', 'gad_matchtype', 'gad_network',
+        'msclkid', 'fbclid', 'li_fat_id'
+    ];
+    var SEARCH_HOSTS = [
+        'google.', 'bing.', 'yahoo.', 'duckduckgo.', 'ecosia.', 'search.brave.', 'search.yahoo.'
+    ];
 
     function track(eventName, params) {
         if (typeof window.gtag !== 'function') return;
         window.gtag('event', eventName, params || {});
+    }
+
+    function hasMarketingConsent() {
+        try { return localStorage.getItem(CC_KEY) === 'accept'; }
+        catch (e) { return false; }
+    }
+
+    function attributionFromUrl() {
+        var params = new URLSearchParams(window.location.search);
+        var data = {};
+        ATTRIBUTION_PARAMS.forEach(function (key) {
+            if (params.has(key)) data[key] = params.get(key);
+        });
+        return data;
+    }
+
+    function rootHost(value) {
+        try {
+            return new URL(value, window.location.origin).hostname.replace(/^www\./i, '').toLowerCase();
+        } catch (e) {
+            return '';
+        }
+    }
+
+    function isInternalReferrer(value) {
+        if (!value) return false;
+        return rootHost(value) === rootHost(window.location.href);
+    }
+
+    function isSearchReferrer(value) {
+        var host = rootHost(value);
+        if (!host) return false;
+        return SEARCH_HOSTS.some(function (needle) {
+            return host.indexOf(needle) !== -1;
+        });
+    }
+
+    function classifyAttribution(data) {
+        var medium = String(data.utm_medium || '').toLowerCase();
+        var source = String(data.utm_source || '').toLowerCase();
+        var firstReferrer = data.first_external_referrer || data.first_landing_referrer || '';
+
+        if (data.gclid || data.gbraid || data.wbraid || (source === 'google' && /^(cpc|ppc|paid|paid_search)$/.test(medium))) {
+            return {
+                attribution_source: 'google_ads',
+                attribution_source_detail: data.utm_term ? 'keyword=' + data.utm_term : 'paid click id present'
+            };
+        }
+
+        if (isSearchReferrer(firstReferrer)) {
+            return {
+                attribution_source: 'organic_search',
+                attribution_source_detail: rootHost(firstReferrer)
+            };
+        }
+
+        if (firstReferrer && !isInternalReferrer(firstReferrer) && firstReferrer !== '(direct)') {
+            return {
+                attribution_source: 'referral',
+                attribution_source_detail: rootHost(firstReferrer) || firstReferrer
+            };
+        }
+
+        if (firstReferrer === '(direct)' || !firstReferrer) {
+            return {
+                attribution_source: 'direct_or_unknown',
+                attribution_source_detail: 'No external referrer captured'
+            };
+        }
+
+        return {
+            attribution_source: 'internal_unknown',
+            attribution_source_detail: 'Session first referrer was internal'
+        };
+    }
+
+    function deviceClass() {
+        var ua = navigator.userAgent || '';
+        if (/iPad|Tablet/i.test(ua)) return 'tablet';
+        if (/Mobi|Android|iPhone|iPod/i.test(ua)) return 'mobile';
+        return 'desktop';
+    }
+
+    function readSessionAttribution() {
+        try {
+            var stored = JSON.parse(sessionStorage.getItem(SESSION_ATTRIBUTION_KEY) || '{}');
+            return stored && typeof stored === 'object' ? stored : {};
+        } catch (e) {
+            return {};
+        }
+    }
+
+    function saveSessionAttribution() {
+        var stored = readSessionAttribution();
+        var current = attributionFromUrl();
+        var now = new Date().toISOString();
+        var referrer = document.referrer || '';
+        var firstReferrer = stored.first_landing_referrer || referrer || '(direct)';
+        var merged = Object.assign({}, stored, current, {
+            first_landing_page: stored.first_landing_page || window.location.href,
+            first_landing_referrer: firstReferrer,
+            first_external_referrer: stored.first_external_referrer || (referrer && !isInternalReferrer(referrer) ? referrer : ''),
+            landing_page: window.location.href,
+            landing_referrer: referrer || '',
+            attribution_updated_at: now
+        });
+
+        Object.assign(merged, classifyAttribution(merged));
+        try { sessionStorage.setItem(SESSION_ATTRIBUTION_KEY, JSON.stringify(merged)); } catch (e) {}
+        return merged;
+    }
+
+    function readStoredAttribution() {
+        if (!hasMarketingConsent()) return {};
+        try {
+            var stored = JSON.parse(localStorage.getItem(ATTRIBUTION_KEY) || '{}');
+            return stored && typeof stored === 'object' ? stored : {};
+        } catch (e) {
+            return {};
+        }
+    }
+
+    function saveCurrentAttribution() {
+        if (!hasMarketingConsent()) return;
+        var current = attributionFromUrl();
+        if (!Object.keys(current).length) return;
+        var stored = readStoredAttribution();
+        var merged = Object.assign({}, stored, current, {
+            first_landing_page: stored.first_landing_page || stored.landing_page || window.location.href,
+            first_landing_referrer: stored.first_landing_referrer || stored.landing_referrer || document.referrer || '',
+            landing_page: window.location.href,
+            landing_referrer: document.referrer || '',
+            attribution_updated_at: new Date().toISOString()
+        });
+        try { localStorage.setItem(ATTRIBUTION_KEY, JSON.stringify(merged)); } catch (e) {}
     }
 
     function setupConsent() {
@@ -32,6 +180,7 @@
                 });
             }
             if (decision === 'accept') {
+                saveCurrentAttribution();
                 document.dispatchEvent(new CustomEvent('consent:granted'));
             }
             cc.classList.remove('visible');
@@ -57,11 +206,12 @@
         data._t = FORM_LOADED_AT;
         data.page = window.location.href;
         data.referrer = document.referrer || '';
+        data.device = deviceClass();
+        data.viewport = window.innerWidth + 'x' + window.innerHeight;
+        data.user_agent = navigator.userAgent || '';
 
-        var params = new URLSearchParams(window.location.search);
-        ['utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content', 'gclid', 'fbclid'].forEach(function (key) {
-            if (params.has(key)) data[key] = params.get(key);
-        });
+        Object.assign(data, readSessionAttribution(), readStoredAttribution(), attributionFromUrl());
+        Object.assign(data, classifyAttribution(data));
         return data;
     }
 
@@ -80,7 +230,13 @@
             data.message || '',
             '',
             'Source page: ' + (data.page || window.location.href),
-            'Referrer: ' + (data.referrer || '')
+            'Referrer: ' + (data.referrer || ''),
+            'Device: ' + (data.device || ''),
+            'Viewport: ' + (data.viewport || ''),
+            'Lead source: ' + (data.attribution_source || ''),
+            'Lead source detail: ' + (data.attribution_source_detail || ''),
+            'First landing page: ' + (data.first_landing_page || ''),
+            'First landing referrer: ' + (data.first_landing_referrer || '')
         ].join('\n');
 
         return 'mailto:' + CONTACT_EMAIL + '?subject=' + subject + '&body=' + encodeURIComponent(body);
@@ -169,6 +325,7 @@
                 try {
                     var res = await submitPayload(data);
                     if (res.ok) {
+                        saveCurrentAttribution();
                         track('form_submit', {
                             form_id: formId,
                             enquiry_band: data.band || '',
@@ -325,6 +482,8 @@
     }
 
     function init() {
+        saveSessionAttribution();
+        saveCurrentAttribution();
         setupConsent();
         setupNavigation();
         setupForms();

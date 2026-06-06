@@ -138,14 +138,40 @@ module.exports = async function handler(req, res) {
     const message = clean(body.message, 4000);
     const page = clean(body.page, 500);
     const referrer = clean(body.referrer, 500);
+    const device = clean(body.device, 40);
+    const viewport = clean(body.viewport, 40);
+    const userAgent = clean(body.user_agent, 500);
     const campaign = {
         utm_source: clean(body.utm_source, 120),
         utm_medium: clean(body.utm_medium, 120),
         utm_campaign: clean(body.utm_campaign, 180),
+        utm_id: clean(body.utm_id, 180),
         utm_term: clean(body.utm_term, 180),
         utm_content: clean(body.utm_content, 180),
+        utm_adgroup: clean(body.utm_adgroup, 180),
+        utm_matchtype: clean(body.utm_matchtype, 80),
+        utm_network: clean(body.utm_network, 80),
         gclid: clean(body.gclid, 180),
-        fbclid: clean(body.fbclid, 180)
+        gbraid: clean(body.gbraid, 180),
+        wbraid: clean(body.wbraid, 180),
+        gad_source: clean(body.gad_source, 80),
+        gad_campaignid: clean(body.gad_campaignid, 180),
+        gad_adgroupid: clean(body.gad_adgroupid, 180),
+        gad_creativeid: clean(body.gad_creativeid, 180),
+        gad_keyword: clean(body.gad_keyword, 180),
+        gad_matchtype: clean(body.gad_matchtype, 80),
+        gad_network: clean(body.gad_network, 80),
+        msclkid: clean(body.msclkid, 180),
+        fbclid: clean(body.fbclid, 180),
+        li_fat_id: clean(body.li_fat_id, 180),
+        first_landing_page: clean(body.first_landing_page, 500),
+        first_landing_referrer: clean(body.first_landing_referrer, 500),
+        first_external_referrer: clean(body.first_external_referrer, 500),
+        landing_page: clean(body.landing_page, 500),
+        landing_referrer: clean(body.landing_referrer, 500),
+        attribution_source: clean(body.attribution_source, 120),
+        attribution_source_detail: clean(body.attribution_source_detail, 240),
+        attribution_updated_at: clean(body.attribution_updated_at, 80)
     };
 
     if (!name || !validEmail(email)) {
@@ -156,6 +182,9 @@ module.exports = async function handler(req, res) {
     const firstName = name.split(/\s+/)[0];
     const bandLine = band ? ` · ${esc(band)}` : '';
     const subject = `New MusicAngel enquiry: ${esc(name)}${bandLine}`;
+    const leadSource = [campaign.attribution_source, campaign.attribution_source_detail]
+        .filter(Boolean)
+        .join(' · ');
 
     const internalHtml = `
         <h2 style="font-family:Georgia,serif;color:#111">New MusicAngel enquiry</h2>
@@ -170,6 +199,10 @@ module.exports = async function handler(req, res) {
             <tr><td valign="top"><strong>Message</strong></td><td style="white-space:pre-wrap">${esc(message)}</td></tr>
             <tr><td><strong>Source page</strong></td><td>${page ? `<a href="${esc(page)}">${esc(page)}</a>` : ''}</td></tr>
             <tr><td><strong>Referrer</strong></td><td>${referrer ? `<a href="${esc(referrer)}">${esc(referrer)}</a>` : ''}</td></tr>
+            <tr><td><strong>Device</strong></td><td>${esc(device)}</td></tr>
+            <tr><td><strong>Viewport</strong></td><td>${esc(viewport)}</td></tr>
+            <tr><td><strong>User agent</strong></td><td>${esc(userAgent)}</td></tr>
+            <tr><td><strong>Lead source</strong></td><td>${esc(leadSource)}</td></tr>
             <tr><td><strong>Campaign</strong></td><td>${esc(Object.entries(campaign).filter(([, v]) => v).map(([k, v]) => `${k}=${v}`).join(' · '))}</td></tr>
         </table>
         <p style="color:#888;font-size:12px;margin-top:24px">Sent from musicangel.ie · IP ${esc(ip)}</p>
