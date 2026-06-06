@@ -27,6 +27,7 @@ Tradeoff: D1 provides durable structured storage, but a non-technical sales UI i
 - 2026-06-06 08:04 America/Vancouver: Ran syntax checks for all changed JavaScript files.
 - 2026-06-06 08:04 America/Vancouver: Ran mocked handler tests for paid, direct, test, duplicate, export auth, and storage-failure behavior.
 - 2026-06-06 08:05 America/Vancouver: Added encrypted Cloudflare Pages production secrets `LEADS_EXPORT_TOKEN` and `LEAD_HASH_SALT`.
+- 2026-06-06 08:09 America/Vancouver: Bumped HTML `site.js` references to `?v=20260606-sot1` so browsers load the source-of-truth payload fields.
 
 ## Verification Completed
 
