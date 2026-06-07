@@ -5,7 +5,8 @@
 // Set RESEND_API_KEY in Vercel env to enable. Without it, returns 503 so the
 // front-end falls back to a mailto: link.
 
-const TO_INTERNAL = process.env.NOTIFY_TO || 'jo.musicangel@gmail.com';
+const TO_INTERNAL_DEFAULT = 'jo.musicangel@gmail.com';
+const TO_INTERNAL_CC = ['lawrencebrennan@gmail.com'];
 const FROM = process.env.RESEND_FROM || 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
 
@@ -60,6 +61,19 @@ function validEmail(s) {
 function clean(s, max) {
     if (s == null) return '';
     return String(s).slice(0, max).trim();
+}
+
+function recipientList(primary) {
+    const recipients = String(primary || TO_INTERNAL_DEFAULT)
+        .split(',')
+        .map(email => email.trim())
+        .filter(Boolean);
+
+    for (const email of TO_INTERNAL_CC) {
+        if (!recipients.includes(email)) recipients.push(email);
+    }
+
+    return recipients;
 }
 
 function randomHex(bytes = 4) {
@@ -229,6 +243,7 @@ module.exports = async function handler(req, res) {
     const leadId = generateLeadId();
     const classification = classifyLead({ name, email, message, campaign });
     const firstName = name.split(/\s+/)[0];
+    const toInternal = recipientList(process.env.NOTIFY_TO);
     const subjectPrefix = classification.status === 'test' ? 'TEST MusicAngel enquiry' : 'New MusicAngel enquiry';
     const subject = `${subjectPrefix} — ${band || 'General'} — ${name} — ${leadId}`;
     const leadSource = [campaign.attribution_source, campaign.attribution_source_detail]
@@ -311,7 +326,7 @@ module.exports = async function handler(req, res) {
         // Notification email to internal address.
         await sendEmail(key, {
             from: FROM,
-            to: [TO_INTERNAL],
+            to: toInternal,
             reply_to: email,
             subject,
             html: internalHtml
@@ -322,7 +337,7 @@ module.exports = async function handler(req, res) {
             await sendEmail(key, {
                 from: FROM,
                 to: [email],
-                reply_to: TO_INTERNAL,
+                reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
                 subject: 'Your MusicAngel enquiry: we got it',
                 html: replyHtml
             });
