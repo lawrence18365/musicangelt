@@ -2,6 +2,7 @@
 // Mirrors the Vercel API route so the site can run fully on Cloudflare Pages.
 
 const TO_INTERNAL_DEFAULT = 'jo.musicangel@gmail.com';
+const TO_INTERNAL_CC = ['lawrencebrennan@gmail.com'];
 const FROM_DEFAULT = 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
 
@@ -89,6 +90,19 @@ function validEmail(s) {
 function clean(s, max) {
     if (s == null) return '';
     return String(s).slice(0, max).trim();
+}
+
+function recipientList(primary) {
+    const recipients = String(primary || TO_INTERNAL_DEFAULT)
+        .split(',')
+        .map(email => email.trim())
+        .filter(Boolean);
+
+    for (const email of TO_INTERNAL_CC) {
+        if (!recipients.includes(email)) recipients.push(email);
+    }
+
+    return recipients;
 }
 
 function cleanKey(value, max = 80) {
@@ -416,7 +430,7 @@ async function handlePost({ request, env }) {
     const leadId = generateLeadId(now);
     const requestId = request.headers.get('CF-Ray') || `req-${randomHex(6)}`;
     const classification = classifyLead({ name, email, message, campaign, page, referrer });
-    const toInternal = env.NOTIFY_TO || TO_INTERNAL_DEFAULT;
+    const toInternal = recipientList(env.NOTIFY_TO);
     const from = env.RESEND_FROM || FROM_DEFAULT;
     const ipHash = await sha256Hex(`${env.LEAD_HASH_SALT || 'musicangel-leads-v1'}:${ip}`);
     const submittedPage = campaign.landing_page || page;
@@ -487,7 +501,7 @@ async function handlePost({ request, env }) {
         api_endpoint: new URL(request.url).pathname,
         request_id: requestId,
         email_delivery_status: 'pending',
-        admin_email_sent_to: toInternal,
+        admin_email_sent_to: toInternal.join(','),
         customer_auto_reply_sent: 0,
         google_ads_conversion_attempted: 0,
         meta_conversion_attempted: 0,
@@ -600,7 +614,7 @@ async function handlePost({ request, env }) {
     try {
         await sendEmail(key, {
             from,
-            to: [toInternal],
+            to: toInternal,
             reply_to: email,
             subject,
             html: internalHtml
@@ -610,7 +624,7 @@ async function handlePost({ request, env }) {
             await sendEmail(key, {
                 from,
                 to: [email],
-                reply_to: toInternal,
+                reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
                 subject: 'Your MusicAngel enquiry: we got it',
                 html: replyHtml
             });
