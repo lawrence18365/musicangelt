@@ -21,18 +21,6 @@ const GA_ID = 'G-WV874YXC8Z';
 const SITE = 'https://musicangel.ie';
 const pageUrl = slug => slug ? `${SITE}/${slug}/` : `${SITE}/`;
 
-function sitemapLastmod() {
-    const sitemapPath = path.join(ROOT, 'sitemap.xml');
-    try {
-        const existing = fs.readFileSync(sitemapPath, 'utf8');
-        const match = existing.match(/<lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/);
-        if (match) return match[1];
-    } catch {
-        // First-time generation fallback.
-    }
-    return '2026-06-06';
-}
-
 const BANDS = {
     'the-beat-boutique': {
         name: 'The Beat Boutique',
@@ -55,6 +43,34 @@ const BANDS = {
         blurb: 'Versatile five-piece band with two lead vocalists, full-day package options and a huge setlist.'
     }
 };
+
+const AUTHORITY_LINKS = [
+    { href: '/compare-bands/', label: 'Compare all four wedding bands', note: 'Best starting point if you are choosing between MusicAngel bands.' },
+    { href: '/wedding-band-cost-ireland/', label: 'Wedding band cost in Ireland', note: 'Pricing guide for live wedding bands and package decisions.' },
+    { href: '/wedding-band-showcases/', label: 'Wedding band showcases', note: 'How to see bands live before booking where possible.' },
+    { href: '/first-dance-songs/', label: 'First dance songs', note: 'Live-band friendly first dance ideas for Irish weddings.' },
+    { href: '/ceremony-music/', label: 'Wedding ceremony music', note: 'Processional, signing and recessional music ideas for Irish ceremonies.' },
+    { href: '/wedding-band-vs-dj/', label: 'Wedding band vs DJ', note: 'A clear comparison for couples deciding between live music and a DJ.' },
+    { href: '/wedding-music-timeline/', label: 'Wedding music timeline', note: 'Plan ceremony, drinks reception, first dance, band set and DJ timings.' },
+    { href: '/when-to-book-wedding-band/', label: 'When to book your wedding band', note: 'Booking windows for peak dates, winter weddings and short-lead enquiries.' },
+    { href: '/questions-to-ask-wedding-band/', label: 'Questions to ask a wedding band', note: 'Practical checks before you commit to a live wedding band.' },
+    { href: '/song-list/', label: 'Wedding band song list', note: 'See live-band friendly songs and floor-filler ideas.' },
+    { href: '/venues/', label: 'Irish wedding venue guides', note: 'Venue-specific MusicAngel pages grouped by county.' }
+];
+
+const REGIONAL_AUTHORITY_LINKS = [
+    { href: '/wedding-bands-antrim/', label: 'Wedding bands in Antrim' },
+    { href: '/wedding-bands-armagh/', label: 'Wedding bands in Armagh' },
+    { href: '/wedding-bands-down/', label: 'Wedding bands in Down' },
+    { href: '/wedding-bands-fermanagh/', label: 'Wedding bands in Fermanagh' },
+    { href: '/wedding-bands-derry/', label: 'Wedding bands in Derry' },
+    { href: '/wedding-bands-tyrone/', label: 'Wedding bands in Tyrone' }
+];
+
+const FEATURED_VENUE_LINKS = [
+    { href: '/wedding-band-tinakilly-country-house/', label: 'Tinakilly Country House wedding band' },
+    { href: '/wedding-band-kinnitty-castle/', label: 'Kinnitty Castle wedding band' }
+];
 
 function cleanText(s) {
     return String(s == null ? '' : s).replace(/\s+\u2014\s+/g, ', ').replace(/\u2014/g, '-');
@@ -126,10 +142,12 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
         window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
+        window.GOOGLE_ADS_CONTACT_LABEL = window.GOOGLE_ADS_CONTACT_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
-    <script defer src="/js/marketing-tags.js"></script>
+    <script defer src="/js/google-ads-config.js?v=20260612-ads-sot1"></script>
+    <script defer src="/js/marketing-tags.js?v=20260612-ads-sot1"></script>
 
     <script type="application/ld+json">
 ${JSON.stringify(cleanJsonLd(jsonLd), null, 4)}
@@ -188,6 +206,17 @@ section { padding: 3.5rem 0; }
 .pick p { font-size: 0.97rem; color: var(--ink-soft); line-height: 1.7; }
 .pick .why { font-style: italic; color: var(--text-muted); font-family: var(--serif); font-size: 1.02rem; }
 .pick-cta { margin-top: 0.5rem; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--pink); text-decoration: none; }
+.authority-links { background: #fff; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.authority-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: 0.8rem; margin-top: 1.3rem; }
+.authority-link { display: block; min-height: 100%; padding: 1rem 1.05rem; border: 1px solid var(--border); border-radius: 10px; color: inherit; text-decoration: none; background: var(--ivory); transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s; }
+.authority-link:hover { border-color: var(--pink); transform: translateY(-1px); box-shadow: var(--shadow-soft); }
+.authority-link strong { display: block; color: var(--ink); font-family: var(--serif); font-size: 1.04rem; font-weight: 500; line-height: 1.25; }
+.authority-link span { display: block; margin-top: 0.35rem; color: var(--text-muted); font-size: 0.84rem; line-height: 1.55; }
+.regional-links { margin-top: 1.4rem; padding-top: 1.25rem; border-top: 1px solid var(--border); }
+.regional-links p { margin-bottom: 0.85rem; color: var(--text-muted); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+.regional-grid { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.regional-grid a { display: inline-flex; align-items: center; min-height: 2.25rem; padding: 0.52rem 0.8rem; border: 1px solid var(--border); border-radius: 999px; color: var(--ink-soft); text-decoration: none; background: #fff; font-size: 0.82rem; transition: border-color 0.18s, color 0.18s; }
+.regional-grid a:hover { border-color: var(--pink); color: var(--pink); }
 .venues-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.65rem; margin-top: 1.25rem; }
 .venues-list li { list-style: none; padding: 0.85rem 1rem; background: rgba(255,255,255,0.6); border: 1px solid var(--border); border-radius: 10px; font-size: 0.92rem; color: var(--ink-soft); }
 .price-band { background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 1.5rem 0; }
@@ -235,7 +264,9 @@ const sharedFooter = `
                 <a href="/" class="nav-brand" style="font-size: 1.35rem;">Music<i>Angel</i></a>
                 <ul class="footer-links">
                     <li><a href="/#bands">All Bands</a></li>
-                    <li><a href="/#why">Why Us</a></li>
+                    <li><a href="/compare-bands/">Compare</a></li>
+                    <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/venues/">Venues</a></li>
                     <li><a href="/#contact">Enquire</a></li>
                     <li><a href="/privacy/">Privacy</a></li>
                     <li><a href="/cookies/">Cookies</a></li>
@@ -253,10 +284,38 @@ const sharedFooter = `
         </div>
     </div>
 
-    <script defer src="/js/site.js?v=20260606-sot1"></script>
+    <script defer src="/js/site.js?v=20260612-ads-sot1"></script>
 </body>
 </html>
 `;
+
+function authorityLinksSection({ title = 'Keep planning your wedding music', intro = 'Use these MusicAngel guides to compare bands, understand pricing, and choose the right live-music route for your day.' } = {}) {
+    const links = AUTHORITY_LINKS.map(link => `                <a class="authority-link" href="${link.href}"><strong>${esc(link.label)}</strong><span>${esc(link.note)}</span></a>`).join('\n');
+    const regionalLinks = REGIONAL_AUTHORITY_LINKS.map(link => `<a href="${link.href}">${esc(link.label)}</a>`).join('\n                ');
+    const featuredVenueLinks = FEATURED_VENUE_LINKS.map(link => `<a href="${link.href}">${esc(link.label)}</a>`).join('\n                ');
+    return `<section class="authority-links">
+        <div class="wrap">
+            <p class="sec-eye">Related guides</p>
+            <h2 class="sec-h2">${title}</h2>
+            <div class="detail"><p>${esc(intro)}</p></div>
+            <div class="authority-grid">
+${links}
+            </div>
+            <div class="regional-links" aria-label="Northern Ireland wedding band guides">
+                <p>Northern Ireland county guides</p>
+                <div class="regional-grid">
+                ${regionalLinks}
+                </div>
+            </div>
+            <div class="regional-links" aria-label="Featured venue wedding band guides">
+                <p>Featured venue guides</p>
+                <div class="regional-grid">
+                ${featuredVenueLinks}
+                </div>
+            </div>
+        </div>
+    </section>`;
+}
 
 function bandsFaqSection(faq) {
     const items = faq.map(f => `                <details class="faq"><summary>${esc(f.q)}</summary>
@@ -432,6 +491,11 @@ ${picksHtml}
 
     ${bandsFaqSection(v.faq)}
 
+    ${authorityLinksSection({
+        title: `Plan the rest of your <em>${esc(v.name)}</em> music`,
+        intro: `Compare the four MusicAngel bands, check package pricing, and use the venue and planning guides before you enquire for ${v.name}.`
+    })}
+
     ${enquirySection({ heading: `Enquire about a wedding band for <em>${esc(v.name)}</em>`, prefillBand: topBand.name, prefillVenue: `${v.name}, Co. ${v.county}` })}
 
     ${sharedFooter}
@@ -584,6 +648,11 @@ ${venuesList}
 
     ${bandsFaqSection(faq)}
 
+    ${authorityLinksSection({
+        title: `Plan your <em>County ${esc(c.name)}</em> wedding music`,
+        intro: `Compare MusicAngel bands, understand live-band pricing, and browse venue-specific wedding band pages before you enquire for a ${c.name} date.`
+    })}
+
     ${enquirySection({ heading: `Enquire about a wedding band in <em>${esc(c.name)}</em>` })}
 
     ${sharedFooter}
@@ -591,7 +660,7 @@ ${venuesList}
 }
 
 function regenerateSitemap() {
-    const lastmod = sitemapLastmod();
+    const today = new Date().toISOString().split('T')[0];
     const urls = [
         { loc: pageUrl(''), priority: '1.0', changefreq: 'weekly' },
         { loc: pageUrl('the-beat-boutique'), priority: '0.9', changefreq: 'monthly' },
@@ -600,10 +669,10 @@ function regenerateSitemap() {
         { loc: pageUrl('blacktye'), priority: '0.9', changefreq: 'monthly' },
         { loc: pageUrl('wedding-band-cost-ireland'), priority: '0.85', changefreq: 'monthly' },
         { loc: pageUrl('first-dance-songs'), priority: '0.8', changefreq: 'monthly' },
-        { loc: pageUrl('wedding-band-showcases'), priority: '0.7', changefreq: 'monthly' },
+        { loc: pageUrl('wedding-band-showcases'), priority: '0.8', changefreq: 'monthly' },
         { loc: pageUrl('drinks-reception-music'), priority: '0.7', changefreq: 'monthly' },
         { loc: pageUrl('wedding-band-and-dj-package'), priority: '0.7', changefreq: 'monthly' },
-        { loc: pageUrl('compare-bands'), priority: '0.75', changefreq: 'monthly' },
+        { loc: pageUrl('compare-bands'), priority: '0.9', changefreq: 'monthly' },
         { loc: pageUrl('ceremony-music'), priority: '0.75', changefreq: 'monthly' },
         { loc: pageUrl('wedding-songs-by-decade'), priority: '0.7', changefreq: 'monthly' },
         { loc: pageUrl('wedding-band-vs-dj'), priority: '0.85', changefreq: 'monthly' },
@@ -622,7 +691,7 @@ function regenerateSitemap() {
 
     const body = urls.map(u => `    <url>
         <loc>${u.loc}</loc>
-        <lastmod>${lastmod}</lastmod>
+        <lastmod>${today}</lastmod>
         <changefreq>${u.changefreq}</changefreq>
         <priority>${u.priority}</priority>
     </url>`).join('\n');
@@ -654,6 +723,11 @@ ${items}
             </ul>
         </section>`;
     }).join('\n');
+    const countyLinks = COUNTIES
+        .slice()
+        .sort((a, b) => a.name.localeCompare(b.name))
+        .map(c => `                <li><a href="/wedding-bands-${c.slug}/"><strong>Wedding bands in ${esc(c.name)}</strong><span>County guide</span></a></li>`)
+        .join('\n');
 
     const jsonLd = {
         "@context": "https://schema.org",
@@ -704,6 +778,13 @@ ${items}
             .venue-list li a strong { display: block; font-family: var(--serif); font-weight: 500; color: var(--ink); font-size: 1.08rem; line-height: 1.2; }
             .venue-list li a span { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.01em; }
         </style>
+
+        <section class="county-block">
+            <h2 class="county-h"><em>Browse wedding bands by county</em></h2>
+            <ul class="venue-list">
+${countyLinks}
+            </ul>
+        </section>
 
 ${countyBlocks}
     </div>
