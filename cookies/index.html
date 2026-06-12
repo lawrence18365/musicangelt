@@ -122,19 +122,21 @@
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
         window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
+        window.GOOGLE_ADS_CONTACT_LABEL = window.GOOGLE_ADS_CONTACT_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
-    <script defer src="/js/marketing-tags.js"></script>
+    <script defer src="/js/google-ads-config.js?v=20260612-ads-sot1"></script>
+    <script defer src="/js/marketing-tags.js?v=20260612-ads-sot1"></script>
 </head>
 <body>
     <div class="wrap">
         <a class="brand" href="/">Music<i>Angel</i></a>
 
         <h1>Cookies Policy</h1>
-        <p class="meta">Last updated: 15 May 2026</p>
+        <p class="meta">Last updated: 25 May 2026</p>
 
-        <p>We use a small number of cookies and similar technologies. None of them are advertising cookies. This page lists exactly what's set and why.</p>
+        <p>We use a small number of cookies and similar technologies for analytics, consent, and paid-ad conversion measurement. Advertising storage is denied unless you explicitly accept on the cookie banner.</p>
 
         <h2>Consent</h2>
         <p>When you first visit the site, no analytics cookies are set. We use <strong>Google Consent Mode v2 in default-deny mode</strong>, meaning analytics storage is denied until you explicitly accept on our cookie banner. You can change your mind at any time by clearing your browser's storage for this site.</p>
@@ -156,6 +158,18 @@
                     <td>Google Analytics</td>
                     <td>Persist session state for our GA4 property</td>
                     <td>13 months</td>
+                </tr>
+                <tr>
+                    <td><code>_gcl_*</code></td>
+                    <td>Google Ads / Google tag</td>
+                    <td>Measure whether an accepted ad click becomes an enquiry or contact click</td>
+                    <td>Up to 90 days</td>
+                </tr>
+                <tr>
+                    <td><code>mc:paid-attribution:v1</code> <em>(localStorage)</em></td>
+                    <td>MusicAngel</td>
+                    <td>Remember accepted UTM/ad-click details so an enquiry can be attributed after moving between pages</td>
+                    <td>Until you clear browser storage</td>
                 </tr>
             </tbody>
         </table>
@@ -183,7 +197,7 @@
         <p>See our <a href="/privacy/">privacy policy</a> for how we handle personal data, your GDPR rights, and how to contact us.</p>
 
         <div class="footer">
-            <a href="/">&larr; Back to MusicAngel</a> &middot; <a href="/privacy/">Privacy</a> &middot; <a href="mailto:jo.musicangel@gmail.com">Contact</a>
+            <a href="/">&larr; Back to MusicAngel</a> &middot; <a href="/compare-bands/">Compare bands</a> &middot; <a href="/wedding-band-cost-ireland/">Pricing</a> &middot; <a href="/venues/">Venues</a> &middot; <a href="/privacy/">Privacy</a>
         </div>
     </div>
 </body>

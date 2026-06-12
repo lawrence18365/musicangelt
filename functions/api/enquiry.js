@@ -3,8 +3,8 @@
 
 const TO_INTERNAL_DEFAULT = 'jo.musicangel@gmail.com';
 const TO_INTERNAL_CC = ['lawrencebrennan@gmail.com'];
-const FROM_DEFAULT = 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
+const CUSTOMER_AUTOREPLY_FLAG = 'SEND_CUSTOMER_AUTOREPLY';
 
 const ALLOWED_ORIGINS = new Set([
     'https://musicangel.ie',
@@ -103,6 +103,14 @@ function recipientList(primary) {
     }
 
     return recipients;
+}
+
+function isBrandedMusicAngelSender(from) {
+    return /@musicangel\.ie>?$/i.test(String(from || '').trim());
+}
+
+function customerAutoreplyEnabled(value) {
+    return /^(1|true|yes)$/i.test(String(value || '').trim());
 }
 
 function cleanKey(value, max = 80) {
@@ -355,6 +363,11 @@ async function handlePost({ request, env }) {
         return json({ error: 'Email backend not configured' }, 503, headers);
     }
 
+    const from = env.RESEND_FROM;
+    if (!from) {
+        return json({ error: 'Email sender not configured' }, 503, headers);
+    }
+
     let body = {};
     try {
         body = await request.json();
@@ -431,7 +444,8 @@ async function handlePost({ request, env }) {
     const requestId = request.headers.get('CF-Ray') || `req-${randomHex(6)}`;
     const classification = classifyLead({ name, email, message, campaign, page, referrer });
     const toInternal = recipientList(env.NOTIFY_TO);
-    const from = env.RESEND_FROM || FROM_DEFAULT;
+    const shouldSendCustomerAutoreply = customerAutoreplyEnabled(env[CUSTOMER_AUTOREPLY_FLAG])
+        && isBrandedMusicAngelSender(from);
     const ipHash = await sha256Hex(`${env.LEAD_HASH_SALT || 'musicangel-leads-v1'}:${ip}`);
     const submittedPage = campaign.landing_page || page;
     const leadSource = [campaign.attribution_source, campaign.attribution_source_detail]
@@ -620,17 +634,21 @@ async function handlePost({ request, env }) {
             html: internalHtml
         });
 
-        try {
-            await sendEmail(key, {
-                from,
-                to: [email],
-                reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
-                subject: 'Your MusicAngel enquiry: we got it',
-                html: replyHtml
-            });
-            leadRecord.customer_auto_reply_sent = 1;
-        } catch (autoErr) {
-            console.error('Auto-reply failed (non-fatal):', autoErr.message);
+        if (shouldSendCustomerAutoreply) {
+            try {
+                await sendEmail(key, {
+                    from,
+                    to: [email],
+                    reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
+                    subject: 'Your MusicAngel enquiry: we got it',
+                    html: replyHtml
+                });
+                leadRecord.customer_auto_reply_sent = 1;
+            } catch (autoErr) {
+                console.error('Auto-reply failed (non-fatal):', autoErr.message);
+            }
+        } else {
+            console.warn(`Skipping customer auto-reply because ${CUSTOMER_AUTOREPLY_FLAG} is not true or sender is not musicangel.ie`);
         }
 
         try {
