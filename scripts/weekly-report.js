@@ -137,21 +137,21 @@ async function main() {
             ga4Report(ga4Token, {
                 dateRanges: [{ startDate: start, endDate: end }],
                 dimensions: [{ name: 'pagePath' }],
-                metrics: [{ name: 'screenPageViews' }, { name: 'totalUsers' }],
+                metrics: [{ name: 'screenPageViews' }, { name: 'totalUsers' }, { name: 'eventCount' }, { name: 'keyEvents' }],
                 limit: 15,
                 orderBys: [{ metric: { metricName: 'screenPageViews' }, desc: true }]
             }),
             ga4Report(ga4Token, {
                 dateRanges: [{ startDate: start, endDate: end }],
                 dimensions: [{ name: 'eventName' }],
-                metrics: [{ name: 'eventCount' }],
+                metrics: [{ name: 'eventCount' }, { name: 'totalUsers' }, { name: 'keyEvents' }],
                 limit: 20,
                 orderBys: [{ metric: { metricName: 'eventCount' }, desc: true }]
             }),
             ga4Report(ga4Token, {
                 dateRanges: [{ startDate: start, endDate: end }],
                 dimensions: [{ name: 'sessionDefaultChannelGroup' }],
-                metrics: [{ name: 'sessions' }, { name: 'totalUsers' }],
+                metrics: [{ name: 'sessions' }, { name: 'totalUsers' }, { name: 'eventCount' }, { name: 'keyEvents' }, { name: 'sessionKeyEventRate' }],
                 limit: 10,
                 orderBys: [{ metric: { metricName: 'sessions' }, desc: true }]
             })
@@ -195,10 +195,10 @@ async function main() {
 
     // GA4 channels
     if (ga4Channels.rows && ga4Channels.rows.length) {
-        md += `## GA4 — sessions by channel\n\n`;
-        md += `| Channel | Sessions | Users |\n|---|---:|---:|\n`;
+        md += `## GA4 — SEO scorecard by channel\n\n`;
+        md += `| Channel | Sessions | Users | Events | Key events | Session key event rate |\n|---|---:|---:|---:|---:|---:|\n`;
         for (const r of ga4Channels.rows) {
-            md += `| ${r.dimensionValues[0].value} | ${r.metricValues[0].value} | ${r.metricValues[1].value} |\n`;
+            md += `| ${r.dimensionValues[0].value} | ${r.metricValues[0].value} | ${r.metricValues[1].value} | ${r.metricValues[2].value} | ${r.metricValues[3].value} | ${pct(Number(r.metricValues[4].value || 0))} |\n`;
         }
         md += `\n`;
     }
@@ -206,9 +206,9 @@ async function main() {
     // GA4 top pages
     if (ga4Pages.rows && ga4Pages.rows.length) {
         md += `## GA4 — top pages viewed\n\n`;
-        md += `| Page | Views | Users |\n|---|---:|---:|\n`;
+        md += `| Page | Views | Users | Events | Key events |\n|---|---:|---:|---:|---:|\n`;
         for (const r of ga4Pages.rows) {
-            md += `| \`${r.dimensionValues[0].value}\` | ${r.metricValues[0].value} | ${r.metricValues[1].value} |\n`;
+            md += `| \`${r.dimensionValues[0].value}\` | ${r.metricValues[0].value} | ${r.metricValues[1].value} | ${r.metricValues[2].value} | ${r.metricValues[3].value} |\n`;
         }
         md += `\n`;
     }
@@ -216,9 +216,9 @@ async function main() {
     // GA4 events
     if (ga4Events.rows && ga4Events.rows.length) {
         md += `## GA4 — events fired\n\n`;
-        md += `| Event | Count |\n|---|---:|\n`;
+        md += `| Event | Count | Users | Key events |\n|---|---:|---:|---:|\n`;
         for (const r of ga4Events.rows) {
-            md += `| ${r.dimensionValues[0].value} | ${r.metricValues[0].value} |\n`;
+            md += `| ${r.dimensionValues[0].value} | ${r.metricValues[0].value} | ${r.metricValues[1].value} | ${r.metricValues[2].value} |\n`;
         }
         md += `\n`;
     }

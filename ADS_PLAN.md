@@ -203,7 +203,7 @@ MusicAngel Ireland (account)
 
 In GA4 → Admin → Events → mark `generate_lead` as a Key Event. Then link GA4 to Google Ads in Admin → Product Links → Google Ads. Import as conversion.
 
-**Set the enquiry conversion value to €500** (target customer LTV / 6 = estimated value per enquiry — adjust after first 30 conversions).
+**Set the enquiry conversion value to €250** at launch. Recalculate after enough real enquiries to estimate close rate and retained booking value.
 
 ## Bidding strategy
 
