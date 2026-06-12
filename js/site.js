@@ -349,7 +349,7 @@
                         });
                         track('generate_lead', {
                             currency: 'EUR',
-                            value: 500,
+                            value: 250,
                             form_id: formId,
                             enquiry_band: data.band || '',
                             enquiry_venue: data.venue || ''
@@ -357,7 +357,7 @@
                         document.dispatchEvent(new CustomEvent('musicangel:lead', {
                             detail: {
                                 currency: 'EUR',
-                                value: 500,
+                                value: 250,
                                 form_id: formId,
                                 enquiry_band: data.band || '',
                                 enquiry_venue: data.venue || '',
@@ -445,10 +445,19 @@
         document.querySelectorAll('a[href^="tel:"], a[href^="mailto:"]').forEach(function (el) {
             el.addEventListener('click', function () {
                 var href = el.getAttribute('href') || '';
+                var contactType = href.startsWith('tel:') ? 'phone' : 'email';
                 track('contact_click', {
-                    contact_type: href.startsWith('tel:') ? 'phone' : 'email',
+                    contact_type: contactType,
                     page_path: window.location.pathname
                 });
+                document.dispatchEvent(new CustomEvent('musicangel:contact-click', {
+                    detail: {
+                        currency: 'EUR',
+                        value: contactType === 'phone' ? 50 : 25,
+                        contact_type: contactType,
+                        page_path: window.location.pathname
+                    }
+                }));
             });
         });
 

@@ -88,10 +88,10 @@
                 "publisher": { "@id": "https://musicangel.ie/#organization" },
                 "inLanguage": "en-IE"
             },
-            { "@type": "MusicGroup", "name": "The Beat Boutique", "url": "https://musicangel.ie/#beat-boutique", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
-            { "@type": "MusicGroup", "name": "Sway Social", "url": "https://musicangel.ie/#sway-social", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
-            { "@type": "MusicGroup", "name": "The Best Men", "url": "https://musicangel.ie/#the-best-men", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
-            { "@type": "MusicGroup", "name": "Blacktye", "url": "https://musicangel.ie/#blacktye", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } }
+            { "@type": "MusicGroup", "name": "The Beat Boutique", "url": "https://musicangel.ie/the-beat-boutique/", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
+            { "@type": "MusicGroup", "name": "Sway Social", "url": "https://musicangel.ie/sway-social/", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
+            { "@type": "MusicGroup", "name": "The Best Men", "url": "https://musicangel.ie/the-best-men/", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } },
+            { "@type": "MusicGroup", "name": "Blacktye", "url": "https://musicangel.ie/blacktye/", "genre": ["Wedding band", "Live music"], "areaServed": { "@type": "Country", "name": "Ireland" }, "memberOf": { "@id": "https://musicangel.ie/#organization" } }
         ]
     }
     </script>
@@ -1835,10 +1835,12 @@
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
         window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
+        window.GOOGLE_ADS_CONTACT_LABEL = window.GOOGLE_ADS_CONTACT_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
-    <script defer src="/js/marketing-tags.js"></script>
+    <script defer src="/js/google-ads-config.js?v=20260612-ads-sot1"></script>
+    <script defer src="/js/marketing-tags.js?v=20260612-ads-sot1"></script>
 </head>
 <body>
     <a href="#main" class="skip-link">Skip to content</a>
@@ -2141,11 +2143,18 @@
                     <li><a href="/wedding-band-cost-ireland/">Wedding band cost (2026)</a></li>
                     <li><a href="/compare-bands/">Compare our four bands</a></li>
                     <li><a href="/first-dance-songs/">First dance songs</a></li>
+                    <li><a href="/wedding-band-vs-dj/">Wedding band vs DJ</a></li>
+                    <li><a href="/wedding-music-timeline/">Wedding music timeline</a></li>
+                    <li><a href="/when-to-book-wedding-band/">When to book a wedding band</a></li>
+                    <li><a href="/questions-to-ask-wedding-band/">Questions to ask a wedding band</a></li>
                     <li><a href="/ceremony-music/">Ceremony music</a></li>
                     <li><a href="/drinks-reception-music/">Drinks reception music</a></li>
+                    <li><a href="/song-list/">Full song list</a></li>
                     <li><a href="/wedding-songs-by-decade/">Songs by decade</a></li>
                     <li><a href="/wedding-band-and-dj-package/">Band + DJ package</a></li>
                     <li><a href="/wedding-band-showcases/">Wedding band showcases</a></li>
+                    <li><a href="/corporate-events/">Corporate event bands</a></li>
+                    <li><a href="/about/">About MusicAngel</a></li>
                 </ul>
             </div>
 
@@ -2220,6 +2229,12 @@
                     <li><a href="/wedding-bands-westmeath/">Westmeath</a></li>
                     <li><a href="/wedding-bands-offaly/">Offaly</a></li>
                     <li><a href="/wedding-bands-laois/">Laois</a></li>
+                    <li><a href="/wedding-bands-antrim/">Antrim</a></li>
+                    <li><a href="/wedding-bands-down/">Down</a></li>
+                    <li><a href="/wedding-bands-armagh/">Armagh</a></li>
+                    <li><a href="/wedding-bands-tyrone/">Tyrone</a></li>
+                    <li><a href="/wedding-bands-fermanagh/">Fermanagh</a></li>
+                    <li><a href="/wedding-bands-derry/">Derry</a></li>
                 </ul>
             </div>
         </div>
@@ -2340,9 +2355,10 @@
                 <a href="#" class="footer-brand">Music<i>Angel</i></a>
                 <ul class="footer-links">
                     <li><a href="#bands">Our Bands</a></li>
-                    <li><a href="#why">Why Us</a></li>
+                    <li><a href="/compare-bands/">Compare</a></li>
+                    <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/venues/">Venues</a></li>
                     <li><a href="#contact">Enquire</a></li>
-                    <li><a href="mailto:jo.musicangel@gmail.com">Email</a></li>
                     <li><a href="/privacy/">Privacy</a></li>
                     <li><a href="/cookies/">Cookies</a></li>
                 </ul>
@@ -2361,6 +2377,6 @@
         </div>
     </div>
 
-    <script defer src="/js/site.js?v=20260606-sot1"></script>
+    <script defer src="/js/site.js?v=20260612-ads-sot1"></script>
 </body>
 </html>

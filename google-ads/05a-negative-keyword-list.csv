@@ -1,0 +1,84 @@
+Action,Negative keyword list name,Negative keyword,Keyword or list,Match type
+Add,MusicAngel Core Exclusions,free,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,cheap,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,diy,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,youtube,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,lyrics,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,tabs,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,chords,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,karaoke,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,tribute,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,school,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,student,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,amateur,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,audition,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,join the band,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,guitar lesson,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,sheet music,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,download,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,spotify,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,jobs,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,vacancy,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,busker,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,playlist,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,mp3,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,instrumental only,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,ring,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,wedding ring,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,jewellery,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,jewelry,Keyword,Broad Match
+Add,MusicAngel Core Exclusions,waxies,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the waxies,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,harlequin,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,buachaills,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the buachaills,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,perfect day wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,perfect day band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,ian hendricks,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,panic animal,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,old moderns,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,pat fitz,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,twist of fate,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the stars band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,rockhill ramblers,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,entourage wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,entourage band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,rejig wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,rejig band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,catch 22 band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,catch 22 wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,switch band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,nightfall band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,blue moose wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,blue moose band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,hell for leather band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,slipstream band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,green means go wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,green means go band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the essentials band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the strobes band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,late night radio band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,late night radio wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the cazettes band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,red alert wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,red alert band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,after dark band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,superfly band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,up to 90 band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,bog the donkey,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,pyramid band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,southbound wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,southbound band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,divine invention band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,j90 band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,last call band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,mass band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,men in black wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,michael o neill wedding dj,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,mixtape band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,spring break wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,suzie q waterford,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the cufflinks wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the event band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the gallivanters wedding band,Keyword,Phrase Match
+Add,MusicAngel Core Exclusions,the wilful band,Keyword,Phrase Match

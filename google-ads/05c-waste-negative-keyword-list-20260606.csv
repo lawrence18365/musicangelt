@@ -1,0 +1,37 @@
+Action,Negative keyword list name,Negative keyword,Keyword or list,Match type,Reason
+Add,MusicAngel Waste Exclusions 2026-06-06,wedding rings,Keyword,Phrase Match,"Jewellery intent, not live wedding band hire"
+Add,MusicAngel Waste Exclusions 2026-06-06,wedding bands for men,Keyword,Phrase Match,"Jewellery/men ring intent, seen in search terms"
+Add,MusicAngel Waste Exclusions 2026-06-06,mens wedding bands,Keyword,Phrase Match,Jewellery/ring intent
+Add,MusicAngel Waste Exclusions 2026-06-06,men's wedding bands,Keyword,Phrase Match,Jewellery/ring intent
+Add,MusicAngel Waste Exclusions 2026-06-06,engagement ring,Keyword,Phrase Match,Jewellery intent
+Add,MusicAngel Waste Exclusions 2026-06-06,bridal jewellery,Keyword,Phrase Match,Jewellery intent
+Add,MusicAngel Waste Exclusions 2026-06-06,gold wedding bands,Keyword,Phrase Match,Jewellery/ring intent
+Add,MusicAngel Waste Exclusions 2026-06-06,mens rings,Keyword,Phrase Match,Jewellery/ring intent
+Add,MusicAngel Waste Exclusions 2026-06-06,wedding dj northern ireland,Keyword,Phrase Match,DJ-only NI query seen in search terms
+Add,MusicAngel Waste Exclusions 2026-06-06,wedding djs northern ireland,Keyword,Phrase Match,DJ-only NI variant seen in search terms
+Add,MusicAngel Waste Exclusions 2026-06-06,dj saxophone wedding,Keyword,Phrase Match,DJ/sax-only query seen in search terms
+Add,MusicAngel Waste Exclusions 2026-06-06,dj saxophone,Keyword,Phrase Match,DJ/sax-only intent
+Add,MusicAngel Waste Exclusions 2026-06-06,saxophone dj,Keyword,Phrase Match,DJ/sax-only intent
+Add,MusicAngel Waste Exclusions 2026-06-06,saxophone wedding,Keyword,Phrase Match,Sax-only wedding entertainment intent
+Add,MusicAngel Waste Exclusions 2026-06-06,sax wedding,Keyword,Phrase Match,Sax-only wedding entertainment intent
+Add,MusicAngel Waste Exclusions 2026-06-06,dj only,Keyword,Phrase Match,Explicit DJ-only intent
+Add,MusicAngel Waste Exclusions 2026-06-06,jo petit,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,jo petit and the dream band,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,whos eddie,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,who's eddie,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,footloose band,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,the kickbacks,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,the pearls,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,the strobes,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,the brightsides band,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,the favours,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,acoustra band,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,celtic knights,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,celtic knights wedding band,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,amazing apples,Keyword,Phrase Match,Competitor band leakage
+Add,MusicAngel Waste Exclusions 2026-06-06,green means go,Keyword,Phrase Match,Competitor band leakage variant
+Add,MusicAngel Waste Exclusions 2026-06-06,divine invention,Keyword,Phrase Match,Competitor band leakage variant
+Add,MusicAngel Waste Exclusions 2026-06-06,entourage,Keyword,Phrase Match,Competitor band leakage variant
+Add,MusicAngel Waste Exclusions 2026-06-06,catch 22,Keyword,Phrase Match,Competitor band leakage variant
+Add,MusicAngel Waste Exclusions 2026-06-06,blue moose,Keyword,Phrase Match,Competitor band leakage variant
+Add,MusicAngel Waste Exclusions 2026-06-06,hell for leather,Keyword,Phrase Match,Competitor band leakage variant
