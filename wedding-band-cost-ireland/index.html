@@ -107,10 +107,13 @@
         .crumb .sep { padding: 0 0.45rem; color: var(--border-strong); }
         article header { padding: 1rem 0 3rem; }
         .eye { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pink); margin-bottom: 1rem; }
-        h1 { font-family: var(--serif); font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 400; color: var(--ink); line-height: 1.07; letter-spacing: -0.01em; margin-bottom: 1.1rem; }
+        h1 { font-family: var(--serif); font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 400; color: var(--ink); line-height: 1.07; letter-spacing: 0; margin-bottom: 1.1rem; }
         h1 em { font-style: italic; color: var(--pink); font-weight: 500; }
         .lede { font-size: 1.15rem; line-height: 1.75; color: var(--ink-soft); margin-bottom: 1rem; font-family: var(--serif); font-style: italic; }
         .meta { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.05em; }
+        .hero-actions { display: flex; gap: 0.8rem; align-items: center; flex-wrap: wrap; margin: 1.35rem 0 1rem; }
+        .hero-proof { display: flex; flex-wrap: wrap; gap: 0.45rem 1rem; list-style: none; margin: 0 0 0.9rem; padding: 0; color: var(--text-muted); font-size: 0.82rem; line-height: 1.5; }
+        .hero-proof li { margin: 0; color: var(--text-muted); font-size: 0.82rem; }
         article h2 { font-family: var(--serif); font-size: clamp(1.8rem, 3.5vw, 2.4rem); font-weight: 400; color: var(--ink); line-height: 1.2; margin: 3rem 0 1.1rem; }
         article h2 em { font-style: italic; color: var(--pink); font-weight: 500; }
         article h3 { font-family: var(--serif); font-size: 1.4rem; color: var(--ink); font-weight: 500; margin: 1.75rem 0 0.5rem; }
@@ -138,6 +141,11 @@
         .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.95rem 1.6rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; border-radius: 999px; text-decoration: none; cursor: pointer; transition: transform 0.18s, background 0.18s; border: 1px solid transparent; }
         .btn-pink { background: var(--pink); color: #fff; box-shadow: 0 12px 34px rgba(242, 108, 167, 0.28); }
         .btn-pink:hover { background: var(--pink-hover); transform: translateY(-2px); }
+        .btn-quiet { background: #fff; border-color: var(--border-strong); color: var(--ink); }
+        .btn-quiet:hover { border-color: var(--pink); color: var(--pink); transform: translateY(-2px); }
+        .answer-cta { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin: 1.8rem 0 2rem; padding: 1.15rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+        .answer-cta p { margin: 0; font-family: var(--serif); font-style: italic; color: var(--ink-soft); }
+        #enquiry { scroll-margin-top: 6rem; }
         .lead-form { display: grid; gap: 1rem; max-width: 42rem; margin: 1.8rem auto 0; text-align: left; background: #fff; padding: clamp(1.35rem, 4vw, 2rem); border: 1px solid var(--border); border-radius: 14px; box-shadow: var(--shadow-soft); }
         .f-row { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
         .fg label { display: block; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 0.4rem; }
@@ -167,6 +175,8 @@
         .cc-btn:hover { background: rgba(255, 255, 255, 0.08); }
         .cc-accept { background: var(--pink); border-color: var(--pink); }
         @media (max-width: 560px) {
+            .hero-actions, .answer-cta { align-items: stretch; flex-direction: column; }
+            .hero-actions .btn, .answer-cta .btn { width: 100%; justify-content: center; }
             .price-table { font-size: 0.88rem; }
             .price-table th, .price-table td { padding: 0.75rem 0.8rem; }
             .f-row { grid-template-columns: 1fr; }
@@ -180,10 +190,12 @@
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
         window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
+        window.GOOGLE_ADS_CONTACT_LABEL = window.GOOGLE_ADS_CONTACT_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
-    <script defer src="/js/marketing-tags.js"></script>
+    <script defer src="/js/google-ads-config.js?v=20260612-ads-sot1"></script>
+    <script defer src="/js/marketing-tags.js?v=20260612-ads-sot1"></script>
 </head>
 <body>
     <nav class="top">
@@ -201,6 +213,15 @@
                 <p class="eye">2026 Pricing Guide · Ireland</p>
                 <h1>How much does a <em>wedding band cost</em> in Ireland?</h1>
                 <p class="lede">An honest breakdown of what you'll actually pay for a live wedding band in Ireland: typical ranges, what's included, what bumps the price, and how to compare quotes without getting tripped up.</p>
+                <div class="hero-actions" aria-label="Wedding band enquiry actions">
+                    <a href="#enquiry" class="btn btn-pink">Check Your Date <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                    <a href="/compare-bands/" class="btn btn-quiet">Compare Bands</a>
+                </div>
+                <ul class="hero-proof" aria-label="MusicAngel booking facts">
+                    <li>Packages from €2450</li>
+                    <li>Four live bands</li>
+                    <li>Reply within one working day</li>
+                </ul>
                 <p class="meta">Updated 15 May 2026 · Read time: 6 min</p>
             </header>
 
@@ -208,6 +229,11 @@
             <p>A reputable live wedding band in Ireland typically costs <strong>between €2450 and €6,000+</strong> for a full evening package. A 4-piece 100%-live band, the most common configuration, usually lands between €2450 and €4,500. Larger line-ups, peak-summer Saturday dates, and remote venues push above that.</p>
 
             <p>MusicAngel packages start at <strong>€2450</strong> for a 4-piece evening set with full PA, stage lighting, and DJ-style music between and after the band's two live sets.</p>
+
+            <div class="answer-cta">
+                <p>Want the exact price for your date and venue?</p>
+                <a href="#enquiry" class="btn btn-pink">Get a Quote</a>
+            </div>
 
             <h2>What you'll actually <em>pay</em>: the typical bands</h2>
 
@@ -378,7 +404,11 @@
                 <a href="/" class="nav-brand" style="font-size: 1.35rem;">Music<i>Angel</i></a>
                 <ul class="footer-links">
                     <li><a href="/#bands">All Bands</a></li>
-                    <li><a href="/#contact">Enquire</a></li>
+                    <li><a href="/compare-bands/">Compare</a></li>
+                    <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/wedding-band-showcases/">Showcases</a></li>
+                    <li><a href="/venues/">Venues</a></li>
+                    <li><a href="#enquiry">Enquire</a></li>
                     <li><a href="/privacy/">Privacy</a></li>
                     <li><a href="/cookies/">Cookies</a></li>
                 </ul>
@@ -395,6 +425,6 @@
         </div>
     </div>
 
-    <script defer src="/js/site.js?v=20260606-sot1"></script>
+    <script defer src="/js/site.js?v=20260612-ads-sot1"></script>
 </body>
 </html>
