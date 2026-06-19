@@ -135,6 +135,7 @@
         .cc-accept { background: var(--pink); border-color: var(--pink); }
         @media (max-width: 560px) { .song-list ol { columns: 1; } .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; } }
     </style>
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20260619-seo">
 </head>
 <body>
     <nav class="top">
@@ -227,6 +228,34 @@
             <p>For the broader pricing context, see our <a href="/wedding-band-cost-ireland/">wedding band cost guide</a>. For drinks reception music ideas, see <a href="/drinks-reception-music/">drinks reception music</a>. For first dance picks, see <a href="/first-dance-songs/">first dance songs</a>.</p>
         </article>
 
+
+        <section class="seo-enquiry" aria-labelledby="ceremony-music-enquiry-title">
+            <h2 id="ceremony-music-enquiry-title">Add ceremony music to your quote.</h2>
+            <p class="seo-enquiry-copy">Tell us your ceremony venue, reception venue, and timings. We will confirm acoustic ceremony options with the evening band package. For pricing context, see <a href="/wedding-band-cost-ireland/">wedding band cost in Ireland</a>, or <a href="/compare-bands/">compare the four bands</a>.</p>
+            <form class="seo-form" data-enquiry="guide-ceremony-music" action="/api/enquiry" method="post">
+                <input type="hidden" name="package_or_service_interest" value="ceremony_music">
+                <div class="seo-form-row">
+                    <div class="seo-form-field"><label for="ceremony-music-name">Your Name</label><input id="ceremony-music-name" name="name" type="text" autocomplete="name" required></div>
+                    <div class="seo-form-field"><label for="ceremony-music-email">Email</label><input id="ceremony-music-email" name="email" type="email" autocomplete="email" required></div>
+                </div>
+                <div class="seo-form-row">
+                    <div class="seo-form-field"><label for="ceremony-music-date">Wedding Date</label><input id="ceremony-music-date" name="date" type="date"></div>
+                    <div class="seo-form-field"><label for="ceremony-music-venue">Venue</label><input id="ceremony-music-venue" name="venue" type="text" placeholder="Venue and county"></div>
+                </div>
+                <div class="seo-form-field"><label for="ceremony-music-band">Band preference</label><select id="ceremony-music-band" name="band">
+                    <option value="">Not sure yet, help me choose</option>
+                    <option>The Beat Boutique</option>
+                    <option>Sway Social</option>
+                    <option>The Best Men</option>
+                    <option>Blacktye</option>
+                </select></div>
+                <div class="seo-form-field"><label for="ceremony-music-message">Message</label><textarea id="ceremony-music-message" name="message" placeholder="Tell us what you are planning, any must-plays, timings, or questions."></textarea></div>
+                <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+                <button type="submit" class="btn btn-pink btn-submit">Check Availability</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
         <div class="cta-band">
             <h2 style="margin-top: 0;">Get a quote with <em>ceremony music</em> included</h2>
             <p style="font-family: var(--serif); font-style: italic; color: var(--text-muted); margin-bottom: 1.5rem;">Mention ceremony music in your enquiry and we'll include it in the quote.</p>
@@ -261,6 +290,7 @@
                     <li><a href="/#bands">All Bands</a></li>
                     <li><a href="/compare-bands/">Compare</a></li>
                     <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/check-availability/">Availability</a></li>
                     <li><a href="/wedding-band-showcases/">Showcases</a></li>
                     <li><a href="/venues/">Venues</a></li>
                     <li><a href="/#contact">Enquire</a></li>

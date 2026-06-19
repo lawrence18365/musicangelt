@@ -49,14 +49,8 @@
         { "source": "/guides/drinks-reception-music", "destination": "/drinks-reception-music", "statusCode": 301 },
         { "source": "/guides/when-to-book-wedding-band", "destination": "/when-to-book-wedding-band", "statusCode": 301 },
         { "source": "/guides/questions-to-ask-wedding-band", "destination": "/questions-to-ask-wedding-band", "statusCode": 301 },
-        { "source": "/blog",              "destination": "/",                "statusCode": 301 },
-        { "source": "/blog/(.*)",         "destination": "/",                "statusCode": 301 },
-        { "source": "/news",              "destination": "/",                "statusCode": 301 },
         { "source": "/home",              "destination": "/",                "statusCode": 301 },
-        { "source": "/index.html",        "destination": "/",                "statusCode": 301 },
-        { "source": "/index.php",         "destination": "/",                "statusCode": 301 },
-        { "source": "/wp-admin",          "destination": "/",                "statusCode": 301 },
-        { "source": "/wp-login.php",      "destination": "/",                "statusCode": 301 }
+        { "source": "/index.html",        "destination": "/",                "statusCode": 301 }
     ],
     "headers": [
         {
@@ -73,6 +67,12 @@
             "source": "/assets/(.*)",
             "headers": [
                 { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+            ]
+        },
+        {
+            "source": "/css/(.*)",
+            "headers": [
+                { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
             ]
         },
         {

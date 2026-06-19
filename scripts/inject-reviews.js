@@ -38,7 +38,7 @@ function esc(s) {
 
 function renderReviewsBlock(bandName, bandSlug, reviews, sourceUrls) {
     if (!reviews || !reviews.length) return '';
-    const avg = (reviews.reduce((a, r) => a + (r.rating || 5), 0) / reviews.length).toFixed(1);
+    const avg = (reviews.reduce((a, r) => a + r.rating, 0) / reviews.length).toFixed(1);
     const sources = [];
     if (sourceUrls.googleMapsUrl) sources.push(`<a href="${esc(sourceUrls.googleMapsUrl)}" target="_blank" rel="noopener">Google reviews</a>`);
     if (sourceUrls.facebookPageUrl) sources.push(`<a href="${esc(sourceUrls.facebookPageUrl)}" target="_blank" rel="noopener">Facebook</a>`);
@@ -46,9 +46,9 @@ function renderReviewsBlock(bandName, bandSlug, reviews, sourceUrls) {
     const sourcesLine = sources.length ? `<p class="reviews-sources">More reviews on ${sources.join(' · ')}</p>` : '';
 
     const items = reviews.map(r => `        <article class="review-card">
-            <div class="review-stars">${'★'.repeat(r.rating || 5)}${'☆'.repeat(5 - (r.rating || 5))}</div>
+            <div class="review-stars">${'★'.repeat(r.rating)}${'☆'.repeat(5 - r.rating)}</div>
             <blockquote class="review-body">${esc(r.body)}</blockquote>
-            <cite class="review-cite">${esc(r.author)}${r.venue ? ' · ' + esc(r.venue) : ''}${r.date ? ' · ' + esc(r.date) : ''}</cite>
+            <cite class="review-cite">${esc(r.author)}${r.venue ? ' · ' + esc(r.venue) : ''}${r.date ? ' · ' + esc(r.date) : ''}${r.sourceUrl ? ' · <a href="' + esc(r.sourceUrl) + '" target="_blank" rel="noopener">source</a>' : ''}</cite>
         </article>`).join('\n');
 
     return `${MARKER_HTML_START}
@@ -77,13 +77,14 @@ ${items}
 
 function renderReviewSchema(bandName, bandSlug, reviews) {
     if (!reviews || !reviews.length) return '';
-    const avg = (reviews.reduce((a, r) => a + (r.rating || 5), 0) / reviews.length).toFixed(1);
+    const avg = (reviews.reduce((a, r) => a + r.rating, 0) / reviews.length).toFixed(1);
     const reviewObjects = reviews.map(r => ({
         "@type": "Review",
-        "reviewRating": { "@type": "Rating", "ratingValue": r.rating || 5, "bestRating": 5 },
+        "reviewRating": { "@type": "Rating", "ratingValue": r.rating, "bestRating": 5 },
         "author": { "@type": "Person", "name": r.author },
         "datePublished": r.date || undefined,
-        "reviewBody": r.body
+        "reviewBody": r.body,
+        "url": r.sourceUrl
     }));
     const aggregateRating = reviews.length >= 3 ? {
         "@type": "AggregateRating",
@@ -104,9 +105,24 @@ function renderReviewSchema(bandName, bandSlug, reviews) {
     ${MARKER_LD_END}`;
 }
 
+function validReview(review) {
+    const rating = Number(review && review.rating);
+    return Boolean(
+        review
+        && review.author
+        && review.body
+        && review.sourceUrl
+        && Number.isFinite(rating)
+        && rating >= 1
+        && rating <= 5
+    );
+}
+
 function processFile(filePath, bandSlug, bandData) {
     let html = fs.readFileSync(filePath, 'utf8');
-    const reviews = bandData && bandData.reviews || [];
+    const reviews = ((bandData && bandData.reviews) || [])
+        .filter(validReview)
+        .map(review => ({ ...review, rating: Number(review.rating) }));
     const sourceUrls = {
         googleMapsUrl: bandData ? bandData.googleMapsUrl : '',
         facebookPageUrl: bandData ? bandData.facebookPageUrl : '',

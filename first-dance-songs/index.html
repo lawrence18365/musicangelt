@@ -166,6 +166,7 @@
     </script>
     <script defer src="/js/google-ads-config.js?v=20260612-ads-sot1"></script>
     <script defer src="/js/marketing-tags.js?v=20260612-ads-sot1"></script>
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20260619-seo">
 </head>
 <body>
     <nav class="top">
@@ -332,6 +333,34 @@
             </ol>
         </article>
 
+
+        <section class="seo-enquiry" aria-labelledby="first-dance-enquiry-title">
+            <h2 id="first-dance-enquiry-title">First dance picked? Check the band for your date.</h2>
+            <p class="seo-enquiry-copy">Tell us your date, venue, and first dance idea. We will confirm which MusicAngel bands are available and whether the song can be learned for your package. For pricing context, see <a href="/wedding-band-cost-ireland/">wedding band cost in Ireland</a>, or <a href="/compare-bands/">compare the four bands</a>.</p>
+            <form class="seo-form" data-enquiry="guide-first-dance" action="/api/enquiry" method="post">
+                <input type="hidden" name="package_or_service_interest" value="first_dance">
+                <div class="seo-form-row">
+                    <div class="seo-form-field"><label for="first-dance-name">Your Name</label><input id="first-dance-name" name="name" type="text" autocomplete="name" required></div>
+                    <div class="seo-form-field"><label for="first-dance-email">Email</label><input id="first-dance-email" name="email" type="email" autocomplete="email" required></div>
+                </div>
+                <div class="seo-form-row">
+                    <div class="seo-form-field"><label for="first-dance-date">Wedding Date</label><input id="first-dance-date" name="date" type="date"></div>
+                    <div class="seo-form-field"><label for="first-dance-venue">Venue</label><input id="first-dance-venue" name="venue" type="text" placeholder="Venue and county"></div>
+                </div>
+                <div class="seo-form-field"><label for="first-dance-band">Band preference</label><select id="first-dance-band" name="band">
+                    <option value="">Not sure yet, help me choose</option>
+                    <option>The Beat Boutique</option>
+                    <option>Sway Social</option>
+                    <option>The Best Men</option>
+                    <option>Blacktye</option>
+                </select></div>
+                <div class="seo-form-field"><label for="first-dance-message">Message</label><textarea id="first-dance-message" name="message" placeholder="Tell us what you are planning, any must-plays, timings, or questions."></textarea></div>
+                <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+                <button type="submit" class="btn btn-pink btn-submit">Check Availability</button>
+                <p class="form-status" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
         <div class="cta-band">
             <div class="wrap" style="padding: 0;">
                 <h2 style="margin-top: 0;">We'll <em>learn</em> your first dance, included in every package</h2>
@@ -371,6 +400,7 @@
                     <li><a href="/#bands">All Bands</a></li>
                     <li><a href="/compare-bands/">Compare</a></li>
                     <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/check-availability/">Availability</a></li>
                     <li><a href="/wedding-band-showcases/">Showcases</a></li>
                     <li><a href="/venues/">Venues</a></li>
                     <li><a href="/#contact">Enquire</a></li>

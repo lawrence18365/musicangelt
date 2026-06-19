@@ -43,15 +43,26 @@ function extractCanonicals(html) {
     return matches.map(m => m[1]);
 }
 
+function isNoindex(html) {
+    return /<meta[^>]+name=["']robots["'][^>]+content=["'][^"']*noindex/i.test(html)
+        || /<meta[^>]+content=["'][^"']*noindex[^"']*["'][^>]+name=["']robots["']/i.test(html);
+}
+
 const issues = [];
 const files = walk(ROOT);
 let okCount = 0;
+let skippedNoindex = 0;
 
 for (const f of files) {
     const html = fs.readFileSync(f, 'utf8');
     const canonicals = extractCanonicals(html);
     const expected = expectedCanonical(f);
     const rel = path.relative(ROOT, f);
+
+    if (isNoindex(html)) {
+        skippedNoindex++;
+        continue;
+    }
 
     if (canonicals.length === 0) {
         issues.push({ file: rel, type: 'MISSING', expected, actual: null });
@@ -66,6 +77,7 @@ for (const f of files) {
 
 console.log(`\nAudited ${files.length} HTML files:`);
 console.log(`  ✅  ${okCount} correct`);
+console.log(`  ↪️   ${skippedNoindex} noindex skipped`);
 console.log(`  ⚠️   ${issues.length} issues\n`);
 
 if (issues.length === 0) {

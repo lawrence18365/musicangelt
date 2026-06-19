@@ -45,6 +45,7 @@ const BANDS = {
 };
 
 const AUTHORITY_LINKS = [
+    { href: '/check-availability/', label: 'Check wedding band availability', note: 'Send your date, venue, county and band preference for a fast availability reply.' },
     { href: '/compare-bands/', label: 'Compare all four wedding bands', note: 'Best starting point if you are choosing between MusicAngel bands.' },
     { href: '/wedding-band-cost-ireland/', label: 'Wedding band cost in Ireland', note: 'Pricing guide for live wedding bands and package decisions.' },
     { href: '/wedding-band-showcases/', label: 'Wedding band showcases', note: 'How to see bands live before booking where possible.' },
@@ -126,6 +127,7 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
 
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20260619-seo">
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -266,6 +268,7 @@ const sharedFooter = `
                     <li><a href="/#bands">All Bands</a></li>
                     <li><a href="/compare-bands/">Compare</a></li>
                     <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/check-availability/">Availability</a></li>
                     <li><a href="/venues/">Venues</a></li>
                     <li><a href="/#contact">Enquire</a></li>
                     <li><a href="/privacy/">Privacy</a></li>
@@ -332,7 +335,8 @@ ${items}
     </section>`;
 }
 
-function enquirySection({ heading, prefillBand = '', prefillVenue = '' }) {
+function enquirySection({ heading, prefillBand = '', prefillVenue = '', context = '' }) {
+    const contextInput = context ? `                <input type="hidden" name="package_or_service_interest" value="${esc(context)}">\n` : '';
     return `<section id="enquiry" class="enquire">
         <div class="wrap">
             <p class="sec-eye">Check availability</p>
@@ -340,6 +344,7 @@ function enquirySection({ heading, prefillBand = '', prefillVenue = '' }) {
             <p style="max-width: 36rem; color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1.05rem;">Send your date and venue. We'll come back within one working day with availability and a tailored quote.</p>
 
             <form id="enquiry">
+${contextInput}
                 <div class="f-row">
                     <div class="fg"><label for="name">Your Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
                     <div class="fg"><label for="partner">Partner's Name</label><input id="partner" name="partner" type="text"></div>
@@ -668,6 +673,7 @@ function regenerateSitemap() {
         { loc: pageUrl('the-best-men'), priority: '0.9', changefreq: 'monthly' },
         { loc: pageUrl('blacktye'), priority: '0.9', changefreq: 'monthly' },
         { loc: pageUrl('wedding-band-cost-ireland'), priority: '0.85', changefreq: 'monthly' },
+        { loc: pageUrl('check-availability'), priority: '0.9', changefreq: 'monthly' },
         { loc: pageUrl('first-dance-songs'), priority: '0.8', changefreq: 'monthly' },
         { loc: pageUrl('wedding-band-showcases'), priority: '0.8', changefreq: 'monthly' },
         { loc: pageUrl('drinks-reception-music'), priority: '0.7', changefreq: 'monthly' },
@@ -789,11 +795,16 @@ ${countyLinks}
 ${countyBlocks}
     </div>
 
+    ${enquirySection({
+        heading: 'Check MusicAngel availability for <em>your venue</em>',
+        context: 'venue'
+    })}
+
     <div class="price-band" style="background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 3rem 0 2rem;">
         <div class="wrap" style="text-align: center;">
             <h2 style="font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.2rem); font-weight: 400; color: var(--ink); margin-bottom: 0.5rem;">Don't see your venue? <em style="font-style: italic; color: var(--pink);">We play everywhere.</em></h2>
             <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1rem; margin-bottom: 1.4rem;">These are venues with bespoke pages. We play all of Ireland, so send any venue when you enquire.</p>
-            <a href="/#contact" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+            <a href="#enquiry" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
         </div>
     </div>
 
