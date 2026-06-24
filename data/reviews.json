@@ -1,6 +1,25 @@
 {
-    "_comment": "Reviews template. Add real Google Maps / Facebook / wedding-directory reviews here as they come in. Each band can have an array of reviews. The site generator will read this and emit Review schema + a visual block on each band page.",
-    "_format": "ratings 1-5, body verbatim from the source, source URL where the review lives publicly.",
+    "_README": "Real reviews only. Band pages render a Reviews block + Review/AggregateRating schema ONLY when a band's `reviews` array has entries. Empty arrays render nothing (safe). NEVER invent reviews — Google can penalise fake review schema, and it is the one proof point our directory competitors cannot fake either.",
+    "_HOW_TO_ADD": [
+        "1. Find a band's real public reviews (Google Maps / Business, Facebook, weddingsonline.ie).",
+        "2. Copy each object from `_reviewTemplate` into that band's `reviews` array. Use the body VERBATIM from the source.",
+        "3. Paste the public profile link into the band's googleMapsUrl / facebookPageUrl / weddingsOnlineUrl so readers and Google can verify.",
+        "4. Run:  node scripts/inject-reviews.js   (injects the visible block + JSON-LD into each band page; idempotent).",
+        "5. Validate the band page at search.google.com/test/rich-results .",
+        "6. Deploy:  npx wrangler pages deploy . --project-name musicangelt --branch main",
+        "Star ratings in Google results (AggregateRating) only appear once a band has 3+ reviews."
+    ],
+    "_reviewTemplate": [
+        {
+            "author": "First names only, e.g. Sarah & Conor",
+            "rating": 5,
+            "date": "2025-08-15",
+            "venue": "Ashford Castle (optional — also helps venue SEO)",
+            "body": "Paste the review text exactly as written on the public source. Do not edit or embellish.",
+            "source": "Google",
+            "sourceUrl": "https://link-to-the-public-review-or-profile"
+        }
+    ],
     "the-beat-boutique": {
         "googleMapsUrl": "",
         "facebookPageUrl": "",
@@ -24,14 +43,5 @@
         "facebookPageUrl": "",
         "weddingsOnlineUrl": "",
         "reviews": []
-    },
-    "_exampleReview": {
-        "author": "Sarah and Conor",
-        "rating": 5,
-        "date": "2024-08-15",
-        "venue": "Ashford Castle",
-        "body": "The band were the absolute highlight of our day. From the moment they walked in they were professional, friendly, and they read the room perfectly. Our guests are still talking about them.",
-        "source": "Google",
-        "sourceUrl": "https://maps.google.com/?cid=..."
     }
 }
