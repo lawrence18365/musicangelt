@@ -1,0 +1,99 @@
+{
+  "results": [
+    {
+      "conversionAction": {
+        "resourceName": "customers/8732162982/conversionActions/7623876949",
+        "status": "HIDDEN",
+        "type": "GOOGLE_ANALYTICS_4_CUSTOM",
+        "category": "CONTACT",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7623876949",
+        "name": "MusicAngel (web) band_click",
+        "includeInConversionsMetric": false,
+        "clickThroughLookbackWindowDays": "90",
+        "viewThroughLookbackWindowDays": "1",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/8732162982/conversionActions/7623876946",
+        "status": "ENABLED",
+        "type": "GOOGLE_ANALYTICS_4_CUSTOM",
+        "category": "CONTACT",
+        "valueSettings": {
+          "defaultValue": 25,
+          "alwaysUseDefaultValue": true
+        },
+        "countingType": "ONE_PER_CLICK",
+        "id": "7623876946",
+        "name": "MusicAngel (web) contact_click",
+        "includeInConversionsMetric": false,
+        "clickThroughLookbackWindowDays": "90",
+        "viewThroughLookbackWindowDays": "1",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/8732162982/conversionActions/7623876943",
+        "status": "HIDDEN",
+        "type": "GOOGLE_ANALYTICS_4_CUSTOM",
+        "category": "SUBMIT_LEAD_FORM",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7623876943",
+        "name": "MusicAngel (web) form_submit",
+        "includeInConversionsMetric": false,
+        "clickThroughLookbackWindowDays": "90",
+        "viewThroughLookbackWindowDays": "1",
+        "primaryForGoal": false
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/8732162982/conversionActions/7623879571",
+        "status": "ENABLED",
+        "type": "GOOGLE_ANALYTICS_4_GENERATE_LEAD",
+        "category": "SUBMIT_LEAD_FORM",
+        "valueSettings": {
+          "defaultValue": 500,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "ONE_PER_CLICK",
+        "id": "7623879571",
+        "name": "MusicAngel (web) generate_lead",
+        "includeInConversionsMetric": true,
+        "clickThroughLookbackWindowDays": "90",
+        "viewThroughLookbackWindowDays": "1",
+        "primaryForGoal": true
+      }
+    },
+    {
+      "conversionAction": {
+        "resourceName": "customers/8732162982/conversionActions/7623483995",
+        "status": "HIDDEN",
+        "type": "GOOGLE_ANALYTICS_4_PURCHASE",
+        "category": "PURCHASE",
+        "valueSettings": {
+          "defaultValue": 1,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "MANY_PER_CLICK",
+        "id": "7623483995",
+        "name": "MusicAngel (web) purchase",
+        "includeInConversionsMetric": false,
+        "clickThroughLookbackWindowDays": "90",
+        "viewThroughLookbackWindowDays": "1",
+        "primaryForGoal": false
+      }
+    }
+  ]
+}

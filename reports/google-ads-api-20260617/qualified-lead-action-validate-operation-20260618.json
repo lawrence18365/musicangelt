@@ -1,0 +1,50 @@
+{
+  "validateOnly": true,
+  "operation": {
+    "name": "MusicAngel D1 qualified_lead",
+    "type": "UPLOAD_CLICKS",
+    "category": "QUALIFIED_LEAD",
+    "countingType": "ONE_PER_CLICK",
+    "includeInConversionsMetric": false,
+    "primaryForGoal": false,
+    "defaultValue": 250
+  }
+}
+HTTP 400: {
+  "error": {
+    "code": 400,
+    "message": "Request contains an invalid argument.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.ads.googleads.v24.errors.GoogleAdsFailure",
+        "errors": [
+          {
+            "errorCode": {
+              "fieldError": "IMMUTABLE_FIELD"
+            },
+            "message": "The field attempted to be mutated is immutable.",
+            "trigger": {
+              "booleanValue": false
+            },
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "operations",
+                  "index": 0
+                },
+                {
+                  "fieldName": "create"
+                },
+                {
+                  "fieldName": "include_in_conversions_metric"
+                }
+              ]
+            }
+          }
+        ],
+        "requestId": "XG9R9TSRpiClBhM2g3B40A"
+      }
+    ]
+  }
+}

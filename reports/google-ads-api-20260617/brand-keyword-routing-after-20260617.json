@@ -1,0 +1,158 @@
+[
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~309013243652",
+    "criterionId": "309013243652",
+    "status": "ENABLED",
+    "keyword": "the best men wedding band",
+    "matchType": "EXACT",
+    "finalUrls": [
+      "https://musicangel.ie/the-best-men/"
+    ],
+    "proposedUrl": "https://musicangel.ie/the-best-men/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~317036385785",
+    "criterionId": "317036385785",
+    "status": "ENABLED",
+    "keyword": "blacktye wedding band",
+    "matchType": "EXACT",
+    "finalUrls": [
+      "https://musicangel.ie/blacktye/"
+    ],
+    "proposedUrl": "https://musicangel.ie/blacktye/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~324448337688",
+    "criterionId": "324448337688",
+    "status": "ENABLED",
+    "keyword": "the beat boutique wedding band",
+    "matchType": "EXACT",
+    "finalUrls": [
+      "https://musicangel.ie/the-beat-boutique/"
+    ],
+    "proposedUrl": "https://musicangel.ie/the-beat-boutique/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~338930937116",
+    "criterionId": "338930937116",
+    "status": "ENABLED",
+    "keyword": "the best men wedding band",
+    "matchType": "PHRASE",
+    "finalUrls": [
+      "https://musicangel.ie/the-best-men/"
+    ],
+    "proposedUrl": "https://musicangel.ie/the-best-men/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~353299723406",
+    "criterionId": "353299723406",
+    "status": "ENABLED",
+    "keyword": "blacktye wedding band",
+    "matchType": "PHRASE",
+    "finalUrls": [
+      "https://musicangel.ie/blacktye/"
+    ],
+    "proposedUrl": "https://musicangel.ie/blacktye/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~386975101148",
+    "criterionId": "386975101148",
+    "status": "ENABLED",
+    "keyword": "sway social wedding band",
+    "matchType": "PHRASE",
+    "finalUrls": [
+      "https://musicangel.ie/sway-social/"
+    ],
+    "proposedUrl": "https://musicangel.ie/sway-social/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~390718854925",
+    "criterionId": "390718854925",
+    "status": "ENABLED",
+    "keyword": "sway social wedding band",
+    "matchType": "EXACT",
+    "finalUrls": [
+      "https://musicangel.ie/sway-social/"
+    ],
+    "proposedUrl": "https://musicangel.ie/sway-social/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~526023609350",
+    "criterionId": "526023609350",
+    "status": "ENABLED",
+    "keyword": "the beat boutique wedding band",
+    "matchType": "PHRASE",
+    "finalUrls": [
+      "https://musicangel.ie/the-beat-boutique/"
+    ],
+    "proposedUrl": "https://musicangel.ie/the-beat-boutique/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~673991185811",
+    "criterionId": "673991185811",
+    "status": "ENABLED",
+    "keyword": "blacktye band",
+    "matchType": "PHRASE",
+    "finalUrls": [
+      "https://musicangel.ie/blacktye/"
+    ],
+    "proposedUrl": "https://musicangel.ie/blacktye/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~811160508620",
+    "criterionId": "811160508620",
+    "status": "ENABLED",
+    "keyword": "beat boutique band",
+    "matchType": "EXACT",
+    "finalUrls": [
+      "https://musicangel.ie/the-beat-boutique/"
+    ],
+    "proposedUrl": "https://musicangel.ie/the-beat-boutique/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~821988035984",
+    "criterionId": "821988035984",
+    "status": "ENABLED",
+    "keyword": "blacktye band",
+    "matchType": "EXACT",
+    "finalUrls": [
+      "https://musicangel.ie/blacktye/"
+    ],
+    "proposedUrl": "https://musicangel.ie/blacktye/"
+  },
+  {
+    "campaign": "Search - Brand & Bands",
+    "adGroup": "Band names",
+    "resourceName": "customers/8732162982/adGroupCriteria/194701048217~861088047324",
+    "criterionId": "861088047324",
+    "status": "ENABLED",
+    "keyword": "beat boutique band",
+    "matchType": "PHRASE",
+    "finalUrls": [
+      "https://musicangel.ie/the-beat-boutique/"
+    ],
+    "proposedUrl": "https://musicangel.ie/the-beat-boutique/"
+  }
+]

@@ -6,3 +6,5 @@
 node_modules
 .wrangler
 .playwright-cli/
+.lead-logger-token
+.DS_Store

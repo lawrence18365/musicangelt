@@ -1,0 +1,9 @@
+{
+  "validateOnly": true,
+  "operation": {
+    "campaignName": "Search - Wedding Bands Ireland",
+    "adGroupName": "Wedding bands Ireland",
+    "text": "wedding saxophone player ireland",
+    "matchType": "EXACT"
+  }
+}

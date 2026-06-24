@@ -1,0 +1,46 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "status": "ENABLED",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "status": "PAUSED",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "status": "ENABLED",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "status": "ENABLED",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "status": "ENABLED",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      }
+    }
+  ],
+  "fieldMask": "campaign.id,campaign.name,campaign.status,campaign.trackingUrlTemplate,campaign.finalUrlSuffix",
+  "queryResourceConsumption": "86"
+}

@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~866649557519",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding saxophone player ireland"
+        },
+        "criterionId": "866649557519",
+        "negative": true
+      }
+    }
+  ]
+}

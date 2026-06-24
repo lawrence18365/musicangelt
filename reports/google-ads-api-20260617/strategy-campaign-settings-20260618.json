@@ -1,0 +1,133 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "status": "ENABLED",
+        "networkSettings": {
+          "targetGoogleSearch": true,
+          "targetSearchNetwork": false,
+          "targetContentNetwork": false,
+          "targetPartnerSearchNetwork": false
+        },
+        "biddingStrategyType": "MANUAL_CPC",
+        "manualCpc": {
+          "enhancedCpcEnabled": false
+        },
+        "geoTargetTypeSetting": {
+          "positiveGeoTargetType": "PRESENCE"
+        },
+        "name": "Search - Brand & Bands",
+        "id": "23880653751",
+        "optimizationScore": 0.8361780566733232
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977743",
+        "amountMicros": "2000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "status": "ENABLED",
+        "networkSettings": {
+          "targetGoogleSearch": true,
+          "targetSearchNetwork": false,
+          "targetContentNetwork": false,
+          "targetPartnerSearchNetwork": false
+        },
+        "biddingStrategyType": "MANUAL_CPC",
+        "manualCpc": {
+          "enhancedCpcEnabled": false
+        },
+        "geoTargetTypeSetting": {
+          "positiveGeoTargetType": "PRESENCE"
+        },
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743",
+        "optimizationScore": 0.7412685476163569
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15611987188",
+        "amountMicros": "6000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "status": "ENABLED",
+        "networkSettings": {
+          "targetGoogleSearch": true,
+          "targetSearchNetwork": false,
+          "targetContentNetwork": false,
+          "targetPartnerSearchNetwork": false
+        },
+        "biddingStrategyType": "MANUAL_CPC",
+        "manualCpc": {
+          "enhancedCpcEnabled": false
+        },
+        "geoTargetTypeSetting": {
+          "positiveGeoTargetType": "PRESENCE"
+        },
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172",
+        "optimizationScore": 0.9418143948631843
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977746",
+        "amountMicros": "2000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "status": "ENABLED",
+        "networkSettings": {
+          "targetGoogleSearch": true,
+          "targetSearchNetwork": false,
+          "targetContentNetwork": false,
+          "targetPartnerSearchNetwork": false
+        },
+        "biddingStrategyType": "MANUAL_CPC",
+        "manualCpc": {
+          "enhancedCpcEnabled": false
+        },
+        "geoTargetTypeSetting": {
+          "positiveGeoTargetType": "PRESENCE"
+        },
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740",
+        "optimizationScore": 0.7394704124893869
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977527",
+        "amountMicros": "10000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "status": "PAUSED",
+        "networkSettings": {
+          "targetGoogleSearch": true,
+          "targetSearchNetwork": false,
+          "targetContentNetwork": false,
+          "targetPartnerSearchNetwork": false
+        },
+        "biddingStrategyType": "MANUAL_CPC",
+        "manualCpc": {
+          "enhancedCpcEnabled": false
+        },
+        "geoTargetTypeSetting": {
+          "positiveGeoTargetType": "PRESENCE"
+        },
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15606778227",
+        "amountMicros": "5000000"
+      }
+    }
+  ]
+}

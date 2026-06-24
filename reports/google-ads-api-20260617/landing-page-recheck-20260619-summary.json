@@ -1,0 +1,134 @@
+[
+  {
+    "date": "2026-06-18",
+    "rows": 33,
+    "impressions": 442,
+    "clicks": 13,
+    "cost": 20.02,
+    "conversions": 1,
+    "ignoreRows": 23,
+    "ignoreClicks": 10,
+    "ignoreCost": 15.04,
+    "cleanRows": 10,
+    "cleanClicks": 3,
+    "cleanCost": 4.98,
+    "ignoreUrls": [
+      {
+        "clicks": 4,
+        "cost": 3.36,
+        "url": "https://musicangel.ie/the-beat-boutique/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 3,
+        "cost": 6.52,
+        "url": "https://musicangel.ie/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 1.4,
+        "url": "https://musicangel.ie/wedding-bands-donegal/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 1.37,
+        "url": "https://musicangel.ie/wedding-bands-dublin/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 2.39,
+        "url": "https://musicangel.ie/wedding-band-cost-ireland/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/the-best-men/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-wexford/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-galway/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-offaly/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/sway-social/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    ]
+  },
+  {
+    "date": "2026-06-19",
+    "rows": 32,
+    "impressions": 261,
+    "clicks": 6,
+    "cost": 9.62,
+    "conversions": 0,
+    "ignoreRows": 22,
+    "ignoreClicks": 5,
+    "ignoreCost": 7.48,
+    "cleanRows": 10,
+    "cleanClicks": 1,
+    "cleanCost": 2.14,
+    "ignoreUrls": [
+      {
+        "clicks": 1,
+        "cost": 1.79,
+        "url": "https://musicangel.ie/wedding-band-and-dj-package/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 0.8,
+        "url": "https://musicangel.ie/the-beat-boutique/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 1.37,
+        "url": "https://musicangel.ie/wedding-bands-derry/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 1.39,
+        "url": "https://musicangel.ie/wedding-bands-kerry/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 1,
+        "cost": 2.13,
+        "url": "https://musicangel.ie/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-donegal/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-sligo/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-cavan/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-dublin/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      },
+      {
+        "clicks": 0,
+        "cost": 0,
+        "url": "https://musicangel.ie/wedding-bands-galway/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    ]
+  }
+]

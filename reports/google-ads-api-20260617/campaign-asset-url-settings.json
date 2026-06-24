@@ -1,0 +1,1122 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028106978",
+        "type": "SITELINK",
+        "id": "366028106978",
+        "finalUrls": [
+          "https://musicangel.ie/sway-social/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Sway Social"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028106978~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028164854",
+        "type": "SITELINK",
+        "id": "366028164854",
+        "finalUrls": [
+          "https://musicangel.ie/compare-bands/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Compare Bands"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028164854~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028165061",
+        "type": "SITELINK",
+        "id": "366028165061",
+        "finalUrls": [
+          "https://musicangel.ie/venues/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Venues"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028165061~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028165430",
+        "type": "SITELINK",
+        "id": "366028165430",
+        "finalUrls": [
+          "https://musicangel.ie/the-best-men/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Best Men"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028165430~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028173572",
+        "type": "SITELINK",
+        "id": "366028173572",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-showcases/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Showcases"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028173572~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028173734",
+        "type": "SITELINK",
+        "id": "366028173734",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-and-dj-package/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Band And DJ Package"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028173734~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028173917",
+        "type": "SITELINK",
+        "id": "366028173917",
+        "finalUrls": [
+          "https://musicangel.ie/first-dance-songs/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "First Dance Songs"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366028173917~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111688798",
+        "type": "SITELINK",
+        "id": "366111688798",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-cost-ireland/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Cost"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366111688798~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111689239",
+        "type": "SITELINK",
+        "id": "366111689239",
+        "finalUrls": [
+          "https://musicangel.ie/the-beat-boutique/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Beat Boutique"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366111689239~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111690016",
+        "type": "SITELINK",
+        "id": "366111690016",
+        "finalUrls": [
+          "https://musicangel.ie/blacktye/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Blacktye"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366111690016~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129376",
+        "type": "CALLOUT",
+        "id": "366191129376"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129376~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129379",
+        "type": "CALLOUT",
+        "id": "366191129379"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129379~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129382",
+        "type": "CALLOUT",
+        "id": "366191129382"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129382~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129385",
+        "type": "CALLOUT",
+        "id": "366191129385"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129385~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129388",
+        "type": "CALLOUT",
+        "id": "366191129388"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129388~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129391",
+        "type": "CALLOUT",
+        "id": "366191129391"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129391~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129394",
+        "type": "CALLOUT",
+        "id": "366191129394"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129394~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129397",
+        "type": "CALLOUT",
+        "id": "366191129397"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23880653751~366191129397~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366725291728",
+        "type": "SITELINK",
+        "id": "366725291728",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-cost-ireland/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Cost"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295743~366725291728~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366725291731",
+        "type": "SITELINK",
+        "id": "366725291731",
+        "finalUrls": [
+          "https://musicangel.ie/compare-bands/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Compare Bands"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295743~366725291731~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366725291734",
+        "type": "SITELINK",
+        "id": "366725291734",
+        "finalUrls": [
+          "https://musicangel.ie/venues/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Venues"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295743~366725291734~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366725291737",
+        "type": "SITELINK",
+        "id": "366725291737",
+        "finalUrls": [
+          "https://musicangel.ie/the-best-men/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Best Men"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295743~366725291737~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366725291740",
+        "type": "SITELINK",
+        "id": "366725291740",
+        "finalUrls": [
+          "https://musicangel.ie/first-dance-songs/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "First Dance Songs"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295743~366725291740~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366725291743",
+        "type": "SITELINK",
+        "id": "366725291743",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-and-dj-package/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Band And DJ Package"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295743~366725291743~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028164866",
+        "type": "SITELINK",
+        "id": "366028164866",
+        "finalUrls": [
+          "https://musicangel.ie/compare-bands/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Compare Bands"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366028164866~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028165385",
+        "type": "SITELINK",
+        "id": "366028165385",
+        "finalUrls": [
+          "https://musicangel.ie/sway-social/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Sway Social"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366028165385~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028173560",
+        "type": "SITELINK",
+        "id": "366028173560",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-cost-ireland/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Cost"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366028173560~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111686410",
+        "type": "SITELINK",
+        "id": "366111686410",
+        "finalUrls": [
+          "https://musicangel.ie/first-dance-songs/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "First Dance Songs"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366111686410~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111688933",
+        "type": "SITELINK",
+        "id": "366111688933",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-showcases/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Showcases"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366111688933~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111689005",
+        "type": "SITELINK",
+        "id": "366111689005",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-and-dj-package/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Band And DJ Package"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366111689005~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111689224",
+        "type": "SITELINK",
+        "id": "366111689224",
+        "finalUrls": [
+          "https://musicangel.ie/venues/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Venues"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366111689224~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111690058",
+        "type": "SITELINK",
+        "id": "366111690058",
+        "finalUrls": [
+          "https://musicangel.ie/blacktye/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Blacktye"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366111690058~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366189701691",
+        "type": "SITELINK",
+        "id": "366189701691",
+        "finalUrls": [
+          "https://musicangel.ie/the-beat-boutique/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Beat Boutique"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366189701691~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366189702300",
+        "type": "SITELINK",
+        "id": "366189702300",
+        "finalUrls": [
+          "https://musicangel.ie/the-best-men/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Best Men"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366189702300~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129376",
+        "type": "CALLOUT",
+        "id": "366191129376"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129376~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129379",
+        "type": "CALLOUT",
+        "id": "366191129379"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129379~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129382",
+        "type": "CALLOUT",
+        "id": "366191129382"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129382~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129385",
+        "type": "CALLOUT",
+        "id": "366191129385"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129385~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129388",
+        "type": "CALLOUT",
+        "id": "366191129388"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129388~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129391",
+        "type": "CALLOUT",
+        "id": "366191129391"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129391~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129394",
+        "type": "CALLOUT",
+        "id": "366191129394"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129394~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129397",
+        "type": "CALLOUT",
+        "id": "366191129397"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890296172~366191129397~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028106984",
+        "type": "SITELINK",
+        "id": "366028106984",
+        "finalUrls": [
+          "https://musicangel.ie/sway-social/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Sway Social"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366028106984~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028160885",
+        "type": "SITELINK",
+        "id": "366028160885",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-cost-ireland/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Cost"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366028160885~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028173782",
+        "type": "SITELINK",
+        "id": "366028173782",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-and-dj-package/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Band And DJ Package"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366028173782~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366028174604",
+        "type": "SITELINK",
+        "id": "366028174604",
+        "finalUrls": [
+          "https://musicangel.ie/blacktye/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Blacktye"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366028174604~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111686857",
+        "type": "SITELINK",
+        "id": "366111686857",
+        "finalUrls": [
+          "https://musicangel.ie/the-best-men/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Best Men"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366111686857~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111688774",
+        "type": "SITELINK",
+        "id": "366111688774",
+        "finalUrls": [
+          "https://musicangel.ie/compare-bands/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Compare Bands"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366111688774~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111688912",
+        "type": "SITELINK",
+        "id": "366111688912",
+        "finalUrls": [
+          "https://musicangel.ie/wedding-band-showcases/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Band Showcases"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366111688912~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366111689254",
+        "type": "SITELINK",
+        "id": "366111689254",
+        "finalUrls": [
+          "https://musicangel.ie/the-beat-boutique/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "The Beat Boutique"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366111689254~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366189701025",
+        "type": "SITELINK",
+        "id": "366189701025",
+        "finalUrls": [
+          "https://musicangel.ie/first-dance-songs/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "First Dance Songs"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366189701025~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366189701232",
+        "type": "SITELINK",
+        "id": "366189701232",
+        "finalUrls": [
+          "https://musicangel.ie/venues/"
+        ],
+        "sitelinkAsset": {
+          "linkText": "Wedding Venues"
+        }
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366189701232~SITELINK",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129376",
+        "type": "CALLOUT",
+        "id": "366191129376"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129376~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129379",
+        "type": "CALLOUT",
+        "id": "366191129379"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129379~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129382",
+        "type": "CALLOUT",
+        "id": "366191129382"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129382~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129385",
+        "type": "CALLOUT",
+        "id": "366191129385"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129385~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129388",
+        "type": "CALLOUT",
+        "id": "366191129388"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129388~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129391",
+        "type": "CALLOUT",
+        "id": "366191129391"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129391~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129394",
+        "type": "CALLOUT",
+        "id": "366191129394"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129394~CALLOUT",
+        "status": "ENABLED"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "asset": {
+        "resourceName": "customers/8732162982/assets/366191129397",
+        "type": "CALLOUT",
+        "id": "366191129397"
+      },
+      "campaignAsset": {
+        "resourceName": "customers/8732162982/campaignAssets/23890295740~366191129397~CALLOUT",
+        "status": "ENABLED"
+      }
+    }
+  ],
+  "fieldMask": "campaign.name,asset.id,asset.name,asset.type,asset.finalUrls,asset.trackingUrlTemplate,asset.finalUrlSuffix,asset.sitelinkAsset.linkText,campaignAsset.status",
+  "queryResourceConsumption": "1328"
+}

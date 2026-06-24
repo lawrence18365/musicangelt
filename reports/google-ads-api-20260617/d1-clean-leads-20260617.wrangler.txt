@@ -1,0 +1,161 @@
+
+ ⛅️ wrangler 4.101.0
+────────────────────
+Resource location: remote 
+
+🌀 Executing on remote database musicangel_leads (67f9c7f4-e1c4-465e-b7b2-6aa7c3bc3745):
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+🚣 Executed 2 commands in 1.10ms
+[
+  {
+    "results": [
+      {
+        "total_rows": 13,
+        "test_rows": 4,
+        "clean_real_leads": 9,
+        "clean_google_ads_leads": 8,
+        "clean_unknown_leads": 1,
+        "historical_backfill_real_leads": 4
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "WNAM",
+      "served_by_colo": "SEA",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.46
+      },
+      "duration": 0.46,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 98304,
+      "rows_read": 13,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  },
+  {
+    "results": [
+      {
+        "created_at": "2026-05-29T12:00:00Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "historical_gmail_backfill",
+        "campaign": "23890295743",
+        "ad_group": "194701052777",
+        "keyword": "wedding bands cork",
+        "match_type": "e",
+        "landing_page": "https://musicangel.ie/the-beat-boutique/",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-02T12:00:00Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "historical_gmail_backfill",
+        "campaign": "23890295740",
+        "ad_group": "194701048257",
+        "keyword": "live wedding band ireland",
+        "match_type": "p",
+        "landing_page": "https://musicangel.ie/the-best-men/",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-04T12:00:00Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "historical_gmail_backfill",
+        "campaign": "23880653751",
+        "ad_group": "194701048217",
+        "keyword": "sway social wedding band",
+        "match_type": "e",
+        "landing_page": "https://musicangel.ie/sway-social/",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-05T12:00:00Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "historical_gmail_backfill",
+        "campaign": "23890295740",
+        "ad_group": "194701048297",
+        "keyword": "wedding band prices ireland",
+        "match_type": "p",
+        "landing_page": "https://musicangel.ie/wedding-band-cost-ireland/",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-07T08:17:52.385Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "musicangel_site",
+        "campaign": "23890295740",
+        "ad_group": "194701048257",
+        "keyword": "live wedding band ireland",
+        "match_type": "p",
+        "landing_page": "https://musicangel.ie/?utm_source=google&utm_medium=cpc&utm_campaign=23890295740&utm_adgroup=194701048257&utm_content=810511631473&utm_term=live%20wedding%20band%20ireland&utm_matchtype=p&utm_network=g&gad_source=1&gad_campaignid=23890295740&gbraid=0AAAABDvHBbC-KVRo0KNfn9WLDX-k5uZ2j&gclid=EAIaIQobChMI7ojfxNb0lAMVCJlQBh1acQDiEAAYASAAEgJ6fPD_BwE",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-09T15:32:13.174Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "musicangel_site",
+        "campaign": "23890295740",
+        "ad_group": "194701048457",
+        "keyword": "wedding band with dj",
+        "match_type": "p",
+        "landing_page": "https://musicangel.ie/wedding-band-and-dj-package/?utm_source=google&utm_medium=cpc&utm_campaign=23890295740&utm_adgroup=194701048457&utm_content=810511631479&utm_term=wedding%20band%20with%20dj&utm_matchtype=p&utm_network=g&gad_source=1&gad_campaignid=23890295740&gbraid=0AAAABDvHBbBr_iE1beIRNIvs_6FiYKiev&gclid=CjwKCAjw857RBhAgEiwAI-1yKLrSRUofIcVXB6lafml_nzzMpxw4i6tujKi9oXJCcWQqqZof7cyyaBoCehcQAvD_BwE",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-12T14:13:04Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "musicangel_site_admin_email_recovery",
+        "campaign": "23880653751",
+        "ad_group": "194701048217",
+        "keyword": "the beat boutique wedding band",
+        "match_type": "p",
+        "landing_page": "https://musicangel.ie/the-beat-boutique/?_gl=1*1g8n1xk*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw3K7RBhDJARIsAKRtP5QywMfTMN6oFS5YhMky_HDZzKH1UOAc1YRGKudIS5N0LeKMOuVxUlUaAn0pEALw_wcB#enquiry",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-17T09:19:02.601Z",
+        "lead_source_classification": "google_ads",
+        "source_system": "musicangel_site",
+        "campaign": "23890295743",
+        "ad_group": "194701053097",
+        "keyword": "wedding band donegal",
+        "match_type": "e",
+        "landing_page": "https://musicangel.ie/wedding-band-and-dj-package/?utm_source=google&utm_medium=cpc&utm_campaign=23890295743&utm_adgroup=194701053097&utm_content=810584875838&utm_term=wedding%20band%20donegal&utm_matchtype=e&utm_network=g&gad_source=1&gad_campaignid=23890295743&gbraid=0AAAABDvHBbAlXGKV3cOjJ-sQNuluaL0z6&gclid=EAIaIQobChMIzJTH4PeNlQMV-6RQBh0Ziw8UEAAYASABEgK-_vD_BwE",
+        "count_as_google_ads": 1
+      },
+      {
+        "created_at": "2026-06-17T13:49:33.732Z",
+        "lead_source_classification": "direct_or_unknown",
+        "source_system": "musicangel_site",
+        "campaign": "",
+        "ad_group": "",
+        "keyword": "",
+        "match_type": "",
+        "landing_page": "https://musicangel.ie/wedding-bands-kerry/",
+        "count_as_google_ads": 0
+      }
+    ],
+    "success": true,
+    "meta": {
+      "served_by": "v3-prod",
+      "served_by_region": "WNAM",
+      "served_by_colo": "SEA",
+      "served_by_primary": true,
+      "timings": {
+        "sql_duration_ms": 0.6373
+      },
+      "duration": 0.6373,
+      "changes": 0,
+      "last_row_id": 0,
+      "changed_db": false,
+      "size_after": 98304,
+      "rows_read": 22,
+      "rows_written": 0,
+      "total_attempts": 1
+    }
+  }
+]

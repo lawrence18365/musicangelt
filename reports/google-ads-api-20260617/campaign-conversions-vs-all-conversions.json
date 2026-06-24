@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "metrics": {
+        "clicks": "108",
+        "conversionsValue": 1500,
+        "conversions": 4,
+        "costMicros": "225159404",
+        "allConversionsValue": 1500,
+        "allConversions": 4
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "metrics": {
+        "clicks": "99",
+        "conversionsValue": 1000,
+        "conversions": 2,
+        "costMicros": "134612708",
+        "allConversionsValue": 1000,
+        "allConversions": 2
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "metrics": {
+        "clicks": "24",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "21030999",
+        "allConversionsValue": 250,
+        "allConversions": 1
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversionsValue": 0,
+        "allConversions": 0
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversionsValue": 0,
+        "allConversions": 0
+      }
+    }
+  ],
+  "fieldMask": "campaign.name,metrics.clicks,metrics.costMicros,metrics.conversions,metrics.allConversions,metrics.conversionsValue,metrics.allConversionsValue",
+  "queryResourceConsumption": "1012"
+}

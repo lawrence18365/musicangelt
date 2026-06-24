@@ -1,0 +1,62 @@
+{
+  "validateOnly": true,
+  "conversionAction": "customers/8732162982/conversionActions/7653797036",
+  "candidateCount": 5,
+  "candidates": [
+    {
+      "leadId": "MA-20260607-893B769A98",
+      "stage": "qualified_lead",
+      "conversionDateTime": "2026-06-07 08:17:52+00:00",
+      "conversionValue": 250,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295740",
+      "adGroup": "194701048257",
+      "keyword": "live wedding band ireland"
+    },
+    {
+      "leadId": "MA-20260609-A463C51797",
+      "stage": "qualified_lead",
+      "conversionDateTime": "2026-06-09 15:32:13+00:00",
+      "conversionValue": 250,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295740",
+      "adGroup": "194701048457",
+      "keyword": "wedding band with dj"
+    },
+    {
+      "leadId": "MA-20260612-MANUAL-ANDREA",
+      "stage": "qualified_lead",
+      "conversionDateTime": "2026-06-12 14:13:04+00:00",
+      "conversionValue": 250,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23880653751",
+      "adGroup": "194701048217",
+      "keyword": "the beat boutique wedding band"
+    },
+    {
+      "leadId": "MA-20260617-9637FB1F1B",
+      "stage": "qualified_lead",
+      "conversionDateTime": "2026-06-17 09:19:02+00:00",
+      "conversionValue": 250,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295743",
+      "adGroup": "194701053097",
+      "keyword": "wedding band donegal"
+    },
+    {
+      "leadId": "MA-20260618-65936C9BC2",
+      "stage": "qualified_lead",
+      "conversionDateTime": "2026-06-18 18:54:30+00:00",
+      "conversionValue": 250,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23880653751",
+      "adGroup": "194701048217",
+      "keyword": "the beat boutique wedding band"
+    }
+  ]
+}

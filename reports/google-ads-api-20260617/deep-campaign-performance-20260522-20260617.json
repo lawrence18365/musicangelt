@@ -1,0 +1,120 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "status": "ENABLED",
+        "advertisingChannelType": "SEARCH",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "108",
+        "conversionsValue": 1500,
+        "conversions": 4,
+        "costMicros": "225159404",
+        "ctr": 0.12872467222884387,
+        "allConversions": 4,
+        "averageCpc": 2084809.2962962964,
+        "impressions": "839"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977527",
+        "amountMicros": "10000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "status": "ENABLED",
+        "advertisingChannelType": "SEARCH",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "99",
+        "conversionsValue": 1000,
+        "conversions": 2,
+        "costMicros": "134612708",
+        "ctr": 0.132,
+        "allConversions": 2,
+        "averageCpc": 1359724.3232323232,
+        "impressions": "750"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15611987188",
+        "amountMicros": "6000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "status": "ENABLED",
+        "advertisingChannelType": "SEARCH",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "24",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "21030999",
+        "ctr": 0.14285714285714285,
+        "allConversions": 1,
+        "averageCpc": 876291.625,
+        "impressions": "168"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977743",
+        "amountMicros": "2000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "status": "PAUSED",
+        "advertisingChannelType": "SEARCH",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15606778227",
+        "amountMicros": "5000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "status": "ENABLED",
+        "advertisingChannelType": "SEARCH",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977746",
+        "amountMicros": "2000000"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1027 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "status": "ENABLED",
+        "name": "Band names"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "status": "ENABLED",
+        "name": "MusicAngel brand"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054737",
+        "status": "ENABLED",
+        "name": "Antrim"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054937",
+        "status": "ENABLED",
+        "name": "Armagh"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053737",
+        "status": "ENABLED",
+        "name": "Carlow"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054017",
+        "status": "ENABLED",
+        "name": "Cavan"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053297",
+        "status": "ENABLED",
+        "name": "Clare"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "status": "ENABLED",
+        "name": "Cork"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "status": "ENABLED",
+        "name": "Derry"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "status": "ENABLED",
+        "name": "Donegal"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054777",
+        "status": "ENABLED",
+        "name": "Down"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "status": "ENABLED",
+        "name": "Dublin"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055017",
+        "status": "ENABLED",
+        "name": "Fermanagh"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "status": "ENABLED",
+        "name": "Galway"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "status": "ENABLED",
+        "name": "Kerry"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053777",
+        "status": "ENABLED",
+        "name": "Kildare"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053577",
+        "status": "ENABLED",
+        "name": "Kilkenny"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054697",
+        "status": "ENABLED",
+        "name": "Laois"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054217",
+        "status": "ENABLED",
+        "name": "Leitrim"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053017",
+        "status": "ENABLED",
+        "name": "Limerick"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054457",
+        "status": "ENABLED",
+        "name": "Longford"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053977",
+        "status": "ENABLED",
+        "name": "Louth"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053057",
+        "status": "ENABLED",
+        "name": "Mayo"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "status": "ENABLED",
+        "name": "Meath"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054057",
+        "status": "ENABLED",
+        "name": "Monaghan"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054537",
+        "status": "ENABLED",
+        "name": "Offaly"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054297",
+        "status": "ENABLED",
+        "name": "Roscommon"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054257",
+        "status": "ENABLED",
+        "name": "Sligo"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053337",
+        "status": "ENABLED",
+        "name": "Tipperary"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054977",
+        "status": "ENABLED",
+        "name": "Tyrone"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053497",
+        "status": "ENABLED",
+        "name": "Waterford"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054497",
+        "status": "ENABLED",
+        "name": "Westmeath"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053537",
+        "status": "ENABLED",
+        "name": "Wexford"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053257",
+        "status": "ENABLED",
+        "name": "Wicklow"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048777",
+        "status": "ENABLED",
+        "name": "Adare Manor"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "status": "ENABLED",
+        "name": "Ashford Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049417",
+        "status": "ENABLED",
+        "name": "Ballybeg House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049257",
+        "status": "ENABLED",
+        "name": "Ballyfin Demesne"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051657",
+        "status": "ENABLED",
+        "name": "Ballymagarvey Village"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049937",
+        "status": "ENABLED",
+        "name": "Ballymaloe House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052137",
+        "status": "ENABLED",
+        "name": "Barberstown Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050417",
+        "status": "ENABLED",
+        "name": "Bellinter House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050697",
+        "status": "ENABLED",
+        "name": "Brooklodge & Macreddin Village"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051817",
+        "status": "ENABLED",
+        "name": "Bunratty Castle Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049457",
+        "status": "ENABLED",
+        "name": "Cabra Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049657",
+        "status": "ENABLED",
+        "name": "Carton House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052057",
+        "status": "ENABLED",
+        "name": "Cashel Palace Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049177",
+        "status": "ENABLED",
+        "name": "Castle Leslie"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049697",
+        "status": "ENABLED",
+        "name": "Castlemartyr Resort"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050217",
+        "status": "ENABLED",
+        "name": "Cliff House Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051097",
+        "status": "ENABLED",
+        "name": "Cliff at Lyons"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051617",
+        "status": "ENABLED",
+        "name": "Clonabreany House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "status": "ENABLED",
+        "name": "Dromoland Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050897",
+        "status": "ENABLED",
+        "name": "Druids Glen Hotel & Golf Resort"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050177",
+        "status": "ENABLED",
+        "name": "Faithlegg House Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049737",
+        "status": "ENABLED",
+        "name": "Fota Island Resort"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051857",
+        "status": "ENABLED",
+        "name": "Galgorm Resort"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049897",
+        "status": "ENABLED",
+        "name": "Glenlo Abbey Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051417",
+        "status": "ENABLED",
+        "name": "Harvey's Point"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051897",
+        "status": "ENABLED",
+        "name": "Hayfield Manor"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051177",
+        "status": "ENABLED",
+        "name": "Killashee Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052377",
+        "status": "ENABLED",
+        "name": "Killyhevlin Lakeside Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051577",
+        "status": "ENABLED",
+        "name": "Kilshane House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051337",
+        "status": "ENABLED",
+        "name": "Kinnitty Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051377",
+        "status": "ENABLED",
+        "name": "Knockranny House Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049217",
+        "status": "ENABLED",
+        "name": "Lough Eske Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050377",
+        "status": "ENABLED",
+        "name": "Lyrath Estate"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051137",
+        "status": "ENABLED",
+        "name": "Markree Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050137",
+        "status": "ENABLED",
+        "name": "Marlfield House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049977",
+        "status": "ENABLED",
+        "name": "Mount Falcon Estate"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049497",
+        "status": "ENABLED",
+        "name": "Mount Juliet Estate"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052097",
+        "status": "ENABLED",
+        "name": "Mount Wolseley Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052337",
+        "status": "ENABLED",
+        "name": "Newpark Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050457",
+        "status": "ENABLED",
+        "name": "Park Hotel Kenmare"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048937",
+        "status": "ENABLED",
+        "name": "Powerscourt House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052297",
+        "status": "ENABLED",
+        "name": "Roganstown Hotel & Country Club"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050617",
+        "status": "ENABLED",
+        "name": "Sheen Falls Lodge"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050937",
+        "status": "ENABLED",
+        "name": "Slane Castle"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048977",
+        "status": "ENABLED",
+        "name": "Tankardstown House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052537",
+        "status": "ENABLED",
+        "name": "The Cliff Townhouse"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049017",
+        "status": "ENABLED",
+        "name": "The K Club"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052577",
+        "status": "ENABLED",
+        "name": "The Westbury Hotel"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050857",
+        "status": "ENABLED",
+        "name": "Tinakilly Country House"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050657",
+        "status": "ENABLED",
+        "name": "Trump International Doonbeg"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "status": "ENABLED",
+        "name": "Band and DJ package"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "status": "ENABLED",
+        "name": "Ceremony and drinks music"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "status": "ENABLED",
+        "name": "Showcases"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "status": "ENABLED",
+        "name": "Wedding band prices"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "status": "ENABLED",
+        "name": "Wedding bands Ireland"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055217",
+        "status": "ENABLED",
+        "name": "First dance songs"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055417",
+        "status": "ENABLED",
+        "name": "Questions to ask a band"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055257",
+        "status": "ENABLED",
+        "name": "Wedding music timeline"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055457",
+        "status": "ENABLED",
+        "name": "When to book band"
+      }
+    }
+  ]
+}

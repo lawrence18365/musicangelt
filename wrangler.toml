@@ -1,0 +1,18 @@
+name = "musicangel-lead-logger"
+main = "workers/lead-logger.js"
+compatibility_date = "2026-06-19"
+workers_dev = true
+preview_urls = false
+
+[assets]
+directory = "./lead-logger"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+html_handling = "drop-trailing-slash"
+run_worker_first = ["/leads", "/leads/*"]
+
+[[d1_databases]]
+binding = "LEADS_DB"
+database_name = "musicangel_leads"
+database_id = "67f9c7f4-e1c4-465e-b7b2-6aa7c3bc3745"
+migrations_dir = "migrations"

@@ -1,0 +1,164 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23880653751~2372",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/2372"
+        },
+        "criterionId": "2372",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23880653751~20341",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/20341"
+        },
+        "criterionId": "20341",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23890295743~2372",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/2372"
+        },
+        "criterionId": "2372",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23890295743~20341",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/20341"
+        },
+        "criterionId": "20341",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23890296172~2372",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/2372"
+        },
+        "criterionId": "2372",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23890296172~20341",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/20341"
+        },
+        "criterionId": "20341",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23890295740~2372",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/2372"
+        },
+        "criterionId": "2372",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23890295740~20341",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/20341"
+        },
+        "criterionId": "20341",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23885892845~2372",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/2372"
+        },
+        "criterionId": "2372",
+        "negative": false
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "campaignCriterion": {
+        "resourceName": "customers/8732162982/campaignCriteria/23885892845~20341",
+        "type": "LOCATION",
+        "location": {
+          "geoTargetConstant": "geoTargetConstants/20341"
+        },
+        "criterionId": "20341",
+        "negative": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,665 @@
+{
+  "results": [
+    {
+      "metrics": {
+        "clicks": "48",
+        "conversionsValue": 750,
+        "conversions": 2,
+        "costMicros": "100703041",
+        "ctr": 0.10596026490066225,
+        "allConversions": 2,
+        "averageCpc": 2097980.0208333335,
+        "impressions": "453"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/15945484407628182855",
+        "unexpandedFinalUrl": "https://musicangel.ie/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "25",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "58554204",
+        "ctr": 0.16025641025641027,
+        "allConversions": 1,
+        "averageCpc": 2342168.16,
+        "impressions": "156"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/9063603299799610967",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-band-cost-ireland/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "31",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "49473399",
+        "ctr": 0.029580152671755726,
+        "allConversions": 1,
+        "averageCpc": 1595916.0967741935,
+        "impressions": "1048"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/15511364649290443440",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-band-cost-ireland/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "12",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "16512958",
+        "ctr": 0.11428571428571428,
+        "allConversions": 0,
+        "averageCpc": 1376079.8333333333,
+        "impressions": "105"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/1533748130784624373",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-galway/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "11",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "15137659",
+        "ctr": 0.09401709401709402,
+        "allConversions": 0,
+        "averageCpc": 1376150.8181818181,
+        "impressions": "117"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/11598876431226389101",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-cork/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "17",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "15013107",
+        "ctr": 0.10240963855421686,
+        "allConversions": 1,
+        "averageCpc": 883123.9411764706,
+        "impressions": "166"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/6136570776292418392",
+        "unexpandedFinalUrl": "https://musicangel.ie/compare-bands/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "8",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "13915002",
+        "ctr": 0.06201550387596899,
+        "allConversions": 1,
+        "averageCpc": 1739375.25,
+        "impressions": "129"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/2703465307799002625",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-band-and-dj-package/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "10",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "13461405",
+        "ctr": 0.06896551724137931,
+        "allConversions": 0,
+        "averageCpc": 1346140.5,
+        "impressions": "145"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/1041675096964506784",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-dublin/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "9",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "12332412",
+        "ctr": 0.1875,
+        "allConversions": 0,
+        "averageCpc": 1370268,
+        "impressions": "48"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/128262443366043351",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-donegal/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "8",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "10938667",
+        "ctr": 0.1702127659574468,
+        "allConversions": 0,
+        "averageCpc": 1367333.375,
+        "impressions": "47"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/12586911051709967660",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-derry/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "7",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "10518660",
+        "ctr": 0.00995732574679943,
+        "allConversions": 1,
+        "averageCpc": 1502665.7142857143,
+        "impressions": "703"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/16596215130358489977",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-band-and-dj-package/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "8202731",
+        "ctr": 0.061855670103092786,
+        "allConversions": 0,
+        "averageCpc": 1367121.8333333333,
+        "impressions": "97"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/4958337430869038827",
+        "unexpandedFinalUrl": "https://musicangel.ie/drinks-reception-music/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "7803718",
+        "ctr": 0.1,
+        "allConversions": 0,
+        "averageCpc": 1300619.6666666667,
+        "impressions": "60"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/14950795346355491781",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-kerry/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4431907",
+        "ctr": 0.004347826086956522,
+        "allConversions": 0,
+        "averageCpc": 1477302.3333333333,
+        "impressions": "690"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/7190732976466985782",
+        "unexpandedFinalUrl": "https://musicangel.ie/first-dance-songs/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4138847",
+        "ctr": 0.0967741935483871,
+        "allConversions": 0,
+        "averageCpc": 1379615.6666666667,
+        "impressions": "31"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/17611737426539076421",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-limerick/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4137498",
+        "ctr": 0.3,
+        "allConversions": 0,
+        "averageCpc": 1379166,
+        "impressions": "10"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/349107312129500459",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-cavan/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4133668",
+        "ctr": 0.10344827586206896,
+        "allConversions": 0,
+        "averageCpc": 1377889.3333333333,
+        "impressions": "29"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/5083374224719573356",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-clare/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4045712",
+        "ctr": 0.3,
+        "allConversions": 0,
+        "averageCpc": 1348570.6666666667,
+        "impressions": "10"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/4083651610469171605",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-kilkenny/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3930962",
+        "ctr": 0.0032626427406199023,
+        "allConversions": 0,
+        "averageCpc": 1965481,
+        "impressions": "613"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/17377632498034002186",
+        "unexpandedFinalUrl": "https://musicangel.ie/venues/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3287892",
+        "ctr": 0.004524886877828055,
+        "allConversions": 0,
+        "averageCpc": 1643946,
+        "impressions": "442"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/15457908046018458074",
+        "unexpandedFinalUrl": "https://musicangel.ie/the-best-men/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2800000",
+        "ctr": 0.0053475935828877,
+        "allConversions": 0,
+        "averageCpc": 1400000,
+        "impressions": "374"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/40124265750574873",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-band-showcases/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2768752",
+        "ctr": 0.3333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1384376,
+        "impressions": "6"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/10057493375860714234",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-band-showcases/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2637452",
+        "ctr": 0.1,
+        "allConversions": 0,
+        "averageCpc": 1318726,
+        "impressions": "20"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/315316433797112590",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-wexford/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2350000",
+        "ctr": 0.0022727272727272726,
+        "allConversions": 0,
+        "averageCpc": 2350000,
+        "impressions": "440"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/12963401982374251126",
+        "unexpandedFinalUrl": "https://musicangel.ie/compare-bands/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1400000",
+        "ctr": 0.05263157894736842,
+        "allConversions": 0,
+        "averageCpc": 1400000,
+        "impressions": "19"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/9196789724170106663",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-waterford/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1400000",
+        "ctr": 0.05555555555555555,
+        "allConversions": 0,
+        "averageCpc": 1400000,
+        "impressions": "18"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/11312797668388587386",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-meath/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1393987",
+        "ctr": 0.08333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1393987,
+        "impressions": "12"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/9863166480452099857",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-westmeath/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1370000",
+        "ctr": 0.047619047619047616,
+        "allConversions": 0,
+        "averageCpc": 1370000,
+        "impressions": "21"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/132860986014168205",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-sligo/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1350000",
+        "ctr": 0.3333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1350000,
+        "impressions": "3"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/16110923303598367140",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-fermanagh/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1348967",
+        "ctr": 0.1111111111111111,
+        "allConversions": 0,
+        "averageCpc": 1348967,
+        "impressions": "9"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/7139886800809650203",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-louth/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1310504",
+        "ctr": 0.09090909090909091,
+        "allConversions": 0,
+        "averageCpc": 1310504,
+        "impressions": "11"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/12797502224251293254",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-tipperary/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/169324870971627110",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-carlow/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "36"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/181486638767443658",
+        "unexpandedFinalUrl": "https://musicangel.ie/blacktye/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "4"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/1998167472928942083",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-offaly/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "3"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/3900256629964211782",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-laois/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "6"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/4424129981245554199",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-kildare/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "6"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/5581718369705864457",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-wicklow/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "65"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/5760327328570771984",
+        "unexpandedFinalUrl": "https://musicangel.ie/sway-social/"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/6331558229642621322",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-tyrone/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/13129330856731308348",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-leitrim/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "12"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/13272539949830396452",
+        "unexpandedFinalUrl": "https://musicangel.ie/wedding-bands-mayo/{ignore}?utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "143"
+      },
+      "landingPageView": {
+        "resourceName": "customers/8732162982/landingPageViews/13782745171001572317",
+        "unexpandedFinalUrl": "https://musicangel.ie/the-beat-boutique/"
+      }
+    }
+  ]
+}

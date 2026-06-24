@@ -1,0 +1,11 @@
+{
+  "validateOnly": true,
+  "operation": {
+    "name": "MusicAngel D1 qualified_lead",
+    "type": "UPLOAD_CLICKS",
+    "category": "QUALIFIED_LEAD",
+    "countingType": "ONE_PER_CLICK",
+    "primaryForGoal": false,
+    "defaultValue": 250
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "validateOnly": false,
+  "candidateOperationCount": 12,
+  "skipped": [],
+  "operations": [
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~309013243652",
+      "finalUrls": [
+        "https://musicangel.ie/the-best-men/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~317036385785",
+      "finalUrls": [
+        "https://musicangel.ie/blacktye/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~324448337688",
+      "finalUrls": [
+        "https://musicangel.ie/the-beat-boutique/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~338930937116",
+      "finalUrls": [
+        "https://musicangel.ie/the-best-men/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~353299723406",
+      "finalUrls": [
+        "https://musicangel.ie/blacktye/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~386975101148",
+      "finalUrls": [
+        "https://musicangel.ie/sway-social/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~390718854925",
+      "finalUrls": [
+        "https://musicangel.ie/sway-social/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~526023609350",
+      "finalUrls": [
+        "https://musicangel.ie/the-beat-boutique/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~673991185811",
+      "finalUrls": [
+        "https://musicangel.ie/blacktye/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~811160508620",
+      "finalUrls": [
+        "https://musicangel.ie/the-beat-boutique/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~821988035984",
+      "finalUrls": [
+        "https://musicangel.ie/blacktye/"
+      ],
+      "updateMask": "final_urls"
+    },
+    {
+      "resourceName": "customers/8732162982/adGroupCriteria/194701048217~861088047324",
+      "finalUrls": [
+        "https://musicangel.ie/the-beat-boutique/"
+      ],
+      "updateMask": "final_urls"
+    }
+  ]
+}

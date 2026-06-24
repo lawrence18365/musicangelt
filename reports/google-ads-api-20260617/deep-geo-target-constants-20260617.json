@@ -1,0 +1,24 @@
+{
+  "results": [
+    {
+      "geoTargetConstant": {
+        "resourceName": "geoTargetConstants/2372",
+        "status": "ENABLED",
+        "id": "2372",
+        "name": "Ireland",
+        "countryCode": "IE",
+        "targetType": "Country"
+      }
+    },
+    {
+      "geoTargetConstant": {
+        "resourceName": "geoTargetConstants/2826",
+        "status": "ENABLED",
+        "id": "2826",
+        "name": "United Kingdom",
+        "countryCode": "GB",
+        "targetType": "Country"
+      }
+    }
+  ]
+}

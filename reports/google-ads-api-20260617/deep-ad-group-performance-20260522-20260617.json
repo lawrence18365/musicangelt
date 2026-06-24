@@ -1,0 +1,2015 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "status": "ENABLED",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "62",
+        "conversionsValue": 750,
+        "conversions": 2,
+        "costMicros": "131778715",
+        "ctr": 0.13747228381374724,
+        "allConversions": 2,
+        "averageCpc": 2125463.14516129,
+        "impressions": "451"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "status": "ENABLED",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "27",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "63304204",
+        "ctr": 0.17307692307692307,
+        "allConversions": 1,
+        "averageCpc": 2344600.1481481483,
+        "impressions": "156"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "status": "ENABLED",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "20376727",
+        "ctr": 0.10344827586206896,
+        "allConversions": 0,
+        "averageCpc": 1358448.4666666666,
+        "impressions": "145"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "status": "ENABLED",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "20273533",
+        "ctr": 0.14285714285714285,
+        "allConversions": 0,
+        "averageCpc": 1351568.8666666667,
+        "impressions": "105"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "status": "ENABLED",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "23",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "20270999",
+        "ctr": 0.13855421686746988,
+        "allConversions": 1,
+        "averageCpc": 881347.7826086957,
+        "impressions": "166"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "status": "ENABLED",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "metrics": {
+        "clicks": "11",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "19105002",
+        "ctr": 0.08527131782945736,
+        "allConversions": 1,
+        "averageCpc": 1736818.3636363635,
+        "impressions": "129"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "status": "ENABLED",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "13",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "17852356",
+        "ctr": 0.1111111111111111,
+        "allConversions": 1,
+        "averageCpc": 1373258.1538461538,
+        "impressions": "117"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "status": "ENABLED",
+        "id": "194701053097",
+        "name": "Donegal"
+      },
+      "metrics": {
+        "clicks": "11",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "15062412",
+        "ctr": 0.22916666666666666,
+        "allConversions": 1,
+        "averageCpc": 1369310.1818181819,
+        "impressions": "48"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "status": "ENABLED",
+        "id": "194701055177",
+        "name": "Derry"
+      },
+      "metrics": {
+        "clicks": "11",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "14977327",
+        "ctr": 0.23404255319148937,
+        "allConversions": 0,
+        "averageCpc": 1361575.1818181819,
+        "impressions": "47"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "status": "ENABLED",
+        "id": "194701052857",
+        "name": "Kerry"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "11833718",
+        "ctr": 0.15,
+        "allConversions": 0,
+        "averageCpc": 1314857.5555555555,
+        "impressions": "60"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "status": "ENABLED",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "8202731",
+        "ctr": 0.061855670103092786,
+        "allConversions": 0,
+        "averageCpc": 1367121.8333333333,
+        "impressions": "97"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "status": "ENABLED",
+        "id": "194701053817",
+        "name": "Meath"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4200000",
+        "ctr": 0.16666666666666666,
+        "allConversions": 0,
+        "averageCpc": 1400000,
+        "impressions": "18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053017",
+        "status": "ENABLED",
+        "id": "194701053017",
+        "name": "Limerick"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4138847",
+        "ctr": 0.0967741935483871,
+        "allConversions": 0,
+        "averageCpc": 1379615.6666666667,
+        "impressions": "31"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054017",
+        "status": "ENABLED",
+        "id": "194701054017",
+        "name": "Cavan"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4137498",
+        "ctr": 0.3,
+        "allConversions": 0,
+        "averageCpc": 1379166,
+        "impressions": "10"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053297",
+        "status": "ENABLED",
+        "id": "194701053297",
+        "name": "Clare"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4133668",
+        "ctr": 0.10344827586206896,
+        "allConversions": 0,
+        "averageCpc": 1377889.3333333333,
+        "impressions": "29"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053577",
+        "status": "ENABLED",
+        "id": "194701053577",
+        "name": "Kilkenny"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4045712",
+        "ctr": 0.3,
+        "allConversions": 0,
+        "averageCpc": 1348570.6666666667,
+        "impressions": "10"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "status": "ENABLED",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2768752",
+        "ctr": 0.3333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1384376,
+        "impressions": "6"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053977",
+        "status": "ENABLED",
+        "id": "194701053977",
+        "name": "Louth"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2728967",
+        "ctr": 0.2222222222222222,
+        "allConversions": 0,
+        "averageCpc": 1364483.5,
+        "impressions": "9"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053337",
+        "status": "ENABLED",
+        "id": "194701053337",
+        "name": "Tipperary"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2700504",
+        "ctr": 0.18181818181818182,
+        "allConversions": 0,
+        "averageCpc": 1350252,
+        "impressions": "11"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053537",
+        "status": "ENABLED",
+        "id": "194701053537",
+        "name": "Wexford"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2637452",
+        "ctr": 0.1,
+        "allConversions": 0,
+        "averageCpc": 1318726,
+        "impressions": "20"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053497",
+        "status": "ENABLED",
+        "id": "194701053497",
+        "name": "Waterford"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1400000",
+        "ctr": 0.05263157894736842,
+        "allConversions": 0,
+        "averageCpc": 1400000,
+        "impressions": "19"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054497",
+        "status": "ENABLED",
+        "id": "194701054497",
+        "name": "Westmeath"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1393987",
+        "ctr": 0.08333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1393987,
+        "impressions": "12"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054257",
+        "status": "ENABLED",
+        "id": "194701054257",
+        "name": "Sligo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1370000",
+        "ctr": 0.047619047619047616,
+        "allConversions": 0,
+        "averageCpc": 1370000,
+        "impressions": "21"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055017",
+        "status": "ENABLED",
+        "id": "194701055017",
+        "name": "Fermanagh"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1350000",
+        "ctr": 0.3333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1350000,
+        "impressions": "3"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "status": "ENABLED",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "760000",
+        "ctr": 0.5,
+        "allConversions": 0,
+        "averageCpc": 760000,
+        "impressions": "2"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "status": "ENABLED",
+        "id": "194701048697",
+        "name": "Ashford Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "status": "ENABLED",
+        "id": "194701048737",
+        "name": "Dromoland Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048777",
+        "status": "ENABLED",
+        "id": "194701048777",
+        "name": "Adare Manor"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048937",
+        "status": "ENABLED",
+        "id": "194701048937",
+        "name": "Powerscourt House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048977",
+        "status": "ENABLED",
+        "id": "194701048977",
+        "name": "Tankardstown House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049017",
+        "status": "ENABLED",
+        "id": "194701049017",
+        "name": "The K Club"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049177",
+        "status": "ENABLED",
+        "id": "194701049177",
+        "name": "Castle Leslie"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049217",
+        "status": "ENABLED",
+        "id": "194701049217",
+        "name": "Lough Eske Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049257",
+        "status": "ENABLED",
+        "id": "194701049257",
+        "name": "Ballyfin Demesne"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049417",
+        "status": "ENABLED",
+        "id": "194701049417",
+        "name": "Ballybeg House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049457",
+        "status": "ENABLED",
+        "id": "194701049457",
+        "name": "Cabra Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049497",
+        "status": "ENABLED",
+        "id": "194701049497",
+        "name": "Mount Juliet Estate"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049657",
+        "status": "ENABLED",
+        "id": "194701049657",
+        "name": "Carton House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049697",
+        "status": "ENABLED",
+        "id": "194701049697",
+        "name": "Castlemartyr Resort"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049737",
+        "status": "ENABLED",
+        "id": "194701049737",
+        "name": "Fota Island Resort"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049897",
+        "status": "ENABLED",
+        "id": "194701049897",
+        "name": "Glenlo Abbey Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049937",
+        "status": "ENABLED",
+        "id": "194701049937",
+        "name": "Ballymaloe House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049977",
+        "status": "ENABLED",
+        "id": "194701049977",
+        "name": "Mount Falcon Estate"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050137",
+        "status": "ENABLED",
+        "id": "194701050137",
+        "name": "Marlfield House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050177",
+        "status": "ENABLED",
+        "id": "194701050177",
+        "name": "Faithlegg House Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050217",
+        "status": "ENABLED",
+        "id": "194701050217",
+        "name": "Cliff House Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050377",
+        "status": "ENABLED",
+        "id": "194701050377",
+        "name": "Lyrath Estate"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050417",
+        "status": "ENABLED",
+        "id": "194701050417",
+        "name": "Bellinter House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050457",
+        "status": "ENABLED",
+        "id": "194701050457",
+        "name": "Park Hotel Kenmare"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050617",
+        "status": "ENABLED",
+        "id": "194701050617",
+        "name": "Sheen Falls Lodge"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050657",
+        "status": "ENABLED",
+        "id": "194701050657",
+        "name": "Trump International Doonbeg"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050697",
+        "status": "ENABLED",
+        "id": "194701050697",
+        "name": "Brooklodge & Macreddin Village"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050857",
+        "status": "ENABLED",
+        "id": "194701050857",
+        "name": "Tinakilly Country House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050897",
+        "status": "ENABLED",
+        "id": "194701050897",
+        "name": "Druids Glen Hotel & Golf Resort"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050937",
+        "status": "ENABLED",
+        "id": "194701050937",
+        "name": "Slane Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051097",
+        "status": "ENABLED",
+        "id": "194701051097",
+        "name": "Cliff at Lyons"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051137",
+        "status": "ENABLED",
+        "id": "194701051137",
+        "name": "Markree Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051177",
+        "status": "ENABLED",
+        "id": "194701051177",
+        "name": "Killashee Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051337",
+        "status": "ENABLED",
+        "id": "194701051337",
+        "name": "Kinnitty Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051377",
+        "status": "ENABLED",
+        "id": "194701051377",
+        "name": "Knockranny House Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051417",
+        "status": "ENABLED",
+        "id": "194701051417",
+        "name": "Harvey's Point"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051577",
+        "status": "ENABLED",
+        "id": "194701051577",
+        "name": "Kilshane House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051617",
+        "status": "ENABLED",
+        "id": "194701051617",
+        "name": "Clonabreany House"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051657",
+        "status": "ENABLED",
+        "id": "194701051657",
+        "name": "Ballymagarvey Village"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051817",
+        "status": "ENABLED",
+        "id": "194701051817",
+        "name": "Bunratty Castle Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051857",
+        "status": "ENABLED",
+        "id": "194701051857",
+        "name": "Galgorm Resort"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051897",
+        "status": "ENABLED",
+        "id": "194701051897",
+        "name": "Hayfield Manor"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052057",
+        "status": "ENABLED",
+        "id": "194701052057",
+        "name": "Cashel Palace Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052097",
+        "status": "ENABLED",
+        "id": "194701052097",
+        "name": "Mount Wolseley Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052137",
+        "status": "ENABLED",
+        "id": "194701052137",
+        "name": "Barberstown Castle"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052297",
+        "status": "ENABLED",
+        "id": "194701052297",
+        "name": "Roganstown Hotel & Country Club"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052337",
+        "status": "ENABLED",
+        "id": "194701052337",
+        "name": "Newpark Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052377",
+        "status": "ENABLED",
+        "id": "194701052377",
+        "name": "Killyhevlin Lakeside Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052537",
+        "status": "ENABLED",
+        "id": "194701052537",
+        "name": "The Cliff Townhouse"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052577",
+        "status": "ENABLED",
+        "id": "194701052577",
+        "name": "The Westbury Hotel"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053057",
+        "status": "ENABLED",
+        "id": "194701053057",
+        "name": "Mayo"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "12"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053257",
+        "status": "ENABLED",
+        "id": "194701053257",
+        "name": "Wicklow"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "6"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053737",
+        "status": "ENABLED",
+        "id": "194701053737",
+        "name": "Carlow"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "1"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053777",
+        "status": "ENABLED",
+        "id": "194701053777",
+        "name": "Kildare"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "6"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054057",
+        "status": "ENABLED",
+        "id": "194701054057",
+        "name": "Monaghan"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054217",
+        "status": "ENABLED",
+        "id": "194701054217",
+        "name": "Leitrim"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "1"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054297",
+        "status": "ENABLED",
+        "id": "194701054297",
+        "name": "Roscommon"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054457",
+        "status": "ENABLED",
+        "id": "194701054457",
+        "name": "Longford"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054537",
+        "status": "ENABLED",
+        "id": "194701054537",
+        "name": "Offaly"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "4"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054697",
+        "status": "ENABLED",
+        "id": "194701054697",
+        "name": "Laois"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "3"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054737",
+        "status": "ENABLED",
+        "id": "194701054737",
+        "name": "Antrim"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054777",
+        "status": "ENABLED",
+        "id": "194701054777",
+        "name": "Down"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054937",
+        "status": "ENABLED",
+        "id": "194701054937",
+        "name": "Armagh"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054977",
+        "status": "ENABLED",
+        "id": "194701054977",
+        "name": "Tyrone"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "2"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055217",
+        "status": "ENABLED",
+        "id": "194701055217",
+        "name": "First dance songs"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055257",
+        "status": "ENABLED",
+        "id": "194701055257",
+        "name": "Wedding music timeline"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055417",
+        "status": "ENABLED",
+        "id": "194701055417",
+        "name": "Questions to ask a band"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055457",
+        "status": "ENABLED",
+        "id": "194701055457",
+        "name": "When to book band"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "0"
+      }
+    }
+  ]
+}

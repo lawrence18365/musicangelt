@@ -1,0 +1,1287 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "14",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "28813705",
+        "ctr": 0.16091954022988506,
+        "allConversions": 0,
+        "averageCpc": 2058121.7857142857,
+        "impressions": "87"
+      },
+      "segments": {
+        "hour": 14
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "11",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "23000650",
+        "ctr": 0.16176470588235295,
+        "allConversions": 0,
+        "averageCpc": 2090968.1818181819,
+        "impressions": "68"
+      },
+      "segments": {
+        "hour": 15
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "11",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "22675678",
+        "ctr": 0.19642857142857142,
+        "allConversions": 0,
+        "averageCpc": 2061425.2727272727,
+        "impressions": "56"
+      },
+      "segments": {
+        "hour": 11
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "10",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "21984071",
+        "ctr": 0.23809523809523808,
+        "allConversions": 1,
+        "averageCpc": 2198407.1,
+        "impressions": "42"
+      },
+      "segments": {
+        "hour": 9
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversionsValue": 750,
+        "conversions": 2,
+        "costMicros": "19489232",
+        "ctr": 0.09574468085106383,
+        "allConversions": 2,
+        "averageCpc": 2165470.222222222,
+        "impressions": "94"
+      },
+      "segments": {
+        "hour": 16
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "7",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "14103814",
+        "ctr": 0.14,
+        "allConversions": 0,
+        "averageCpc": 2014830.5714285714,
+        "impressions": "50"
+      },
+      "segments": {
+        "hour": 8
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "10",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "13630484",
+        "ctr": 0.12658227848101267,
+        "allConversions": 0,
+        "averageCpc": 1363048.4,
+        "impressions": "79"
+      },
+      "segments": {
+        "hour": 11
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "10",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "13620930",
+        "ctr": 0.2,
+        "allConversions": 0,
+        "averageCpc": 1362093,
+        "impressions": "50"
+      },
+      "segments": {
+        "hour": 13
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "12917789",
+        "ctr": 0.1875,
+        "allConversions": 0,
+        "averageCpc": 2152964.8333333335,
+        "impressions": "32"
+      },
+      "segments": {
+        "hour": 17
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "12493668",
+        "ctr": 0.11688311688311688,
+        "allConversions": 1,
+        "averageCpc": 1388185.3333333333,
+        "impressions": "77"
+      },
+      "segments": {
+        "hour": 12
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "12440668",
+        "ctr": 0.12,
+        "allConversions": 1,
+        "averageCpc": 1382296.4444444445,
+        "impressions": "75"
+      },
+      "segments": {
+        "hour": 10
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "12290307",
+        "ctr": 0.16666666666666666,
+        "allConversions": 0,
+        "averageCpc": 1365589.6666666667,
+        "impressions": "54"
+      },
+      "segments": {
+        "hour": 16
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "12057696",
+        "ctr": 0.11320754716981132,
+        "allConversions": 0,
+        "averageCpc": 2009616,
+        "impressions": "53"
+      },
+      "segments": {
+        "hour": 12
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "8",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "11023113",
+        "ctr": 0.12903225806451613,
+        "allConversions": 0,
+        "averageCpc": 1377889.125,
+        "impressions": "62"
+      },
+      "segments": {
+        "hour": 9
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "8",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "10928062",
+        "ctr": 0.11267605633802817,
+        "allConversions": 0,
+        "averageCpc": 1366007.75,
+        "impressions": "71"
+      },
+      "segments": {
+        "hour": 14
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "10360000",
+        "ctr": 0.0847457627118644,
+        "allConversions": 0,
+        "averageCpc": 2072000,
+        "impressions": "59"
+      },
+      "segments": {
+        "hour": 10
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "9536750",
+        "ctr": 0.07692307692307693,
+        "allConversions": 0,
+        "averageCpc": 1907350,
+        "impressions": "65"
+      },
+      "segments": {
+        "hour": 13
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "8085527",
+        "ctr": 0.1276595744680851,
+        "allConversions": 0,
+        "averageCpc": 1347587.8333333333,
+        "impressions": "47"
+      },
+      "segments": {
+        "hour": 17
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "7809847",
+        "ctr": 0.10810810810810811,
+        "allConversions": 0,
+        "averageCpc": 1952461.75,
+        "impressions": "37"
+      },
+      "segments": {
+        "hour": 18
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "6",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "7569022",
+        "ctr": 0.17647058823529413,
+        "allConversions": 0,
+        "averageCpc": 1261503.6666666667,
+        "impressions": "34"
+      },
+      "segments": {
+        "hour": 18
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "7100000",
+        "ctr": 0.08333333333333333,
+        "allConversions": 0,
+        "averageCpc": 2366666.6666666665,
+        "impressions": "36"
+      },
+      "segments": {
+        "hour": 23
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "6437039",
+        "ctr": 0.10344827586206896,
+        "allConversions": 1,
+        "averageCpc": 2145679.6666666665,
+        "impressions": "29"
+      },
+      "segments": {
+        "hour": 7
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "6276483",
+        "ctr": 0.375,
+        "allConversions": 0,
+        "averageCpc": 2092161,
+        "impressions": "8"
+      },
+      "segments": {
+        "hour": 19
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "6189355",
+        "ctr": 0.125,
+        "allConversions": 0,
+        "averageCpc": 2063118.3333333333,
+        "impressions": "24"
+      },
+      "segments": {
+        "hour": 0
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "5816848",
+        "ctr": 0.2727272727272727,
+        "allConversions": 0,
+        "averageCpc": 1938949.3333333333,
+        "impressions": "11"
+      },
+      "segments": {
+        "hour": 6
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "5530000",
+        "ctr": 0.21052631578947367,
+        "allConversions": 0,
+        "averageCpc": 1382500,
+        "impressions": "19"
+      },
+      "segments": {
+        "hour": 7
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "5512983",
+        "ctr": 0.08,
+        "allConversions": 0,
+        "averageCpc": 1378245.75,
+        "impressions": "50"
+      },
+      "segments": {
+        "hour": 15
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "5111901",
+        "ctr": 0.25,
+        "allConversions": 0,
+        "averageCpc": 1277975.25,
+        "impressions": "16"
+      },
+      "segments": {
+        "hour": 19
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4500447",
+        "ctr": 0.10526315789473684,
+        "allConversions": 0,
+        "averageCpc": 2250223.5,
+        "impressions": "19"
+      },
+      "segments": {
+        "hour": 22
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4418111",
+        "ctr": 0.2777777777777778,
+        "allConversions": 0,
+        "averageCpc": 883622.2,
+        "impressions": "18"
+      },
+      "segments": {
+        "hour": 21
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4146500",
+        "ctr": 0.17647058823529413,
+        "allConversions": 0,
+        "averageCpc": 1382166.6666666667,
+        "impressions": "17"
+      },
+      "segments": {
+        "hour": 6
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4040504",
+        "ctr": 0.13043478260869565,
+        "allConversions": 0,
+        "averageCpc": 1346834.6666666667,
+        "impressions": "23"
+      },
+      "segments": {
+        "hour": 0
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3890000",
+        "ctr": 0.3333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1945000,
+        "impressions": "6"
+      },
+      "segments": {
+        "hour": 2
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2714835",
+        "ctr": 0.06896551724137931,
+        "allConversions": 0,
+        "averageCpc": 1357417.5,
+        "impressions": "29"
+      },
+      "segments": {
+        "hour": 8
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2690000",
+        "ctr": 0.42857142857142855,
+        "allConversions": 0,
+        "averageCpc": 896666.6666666666,
+        "impressions": "7"
+      },
+      "segments": {
+        "hour": 13
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2675784",
+        "ctr": 0.42857142857142855,
+        "allConversions": 0,
+        "averageCpc": 891928,
+        "impressions": "7"
+      },
+      "segments": {
+        "hour": 23
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2640000",
+        "ctr": 0.1875,
+        "allConversions": 0,
+        "averageCpc": 880000,
+        "impressions": "16"
+      },
+      "segments": {
+        "hour": 20
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "2572545",
+        "ctr": 0.2,
+        "allConversions": 1,
+        "averageCpc": 857515,
+        "impressions": "15"
+      },
+      "segments": {
+        "hour": 15
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2200000",
+        "ctr": 0.047619047619047616,
+        "allConversions": 0,
+        "averageCpc": 2200000,
+        "impressions": "21"
+      },
+      "segments": {
+        "hour": 1
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1760000",
+        "ctr": 0.15384615384615385,
+        "allConversions": 0,
+        "averageCpc": 880000,
+        "impressions": "13"
+      },
+      "segments": {
+        "hour": 16
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1630000",
+        "ctr": 0.18181818181818182,
+        "allConversions": 0,
+        "averageCpc": 815000,
+        "impressions": "11"
+      },
+      "segments": {
+        "hour": 18
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1390642",
+        "ctr": 0.1111111111111111,
+        "allConversions": 0,
+        "averageCpc": 1390642,
+        "impressions": "9"
+      },
+      "segments": {
+        "hour": 2
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1390000",
+        "ctr": 0.3333333333333333,
+        "allConversions": 0,
+        "averageCpc": 1390000,
+        "impressions": "3"
+      },
+      "segments": {
+        "hour": 21
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1353562",
+        "ctr": 0.1111111111111111,
+        "allConversions": 0,
+        "averageCpc": 1353562,
+        "impressions": "9"
+      },
+      "segments": {
+        "hour": 1
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1340000",
+        "ctr": 0.14285714285714285,
+        "allConversions": 0,
+        "averageCpc": 1340000,
+        "impressions": "7"
+      },
+      "segments": {
+        "hour": 5
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "884559",
+        "ctr": 0.2,
+        "allConversions": 0,
+        "averageCpc": 884559,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 0
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "880000",
+        "ctr": 0.2,
+        "allConversions": 0,
+        "averageCpc": 880000,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 8
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "880000",
+        "ctr": 0.2,
+        "allConversions": 0,
+        "averageCpc": 880000,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 11
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "segments": {
+        "hour": 1
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 3
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 3
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "7"
+      },
+      "segments": {
+        "hour": 4
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "3"
+      },
+      "segments": {
+        "hour": 4
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "6"
+      },
+      "segments": {
+        "hour": 5
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 9
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "9"
+      },
+      "segments": {
+        "hour": 10
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "9"
+      },
+      "segments": {
+        "hour": 12
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 14
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "5"
+      },
+      "segments": {
+        "hour": 17
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "17"
+      },
+      "segments": {
+        "hour": 19
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "4"
+      },
+      "segments": {
+        "hour": 20
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "10"
+      },
+      "segments": {
+        "hour": 20
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "20"
+      },
+      "segments": {
+        "hour": 21
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "15"
+      },
+      "segments": {
+        "hour": 22
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "segments": {
+        "hour": 22
+      }
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "18",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "38025858",
+        "ctr": 0.11764705882352941,
+        "allConversions": 0,
+        "averageCpc": 2112547.6666666665,
+        "impressions": "153"
+      },
+      "segments": {
+        "dayOfWeek": "WEDNESDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "16",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "34308882",
+        "ctr": 0.1509433962264151,
+        "allConversions": 0,
+        "averageCpc": 2144305.125,
+        "impressions": "106"
+      },
+      "segments": {
+        "dayOfWeek": "MONDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "17",
+        "conversionsValue": 750,
+        "conversions": 2,
+        "costMicros": "33826313",
+        "ctr": 0.10559006211180125,
+        "allConversions": 2,
+        "averageCpc": 1989783.1176470588,
+        "impressions": "161"
+      },
+      "segments": {
+        "dayOfWeek": "TUESDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "31596408",
+        "ctr": 0.1271186440677966,
+        "allConversions": 0,
+        "averageCpc": 2106427.2,
+        "impressions": "118"
+      },
+      "segments": {
+        "dayOfWeek": "THURSDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "31280820",
+        "ctr": 0.11278195488721804,
+        "allConversions": 1,
+        "averageCpc": 2085388,
+        "impressions": "133"
+      },
+      "segments": {
+        "dayOfWeek": "FRIDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "14",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "28636667",
+        "ctr": 0.18181818181818182,
+        "allConversions": 0,
+        "averageCpc": 2045476.2142857143,
+        "impressions": "77"
+      },
+      "segments": {
+        "dayOfWeek": "SATURDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "13",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "27484456",
+        "ctr": 0.14285714285714285,
+        "allConversions": 1,
+        "averageCpc": 2114188.923076923,
+        "impressions": "91"
+      },
+      "segments": {
+        "dayOfWeek": "SUNDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "16",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "22078586",
+        "ctr": 0.18181818181818182,
+        "allConversions": 0,
+        "averageCpc": 1379911.625,
+        "impressions": "88"
+      },
+      "segments": {
+        "dayOfWeek": "TUESDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "20513918",
+        "ctr": 0.13274336283185842,
+        "allConversions": 1,
+        "averageCpc": 1367594.5333333334,
+        "impressions": "113"
+      },
+      "segments": {
+        "dayOfWeek": "WEDNESDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "20371735",
+        "ctr": 0.11904761904761904,
+        "allConversions": 0,
+        "averageCpc": 1358115.6666666667,
+        "impressions": "126"
+      },
+      "segments": {
+        "dayOfWeek": "MONDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "20148471",
+        "ctr": 0.12295081967213115,
+        "allConversions": 0,
+        "averageCpc": 1343231.4,
+        "impressions": "122"
+      },
+      "segments": {
+        "dayOfWeek": "THURSDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "14",
+        "conversionsValue": 500,
+        "conversions": 1,
+        "costMicros": "19224775",
+        "ctr": 0.17073170731707318,
+        "allConversions": 1,
+        "averageCpc": 1373198.2142857143,
+        "impressions": "82"
+      },
+      "segments": {
+        "dayOfWeek": "FRIDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "12",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "16169423",
+        "ctr": 0.13793103448275862,
+        "allConversions": 0,
+        "averageCpc": 1347451.9166666667,
+        "impressions": "87"
+      },
+      "segments": {
+        "dayOfWeek": "SATURDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "12",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "16105800",
+        "ctr": 0.09090909090909091,
+        "allConversions": 0,
+        "averageCpc": 1342150,
+        "impressions": "132"
+      },
+      "segments": {
+        "dayOfWeek": "SUNDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "4378199",
+        "ctr": 0.25,
+        "allConversions": 0,
+        "averageCpc": 875639.8,
+        "impressions": "20"
+      },
+      "segments": {
+        "dayOfWeek": "THURSDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3524559",
+        "ctr": 0.12121212121212122,
+        "allConversions": 0,
+        "averageCpc": 881139.75,
+        "impressions": "33"
+      },
+      "segments": {
+        "dayOfWeek": "MONDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3470000",
+        "ctr": 0.14814814814814814,
+        "allConversions": 0,
+        "averageCpc": 867500,
+        "impressions": "27"
+      },
+      "segments": {
+        "dayOfWeek": "TUESDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3429912",
+        "ctr": 0.11764705882352941,
+        "allConversions": 0,
+        "averageCpc": 857478,
+        "impressions": "34"
+      },
+      "segments": {
+        "dayOfWeek": "SUNDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "2638329",
+        "ctr": 0.21428571428571427,
+        "allConversions": 1,
+        "averageCpc": 879443,
+        "impressions": "14"
+      },
+      "segments": {
+        "dayOfWeek": "FRIDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1800000",
+        "ctr": 0.10526315789473684,
+        "allConversions": 0,
+        "averageCpc": 900000,
+        "impressions": "19"
+      },
+      "segments": {
+        "dayOfWeek": "WEDNESDAY"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "1790000",
+        "ctr": 0.09523809523809523,
+        "allConversions": 0,
+        "averageCpc": 895000,
+        "impressions": "21"
+      },
+      "segments": {
+        "dayOfWeek": "SATURDAY"
+      }
+    }
+  ]
+}

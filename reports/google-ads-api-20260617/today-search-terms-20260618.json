@@ -1,0 +1,1068 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "id": "194701053097",
+        "name": "Donegal"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2800000",
+        "allConversions": 0,
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053097~d2VkZGluZyBiYW5kcyBkb25lZ2Fs",
+        "status": "ADDED",
+        "searchTerm": "wedding bands donegal"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2180000",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~ZnVzaW9uIGJhbmQgbm9ydGhlcm4gaXJlbGFuZA",
+        "status": "NONE",
+        "searchTerm": "fusion band northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2160000",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~dHJhZGl0aW9uYWwgaXJpc2ggbXVzaWMgd2VkZGluZyBiYW5k",
+        "status": "NONE",
+        "searchTerm": "traditional irish music wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "id": "194701055177",
+        "name": "Derry"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1400000",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701055177~d2VkZGluZyBiYW5kIGRlcnJ5",
+        "status": "ADDED",
+        "searchTerm": "wedding band derry"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "900000",
+        "allConversions": 0,
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmVhdCBib3V0aXF1ZQ",
+        "status": "NONE",
+        "searchTerm": "beat boutique"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "860000",
+        "allConversions": 0,
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmVhdCBib3V0aXF1ZSB3ZWRkaW5nIGJhbmQ",
+        "status": "NONE",
+        "searchTerm": "beat boutique wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "840000",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlYXQgYm91dGlxdWUgd2VkZGluZyBiYW5k",
+        "status": "ADDED",
+        "searchTerm": "the beat boutique wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "760000",
+        "allConversions": 0,
+        "impressions": "4"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlYXQgYm91dGlxdWU",
+        "status": "NONE",
+        "searchTerm": "the beat boutique"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~c3dheSBzb2NpYWwgd2VkZGluZyBiYW5k",
+        "status": "ADDED",
+        "searchTerm": "sway social wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlc3QgbWVuIHdlZGRpbmcgYmFuZA",
+        "status": "ADDED",
+        "searchTerm": "the best men wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~YmVzdCB3ZWRkaW5nIGJhbmRzIGlyZWxhbmQ",
+        "status": "ADDED",
+        "searchTerm": "best wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIGNvc3QgaXJlbGFuZA",
+        "status": "ADDED",
+        "searchTerm": "wedding band cost ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052777~Y29yayB3ZWRkaW5nIGJhbmRz",
+        "status": "ADDED",
+        "searchTerm": "cork wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052777~d2VkZGluZyBiYW5kIGNvcms",
+        "status": "ADDED",
+        "searchTerm": "wedding band cork"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~Z2Fsd2F5IHdlZGRpbmcgYmFuZHM",
+        "status": "ADDED",
+        "searchTerm": "galway wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~d2VkZGluZyBiYW5kcyBnYWx3YXk",
+        "status": "ADDED",
+        "searchTerm": "wedding bands galway"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053537",
+        "id": "194701053537",
+        "name": "Wexford"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "3"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053537~d2VkZGluZyBiYW5kIHdleGZvcmQ",
+        "status": "ADDED",
+        "searchTerm": "wedding band wexford"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlYXQgYm91dGlxdWUgd2VkZGluZyBiYW5kIHJldmlld3M",
+        "status": "NONE",
+        "searchTerm": "the beat boutique wedding band reviews"
+      },
+      "segments": {
+        "searchTermMatchType": "PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmxhY2t0eWU",
+        "status": "NONE",
+        "searchTerm": "blacktye"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~Ym9vZ2llIGJhbmQgY29yaw",
+        "status": "NONE",
+        "searchTerm": "boogie band cork"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~ZGVqYSB2dSBiYW5kIGlyZWxhbmQ",
+        "status": "NONE",
+        "searchTerm": "deja vu band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~amFrZXIgYmFuZCBkdWJsaW4",
+        "status": "NONE",
+        "searchTerm": "jaker band dublin"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~dGhlIHVudG91Y2hhYmxlcyBiYW5kIG5vcnRoZXJuIGlyZWxhbmQ",
+        "status": "NONE",
+        "searchTerm": "the untouchables band northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~YmxhY2sgdGllIGJhbmQgaXJlbGFuZA",
+        "status": "NONE",
+        "searchTerm": "black tie band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~aXJpc2ggd2VkZGluZyBiYW5kcyBtdXNpYw",
+        "status": "NONE",
+        "searchTerm": "irish wedding bands music"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~dG9wIHdlZGRpbmcgYmFuZHMgaXJlbGFuZA",
+        "status": "NONE",
+        "searchTerm": "top wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIGJlbGZhc3Q",
+        "status": "NONE",
+        "searchTerm": "wedding band belfast"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIG5p",
+        "status": "NONE",
+        "searchTerm": "wedding band ni"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~dGhlIGdvb2QgaHVzdGxlIHdlZGRpbmcgYmFuZA",
+        "status": "NONE",
+        "searchTerm": "the good hustle wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048497~bWl4dGFwZSB3ZWRkaW5nIGJhbmQ",
+        "status": "NONE",
+        "searchTerm": "mixtape wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048497~dGhlIHRyaXBzIHdlZGRpbmcgYmFuZA",
+        "status": "NONE",
+        "searchTerm": "the trips wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048537~d2VkZGluZyBzaW5nZXJzIGdhbHdheQ",
+        "status": "NONE",
+        "searchTerm": "wedding singers galway"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052777~anVrZWJveCBoZXJvZXMgYmFuZCBjb3Jr",
+        "status": "NONE",
+        "searchTerm": "jukebox heroes band cork"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~ZGFrb3RhIGJhbmQgZ2Fsd2F5",
+        "status": "NONE",
+        "searchTerm": "dakota band galway"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "2"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~cm95YWwgZmx1c2ggYmFuZCBpcmVsYW5k",
+        "status": "NONE",
+        "searchTerm": "royal flush band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~d2VkZGluZyBlbnRlcnRhaW5tZW50IGdhbHdheQ",
+        "status": "NONE",
+        "searchTerm": "wedding entertainment galway"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053017",
+        "id": "194701053017",
+        "name": "Limerick"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053017~dHJhZmZpYyBiYW5kIGxpbWVyaWNr",
+        "status": "NONE",
+        "searchTerm": "traffic band limerick"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053297",
+        "id": "194701053297",
+        "name": "Clare"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "1"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053297~YmxhY2sgdGllIGJhbmQgaXJlbGFuZA",
+        "status": "NONE",
+        "searchTerm": "black tie band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE",
+        "date": "2026-06-18"
+      }
+    }
+  ]
+}

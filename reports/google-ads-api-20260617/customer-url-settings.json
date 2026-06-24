@@ -1,0 +1,14 @@
+{
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/8732162982",
+        "id": "8732162982",
+        "descriptiveName": "MusicAngel",
+        "finalUrlSuffix": "utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+      }
+    }
+  ],
+  "fieldMask": "customer.id,customer.descriptiveName,customer.trackingUrlTemplate,customer.finalUrlSuffix",
+  "queryResourceConsumption": "70"
+}

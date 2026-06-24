@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "status": "ENABLED",
+        "name": "Search - Brand & Bands"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "status": "ENABLED",
+        "name": "Search - County Wedding Bands"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "status": "ENABLED",
+        "name": "Search - Venue Wedding Bands"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "status": "ENABLED",
+        "name": "Search - Wedding Bands Ireland"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "status": "PAUSED",
+        "name": "Search - Wedding Music Guides"
+      }
+    }
+  ]
+}

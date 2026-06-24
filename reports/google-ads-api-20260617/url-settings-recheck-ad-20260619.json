@@ -1,0 +1,1957 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "name": "Band names"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048217~810511631470",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631470",
+          "id": "810511631470",
+          "finalUrls": [
+            "https://musicangel.ie/compare-bands/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048057~810511631467",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631467",
+          "id": "810511631467",
+          "finalUrls": [
+            "https://musicangel.ie/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054737",
+        "name": "Antrim"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054737~810584875898",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875898",
+          "id": "810584875898",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-antrim/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054937",
+        "name": "Armagh"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054937~810584875904",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875904",
+          "id": "810584875904",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-armagh/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053737",
+        "name": "Carlow"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053737~810584875859",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875859",
+          "id": "810584875859",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-carlow/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054017",
+        "name": "Cavan"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054017~810584875871",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875871",
+          "id": "810584875871",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-cavan/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053297",
+        "name": "Clare"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053297~810584875844",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875844",
+          "id": "810584875844",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-clare/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "name": "Cork"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052777~810584875823",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875823",
+          "id": "810584875823",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-cork/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "name": "Derry"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701055177~810584875913",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875913",
+          "id": "810584875913",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-derry/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "name": "Donegal"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053097~810584875838",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875838",
+          "id": "810584875838",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-donegal/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054777",
+        "name": "Down"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054777~810584875901",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875901",
+          "id": "810584875901",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-down/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "name": "Dublin"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052617~810584875820",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875820",
+          "id": "810584875820",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-dublin/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055017",
+        "name": "Fermanagh"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701055017~810584875910",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875910",
+          "id": "810584875910",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-fermanagh/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "name": "Galway"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052817~810584875826",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875826",
+          "id": "810584875826",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-galway/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "name": "Kerry"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052857~810584875829",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875829",
+          "id": "810584875829",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-kerry/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053777",
+        "name": "Kildare"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053777~810584875862",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875862",
+          "id": "810584875862",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-kildare/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053577",
+        "name": "Kilkenny"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053577~810584875856",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875856",
+          "id": "810584875856",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-kilkenny/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054697",
+        "name": "Laois"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054697~810584875895",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875895",
+          "id": "810584875895",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-laois/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054217",
+        "name": "Leitrim"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054217~810584875877",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875877",
+          "id": "810584875877",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-leitrim/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053017",
+        "name": "Limerick"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053017~810584875832",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875832",
+          "id": "810584875832",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-limerick/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054457",
+        "name": "Longford"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054457~810584875886",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875886",
+          "id": "810584875886",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-longford/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053977",
+        "name": "Louth"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053977~810584875868",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875868",
+          "id": "810584875868",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-louth/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053057",
+        "name": "Mayo"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053057~810584875835",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875835",
+          "id": "810584875835",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-mayo/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "name": "Meath"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053817~810584875865",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875865",
+          "id": "810584875865",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-meath/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054057",
+        "name": "Monaghan"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054057~810584875874",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875874",
+          "id": "810584875874",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-monaghan/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054537",
+        "name": "Offaly"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054537~810584875892",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875892",
+          "id": "810584875892",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-offaly/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054297",
+        "name": "Roscommon"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054297~810584875883",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875883",
+          "id": "810584875883",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-roscommon/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054257",
+        "name": "Sligo"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054257~810584875880",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875880",
+          "id": "810584875880",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-sligo/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053337",
+        "name": "Tipperary"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053337~810584875847",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875847",
+          "id": "810584875847",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-tipperary/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054977",
+        "name": "Tyrone"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054977~810584875907",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875907",
+          "id": "810584875907",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-tyrone/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053497",
+        "name": "Waterford"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053497~810584875850",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875850",
+          "id": "810584875850",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-waterford/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054497",
+        "name": "Westmeath"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701054497~810584875889",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875889",
+          "id": "810584875889",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-westmeath/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053537",
+        "name": "Wexford"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053537~810584875853",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875853",
+          "id": "810584875853",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-wexford/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053257",
+        "name": "Wicklow"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701053257~810584875841",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875841",
+          "id": "810584875841",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-bands-wicklow/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048777",
+        "name": "Adare Manor"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048777~810511631494",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631494",
+          "id": "810511631494",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-adare-manor/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048697~810511631488",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631488",
+          "id": "810511631488",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-ashford-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049417",
+        "name": "Ballybeg House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049417~810511631515",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631515",
+          "id": "810511631515",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-ballybeg-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049257",
+        "name": "Ballyfin Demesne"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049257~810511631512",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631512",
+          "id": "810511631512",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-ballyfin-demesne/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051657",
+        "name": "Ballymagarvey Village"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051657~810584875664",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875664",
+          "id": "810584875664",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-ballymagarvey-village/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049937",
+        "name": "Ballymaloe House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049937~810511631656",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631656",
+          "id": "810511631656",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-ballymaloe-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052137",
+        "name": "Barberstown Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052137~810584875802",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875802",
+          "id": "810584875802",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-barberstown-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050417",
+        "name": "Bellinter House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050417~810511631674",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631674",
+          "id": "810511631674",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-bellinter-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050697",
+        "name": "Brooklodge & Macreddin Village"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050697~810584875628",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875628",
+          "id": "810584875628",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-brooklodge/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051817",
+        "name": "Bunratty Castle Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051817~810584875667",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875667",
+          "id": "810584875667",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-bunratty-castle-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049457",
+        "name": "Cabra Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049457~810511631518",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631518",
+          "id": "810511631518",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-cabra-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049657",
+        "name": "Carton House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049657~810511631644",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631644",
+          "id": "810511631644",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-carton-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052057",
+        "name": "Cashel Palace Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052057~810584875676",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875676",
+          "id": "810584875676",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-cashel-palace/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049177",
+        "name": "Castle Leslie"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049177~810511631506",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631506",
+          "id": "810511631506",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-castle-leslie/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049697",
+        "name": "Castlemartyr Resort"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049697~810511631647",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631647",
+          "id": "810511631647",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-castlemartyr-resort/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050217",
+        "name": "Cliff House Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050217~810511631668",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631668",
+          "id": "810511631668",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-cliff-house-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051097",
+        "name": "Cliff at Lyons"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051097~810584875640",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875640",
+          "id": "810584875640",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-cliff-at-lyons/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051617",
+        "name": "Clonabreany House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051617~810584875661",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875661",
+          "id": "810584875661",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-clonabreany-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "name": "Dromoland Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048737~810511631491",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631491",
+          "id": "810511631491",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-dromoland-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050897",
+        "name": "Druids Glen Hotel & Golf Resort"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050897~810584875634",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875634",
+          "id": "810584875634",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-druids-glen/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050177",
+        "name": "Faithlegg House Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050177~810511631665",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631665",
+          "id": "810511631665",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-faithlegg-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049737",
+        "name": "Fota Island Resort"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049737~810511631650",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631650",
+          "id": "810511631650",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-fota-island-resort/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051857",
+        "name": "Galgorm Resort"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051857~810584875670",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875670",
+          "id": "810584875670",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-galgorm-resort/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049897",
+        "name": "Glenlo Abbey Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049897~810511631653",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631653",
+          "id": "810511631653",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-glenlo-abbey-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051417",
+        "name": "Harvey's Point"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051417~810584875655",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875655",
+          "id": "810584875655",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-harveys-point/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051897",
+        "name": "Hayfield Manor"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051897~810584875673",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875673",
+          "id": "810584875673",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-hayfield-manor/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051177",
+        "name": "Killashee Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051177~810584875646",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875646",
+          "id": "810584875646",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-killashee-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052377",
+        "name": "Killyhevlin Lakeside Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052377~810584875811",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875811",
+          "id": "810584875811",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-killyhevlin-lakeside/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051577",
+        "name": "Kilshane House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051577~810584875658",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875658",
+          "id": "810584875658",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-kilshane-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051337",
+        "name": "Kinnitty Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051337~810584875649",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875649",
+          "id": "810584875649",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-kinnitty-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051377",
+        "name": "Knockranny House Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051377~810584875652",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875652",
+          "id": "810584875652",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-knockranny-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049217",
+        "name": "Lough Eske Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049217~810511631509",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631509",
+          "id": "810511631509",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-lough-eske-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050377",
+        "name": "Lyrath Estate"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050377~810511631671",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631671",
+          "id": "810511631671",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-lyrath-estate/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701051137",
+        "name": "Markree Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701051137~810584875643",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875643",
+          "id": "810584875643",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-markree-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050137",
+        "name": "Marlfield House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050137~810511631662",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631662",
+          "id": "810511631662",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-marlfield-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049977",
+        "name": "Mount Falcon Estate"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049977~810511631659",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631659",
+          "id": "810511631659",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-mount-falcon-estate/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049497",
+        "name": "Mount Juliet Estate"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049497~810511631641",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631641",
+          "id": "810511631641",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-mount-juliet-estate/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052097",
+        "name": "Mount Wolseley Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052097~810584875679",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875679",
+          "id": "810584875679",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-mount-wolseley/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052337",
+        "name": "Newpark Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052337~810584875808",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875808",
+          "id": "810584875808",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-newpark-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050457",
+        "name": "Park Hotel Kenmare"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050457~810511631677",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631677",
+          "id": "810511631677",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-park-hotel-kenmare/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048937",
+        "name": "Powerscourt House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048937~810511631497",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631497",
+          "id": "810511631497",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-powerscourt-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052297",
+        "name": "Roganstown Hotel & Country Club"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052297~810584875805",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875805",
+          "id": "810584875805",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-roganstown-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050617",
+        "name": "Sheen Falls Lodge"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050617~810511631680",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631680",
+          "id": "810511631680",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-sheen-falls-lodge/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050937",
+        "name": "Slane Castle"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050937~810584875637",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875637",
+          "id": "810584875637",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-slane-castle/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048977",
+        "name": "Tankardstown House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048977~810511631500",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631500",
+          "id": "810511631500",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-tankardstown-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052537",
+        "name": "The Cliff Townhouse"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052537~810584875814",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875814",
+          "id": "810584875814",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-cliff-townhouse/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701049017",
+        "name": "The K Club"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701049017~810511631503",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631503",
+          "id": "810511631503",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-the-k-club/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052577",
+        "name": "The Westbury Hotel"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701052577~810584875817",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875817",
+          "id": "810584875817",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-the-westbury-hotel/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050857",
+        "name": "Tinakilly Country House"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050857~810584875631",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875631",
+          "id": "810584875631",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-tinakilly-country-house/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701050657",
+        "name": "Trump International Doonbeg"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701050657~810584875625",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875625",
+          "id": "810584875625",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-trump-international-doonbeg/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048457~810511631479",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631479",
+          "id": "810511631479",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-and-dj-package/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048537~810511631485",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631485",
+          "id": "810511631485",
+          "finalUrls": [
+            "https://musicangel.ie/drinks-reception-music/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "name": "Showcases"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048497~810511631482",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631482",
+          "id": "810511631482",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-showcases/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048297~810511631476",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631476",
+          "id": "810511631476",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-band-cost-ireland/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701048257~810511631473",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810511631473",
+          "id": "810511631473",
+          "finalUrls": [
+            "https://musicangel.ie/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055217",
+        "name": "First dance songs"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701055217~810584875916",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875916",
+          "id": "810584875916",
+          "finalUrls": [
+            "https://musicangel.ie/first-dance-songs/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055417",
+        "name": "Questions to ask a band"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701055417~810584876042",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584876042",
+          "id": "810584876042",
+          "finalUrls": [
+            "https://musicangel.ie/questions-to-ask-wedding-band/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055257",
+        "name": "Wedding music timeline"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701055257~810584875919",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584875919",
+          "id": "810584875919",
+          "finalUrls": [
+            "https://musicangel.ie/wedding-music-timeline/"
+          ]
+        }
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055457",
+        "name": "When to book band"
+      },
+      "adGroupAd": {
+        "resourceName": "customers/8732162982/adGroupAds/194701055457~810584876045",
+        "status": "ENABLED",
+        "ad": {
+          "resourceName": "customers/8732162982/ads/810584876045",
+          "id": "810584876045",
+          "finalUrls": [
+            "https://musicangel.ie/when-to-book-wedding-band/"
+          ]
+        }
+      }
+    }
+  ]
+}

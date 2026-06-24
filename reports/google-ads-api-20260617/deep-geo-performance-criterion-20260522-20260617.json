@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "93",
+        "conversions": 4,
+        "costMicros": "191267533",
+        "allConversions": 4,
+        "impressions": "691"
+      },
+      "geographicView": {
+        "resourceName": "customers/8732162982/geographicViews/2372~LOCATION_OF_PRESENCE",
+        "countryCriterionId": "2372"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "89",
+        "conversions": 1,
+        "costMicros": "120927939",
+        "allConversions": 1,
+        "impressions": "683"
+      },
+      "geographicView": {
+        "resourceName": "customers/8732162982/geographicViews/2372~LOCATION_OF_PRESENCE",
+        "countryCriterionId": "2372"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "15",
+        "conversions": 0,
+        "costMicros": "33891871",
+        "allConversions": 0,
+        "impressions": "148"
+      },
+      "geographicView": {
+        "resourceName": "customers/8732162982/geographicViews/2826~LOCATION_OF_PRESENCE",
+        "countryCriterionId": "2826"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "24",
+        "conversions": 1,
+        "costMicros": "21030999",
+        "allConversions": 1,
+        "impressions": "161"
+      },
+      "geographicView": {
+        "resourceName": "customers/8732162982/geographicViews/2372~LOCATION_OF_PRESENCE",
+        "countryCriterionId": "2372"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "10",
+        "conversions": 1,
+        "costMicros": "13684769",
+        "allConversions": 1,
+        "impressions": "67"
+      },
+      "geographicView": {
+        "resourceName": "customers/8732162982/geographicViews/2826~LOCATION_OF_PRESENCE",
+        "countryCriterionId": "2826"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "allConversions": 0,
+        "impressions": "7"
+      },
+      "geographicView": {
+        "resourceName": "customers/8732162982/geographicViews/2826~LOCATION_OF_PRESENCE",
+        "countryCriterionId": "2826"
+      }
+    }
+  ]
+}

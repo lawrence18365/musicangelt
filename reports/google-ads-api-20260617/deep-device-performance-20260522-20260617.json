@@ -1,0 +1,183 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "93",
+        "conversionsValue": 1250,
+        "conversions": 3,
+        "costMicros": "193187215",
+        "ctr": 0.1326676176890157,
+        "allConversions": 3,
+        "averageCpc": 2077281.8817204302,
+        "impressions": "701"
+      },
+      "segments": {
+        "device": "MOBILE"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "87",
+        "conversionsValue": 1000,
+        "conversions": 2,
+        "costMicros": "118025294",
+        "ctr": 0.13530326594090203,
+        "allConversions": 2,
+        "averageCpc": 1356612.5747126436,
+        "impressions": "643"
+      },
+      "segments": {
+        "device": "MOBILE"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "13",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "28247063",
+        "ctr": 0.09923664122137404,
+        "allConversions": 1,
+        "averageCpc": 2172851,
+        "impressions": "131"
+      },
+      "segments": {
+        "device": "DESKTOP"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "23",
+        "conversionsValue": 250,
+        "conversions": 1,
+        "costMicros": "20270999",
+        "ctr": 0.15862068965517243,
+        "allConversions": 1,
+        "averageCpc": 881347.7826086957,
+        "impressions": "145"
+      },
+      "segments": {
+        "device": "MOBILE"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "10",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "13797414",
+        "ctr": 0.10101010101010101,
+        "allConversions": 0,
+        "averageCpc": 1379741.4,
+        "impressions": "99"
+      },
+      "segments": {
+        "device": "DESKTOP"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "3725126",
+        "ctr": 0.2857142857142857,
+        "allConversions": 0,
+        "averageCpc": 1862563,
+        "impressions": "7"
+      },
+      "segments": {
+        "device": "TABLET"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "2790000",
+        "ctr": 0.25,
+        "allConversions": 0,
+        "averageCpc": 1395000,
+        "impressions": "8"
+      },
+      "segments": {
+        "device": "TABLET"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "760000",
+        "ctr": 0.5,
+        "allConversions": 0,
+        "averageCpc": 760000,
+        "impressions": "2"
+      },
+      "segments": {
+        "device": "TABLET"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversionsValue": 0,
+        "conversions": 0,
+        "costMicros": "0",
+        "ctr": 0,
+        "allConversions": 0,
+        "impressions": "21"
+      },
+      "segments": {
+        "device": "DESKTOP"
+      }
+    }
+  ]
+}

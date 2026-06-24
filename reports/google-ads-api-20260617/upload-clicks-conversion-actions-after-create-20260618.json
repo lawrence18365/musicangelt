@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "customer": {
+        "resourceName": "customers/8732162982",
+        "id": "8732162982"
+      },
+      "conversionAction": {
+        "resourceName": "customers/8732162982/conversionActions/7653797036",
+        "status": "ENABLED",
+        "type": "UPLOAD_CLICKS",
+        "category": "QUALIFIED_LEAD",
+        "valueSettings": {
+          "defaultValue": 250,
+          "alwaysUseDefaultValue": false
+        },
+        "countingType": "ONE_PER_CLICK",
+        "id": "7653797036",
+        "name": "MusicAngel D1 qualified_lead",
+        "includeInConversionsMetric": false,
+        "primaryForGoal": false
+      }
+    }
+  ]
+}

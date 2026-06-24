@@ -1,0 +1,63 @@
+{
+  "totalRows": 949,
+  "totalIgnore": 0,
+  "totalSuffix": 1,
+  "totalTracking": 0,
+  "summary": [
+    {
+      "file": "url-settings-recheck-customer-20260619.json",
+      "rows": 1,
+      "ignoreCount": 0,
+      "suffixCount": 1,
+      "trackingCount": 0,
+      "suffix": [
+        [
+          "row0.customer.finalUrlSuffix",
+          "utm_source=google&utm_medium=cpc&utm_campaign={campaignid}&utm_adgroup={adgroupid}&utm_content={creative}&utm_term={keyword}&utm_matchtype={matchtype}&utm_network={network}"
+        ]
+      ],
+      "tracking": [],
+      "ignore": []
+    },
+    {
+      "file": "url-settings-recheck-campaign-20260619.json",
+      "rows": 5,
+      "ignoreCount": 0,
+      "suffixCount": 0,
+      "trackingCount": 0,
+      "suffix": [],
+      "tracking": [],
+      "ignore": []
+    },
+    {
+      "file": "url-settings-recheck-adgroup-20260619.json",
+      "rows": 93,
+      "ignoreCount": 0,
+      "suffixCount": 0,
+      "trackingCount": 0,
+      "suffix": [],
+      "tracking": [],
+      "ignore": []
+    },
+    {
+      "file": "url-settings-recheck-ad-20260619.json",
+      "rows": 93,
+      "ignoreCount": 0,
+      "suffixCount": 0,
+      "trackingCount": 0,
+      "suffix": [],
+      "tracking": [],
+      "ignore": []
+    },
+    {
+      "file": "url-settings-recheck-keyword-20260619.json",
+      "rows": 757,
+      "ignoreCount": 0,
+      "suffixCount": 0,
+      "trackingCount": 0,
+      "suffix": [],
+      "tracking": [],
+      "ignore": []
+    }
+  ]
+}

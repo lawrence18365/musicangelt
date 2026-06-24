@@ -1,0 +1,84 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "metrics": {
+        "clicks": "108",
+        "searchAbsoluteTopImpressionShare": 0.0999,
+        "searchBudgetLostImpressionShare": 0.8486710297849606,
+        "searchImpressionShare": 0.10458127420862828,
+        "searchRankLostImpressionShare": 0.04674769600641111,
+        "searchTopImpressionShare": 0.0999,
+        "conversions": 4,
+        "costMicros": "225159404",
+        "impressions": "839"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "metrics": {
+        "clicks": "99",
+        "searchAbsoluteTopImpressionShare": 0.0999,
+        "searchBudgetLostImpressionShare": 0.6232657417289221,
+        "searchImpressionShare": 0.2255425115617218,
+        "searchRankLostImpressionShare": 0.1511917467093561,
+        "searchTopImpressionShare": 0.16197935208259168,
+        "conversions": 2,
+        "costMicros": "134612708",
+        "impressions": "750"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "metrics": {
+        "clicks": "24",
+        "searchAbsoluteTopImpressionShare": 0.18010752688172044,
+        "searchBudgetLostImpressionShare": 0.11559139784946236,
+        "searchImpressionShare": 0.3333333333333333,
+        "searchRankLostImpressionShare": 0.5510752688172043,
+        "searchTopImpressionShare": 0.22043010752688172,
+        "conversions": 1,
+        "costMicros": "21030999",
+        "impressions": "168"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "0"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "metrics": {
+        "clicks": "0",
+        "conversions": 0,
+        "costMicros": "0",
+        "impressions": "0"
+      }
+    }
+  ]
+}
