@@ -27,8 +27,24 @@ const GONE_PATHS = new Set([
     '/mapping-the-universe-of-international-investment-agreements-and-other-agreements/',
     '/unique-title-exploring-various-agreements-and-contracts-3',
     '/unique-title-exploring-various-agreements-and-contracts-3/',
+    '/blog',
+    '/blog/',
+    '/news',
+    '/news/',
+    '/index.php',
+    '/index.php/',
+    '/wp-admin',
+    '/wp-admin/',
+    '/wp-login.php',
+    '/wp-login.php/',
     '/the-trophy-cabinet/press-praise/If a wedding reception begins with a ukulele band, you know it’s going to a good day.'
 ]);
+
+const GONE_PREFIXES = [
+    '/blog/',
+    '/news/',
+    '/wp-admin/'
+];
 
 const REDIRECTS = new Map([
     ['/my-booking', '/#contact'],
@@ -102,6 +118,12 @@ export async function onRequest(context) {
     const url = new URL(context.request.url);
     const path = url.pathname;
 
+    if (url.hostname === 'www.musicangel.ie') {
+        url.hostname = 'musicangel.ie';
+        url.protocol = 'https:';
+        return Response.redirect(url.toString(), 301);
+    }
+
     if (path.includes('/{ignore}') || path.toLowerCase().includes('/%7bignore%7d')) {
         const cleanPath = path
             .replace(/\/(?:\{ignore\}|%7[Bb]ignore%7[Dd])(?=\/|$)/g, '')
@@ -131,7 +153,11 @@ export async function onRequest(context) {
         });
     }
 
-    if (GONE_PATHS.has(path) || path.startsWith('/the-trophy-cabinet/press-praise/')) {
+    if (
+        GONE_PATHS.has(path)
+        || GONE_PREFIXES.some((prefix) => path.startsWith(prefix))
+        || path.startsWith('/the-trophy-cabinet/press-praise/')
+    ) {
         return html(`<!doctype html>
 <html lang="en">
 <head>

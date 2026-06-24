@@ -1,0 +1,6 @@
+Campaign,Campaign type,Status,Budget,Budget type,Bid strategy type,Networks,Languages,Locations,Notes
+Search - Brand & Bands,Search,Paused,5.00,Daily,Manual CPC,Google Search,English,Ireland;Northern Ireland,Enable first. Protects MusicAngel and owned band-name searches.
+Search - Wedding Bands Ireland,Search,Paused,5.00,Daily,Manual CPC,Google Search,English,Ireland;Northern Ireland,Main commercial search campaign. Launch only after lead conversion is verified.
+Search - Venue Wedding Bands,Search,Paused,5.00,Daily,Manual CPC,Google Search,English,Ireland;Northern Ireland,High-intent long-tail venue queries. Keep exact/phrase match only.
+Search - County Wedding Bands,Search,Paused,5.00,Daily,Manual CPC,Google Search,English,Ireland;Northern Ireland,Turn on after commercial campaign has conversion signal.
+Search - Wedding Music Guides,Search,Paused,5.00,Daily,Manual CPC,Google Search,English,Ireland;Northern Ireland,Lower-intent content assists. Keep paused until lead volume is healthy.

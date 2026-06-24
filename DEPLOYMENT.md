@@ -30,8 +30,14 @@ These must be set on the `musicangelt` Cloudflare Pages project:
 | Name | Purpose |
 |---|---|
 | `RESEND_API_KEY` | Resend API key used by `/api/enquiry` |
-| `RESEND_FROM` | Verified sender address, ideally a branded `musicangel.ie` sender |
+| `RESEND_FROM` | Verified sender address, ideally `MusicAngel <hello@musicangel.ie>` |
 | `NOTIFY_TO` | Internal enquiry recipient |
+| `SEND_CUSTOMER_AUTOREPLY` | Optional. Must be `true` to send customer auto-replies. Leave unset/false until the sender domain is branded and verified. |
+
+As of 2026-05-29, customer auto-replies are only sent when
+`SEND_CUSTOMER_AUTOREPLY=true` and `RESEND_FROM` is a `musicangel.ie` sender.
+If the sender is unbranded or the flag is unset, `/api/enquiry` sends only the
+internal notification to Jo/Lawrence.
 
 ## Production DNS
 
@@ -41,6 +47,19 @@ Keep production DNS on Cloudflare Pages:
 |---|---|---|---|
 | CNAME | `@` | `musicangelt.pages.dev` | Proxied |
 | CNAME | `www` | `musicangelt.pages.dev` | Proxied |
+
+Email DNS currently keeps inbound mail on Titan and includes a Cloudflare DMARC
+reporting record. Resend sending DNS is scoped to `send.musicangel.ie` so it
+does not replace Titan inbound mail:
+
+| Type | Name | Value |
+|---|---|---|
+| MX | `@` | `mx0101.titan.email` priority 10 |
+| MX | `@` | `mx0102.titan.email` priority 20 |
+| TXT | `_dmarc` | `v=DMARC1; p=none; rua=mailto:...@dmarc-reports.cloudflare.net` |
+| TXT | `resend._domainkey` | Resend DKIM key for `musicangel.ie` |
+| MX | `send` | `feedback-smtp.eu-west-1.amazonses.com` priority 10 |
+| TXT | `send` | `v=spf1 include:amazonses.com ~all` |
 
 Do not recreate the old GitHub Pages records unless intentionally rolling back to a static-only site:
 

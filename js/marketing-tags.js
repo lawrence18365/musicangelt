@@ -11,6 +11,7 @@
  *   window.LINKEDIN_PARTNER_ID = '1234567';           // 7-digit LinkedIn partner ID
  *   window.GOOGLE_ADS_CONVERSION_ID = 'AW-XXXXXXX';   // Google Ads (optional)
  *   window.GOOGLE_ADS_LEAD_LABEL = 'AbCdEfGhIjk';     // Google Ads lead conversion label
+ *   window.GOOGLE_ADS_CONTACT_LABEL = 'LmNoPqRsTuv';  // Google Ads phone/email click label
  *   window.HOTJAR_SITE_ID = '1234567';                // Hotjar (heatmaps + recordings)
  *   window.CLARITY_PROJECT_ID = 'abcdef1234';         // Microsoft Clarity (free heatmaps + recordings)
  *
@@ -67,6 +68,15 @@
         })(window.lintrk);
     }
 
+    function googleAdsConfig() {
+        var cfg = window.MUSICANGEL_GOOGLE_ADS || {};
+        return {
+            awId: cfg.conversionId || window.GOOGLE_ADS_CONVERSION_ID || '',
+            leadLabel: cfg.leadLabel || window.GOOGLE_ADS_LEAD_LABEL || '',
+            contactLabel: cfg.contactLabel || window.GOOGLE_ADS_CONTACT_LABEL || ''
+        };
+    }
+
     function loadGoogleAds(awId) {
         if (STATE.loaded.googleAds || !awId || typeof gtag !== 'function') return;
         STATE.loaded.googleAds = true;
@@ -101,27 +111,40 @@
         if (!consentGranted()) return;
         loadMetaPixel(window.META_PIXEL_ID);
         loadLinkedInInsight(window.LINKEDIN_PARTNER_ID);
-        loadGoogleAds(window.GOOGLE_ADS_CONVERSION_ID);
+        loadGoogleAds(googleAdsConfig().awId);
         loadHotjar(window.HOTJAR_SITE_ID);
         loadClarity(window.CLARITY_PROJECT_ID);
     }
 
-    function fireGoogleAdsLead(event) {
-        var awId = window.GOOGLE_ADS_CONVERSION_ID || '';
-        var label = window.GOOGLE_ADS_LEAD_LABEL || '';
+    function fireGoogleAdsConversion(label, detail, defaults) {
+        var cfg = googleAdsConfig();
+        var awId = cfg.awId || '';
         if (!awId || !label || typeof gtag !== 'function' || !consentGranted()) return;
         loadGoogleAds(awId);
-        var detail = event && event.detail || {};
-        gtag('event', 'conversion', {
+        detail = detail || {};
+        defaults = defaults || {};
+        var payload = {
             send_to: awId + '/' + label,
-            value: detail.value || 500,
-            currency: detail.currency || 'EUR',
+            value: detail.value || defaults.value || 1,
+            currency: detail.currency || defaults.currency || 'EUR',
             event_callback: function () {}
-        });
+        };
+        if (detail.page_path) payload.page_path = detail.page_path;
+        if (detail.contact_type) payload.contact_type = detail.contact_type;
+        gtag('event', 'conversion', payload);
+    }
+
+    function fireGoogleAdsLead(event) {
+        fireGoogleAdsConversion(googleAdsConfig().leadLabel, event && event.detail, { value: 250, currency: 'EUR' });
+    }
+
+    function fireGoogleAdsContact(event) {
+        fireGoogleAdsConversion(googleAdsConfig().contactLabel, event && event.detail, { value: 25, currency: 'EUR' });
     }
 
     document.addEventListener('consent:granted', maybeLoadAll, { once: false });
     document.addEventListener('musicangel:lead', fireGoogleAdsLead, { once: false });
+    document.addEventListener('musicangel:contact-click', fireGoogleAdsContact, { once: false });
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', maybeLoadAll);
     } else {

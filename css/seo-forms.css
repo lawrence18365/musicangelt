@@ -1,0 +1,135 @@
+.seo-enquiry {
+    margin: 3rem 0;
+    padding: clamp(1.4rem, 4vw, 2rem);
+    background: rgba(247, 214, 228, 0.28);
+    border: 1px solid var(--border, rgba(247, 214, 228, 0.5));
+    border-radius: 16px;
+}
+
+.seo-enquiry h2 {
+    margin-top: 0;
+}
+
+.seo-enquiry > p,
+.seo-enquiry .seo-enquiry-copy {
+    max-width: 42rem;
+    color: var(--text-muted, #6a6266);
+    font-family: var(--serif, Georgia, 'Times New Roman', serif);
+    font-style: italic;
+    font-size: 1.02rem;
+}
+
+.seo-form {
+    display: grid;
+    gap: 1rem;
+    margin-top: 1.35rem;
+    text-align: left;
+    background: #fff;
+    padding: clamp(1.2rem, 3vw, 1.7rem);
+    border: 1px solid var(--border, rgba(247, 214, 228, 0.5));
+    border-radius: 14px;
+    box-shadow: var(--shadow-soft, 0 24px 70px rgba(34, 25, 28, 0.08));
+}
+
+.seo-form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.seo-form-field label {
+    display: block;
+    margin-bottom: 0.4rem;
+    color: var(--text-muted, #6a6266);
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.seo-form-field input,
+.seo-form-field select,
+.seo-form-field textarea {
+    width: 100%;
+    font-family: var(--sans, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif);
+    font-size: 0.95rem;
+    padding: 0.75rem 0.9rem;
+    color: var(--ink, #111);
+    background: var(--ivory, #FBF8F5);
+    border: 1px solid var(--border-strong, rgba(242, 108, 167, 0.22));
+    border-radius: 10px;
+}
+
+.seo-form-field input:focus,
+.seo-form-field select:focus,
+.seo-form-field textarea:focus {
+    outline: none;
+    background: #fff;
+    border-color: var(--pink, #C2185B);
+    box-shadow: 0 0 0 3px rgba(242, 108, 167, 0.15);
+}
+
+.seo-form-field textarea {
+    min-height: 92px;
+    resize: vertical;
+}
+
+.seo-form .btn-submit,
+.seo-form .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.seo-form .form-status {
+    min-height: 1.2rem;
+    margin: 0;
+    color: var(--text-muted, #6a6266);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.availability-grid,
+.decision-matrix {
+    display: grid;
+    gap: 1rem;
+}
+
+.decision-matrix {
+    margin: 1.5rem 0 2rem;
+}
+
+.decision-card {
+    padding: 1.15rem 1.2rem;
+    background: #fff;
+    border: 1px solid var(--border, rgba(247, 214, 228, 0.5));
+    border-radius: 12px;
+}
+
+.decision-card strong {
+    display: block;
+    color: var(--ink, #111);
+    font-family: var(--serif, Georgia, 'Times New Roman', serif);
+    font-size: 1.08rem;
+    font-weight: 500;
+}
+
+.decision-card span {
+    display: block;
+    margin-top: 0.3rem;
+    color: var(--text-muted, #6a6266);
+    font-size: 0.92rem;
+    line-height: 1.55;
+}
+
+@media (min-width: 760px) {
+    .availability-grid,
+    .decision-matrix {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 560px) {
+    .seo-form-row {
+        grid-template-columns: 1fr;
+    }
+}

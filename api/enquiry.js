@@ -1,14 +1,14 @@
 // Vercel serverless function: POST /api/enquiry
 // 1. Validates input + spam defenses (honeypot, fast-submit check, origin, rate limit).
-// 2. Forwards the enquiry to jo.musicangel@gmail.com via Resend.
+// 2. Forwards the enquiry to Jo/Lawrence via Resend.
 // 3. Sends an auto-reply confirmation to the enquirer.
 // Set RESEND_API_KEY in Vercel env to enable. Without it, returns 503 so the
 // front-end falls back to a mailto: link.
 
 const TO_INTERNAL_DEFAULT = 'jo.musicangel@gmail.com';
 const TO_INTERNAL_CC = ['lawrencebrennan@gmail.com'];
-const FROM = process.env.RESEND_FROM || 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
+const CUSTOMER_AUTOREPLY_FLAG = 'SEND_CUSTOMER_AUTOREPLY';
 
 const ALLOWED_ORIGINS = new Set([
     'https://musicangel.ie',
@@ -74,6 +74,14 @@ function recipientList(primary) {
     }
 
     return recipients;
+}
+
+function isBrandedMusicAngelSender(from) {
+    return /@musicangel\.ie>?$/i.test(String(from || '').trim());
+}
+
+function customerAutoreplyEnabled(value) {
+    return /^(1|true|yes)$/i.test(String(value || '').trim());
 }
 
 function randomHex(bytes = 4) {
@@ -166,6 +174,12 @@ module.exports = async function handler(req, res) {
         return;
     }
 
+    const from = process.env.RESEND_FROM;
+    if (!from) {
+        res.status(503).json({ error: 'Email sender not configured' });
+        return;
+    }
+
     let body = req.body;
     if (typeof body === 'string') {
         try { body = JSON.parse(body); } catch { body = {}; }
@@ -244,6 +258,8 @@ module.exports = async function handler(req, res) {
     const classification = classifyLead({ name, email, message, campaign });
     const firstName = name.split(/\s+/)[0];
     const toInternal = recipientList(process.env.NOTIFY_TO);
+    const shouldSendCustomerAutoreply = customerAutoreplyEnabled(process.env[CUSTOMER_AUTOREPLY_FLAG])
+        && isBrandedMusicAngelSender(from);
     const subjectPrefix = classification.status === 'test' ? 'TEST MusicAngel enquiry' : 'New MusicAngel enquiry';
     const subject = `${subjectPrefix} — ${band || 'General'} — ${name} — ${leadId}`;
     const leadSource = [campaign.attribution_source, campaign.attribution_source_detail]
@@ -325,24 +341,28 @@ module.exports = async function handler(req, res) {
     try {
         // Notification email to internal address.
         await sendEmail(key, {
-            from: FROM,
+            from,
             to: toInternal,
             reply_to: email,
             subject,
             html: internalHtml
         });
 
-        // Auto-reply to enquirer. Don't fail the whole submit if this errors.
-        try {
-            await sendEmail(key, {
-                from: FROM,
-                to: [email],
-                reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
-                subject: 'Your MusicAngel enquiry: we got it',
-                html: replyHtml
-            });
-        } catch (autoErr) {
-            console.error('Auto-reply failed (non-fatal):', autoErr.message);
+        // Auto-reply to enquirer only when explicitly enabled and branded.
+        if (shouldSendCustomerAutoreply) {
+            try {
+                await sendEmail(key, {
+                    from,
+                    to: [email],
+                    reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
+                    subject: 'Your MusicAngel enquiry: we got it',
+                    html: replyHtml
+                });
+            } catch (autoErr) {
+                console.error('Auto-reply failed (non-fatal):', autoErr.message);
+            }
+        } else {
+            console.warn(`Skipping customer auto-reply because ${CUSTOMER_AUTOREPLY_FLAG} is not true or sender is not musicangel.ie`);
         }
 
         res.status(200).json({ ok: true, lead_id: leadId, lead_store: 'not_stored' });

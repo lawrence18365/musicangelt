@@ -3,8 +3,8 @@
 
 const TO_INTERNAL_DEFAULT = 'jo.musicangel@gmail.com';
 const TO_INTERNAL_CC = ['lawrencebrennan@gmail.com'];
-const FROM_DEFAULT = 'MusicAngel <hello@ratetapmx.com>';
 const REPLY_NAME = 'Jo at MusicAngel';
+const CUSTOMER_AUTOREPLY_FLAG = 'SEND_CUSTOMER_AUTOREPLY';
 
 const ALLOWED_ORIGINS = new Set([
     'https://musicangel.ie',
@@ -105,6 +105,14 @@ function recipientList(primary) {
     return recipients;
 }
 
+function isBrandedMusicAngelSender(from) {
+    return /@musicangel\.ie>?$/i.test(String(from || '').trim());
+}
+
+function customerAutoreplyEnabled(value) {
+    return /^(1|true|yes)$/i.test(String(value || '').trim());
+}
+
 function cleanKey(value, max = 80) {
     return clean(value, max).toLowerCase();
 }
@@ -148,6 +156,15 @@ function isSearchHost(value) {
 function isInternalUrl(value) {
     const host = rootHost(value);
     return host === 'musicangel.ie' || host === 'musicangelt.pages.dev' || host.endsWith('.musicangelt.pages.dev');
+}
+
+function pathOnly(value) {
+    if (!value) return '';
+    try {
+        return new URL(value, 'https://musicangel.ie').pathname || '/';
+    } catch {
+        return '';
+    }
 }
 
 function classifyLead({ name, email, message, campaign, page, referrer }) {
@@ -279,6 +296,7 @@ async function saveLeadRecord(db, record) {
         'utm_content', 'utm_term', 'utm_adgroup', 'utm_matchtype', 'utm_network',
         'attribution_source', 'attribution_source_detail', 'campaign', 'ad_group',
         'keyword', 'match_type', 'landing_page', 'submitted_page_url', 'referrer',
+        'landing_path', 'submitted_path', 'first_landing_path',
         'first_seen_landing_page', 'first_seen_referrer', 'first_external_referrer',
         'session_id', 'client_id_if_available',
         'device', 'viewport', 'user_agent', 'ip_hash_or_partial_ip', 'form_id',
@@ -353,6 +371,11 @@ async function handlePost({ request, env }) {
     const key = env.RESEND_API_KEY;
     if (!key) {
         return json({ error: 'Email backend not configured' }, 503, headers);
+    }
+
+    const from = env.RESEND_FROM;
+    if (!from) {
+        return json({ error: 'Email sender not configured' }, 503, headers);
     }
 
     let body = {};
@@ -431,9 +454,12 @@ async function handlePost({ request, env }) {
     const requestId = request.headers.get('CF-Ray') || `req-${randomHex(6)}`;
     const classification = classifyLead({ name, email, message, campaign, page, referrer });
     const toInternal = recipientList(env.NOTIFY_TO);
-    const from = env.RESEND_FROM || FROM_DEFAULT;
+    const shouldSendCustomerAutoreply = customerAutoreplyEnabled(env[CUSTOMER_AUTOREPLY_FLAG])
+        && isBrandedMusicAngelSender(from);
     const ipHash = await sha256Hex(`${env.LEAD_HASH_SALT || 'musicangel-leads-v1'}:${ip}`);
     const submittedPage = campaign.landing_page || page;
+    const landingPage = campaign.first_landing_page || page;
+    const firstLandingPage = campaign.first_landing_page || landingPage;
     const leadSource = [campaign.attribution_source, campaign.attribution_source_detail]
         .filter(Boolean)
         .join(' · ');
@@ -485,9 +511,12 @@ async function handlePost({ request, env }) {
         ad_group: campaign.utm_adgroup || campaign.gad_adgroupid,
         keyword: campaign.utm_term || campaign.gad_keyword,
         match_type: campaign.utm_matchtype || campaign.gad_matchtype,
-        landing_page: campaign.first_landing_page || page,
+        landing_page: landingPage,
         submitted_page_url: submittedPage,
         referrer: campaign.landing_referrer || referrer,
+        landing_path: pathOnly(landingPage),
+        submitted_path: pathOnly(submittedPage),
+        first_landing_path: pathOnly(firstLandingPage),
         first_seen_landing_page: campaign.first_landing_page,
         first_seen_referrer: campaign.first_landing_referrer,
         first_external_referrer: campaign.first_external_referrer,
@@ -575,6 +604,9 @@ async function handlePost({ request, env }) {
                 ['match_type', leadRecord.match_type],
                 ['landing_page', leadRecord.landing_page],
                 ['submitted_page_url', leadRecord.submitted_page_url],
+                ['landing_path', leadRecord.landing_path],
+                ['submitted_path', leadRecord.submitted_path],
+                ['first_landing_path', leadRecord.first_landing_path],
                 ['referrer', leadRecord.referrer],
                 ['first_seen_referrer', leadRecord.first_seen_referrer],
                 ['lead source detail', leadSource]
@@ -620,17 +652,21 @@ async function handlePost({ request, env }) {
             html: internalHtml
         });
 
-        try {
-            await sendEmail(key, {
-                from,
-                to: [email],
-                reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
-                subject: 'Your MusicAngel enquiry: we got it',
-                html: replyHtml
-            });
-            leadRecord.customer_auto_reply_sent = 1;
-        } catch (autoErr) {
-            console.error('Auto-reply failed (non-fatal):', autoErr.message);
+        if (shouldSendCustomerAutoreply) {
+            try {
+                await sendEmail(key, {
+                    from,
+                    to: [email],
+                    reply_to: toInternal[0] || TO_INTERNAL_DEFAULT,
+                    subject: 'Your MusicAngel enquiry: we got it',
+                    html: replyHtml
+                });
+                leadRecord.customer_auto_reply_sent = 1;
+            } catch (autoErr) {
+                console.error('Auto-reply failed (non-fatal):', autoErr.message);
+            }
+        } else {
+            console.warn(`Skipping customer auto-reply because ${CUSTOMER_AUTOREPLY_FLAG} is not true or sender is not musicangel.ie`);
         }
 
         try {

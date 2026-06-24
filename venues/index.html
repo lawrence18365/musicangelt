@@ -38,6 +38,7 @@
 
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20260619-seo">
 
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -54,10 +55,12 @@
         window.LINKEDIN_PARTNER_ID = window.LINKEDIN_PARTNER_ID || '';
         window.GOOGLE_ADS_CONVERSION_ID = window.GOOGLE_ADS_CONVERSION_ID || '';
         window.GOOGLE_ADS_LEAD_LABEL = window.GOOGLE_ADS_LEAD_LABEL || '';
+        window.GOOGLE_ADS_CONTACT_LABEL = window.GOOGLE_ADS_CONTACT_LABEL || '';
         window.HOTJAR_SITE_ID = window.HOTJAR_SITE_ID || '';
         window.CLARITY_PROJECT_ID = window.CLARITY_PROJECT_ID || '';
     </script>
-    <script defer src="/js/marketing-tags.js"></script>
+    <script defer src="/js/google-ads-config.js?v=20260612-ads-sot1"></script>
+    <script defer src="/js/marketing-tags.js?v=20260612-ads-sot1"></script>
 
     <script type="application/ld+json">
 {
@@ -595,6 +598,17 @@ section { padding: 3.5rem 0; }
 .pick p { font-size: 0.97rem; color: var(--ink-soft); line-height: 1.7; }
 .pick .why { font-style: italic; color: var(--text-muted); font-family: var(--serif); font-size: 1.02rem; }
 .pick-cta { margin-top: 0.5rem; font-size: 0.7rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--pink); text-decoration: none; }
+.authority-links { background: #fff; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.authority-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(13.5rem, 1fr)); gap: 0.8rem; margin-top: 1.3rem; }
+.authority-link { display: block; min-height: 100%; padding: 1rem 1.05rem; border: 1px solid var(--border); border-radius: 10px; color: inherit; text-decoration: none; background: var(--ivory); transition: border-color 0.18s, transform 0.18s, box-shadow 0.18s; }
+.authority-link:hover { border-color: var(--pink); transform: translateY(-1px); box-shadow: var(--shadow-soft); }
+.authority-link strong { display: block; color: var(--ink); font-family: var(--serif); font-size: 1.04rem; font-weight: 500; line-height: 1.25; }
+.authority-link span { display: block; margin-top: 0.35rem; color: var(--text-muted); font-size: 0.84rem; line-height: 1.55; }
+.regional-links { margin-top: 1.4rem; padding-top: 1.25rem; border-top: 1px solid var(--border); }
+.regional-links p { margin-bottom: 0.85rem; color: var(--text-muted); font-size: 0.74rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; }
+.regional-grid { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+.regional-grid a { display: inline-flex; align-items: center; min-height: 2.25rem; padding: 0.52rem 0.8rem; border: 1px solid var(--border); border-radius: 999px; color: var(--ink-soft); text-decoration: none; background: #fff; font-size: 0.82rem; transition: border-color 0.18s, color 0.18s; }
+.regional-grid a:hover { border-color: var(--pink); color: var(--pink); }
 .venues-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0.65rem; margin-top: 1.25rem; }
 .venues-list li { list-style: none; padding: 0.85rem 1rem; background: rgba(255,255,255,0.6); border: 1px solid var(--border); border-radius: 10px; font-size: 0.92rem; color: var(--ink-soft); }
 .price-band { background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 1.5rem 0; }
@@ -660,6 +674,44 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
             .venue-list li a strong { display: block; font-family: var(--serif); font-weight: 500; color: var(--ink); font-size: 1.08rem; line-height: 1.2; }
             .venue-list li a span { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.01em; }
         </style>
+
+        <section class="county-block">
+            <h2 class="county-h"><em>Browse wedding bands by county</em></h2>
+            <ul class="venue-list">
+                <li><a href="/wedding-bands-antrim/"><strong>Wedding bands in Antrim</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-armagh/"><strong>Wedding bands in Armagh</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-carlow/"><strong>Wedding bands in Carlow</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-cavan/"><strong>Wedding bands in Cavan</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-clare/"><strong>Wedding bands in Clare</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-cork/"><strong>Wedding bands in Cork</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-derry/"><strong>Wedding bands in Derry</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-donegal/"><strong>Wedding bands in Donegal</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-down/"><strong>Wedding bands in Down</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-dublin/"><strong>Wedding bands in Dublin</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-fermanagh/"><strong>Wedding bands in Fermanagh</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-galway/"><strong>Wedding bands in Galway</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-kerry/"><strong>Wedding bands in Kerry</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-kildare/"><strong>Wedding bands in Kildare</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-kilkenny/"><strong>Wedding bands in Kilkenny</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-laois/"><strong>Wedding bands in Laois</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-leitrim/"><strong>Wedding bands in Leitrim</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-limerick/"><strong>Wedding bands in Limerick</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-longford/"><strong>Wedding bands in Longford</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-louth/"><strong>Wedding bands in Louth</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-mayo/"><strong>Wedding bands in Mayo</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-meath/"><strong>Wedding bands in Meath</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-monaghan/"><strong>Wedding bands in Monaghan</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-offaly/"><strong>Wedding bands in Offaly</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-roscommon/"><strong>Wedding bands in Roscommon</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-sligo/"><strong>Wedding bands in Sligo</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-tipperary/"><strong>Wedding bands in Tipperary</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-tyrone/"><strong>Wedding bands in Tyrone</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-waterford/"><strong>Wedding bands in Waterford</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-westmeath/"><strong>Wedding bands in Westmeath</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-wexford/"><strong>Wedding bands in Wexford</strong><span>County guide</span></a></li>
+                <li><a href="/wedding-bands-wicklow/"><strong>Wedding bands in Wicklow</strong><span>County guide</span></a></li>
+            </ul>
+        </section>
 
         <section class="county-block">
             <h2 class="county-h"><em>Co. Antrim</em></h2>
@@ -828,11 +880,48 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
         </section>
     </div>
 
+    <section id="enquiry" class="enquire">
+        <div class="wrap">
+            <p class="sec-eye">Check availability</p>
+            <h2 class="sec-h2">Check MusicAngel availability for <em>your venue</em></h2>
+            <p style="max-width: 36rem; color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1.05rem;">Send your date and venue. We'll come back within one working day with availability and a tailored quote.</p>
+
+            <form id="enquiry">
+                <input type="hidden" name="package_or_service_interest" value="venue">
+
+                <div class="f-row">
+                    <div class="fg"><label for="name">Your Name</label><input id="name" name="name" type="text" autocomplete="name" required></div>
+                    <div class="fg"><label for="partner">Partner's Name</label><input id="partner" name="partner" type="text"></div>
+                </div>
+                <div class="f-row">
+                    <div class="fg"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+                    <div class="fg"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" autocomplete="tel"></div>
+                </div>
+                <div class="f-row">
+                    <div class="fg"><label for="date">Wedding Date</label><input id="date" name="date" type="date"></div>
+                    <div class="fg"><label for="venue">Venue</label><input id="venue" name="venue" type="text" value=""></div>
+                </div>
+                <div class="fg"><label for="band">Which Band</label><select id="band" name="band">
+                    <option value="">Select a band...</option>
+                    <option>The Beat Boutique</option>
+                    <option>Sway Social</option>
+                    <option>The Best Men</option>
+                    <option>Blacktye</option>
+                    <option value="Not sure yet">Not sure yet, help me choose</option>
+                </select></div>
+                <div class="fg"><label for="message">Tell us about your day</label><textarea id="message" name="message" placeholder="Guest count, ceremony or drinks-reception music, anything special..."></textarea></div>
+                <input type="text" name="hp" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+                <button type="submit" class="btn btn-pink btn-submit">Send Enquiry <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></button>
+                <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            </form>
+        </div>
+    </section>
+
     <div class="price-band" style="background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 3rem 0 2rem;">
         <div class="wrap" style="text-align: center;">
             <h2 style="font-family: var(--serif); font-size: clamp(1.7rem, 3vw, 2.2rem); font-weight: 400; color: var(--ink); margin-bottom: 0.5rem;">Don't see your venue? <em style="font-style: italic; color: var(--pink);">We play everywhere.</em></h2>
             <p style="color: var(--text-muted); font-family: var(--serif); font-style: italic; font-size: 1rem; margin-bottom: 1.4rem;">These are venues with bespoke pages. We play all of Ireland, so send any venue when you enquire.</p>
-            <a href="/#contact" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+            <a href="#enquiry" class="btn btn-pink">Check Availability <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
         </div>
     </div>
 
@@ -843,7 +932,10 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
                 <a href="/" class="nav-brand" style="font-size: 1.35rem;">Music<i>Angel</i></a>
                 <ul class="footer-links">
                     <li><a href="/#bands">All Bands</a></li>
-                    <li><a href="/#why">Why Us</a></li>
+                    <li><a href="/compare-bands/">Compare</a></li>
+                    <li><a href="/wedding-band-cost-ireland/">Pricing</a></li>
+                    <li><a href="/check-availability/">Availability</a></li>
+                    <li><a href="/venues/">Venues</a></li>
                     <li><a href="/#contact">Enquire</a></li>
                     <li><a href="/privacy/">Privacy</a></li>
                     <li><a href="/cookies/">Cookies</a></li>
@@ -861,7 +953,7 @@ footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
         </div>
     </div>
 
-    <script defer src="/js/site.js?v=20260606-sot1"></script>
+    <script defer src="/js/site.js?v=20260612-ads-sot1"></script>
 </body>
 </html>
 
