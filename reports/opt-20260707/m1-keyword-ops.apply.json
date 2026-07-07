@@ -1,0 +1,174 @@
+{
+  "endpoint": "adGroupCriteria",
+  "operations": [
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~8380666027",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~303080802873",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2485313009891",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2485313199811",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2486917057598",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2486917163758",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2513431163924",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2513432095404",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~309013243652",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~317036385785",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~324448337688",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~338930937116",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~353299723406",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~386975101148",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~390718854925",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~526023609350",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~673991185811",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~811160508620",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~821988035984",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~861088047324",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "updateMask": "status",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1313972828",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "updateMask": "status",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680227678",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "updateMask": "status",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680236168",
+        "status": "PAUSED"
+      }
+    },
+    {
+      "updateMask": "cpc_bid_micros",
+      "update": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502139978",
+        "cpcBidMicros": "1700000"
+      }
+    }
+  ],
+  "validateOnly": false
+}

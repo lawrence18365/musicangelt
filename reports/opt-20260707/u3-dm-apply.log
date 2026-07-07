@@ -1,0 +1,112 @@
+{
+  "validateOnly": false,
+  "conversionAction": "customers/8732162982/conversionActions/7653797036",
+  "candidateCount": 9,
+  "candidates": [
+    {
+      "leadId": "MA-20260607-893B769A98",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-07 08:17:52+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295740",
+      "adGroup": "194701048257",
+      "keyword": "live wedding band ireland"
+    },
+    {
+      "leadId": "MA-20260609-A463C51797",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-09 15:32:13+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295740",
+      "adGroup": "194701048457",
+      "keyword": "wedding band with dj"
+    },
+    {
+      "leadId": "MA-20260612-MANUAL-ANDREA",
+      "stage": "booking_won",
+      "conversionDateTime": "2026-06-12 14:13:04+00:00",
+      "conversionValue": 2500,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23880653751",
+      "adGroup": "194701048217",
+      "keyword": "the beat boutique wedding band"
+    },
+    {
+      "leadId": "MA-20260617-9637FB1F1B",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-17 09:19:02+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295743",
+      "adGroup": "194701053097",
+      "keyword": "wedding band donegal"
+    },
+    {
+      "leadId": "MA-20260618-65936C9BC2",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-18 18:54:30+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23880653751",
+      "adGroup": "194701048217",
+      "keyword": "the beat boutique wedding band"
+    },
+    {
+      "leadId": "MA-20260619-6A5F13D011",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-19 14:08:24+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "",
+      "adGroup": "",
+      "keyword": ""
+    },
+    {
+      "leadId": "MA-20260623-55FCAB8641",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-23 10:01:20+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23880653751",
+      "adGroup": "194701048217",
+      "keyword": "sway social wedding band"
+    },
+    {
+      "leadId": "MA-20260629-B59E2AF068",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-06-29 10:29:47+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23890295743",
+      "adGroup": "194701053817",
+      "keyword": "wedding bands meath"
+    },
+    {
+      "leadId": "MA-20260702-C62BCC25EB",
+      "stage": "quote_sent",
+      "conversionDateTime": "2026-07-02 23:56:39+00:00",
+      "conversionValue": 750,
+      "currencyCode": "EUR",
+      "clickIdType": "gclid",
+      "campaign": "23880653751",
+      "adGroup": "194701048217",
+      "keyword": "sway social wedding band"
+    }
+  ]
+}
+{
+  "ledger": "google_ads_conversion_uploads",
+  "recorded": 9,
+  "failed": 0,
+  "validateOnly": false
+}

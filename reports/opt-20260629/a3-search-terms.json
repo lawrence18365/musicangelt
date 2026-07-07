@@ -1,0 +1,1124 @@
+{
+  "results": [
+    {
+      "metrics": {
+        "clicks": "9",
+        "conversions": 0,
+        "costMicros": "18858123"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBiYW5kcyBpcmVsYW5k",
+        "searchTerm": "wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "8",
+        "conversions": 1,
+        "costMicros": "11030642"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052777~d2VkZGluZyBiYW5kcyBjb3Jr",
+        "searchTerm": "wedding bands cork"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "11",
+        "conversions": 2,
+        "costMicros": "9502457"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlYXQgYm91dGlxdWU",
+        "searchTerm": "the beat boutique"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "9214899"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyBub3J0aGVybiBpcmVsYW5k",
+        "searchTerm": "wedding bands northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "6990000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyBjb3JrIHByaWNlcw",
+        "searchTerm": "wedding bands cork prices"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "6838987"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053097~d2VkZGluZyBiYW5kcyBkb25lZ2Fs",
+        "searchTerm": "wedding bands donegal"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "6325996"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBiYW5kIGlyZWxhbmQ",
+        "searchTerm": "wedding band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "7",
+        "conversions": 1,
+        "costMicros": "6096776"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~c3dheSBzb2NpYWwgd2VkZGluZyBiYW5k",
+        "searchTerm": "sway social wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "5499934"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701055177~d2VkZGluZyBiYW5kcyBkZXJyeQ",
+        "searchTerm": "wedding bands derry"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 1,
+        "costMicros": "4726483"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~dG9wIHdlZGRpbmcgYmFuZHMgaXJlbGFuZA",
+        "searchTerm": "top wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "4410000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlc3QgbWVuIHdlZGRpbmcgYmFuZA",
+        "searchTerm": "the best men wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4400000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~dHJhZmZpYyBiYW5kIGxpbWVyaWNr",
+        "searchTerm": "traffic band limerick"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4360000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~c2F4b3Bob25lIHBsYXllciB3ZWRkaW5nIG5vcnRoZXJuIGlyZWxhbmQ",
+        "searchTerm": "saxophone player wedding northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4342214"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBzYXhvcGhvbmUgcGxheWVyIGlyZWxhbmQ",
+        "searchTerm": "wedding saxophone player ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4341924"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~Ym9nIHRoZSBkb25rZXk",
+        "searchTerm": "bog the donkey"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4303348"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyBkZXJyeQ",
+        "searchTerm": "wedding bands derry"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4240000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~c3RyaW5nIHF1YXJ0ZXQgd2VkZGluZyBub3J0aGVybiBpcmVsYW5k",
+        "searchTerm": "string quartet wedding northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4156500"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~d2VkZGluZyBiYW5kIGdhbHdheQ",
+        "searchTerm": "wedding band galway"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4060504"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053337~d2VkZGluZyBiYW5kcyB0aXBwZXJhcnk",
+        "searchTerm": "wedding bands tipperary"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "3711192"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~d2VkZGluZyBiYW5kcyBnYWx3YXk",
+        "searchTerm": "wedding bands galway"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "3560000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~YmFuZCBhbmQgZGogZm9yIHdlZGRpbmc",
+        "searchTerm": "band and dj for wedding"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "3510000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~dGhlIGJlYXQgYm91dGlxdWUgd2VkZGluZyBiYW5k",
+        "searchTerm": "the beat boutique wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "3460000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~d2VkZGluZyBiYW5kIGFuZCBkaiBwYWNrYWdl",
+        "searchTerm": "wedding band and dj package"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "3400000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~dGhlIHdpbGZ1bCB3ZWRkaW5nIGJhbmQ",
+        "searchTerm": "the wilful wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2784895"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052777~Y29yayB3ZWRkaW5nIGJhbmRz",
+        "searchTerm": "cork wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2780000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053817~d2VkZGluZyBiYW5kcyBtZWF0aA",
+        "searchTerm": "wedding bands meath"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2760000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052617~d2VkZGluZyBiYW5kcyBkdWJsaW4",
+        "searchTerm": "wedding bands dublin"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2747498"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701054017~d2VkZGluZyBiYW5kcyBjYXZhbg",
+        "searchTerm": "wedding bands cavan"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2740000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052817~ZXZva2UgYmFuZCBnYWx3YXk",
+        "searchTerm": "evoke band galway"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2730000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053577~d2VkZGluZyBiYW5kcyBraWxrZW5ueQ",
+        "searchTerm": "wedding bands kilkenny"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2715591"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053097~ZG9uZWdhbCB3ZWRkaW5nIGJhbmRz",
+        "searchTerm": "donegal wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "2644559"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmVhdCBib3V0aXF1ZSBiYW5k",
+        "searchTerm": "beat boutique band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2637452"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701053537~d2V4Zm9yZCB3ZWRkaW5nIGJhbmRz",
+        "searchTerm": "wexford wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2630000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295743~194701052857~d2VkZGluZyBiYW5kcyBrZXJyeQ",
+        "searchTerm": "wedding bands kerry"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2400000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~YmVzdCB3ZWRkaW5nIGJhbmRzIG5vcnRoZXJuIGlyZWxhbmQ",
+        "searchTerm": "best wedding bands northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2400000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~ZW50b3VyYWdlIHdlZGRpbmcgYmFuZCBpcmVsYW5k",
+        "searchTerm": "entourage wedding band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2400000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIGR1Ymxpbg",
+        "searchTerm": "wedding band dublin"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2400000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyBpbiBkb25lZ2Fs",
+        "searchTerm": "wedding bands in donegal"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2390000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyBpbiBiZWxmYXN0",
+        "searchTerm": "wedding bands in belfast"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2380000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIGNvc3QgaXJlbGFuZA",
+        "searchTerm": "wedding band cost ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2378983"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIHByaWNlcyBpcmVsYW5k",
+        "searchTerm": "wedding band prices ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2370000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~dG9wIDEwIHdlZGRpbmcgYmFuZHMgaXJlbGFuZA",
+        "searchTerm": "top 10 wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2360000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~amF6eiB3ZWRkaW5nIGJhbmRzIGlyZWxhbmQ",
+        "searchTerm": "jazz wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2350000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~aXJlbGFuZCB3ZWRkaW5nIGJhbmQ",
+        "searchTerm": "ireland wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2316892"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyBjb3Jr",
+        "searchTerm": "wedding bands cork"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2310000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~YXZlcmFnZSBjb3N0IG9mIHdlZGRpbmcgYmFuZCBpcmVsYW5k",
+        "searchTerm": "average cost of wedding band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2292970"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kcyB3YXRlcmZvcmQ",
+        "searchTerm": "wedding bands waterford"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2280000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~Z29vZCB3ZWRkaW5nIGJhbmRzIGNvcms",
+        "searchTerm": "good wedding bands cork"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2260000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~aG93IG11Y2ggaXMgYSB3ZWRkaW5nIGJhbmQgaW4gaXJlbGFuZA",
+        "searchTerm": "how much is a wedding band in ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2239355"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048297~d2VkZGluZyBiYW5kIG5vcnRoZXJuIGlyZWxhbmQ",
+        "searchTerm": "wedding band northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2200000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~Z29zc2lwIGJhbmQgaXJlbGFuZA",
+        "searchTerm": "gossip band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2200000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~cmVqaWcgd2VkZGluZyBiYW5k",
+        "searchTerm": "rejig wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2199538"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~ZHJlYW0gYmFuZCBpcmVsYW5k",
+        "searchTerm": "dream band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2193049"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~dGhlIHJlaWxseXMgd2VkZGluZyBiYW5k",
+        "searchTerm": "the reillys wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2190000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~aXJpc2ggd2VkZGluZyBiYW5kcw",
+        "searchTerm": "irish wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2189619"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBtdXNpYyBiYW5kcyBpcmVsYW5k",
+        "searchTerm": "wedding music bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2184142"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~Y2F0Y2ggMjIgYmFuZCBpcmVsYW5k",
+        "searchTerm": "catch 22 band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2180000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~ZWxlY3RyaWMgY2lyY3VzIGJhbmQgaXJlbGFuZA",
+        "searchTerm": "electric circus band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2180000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~ZnVzaW9uIGJhbmQgbm9ydGhlcm4gaXJlbGFuZA",
+        "searchTerm": "fusion band northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2180000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~c2F4b3Bob25lIHBsYXllciBmb3Igd2VkZGluZyBpcmVsYW5k",
+        "searchTerm": "saxophone player for wedding ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2170000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~dGhlIGZpcm0gYmFuZCBpcmVsYW5k",
+        "searchTerm": "the firm band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2170000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBiYW5kIHNsaWdv",
+        "searchTerm": "wedding band sligo"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2160000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~dHJhZGl0aW9uYWwgaXJpc2ggbXVzaWMgd2VkZGluZyBiYW5k",
+        "searchTerm": "traditional irish music wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 1,
+        "costMicros": "2156062"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~c3VwZXJmbHkgYmFuZCBpcmVsYW5k",
+        "searchTerm": "superfly band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2150000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBtdXNpYyBpcmVsYW5k",
+        "searchTerm": "wedding music ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2150000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~Y2VsdGljIHdlZGRpbmcgYmFuZHMgaXJlbGFuZA",
+        "searchTerm": "celtic wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2150000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~aXJpc2ggdHJhZCBiYW5kcyBmb3Igd2VkZGluZ3M",
+        "searchTerm": "irish trad bands for weddings"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2140000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~d2VkZGluZyBiYW5kcyBtaWRsYW5kcyBpcmVsYW5k",
+        "searchTerm": "wedding bands midlands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2133851"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~ZG9uZWdhbCB3ZWRkaW5nIGJhbmRz",
+        "searchTerm": "donegal wedding bands"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2130000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~YmVzdCB3ZWRkaW5nIGJhbmRzIG5vcnRoZXJuIGlyZWxhbmQ",
+        "searchTerm": "best wedding bands northern ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2130000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~c3dpdGNoIGJhbmQgaXJlbGFuZA",
+        "searchTerm": "switch band ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2120000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~a2lmIGJhbmQgZ2Fsd2F5",
+        "searchTerm": "kif band galway"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2100447"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048257~cm9jayB3ZWRkaW5nIGJhbmRzIGlyZWxhbmQ",
+        "searchTerm": "rock wedding bands ireland"
+      },
+      "segments": {
+        "searchTermMatchType": "PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1800000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~dGhlIGdvb2QgaHVzdGxlIHdlZGRpbmcgYmFuZA",
+        "searchTerm": "the good hustle wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "1790000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmxhY2t0eWUgd2VkZGluZyBiYW5k",
+        "searchTerm": "blacktye wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1780000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~ZGogc2F4b3Bob25lIHdlZGRpbmc",
+        "searchTerm": "dj saxophone wedding"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "1775784"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmVzdCBtZW4gYmFuZA",
+        "searchTerm": "best men band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "1770000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~c3dheSBzb2NpYWwgYmFuZA",
+        "searchTerm": "sway social band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_EXACT"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1760000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23890295740~194701048457~ZGFmdCBwb3Agd2VkZGluZyBiYW5k",
+        "searchTerm": "daft pop wedding band"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    },
+    {
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "1750000"
+      },
+      "searchTermView": {
+        "resourceName": "customers/8732162982/searchTermViews/23880653751~194701048217~YmVhdCBib3V0aXF1ZQ",
+        "searchTerm": "beat boutique"
+      },
+      "segments": {
+        "searchTermMatchType": "NEAR_PHRASE"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1060 @@
+{
+  "results": [
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~8380666027",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "musicangel"
+        },
+        "criterionId": "8380666027",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~303080802873",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "musicangel"
+        },
+        "criterionId": "303080802873",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2485313009891",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "music angel wedding"
+        },
+        "criterionId": "2485313009891",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2485313199811",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "music angel ireland"
+        },
+        "criterionId": "2485313199811",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2486917057598",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "musicangel wedding bands"
+        },
+        "criterionId": "2486917057598",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2486917163758",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "music angel wedding"
+        },
+        "criterionId": "2486917163758",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2513431163924",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "music angel ireland"
+        },
+        "criterionId": "2513431163924",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~2513432095404",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "musicangel wedding bands"
+        },
+        "criterionId": "2513432095404",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~309013243652",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "the best men wedding band"
+        },
+        "criterionId": "309013243652",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~317036385785",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "blacktye wedding band"
+        },
+        "criterionId": "317036385785",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~324448337688",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "the beat boutique wedding band"
+        },
+        "criterionId": "324448337688",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~338930937116",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "the best men wedding band"
+        },
+        "criterionId": "338930937116",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~353299723406",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "blacktye wedding band"
+        },
+        "criterionId": "353299723406",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~386975101148",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "sway social wedding band"
+        },
+        "criterionId": "386975101148",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~390718854925",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "sway social wedding band"
+        },
+        "criterionId": "390718854925",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~526023609350",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "the beat boutique wedding band"
+        },
+        "criterionId": "526023609350",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~673991185811",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "blacktye band"
+        },
+        "criterionId": "673991185811",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~811160508620",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "beat boutique band"
+        },
+        "criterionId": "811160508620",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~821988035984",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "blacktye band"
+        },
+        "criterionId": "821988035984",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~861088047324",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "beat boutique band"
+        },
+        "criterionId": "861088047324",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~11284501",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "irish wedding bands"
+        },
+        "criterionId": "11284501",
+        "cpcBidMicros": "2200000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~129036211",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "irish wedding bands"
+        },
+        "criterionId": "129036211",
+        "cpcBidMicros": "2200000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1311872858",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "wedding bands ireland"
+        },
+        "criterionId": "1311872858",
+        "cpcBidMicros": "1430000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1313972828",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "wedding bands ireland"
+        },
+        "criterionId": "1313972828",
+        "cpcBidMicros": "1430000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680227678",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "wedding band ireland"
+        },
+        "criterionId": "1680227678",
+        "cpcBidMicros": "1430000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680236168",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "wedding band ireland"
+        },
+        "criterionId": "1680236168",
+        "cpcBidMicros": "1430000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~12835320256",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "best wedding bands ireland"
+        },
+        "criterionId": "12835320256",
+        "cpcBidMicros": "2200000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~295895529259",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "live wedding band ireland"
+        },
+        "criterionId": "295895529259",
+        "cpcBidMicros": "2200000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~321700340336",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "best wedding bands ireland"
+        },
+        "criterionId": "321700340336",
+        "cpcBidMicros": "2200000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~347688261481",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "live wedding band ireland"
+        },
+        "criterionId": "347688261481",
+        "cpcBidMicros": "2200000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502139978",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band cost ireland"
+        },
+        "criterionId": "304502139978",
+        "cpcBidMicros": "1700000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502140058",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band prices ireland"
+        },
+        "criterionId": "304502140058",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502140218",
+        "status": "PAUSED",
+        "keyword": {
+          "text": "wedding bands ireland prices"
+        },
+        "criterionId": "304502140218",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~307719128128",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding bands ireland prices"
+        },
+        "criterionId": "307719128128",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~340519130834",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "cost of wedding band ireland"
+        },
+        "criterionId": "340519130834",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~420493058547",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band prices ireland"
+        },
+        "criterionId": "420493058547",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~441464358942",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "how much is a wedding band in ireland"
+        },
+        "criterionId": "441464358942",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~477484708928",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band cost ireland"
+        },
+        "criterionId": "477484708928",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~611826392350",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "cost of wedding band ireland"
+        },
+        "criterionId": "611826392350",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~934082553050",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "average wedding band cost ireland"
+        },
+        "criterionId": "934082553050",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~1943822539150",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "how much is a wedding band in ireland"
+        },
+        "criterionId": "1943822539150",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~2226495439863",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "average wedding band cost ireland"
+        },
+        "criterionId": "2226495439863",
+        "cpcBidMicros": "2400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~321575712386",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band and dj package"
+        },
+        "criterionId": "321575712386",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~428568766071",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band and dj package"
+        },
+        "criterionId": "428568766071",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~858629664865",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band with dj"
+        },
+        "criterionId": "858629664865",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~860841596378",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band with dj"
+        },
+        "criterionId": "860841596378",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~2477298362630",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band dj package ireland"
+        },
+        "criterionId": "2477298362630",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~2484348506043",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band dj package ireland"
+        },
+        "criterionId": "2484348506043",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~2486917636958",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "band and dj wedding package"
+        },
+        "criterionId": "2486917636958",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~2513430936124",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "band and dj wedding package"
+        },
+        "criterionId": "2513430936124",
+        "cpcBidMicros": "1800000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~3744550715",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band showcase"
+        },
+        "criterionId": "3744550715",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~325811942621",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band showcase dublin"
+        },
+        "criterionId": "325811942621",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~353529853350",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band showcase"
+        },
+        "criterionId": "353529853350",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~353886632368",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band showcase ireland"
+        },
+        "criterionId": "353886632368",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~417194328689",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band showcase ireland"
+        },
+        "criterionId": "417194328689",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~621029303432",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "live wedding band showcase"
+        },
+        "criterionId": "621029303432",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~621029303472",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "live wedding band showcase"
+        },
+        "criterionId": "621029303472",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~832859074794",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding band showcase dublin"
+        },
+        "criterionId": "832859074794",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~317414912121",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding reception music ireland"
+        },
+        "criterionId": "317414912121",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~323106704386",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding ceremony music ireland"
+        },
+        "criterionId": "323106704386",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~325087748151",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "ceremony music ireland"
+        },
+        "criterionId": "325087748151",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~325087749031",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "drinks reception music ireland"
+        },
+        "criterionId": "325087749031",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~412515467257",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding ceremony music ireland"
+        },
+        "criterionId": "412515467257",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~422707991513",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "wedding reception music ireland"
+        },
+        "criterionId": "422707991513",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~422732786625",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "ceremony music ireland"
+        },
+        "criterionId": "422732786625",
+        "cpcBidMicros": "1400000"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~422732788745",
+        "status": "ENABLED",
+        "keyword": {
+          "text": "drinks reception music ireland"
+        },
+        "criterionId": "422732788745",
+        "cpcBidMicros": "1400000"
+      }
+    }
+  ]
+}

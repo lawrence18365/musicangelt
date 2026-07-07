@@ -1,0 +1,232 @@
+{
+  "results": [
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2486790975595",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "live band Ashford Castle wedding"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2486790975595"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2486791696755",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding music Ashford Castle"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2486791696755"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2486917629798",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Ashford Castle"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2486917629798"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2486917639678",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Ashford Castle wedding band"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2486917639678"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2487034981871",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Ashford Castle wedding band"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2487034981871"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2487035177751",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "live band Ashford Castle wedding"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2487035177751"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2513431449244",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Ashford Castle"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2513431449244"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048697",
+        "name": "Ashford Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048697~2513431559644",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding music Ashford Castle"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048697~2513431559644"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "name": "Dromoland Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048737~2483715234646",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "live band Dromoland Castle wedding"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048737~2483715234646"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "name": "Dromoland Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048737~2484348505883",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding music Dromoland Castle"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048737~2484348505883"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "name": "Dromoland Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048737~2486791541675",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Dromoland Castle"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048737~2486791541675"
+      }
+    },
+    {
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048737",
+        "name": "Dromoland Castle"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048737~2486791546475",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Dromoland Castle wedding band"
+        },
+        "systemServingStatus": "RARELY_SERVED",
+        "cpcBidMicros": "1600000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048737~2486791546475"
+      }
+    }
+  ]
+}

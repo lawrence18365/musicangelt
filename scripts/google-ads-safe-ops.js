@@ -65,13 +65,13 @@ function requestJson(url, options = {}, body = undefined) {
   });
 }
 
-async function getAccessToken(serviceAccountPath) {
+async function getAccessToken(serviceAccountPath, scope = 'https://www.googleapis.com/auth/adwords') {
   const key = JSON.parse(fs.readFileSync(serviceAccountPath, 'utf8'));
   const now = Math.floor(Date.now() / 1000);
   const header = { alg: 'RS256', typ: 'JWT' };
   const claim = {
     iss: key.client_email,
-    scope: 'https://www.googleapis.com/auth/adwords',
+    scope,
     aud: 'https://oauth2.googleapis.com/token',
     exp: now + 3600,
     iat: now,
@@ -179,7 +179,51 @@ function makeClient() {
     }, body);
   }
 
-  return { customerId, search, mutateAdGroupCriteria, mutateConversionActions, uploadClickConversions };
+  // Data Manager API replacement for uploadClickConversions.
+  // Google closed ConversionUploadService to new integrations (CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE);
+  // click conversions must now be ingested via datamanager.googleapis.com.
+  async function ingestClickEvents(conversionActionId, events, validateOnly) {
+    const token = await getAccessToken(serviceAccountPath, 'https://www.googleapis.com/auth/datamanager');
+    const destination = {
+      reference: 'conv',
+      operatingAccount: { product: 'GOOGLE_ADS', accountId: customerId },
+      productDestinationId: String(conversionActionId),
+    };
+    if (loginCustomerId) destination.loginAccount = { product: 'GOOGLE_ADS', accountId: loginCustomerId };
+    const body = JSON.stringify({
+      destinations: [destination],
+      events: events.map((event) => ({ ...event, destinationReferences: ['conv'], eventSource: 'WEB' })),
+      validateOnly,
+    });
+    return requestJson('https://datamanager.googleapis.com/v1/events:ingest', {
+      method: 'POST',
+      headers: {
+        authorization: `Bearer ${token}`,
+        'content-type': 'application/json',
+        'content-length': Buffer.byteLength(body),
+      },
+    }, body);
+  }
+
+  async function mutate(endpoint, operations, validateOnly) {
+    const safeEndpoint = String(endpoint || '').replace(/[^a-zA-Z]/g, '');
+    if (!safeEndpoint) throw new Error('mutate: endpoint required (e.g. sharedCriteria, adGroupCriteria, adGroups)');
+    const body = JSON.stringify({
+      customerId,
+      operations,
+      validateOnly,
+      partialFailure: false,
+    });
+    return requestJson(`https://googleads.googleapis.com/${API_VERSION}/customers/${customerId}/${safeEndpoint}:mutate`, {
+      method: 'POST',
+      headers: {
+        ...(await headers()),
+        'content-length': Buffer.byteLength(body),
+      },
+    }, body);
+  }
+
+  return { customerId, search, mutate, mutateAdGroupCriteria, mutateConversionActions, uploadClickConversions, ingestClickEvents };
 }
 
 const SAXOPHONE_NEGATIVE = {
@@ -498,6 +542,18 @@ function buildClickConversion(row, conversionActionResourceName) {
   return conversion;
 }
 
+// Data Manager API event shape (datamanager.googleapis.com/v1/events:ingest).
+function buildIngestEvent(row) {
+  return {
+    transactionId: row.order_id,
+    eventTimestamp: row.conversion_created_at,
+    conversionValue: Number(row.conversion_value || 0),
+    currency: row.currency_code || 'EUR',
+    adIdentifiers: { [row.click_id_type]: row.click_id },
+    consent: { adUserData: 'CONSENT_GRANTED', adPersonalization: 'CONSENT_GRANTED' },
+  };
+}
+
 function redactedConversionSummary(row) {
   return {
     leadId: row.lead_id,
@@ -520,7 +576,7 @@ async function uploadD1QualifiedLeads(client, validateOnly) {
   const rows = d1Query(`
     SELECT *
     FROM google_ads_conversion_import_candidates
-    WHERE conversion_stage = 'qualified_lead'
+    WHERE conversion_stage IN ('qualified_lead', 'quote_sent', 'booking_won')
       AND NOT EXISTS (
         SELECT 1
         FROM google_ads_conversion_uploads u
@@ -531,19 +587,59 @@ async function uploadD1QualifiedLeads(client, validateOnly) {
       )
     ORDER BY conversion_created_at ASC
   `);
-  const conversions = rows.map((row) => buildClickConversion(row, action.resourceName));
+  const events = rows.map(buildIngestEvent);
   console.error(JSON.stringify({
     validateOnly,
     conversionAction: action.resourceName,
     candidateCount: rows.length,
     candidates: rows.map(redactedConversionSummary),
   }, null, 2));
-  if (!conversions.length) {
+  if (!events.length) {
     console.log(JSON.stringify({ result: 'no_candidates', validateOnly }, null, 2));
     return;
   }
-  const response = await client.uploadClickConversions(conversions, validateOnly);
+  const conversionActionId = action.resourceName.split('/').pop();
+  const response = await client.ingestClickEvents(conversionActionId, events, validateOnly);
   console.log(JSON.stringify(response, null, 2));
+  recordConversionUploads(rows, action.resourceName, response, validateOnly);
+}
+
+function sqlString(value) {
+  return `'${String(value).replace(/'/g, "''")}'`;
+}
+
+function recordConversionUploads(rows, actionResourceName, response, validateOnly) {
+  // partialFailure:true — failed operations are indexed in partialFailureError details.
+  const failedIndexes = new Set();
+  const partialError = response?.partialFailureError;
+  if (partialError?.details) {
+    for (const detail of partialError.details) {
+      for (const err of detail.errors || []) {
+        const opIndex = (err.location?.fieldPathElements || [])
+          .find((el) => el.fieldName === 'conversions' || el.fieldName === 'operations')?.index;
+        if (opIndex !== undefined) failedIndexes.add(Number(opIndex));
+      }
+    }
+  }
+  const now = new Date().toISOString();
+  const requestId = response?.requestId ? sqlString(response.requestId) : 'NULL';
+  const values = rows.map((row, i) => {
+    const failed = failedIndexes.has(i);
+    const status = failed ? 'error' : 'uploaded';
+    const errorJson = failed ? sqlString(JSON.stringify(partialError).slice(0, 2000)) : 'NULL';
+    return `(${sqlString(`gau-${row.lead_id}-${row.conversion_stage}-${validateOnly ? 'v' : 'a'}`)}, ${sqlString(row.lead_id)}, ${sqlString(row.conversion_stage)}, ${sqlString(row.order_id)}, ${sqlString(actionResourceName)}, ${validateOnly ? 1 : 0}, ${sqlString(status)}, ${requestId}, ${errorJson}, ${sqlString(now)}, ${sqlString(now)})`;
+  });
+  d1Query(`
+    INSERT INTO google_ads_conversion_uploads
+      (upload_id, lead_id, conversion_stage, order_id, conversion_action_resource_name, validate_only, upload_status, request_id, error_json, attempted_at, updated_at)
+    VALUES ${values.join(',\n      ')}
+    ON CONFLICT(lead_id, conversion_stage, validate_only) DO UPDATE SET
+      upload_status = excluded.upload_status,
+      request_id = excluded.request_id,
+      error_json = excluded.error_json,
+      updated_at = excluded.updated_at
+  `);
+  console.error(JSON.stringify({ ledger: 'google_ads_conversion_uploads', recorded: rows.length, failed: failedIndexes.size, validateOnly }, null, 2));
 }
 
 function readStdin() {
@@ -583,8 +679,18 @@ async function main() {
     if (!query) throw new Error('GAQL query expected on stdin');
     const rows = await client.search(query);
     console.log(JSON.stringify({ results: rows }, null, 2));
+  } else if (command === 'mutate') {
+    const raw = (await readStdin()).trim();
+    if (!raw) throw new Error('mutate: JSON payload {endpoint, operations, validateOnly} expected on stdin');
+    const payload = JSON.parse(raw);
+    if (!Array.isArray(payload.operations) || payload.operations.length === 0) {
+      throw new Error('mutate: payload.operations must be a non-empty array');
+    }
+    const validateOnly = payload.validateOnly !== false; // default to validate-only for safety
+    const response = await client.mutate(payload.endpoint, payload.operations, validateOnly);
+    console.log(JSON.stringify({ endpoint: payload.endpoint, validateOnly, response }, null, 2));
   } else {
-    throw new Error('Usage: node scripts/google-ads-safe-ops.js landing-check|brand-snapshot|brand-validate|brand-apply|negative-sax-validate|negative-sax-apply|qualified-lead-action-validate|qualified-lead-action-apply|upload-d1-qualified-leads-validate|upload-d1-qualified-leads-apply|query');
+    throw new Error('Usage: node scripts/google-ads-safe-ops.js landing-check|brand-snapshot|brand-validate|brand-apply|negative-sax-validate|negative-sax-apply|qualified-lead-action-validate|qualified-lead-action-apply|upload-d1-qualified-leads-validate|upload-d1-qualified-leads-apply|query|mutate');
   }
 }
 

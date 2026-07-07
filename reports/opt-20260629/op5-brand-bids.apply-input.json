@@ -1,0 +1,1 @@
+{"endpoint":"adGroups","validateOnly":false,"operations":[{"updateMask":"cpcBidMicros","update":{"resourceName":"customers/8732162982/adGroups/194701048057","cpcBidMicros":1800000}},{"updateMask":"cpcBidMicros","update":{"resourceName":"customers/8732162982/adGroups/194701048217","cpcBidMicros":1800000}}]}

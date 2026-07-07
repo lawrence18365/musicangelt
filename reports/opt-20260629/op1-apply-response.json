@@ -1,0 +1,20 @@
+{
+  "endpoint": "sharedCriteria",
+  "validateOnly": false,
+  "response": {
+    "results": [
+      {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~314331854384"
+      },
+      {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~849430795153"
+      },
+      {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2031915277656"
+      },
+      {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~303350196439"
+      }
+    ]
+  }
+}

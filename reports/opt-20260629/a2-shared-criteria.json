@@ -1,0 +1,2029 @@
+{
+  "results": [
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10001090",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "karaoke"
+        },
+        "criterionId": "10001090"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10001471",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "free"
+        },
+        "criterionId": "10001471"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10003076",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "playlist"
+        },
+        "criterionId": "10003076"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10005021",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "jobs"
+        },
+        "criterionId": "10005021"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10009631",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "download"
+        },
+        "criterionId": "10009631"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10011051",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding rings"
+        },
+        "criterionId": "10011051"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10013241",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "school"
+        },
+        "criterionId": "10013241"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10017921",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "mp3"
+        },
+        "criterionId": "10017921"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10018371",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "cheap"
+        },
+        "criterionId": "10018371"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10023116",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "violinist"
+        },
+        "criterionId": "10023116"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10037521",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "jewellery"
+        },
+        "criterionId": "10037521"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10037531",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "jewelry"
+        },
+        "criterionId": "10037531"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10043250",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "audition"
+        },
+        "criterionId": "10043250"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10046891",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "lyrics"
+        },
+        "criterionId": "10046891"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10062501",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "amateur"
+        },
+        "criterionId": "10062501"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10083071",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "vacancy"
+        },
+        "criterionId": "10083071"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10099381",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "student"
+        },
+        "criterionId": "10099381"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10111801",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding ring"
+        },
+        "criterionId": "10111801"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10165511",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "engagement rings"
+        },
+        "criterionId": "10165511"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10218691",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "ring"
+        },
+        "criterionId": "10218691"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10226540",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "sheet music"
+        },
+        "criterionId": "10226540"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10249261",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "gold"
+        },
+        "criterionId": "10249261"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10317231",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "diy"
+        },
+        "criterionId": "10317231"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10394391",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "silver"
+        },
+        "criterionId": "10394391"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10402571",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "rings"
+        },
+        "criterionId": "10402571"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10508721",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "wedding ring"
+        },
+        "criterionId": "10508721"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10546381",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "tabs"
+        },
+        "criterionId": "10546381"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10921801",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "engagement"
+        },
+        "criterionId": "10921801"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~10960220",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "guitar lesson"
+        },
+        "criterionId": "10960220"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~11163581",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "tungsten"
+        },
+        "criterionId": "11163581"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~11275110",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "harlequin"
+        },
+        "criterionId": "11275110"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~11806451",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "chords"
+        },
+        "criterionId": "11806451"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~12847666",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "tribute"
+        },
+        "criterionId": "12847666"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~13416010",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "men's wedding band"
+        },
+        "criterionId": "13416010"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~13416040",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "men's wedding bands"
+        },
+        "criterionId": "13416040"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~19215250",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "engagement ring"
+        },
+        "criterionId": "19215250"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~21844840",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "mens wedding band"
+        },
+        "criterionId": "21844840"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~23922040",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "mens wedding bands"
+        },
+        "criterionId": "23922040"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~92719401",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "busker"
+        },
+        "criterionId": "92719401"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~108726545",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "waxies"
+        },
+        "criterionId": "108726545"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~304536771",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band for men"
+        },
+        "criterionId": "304536771"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~417393029",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "youtube"
+        },
+        "criterionId": "417393029"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~3553337992",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "spotify"
+        },
+        "criterionId": "3553337992"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~298187151022",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "stars band"
+        },
+        "criterionId": "298187151022"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~298368841125",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "join the band"
+        },
+        "criterionId": "298368841125"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~301455629412",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "instrumental only"
+        },
+        "criterionId": "301455629412"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~304376215429",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "mass band"
+        },
+        "criterionId": "304376215429"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~316577325001",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "bog the donkey"
+        },
+        "criterionId": "316577325001"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~324764735175",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "twist of fate"
+        },
+        "criterionId": "324764735175"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~341059236851",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "men in black wedding band"
+        },
+        "criterionId": "341059236851"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~341794954496",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "switch band"
+        },
+        "criterionId": "341794954496"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~343032160774",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "southbound wedding band"
+        },
+        "criterionId": "343032160774"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~344584328625",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "perfect day wedding band"
+        },
+        "criterionId": "344584328625"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~352927144065",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "pat fitz"
+        },
+        "criterionId": "352927144065"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~354481048681",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "southbound band"
+        },
+        "criterionId": "354481048681"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~354915231777",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "entourage wedding band"
+        },
+        "criterionId": "354915231777"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~355500260855",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the event band"
+        },
+        "criterionId": "355500260855"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~366381422877",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "pyramid band"
+        },
+        "criterionId": "366381422877"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~373565298448",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "late night radio band"
+        },
+        "criterionId": "373565298448"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~383378921686",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "after dark band"
+        },
+        "criterionId": "383378921686"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~383378924286",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "entourage band"
+        },
+        "criterionId": "383378924286"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~383606395669",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "blue moose wedding band"
+        },
+        "criterionId": "383606395669"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~389309471933",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "blue moose band"
+        },
+        "criterionId": "389309471933"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~400454443389",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "dj and sax"
+        },
+        "criterionId": "400454443389"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~407350379927",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "spring break wedding band"
+        },
+        "criterionId": "407350379927"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~408613619727",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "red alert band"
+        },
+        "criterionId": "408613619727"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~409463843954",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "j90 band"
+        },
+        "criterionId": "409463843954"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~418906907694",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "superfly band"
+        },
+        "criterionId": "418906907694"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~429391882463",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "ian hendricks"
+        },
+        "criterionId": "429391882463"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~441776184210",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "catch 22 band"
+        },
+        "criterionId": "441776184210"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~466370420063",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "hell for leather band"
+        },
+        "criterionId": "466370420063"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~526023607150",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "late night radio wedding band"
+        },
+        "criterionId": "526023607150"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~528965284475",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the cufflinks wedding band"
+        },
+        "criterionId": "528965284475"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~531280561572",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "catch 22 wedding band"
+        },
+        "criterionId": "531280561572"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~576258419472",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "panic animal"
+        },
+        "criterionId": "576258419472"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~595986222443",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "mixtape band"
+        },
+        "criterionId": "595986222443"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~602996041393",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "red alert wedding band"
+        },
+        "criterionId": "602996041393"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~602996041433",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "rejig wedding band"
+        },
+        "criterionId": "602996041433"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~615550300530",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "trad band"
+        },
+        "criterionId": "615550300530"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~1514414172367",
+        "keyword": {
+          "matchType": "BROAD",
+          "text": "buachaills"
+        },
+        "criterionId": "1514414172367"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~1600064071118",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "slipstream band"
+        },
+        "criterionId": "1600064071118"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~1657373242205",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "perfect day band"
+        },
+        "criterionId": "1657373242205"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2197847432075",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the stars band"
+        },
+        "criterionId": "2197847432075"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2263928991046",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "last call band"
+        },
+        "criterionId": "2263928991046"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2329742592165",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the wilful band"
+        },
+        "criterionId": "2329742592165"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2343278619260",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "rockhill ramblers"
+        },
+        "criterionId": "2343278619260"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2397057543253",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "rejig band"
+        },
+        "criterionId": "2397057543253"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2448418820305",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the essentials band"
+        },
+        "criterionId": "2448418820305"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2485156839359",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the gallivanters wedding band"
+        },
+        "criterionId": "2485156839359"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2485439642774",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "up to 90 band"
+        },
+        "criterionId": "2485439642774"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486611877659",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "nightfall band"
+        },
+        "criterionId": "2486611877659"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486611877699",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "green means go wedding band"
+        },
+        "criterionId": "2486611877699"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486611877739",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "green means go band"
+        },
+        "criterionId": "2486611877739"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486611877899",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the strobes band"
+        },
+        "criterionId": "2486611877899"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486611877939",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the cazettes band"
+        },
+        "criterionId": "2486611877939"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486894611915",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "old moderns"
+        },
+        "criterionId": "2486894611915"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486991235125",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "divine invention band"
+        },
+        "criterionId": "2486991235125"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2486991235165",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "michael o neill wedding dj"
+        },
+        "criterionId": "2486991235165"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12099313337",
+        "id": "12099313337",
+        "name": "MusicAngel Core Exclusions"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12099313337~2487518934640",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "suzie q waterford"
+        },
+        "criterionId": "2487518934640"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~10011051",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding rings"
+        },
+        "criterionId": "10011051"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~10121381",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "gold wedding bands"
+        },
+        "criterionId": "10121381"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~13416040",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "men's wedding bands"
+        },
+        "criterionId": "13416040"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~19215250",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "engagement ring"
+        },
+        "criterionId": "19215250"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~19727721",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands for men"
+        },
+        "criterionId": "19727721"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~23922040",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "mens wedding bands"
+        },
+        "criterionId": "23922040"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~25201131",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "mens rings"
+        },
+        "criterionId": "25201131"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~118458769",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "entourage"
+        },
+        "criterionId": "118458769"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~901761861",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "blue moose"
+        },
+        "criterionId": "901761861"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~294829472326",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "bridal jewellery"
+        },
+        "criterionId": "294829472326"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~298434120706",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the pearls"
+        },
+        "criterionId": "298434120706"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~299047736150",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "sax wedding"
+        },
+        "criterionId": "299047736150"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~300574527498",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "catch 22"
+        },
+        "criterionId": "300574527498"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~303720534894",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "jo petit and the dream band"
+        },
+        "criterionId": "303720534894"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~307816500715",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "dj only"
+        },
+        "criterionId": "307816500715"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~313161550525",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "saxophone dj"
+        },
+        "criterionId": "313161550525"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~316577327201",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "divine invention"
+        },
+        "criterionId": "316577327201"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~317032463645",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "dj saxophone"
+        },
+        "criterionId": "317032463645"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~343895664128",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "saxophone wedding"
+        },
+        "criterionId": "343895664128"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~347940794339",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding djs northern ireland"
+        },
+        "criterionId": "347940794339"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~351681969107",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the strobes"
+        },
+        "criterionId": "351681969107"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~352047685179",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "hell for leather"
+        },
+        "criterionId": "352047685179"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~356208224878",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding dj northern ireland"
+        },
+        "criterionId": "356208224878"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~394495038916",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "jo petit"
+        },
+        "criterionId": "394495038916"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~448961043806",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "amazing apples"
+        },
+        "criterionId": "448961043806"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~504929525277",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "green means go"
+        },
+        "criterionId": "504929525277"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~527708761423",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "whos eddie"
+        },
+        "criterionId": "527708761423"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~529393485543",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "celtic knights wedding band"
+        },
+        "criterionId": "529393485543"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~538799972809",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "who's eddie"
+        },
+        "criterionId": "538799972809"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~541006393103",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the favours"
+        },
+        "criterionId": "541006393103"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~804852057963",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "celtic knights"
+        },
+        "criterionId": "804852057963"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~812585418226",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "footloose band"
+        },
+        "criterionId": "812585418226"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~914117122934",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "dj saxophone wedding"
+        },
+        "criterionId": "914117122934"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~1633624466121",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the brightsides band"
+        },
+        "criterionId": "1633624466121"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~2067437140073",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the kickbacks"
+        },
+        "criterionId": "2067437140073"
+      }
+    },
+    {
+      "sharedSet": {
+        "resourceName": "customers/8732162982/sharedSets/12108417685",
+        "id": "12108417685",
+        "name": "MusicAngel Waste Exclusions 2026-06-06"
+      },
+      "sharedCriterion": {
+        "resourceName": "customers/8732162982/sharedCriteria/12108417685~2275148599895",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "acoustra band"
+        },
+        "criterionId": "2275148599895"
+      }
+    }
+  ]
+}

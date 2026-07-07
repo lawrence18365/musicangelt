@@ -1,0 +1,14 @@
+{
+  "endpoint": "adGroups",
+  "validateOnly": false,
+  "response": {
+    "results": [
+      {
+        "resourceName": "customers/8732162982/adGroups/194701048057"
+      },
+      {
+        "resourceName": "customers/8732162982/adGroups/194701048217"
+      }
+    ]
+  }
+}

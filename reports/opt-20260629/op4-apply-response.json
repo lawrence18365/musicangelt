@@ -1,0 +1,20 @@
+{
+  "endpoint": "adGroupCriteria",
+  "validateOnly": false,
+  "response": {
+    "results": [
+      {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680227678"
+      },
+      {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1311872858"
+      },
+      {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1313972828"
+      },
+      {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680236168"
+      }
+    ]
+  }
+}

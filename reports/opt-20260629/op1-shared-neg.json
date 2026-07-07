@@ -1,0 +1,42 @@
+{
+  "endpoint": "sharedCriteria",
+  "validateOnly": true,
+  "operations": [
+    {
+      "create": {
+        "sharedSet": "customers/8732162982/sharedSets/12099313337",
+        "keyword": {
+          "text": "traffic band",
+          "matchType": "PHRASE"
+        }
+      }
+    },
+    {
+      "create": {
+        "sharedSet": "customers/8732162982/sharedSets/12099313337",
+        "keyword": {
+          "text": "evoke band",
+          "matchType": "PHRASE"
+        }
+      }
+    },
+    {
+      "create": {
+        "sharedSet": "customers/8732162982/sharedSets/12099313337",
+        "keyword": {
+          "text": "the wilful",
+          "matchType": "PHRASE"
+        }
+      }
+    },
+    {
+      "create": {
+        "sharedSet": "customers/8732162982/sharedSets/12099313337",
+        "keyword": {
+          "text": "saxophone player",
+          "matchType": "PHRASE"
+        }
+      }
+    }
+  ]
+}

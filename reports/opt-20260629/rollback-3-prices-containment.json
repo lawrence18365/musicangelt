@@ -1,0 +1,60 @@
+{
+  "endpoint": "adGroupCriteria",
+  "validateOnly": false,
+  "operations": [
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~31846491"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~29634033"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~120887020"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~94456098"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~33478630"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~135669681"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~541875733"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~131527875"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~172806642"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~340050516"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~131527895"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~121561777"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~171729322"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~87794398"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~171396862"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~260167359"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~2977854343"
+    },
+    {
+      "remove": "customers/8732162982/adGroupCriteria/194701048297~298068048625"
+    }
+  ]
+}

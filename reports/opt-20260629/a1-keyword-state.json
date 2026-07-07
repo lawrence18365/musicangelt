@@ -1,0 +1,3078 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "38",
+        "conversions": 2,
+        "costMicros": "81158178"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~295895529259",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "live wedding band ireland"
+        },
+        "criterionId": "295895529259",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~295895529259"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "25",
+        "conversions": 1,
+        "costMicros": "58506536"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502140058",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 4
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band prices ireland"
+        },
+        "criterionId": "304502140058",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~304502140058"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "17",
+        "conversions": 0,
+        "costMicros": "36547394"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680227678",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band ireland"
+        },
+        "criterionId": "1680227678",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~1680227678"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "14",
+        "conversions": 0,
+        "costMicros": "29941639"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1311872858",
+        "status": "PAUSED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands ireland"
+        },
+        "criterionId": "1311872858",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~1311872858"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "12",
+        "conversions": 0,
+        "costMicros": "27782033"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502139978",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band cost ireland"
+        },
+        "criterionId": "304502139978",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~304502139978"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "13",
+        "conversions": 0,
+        "costMicros": "27457742"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1313972828",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands ireland"
+        },
+        "criterionId": "1313972828",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~1313972828"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "metrics": {
+        "clicks": "11",
+        "conversions": 1,
+        "costMicros": "18995002"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~858629664865",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band with dj"
+        },
+        "criterionId": "858629664865",
+        "cpcBidMicros": "1800000",
+        "effectiveCpcBidMicros": "1800000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048457~858629664865"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "13",
+        "conversions": 2,
+        "costMicros": "11212457"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~526023609350",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 8
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "the beat boutique wedding band"
+        },
+        "criterionId": "526023609350",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~526023609350"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "8",
+        "conversions": 1,
+        "costMicros": "11030642"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052777~1956390714884",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Cork"
+        },
+        "criterionId": "1956390714884",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052777~1956390714884"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "id": "194701052857",
+        "name": "Kerry"
+      },
+      "metrics": {
+        "clicks": "8",
+        "conversions": 0,
+        "costMicros": "10679022"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052857~2484347518683",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Kerry"
+        },
+        "criterionId": "2484347518683",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052857~2484347518683"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "7",
+        "conversions": 0,
+        "costMicros": "9575401"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052617~2484348420923",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "live wedding band Dublin"
+        },
+        "criterionId": "2484348420923",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052617~2484348420923"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "id": "194701055177",
+        "name": "Derry"
+      },
+      "metrics": {
+        "clicks": "7",
+        "conversions": 0,
+        "costMicros": "9572558"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701055177~2487233807504",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Derry"
+        },
+        "criterionId": "2487233807504",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701055177~2487233807504"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "id": "194701055177",
+        "name": "Derry"
+      },
+      "metrics": {
+        "clicks": "7",
+        "conversions": 0,
+        "costMicros": "9530000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701055177~2487233807904",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Derry wedding bands"
+        },
+        "criterionId": "2487233807904",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701055177~2487233807904"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "9470000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~304502140218",
+        "status": "PAUSED",
+        "qualityInfo": {
+          "qualityScore": 6
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands ireland prices"
+        },
+        "criterionId": "304502140218",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~304502140218"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "id": "194701053097",
+        "name": "Donegal"
+      },
+      "metrics": {
+        "clicks": "6",
+        "conversions": 1,
+        "costMicros": "8267834"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053097~2484348713923",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Donegal"
+        },
+        "criterionId": "2484348713923",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053097~2484348713923"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversions": 0,
+        "costMicros": "7975784"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~309013243652",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 6
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "the best men wedding band"
+        },
+        "criterionId": "309013243652",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~309013243652"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "9",
+        "conversions": 1,
+        "costMicros": "7866776"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~390718854925",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 8
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "sway social wedding band"
+        },
+        "criterionId": "390718854925",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~390718854925"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "7020000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~428568766071",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 8
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band and dj package"
+        },
+        "criterionId": "428568766071",
+        "cpcBidMicros": "1800000",
+        "effectiveCpcBidMicros": "1800000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048457~428568766071"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "id": "194701055177",
+        "name": "Derry"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "6889934"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701055177~2487233807424",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Derry"
+        },
+        "criterionId": "2487233807424",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701055177~2487233807424"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "6880000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052617~412192839740",
+        "status": "PAUSED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Dublin wedding bands"
+        },
+        "criterionId": "412192839740",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052617~412192839740"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "6853985"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052777~489147450863",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Cork wedding bands"
+        },
+        "criterionId": "489147450863",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052777~489147450863"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "id": "194701053097",
+        "name": "Donegal"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "6838987"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053097~2484348713723",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Donegal"
+        },
+        "criterionId": "2484348713723",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053097~2484348713723"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "6325996"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~1680236168",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band ireland"
+        },
+        "criterionId": "1680236168",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~1680236168"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "5574895"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052777~2458496133289",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Cork wedding bands"
+        },
+        "criterionId": "2458496133289",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052777~2458496133289"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "5546500"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052817~2513431198244",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Galway"
+        },
+        "criterionId": "2513431198244",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052817~2513431198244"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "4",
+        "conversions": 0,
+        "costMicros": "5530000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052817~1933619089328",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Galway wedding bands"
+        },
+        "criterionId": "1933619089328",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052817~1933619089328"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "5",
+        "conversions": 0,
+        "costMicros": "4370000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~324448337688",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 8
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "the beat boutique wedding band"
+        },
+        "criterionId": "324448337688",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~324448337688"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "4220000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~11284501",
+        "status": "PAUSED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "irish wedding bands"
+        },
+        "criterionId": "11284501",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~11284501"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "id": "194701053817",
+        "name": "Meath"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 1,
+        "costMicros": "4180000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053817~2487231199904",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Meath"
+        },
+        "criterionId": "2487231199904",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053817~2487231199904"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054017",
+        "id": "194701054017",
+        "name": "Cavan"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4137498"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054017~2487233789704",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Cavan"
+        },
+        "criterionId": "2487233789704",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054017~2487233789704"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053297",
+        "id": "194701053297",
+        "name": "Clare"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4133668"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053297~660774585742",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Clare"
+        },
+        "criterionId": "660774585742",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053297~660774585742"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4100000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052817~2368294495858",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Galway"
+        },
+        "criterionId": "2368294495858",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052817~2368294495858"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4071326"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052617~642449512275",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Dublin"
+        },
+        "criterionId": "642449512275",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052617~642449512275"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053337",
+        "id": "194701053337",
+        "name": "Tipperary"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4060504"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053337~2486917481438",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Tipperary"
+        },
+        "criterionId": "2486917481438",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053337~2486917481438"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053577",
+        "id": "194701053577",
+        "name": "Kilkenny"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4054116"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053577~2486917519398",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Kilkenny"
+        },
+        "criterionId": "2486917519398",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053577~2486917519398"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "id": "194701052857",
+        "name": "Kerry"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "4013427"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052857~2487034858031",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Kerry wedding bands"
+        },
+        "criterionId": "2487034858031",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052857~2487034858031"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "3711192"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052817~2269016986778",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Galway"
+        },
+        "criterionId": "2269016986778",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052817~2269016986778"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053057",
+        "id": "194701053057",
+        "name": "Mayo"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2800000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053057~2513430961564",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Mayo"
+        },
+        "criterionId": "2513430961564",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053057~2513430961564"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2797684"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~422732788745",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "drinks reception music ireland"
+        },
+        "criterionId": "422732788745",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048537~422732788745"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2786001"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~323106704386",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding ceremony music ireland"
+        },
+        "criterionId": "323106704386",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048537~323106704386"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "id": "194701053097",
+        "name": "Donegal"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2780000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053097~2368294510698",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Donegal"
+        },
+        "criterionId": "2368294510698",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053097~2368294510698"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2760000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052617~2484348437443",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Dublin"
+        },
+        "criterionId": "2484348437443",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052617~2484348437443"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2760000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052817~1935872384857",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Galway wedding bands"
+        },
+        "criterionId": "1935872384857",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052817~1935872384857"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "id": "194701053817",
+        "name": "Meath"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2760000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053817~2487231246144",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Meath wedding bands"
+        },
+        "criterionId": "2487231246144",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053817~2487231246144"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2742834"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052777~2484347657483",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Cork"
+        },
+        "criterionId": "2484347657483",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052777~2484347657483"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053017",
+        "id": "194701053017",
+        "name": "Limerick"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2738847"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053017~2369004394518",
+        "status": "PAUSED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Limerick"
+        },
+        "criterionId": "2369004394518",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053017~2369004394518"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052817",
+        "id": "194701052817",
+        "name": "Galway"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2725841"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052817~2484347659163",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "live wedding band Galway"
+        },
+        "criterionId": "2484347659163",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052817~2484347659163"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053097",
+        "id": "194701053097",
+        "name": "Donegal"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2715591"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053097~2484348712723",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Donegal wedding bands"
+        },
+        "criterionId": "2484348712723",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053097~2484348712723"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "id": "194701053817",
+        "name": "Meath"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2700000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053817~2487231203504",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band Meath"
+        },
+        "criterionId": "2487231203504",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053817~2487231203504"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "3",
+        "conversions": 0,
+        "costMicros": "2644559"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~811160508620",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "beat boutique band"
+        },
+        "criterionId": "811160508620",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~811160508620"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053537",
+        "id": "194701053537",
+        "name": "Wexford"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2637452"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053537~2484348710323",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Wexford wedding bands"
+        },
+        "criterionId": "2484348710323",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053537~2484348710323"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "id": "194701052857",
+        "name": "Kerry"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "2630000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052857~2484347659403",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Kerry"
+        },
+        "criterionId": "2484347659403",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052857~2484347659403"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2380000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~477484708928",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band cost ireland"
+        },
+        "criterionId": "477484708928",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~477484708928"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2378983"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~420493058547",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 4
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band prices ireland"
+        },
+        "criterionId": "420493058547",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~420493058547"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2310000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~934082553050",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "average wedding band cost ireland"
+        },
+        "criterionId": "934082553050",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~934082553050"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048297",
+        "id": "194701048297",
+        "name": "Wedding band prices"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2260000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048297~441464358942",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 4
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "how much is a wedding band in ireland"
+        },
+        "criterionId": "441464358942",
+        "cpcBidMicros": "2400000",
+        "effectiveCpcBidMicros": "2400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048297~441464358942"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2197766"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~12835320256",
+        "status": "PAUSED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "best wedding bands ireland"
+        },
+        "criterionId": "12835320256",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~12835320256"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048257",
+        "id": "194701048257",
+        "name": "Wedding bands Ireland"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "2190000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048257~129036211",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "irish wedding bands"
+        },
+        "criterionId": "129036211",
+        "cpcBidMicros": "2200000",
+        "effectiveCpcBidMicros": "2200000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048257~129036211"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "1800000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~386975101148",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 8
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "sway social wedding band"
+        },
+        "criterionId": "386975101148",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~386975101148"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1800000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~2486917636958",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "band and dj wedding package"
+        },
+        "criterionId": "2486917636958",
+        "cpcBidMicros": "1800000",
+        "effectiveCpcBidMicros": "1800000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048457~2486917636958"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "2",
+        "conversions": 0,
+        "costMicros": "1790000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~317036385785",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 1
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "blacktye wedding band"
+        },
+        "criterionId": "317036385785",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~317036385785"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048457",
+        "id": "194701048457",
+        "name": "Band and DJ package"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1790000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048457~2513430936124",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "band and dj wedding package"
+        },
+        "criterionId": "2513430936124",
+        "cpcBidMicros": "1800000",
+        "effectiveCpcBidMicros": "1800000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048457~2513430936124"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1400000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~3744550715",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding band showcase"
+        },
+        "criterionId": "3744550715",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048497~3744550715"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1400000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052617~412192839820",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Dublin wedding bands"
+        },
+        "criterionId": "412192839820",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052617~412192839820"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053017",
+        "id": "194701053017",
+        "name": "Limerick"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1400000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053017~1933619092208",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Limerick wedding bands"
+        },
+        "criterionId": "1933619092208",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053017~1933619092208"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053297",
+        "id": "194701053297",
+        "name": "Clare"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1400000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053297~2484347857163",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Clare wedding bands"
+        },
+        "criterionId": "2484347857163",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053297~2484347857163"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053497",
+        "id": "194701053497",
+        "name": "Waterford"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1400000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053497~2486917519198",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "Waterford wedding bands"
+        },
+        "criterionId": "2486917519198",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053497~2486917519198"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054497",
+        "id": "194701054497",
+        "name": "Westmeath"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1393987"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054497~2487233818064",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Westmeath wedding bands"
+        },
+        "criterionId": "2487233818064",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054497~2487233818064"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1392296"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~317414912121",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding reception music ireland"
+        },
+        "criterionId": "317414912121",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048537~317414912121"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053337",
+        "id": "194701053337",
+        "name": "Tipperary"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1390000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053337~2486917464678",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Tipperary wedding bands"
+        },
+        "criterionId": "2486917464678",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053337~2486917464678"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053817",
+        "id": "194701053817",
+        "name": "Meath"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1390000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053817~2487231203464",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 3
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Meath"
+        },
+        "criterionId": "2487231203464",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053817~2487231203464"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053977",
+        "id": "194701053977",
+        "name": "Louth"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1390000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053977~2487231571424",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Louth"
+        },
+        "criterionId": "2487231571424",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053977~2487231571424"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1388752"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~353529853350",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band showcase"
+        },
+        "criterionId": "353529853350",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048497~353529853350"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052857",
+        "id": "194701052857",
+        "name": "Kerry"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1381269"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052857~2486791573435",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Kerry"
+        },
+        "criterionId": "2486791573435",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052857~2486791573435"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048497",
+        "id": "194701048497",
+        "name": "Showcases"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1380000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048497~621029303432",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "live wedding band showcase"
+        },
+        "criterionId": "621029303432",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048497~621029303432"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053977",
+        "id": "194701053977",
+        "name": "Louth"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1380000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053977~2453068843869",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Louth"
+        },
+        "criterionId": "2453068843869",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053977~2453068843869"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054017",
+        "id": "194701054017",
+        "name": "Cavan"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1380000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054017~2487233988224",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Cavan"
+        },
+        "criterionId": "2487233988224",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054017~2487233988224"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054257",
+        "id": "194701054257",
+        "name": "Sligo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1380000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054257~1935872393657",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Sligo wedding bands"
+        },
+        "criterionId": "1935872393657",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054257~1935872393657"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054977",
+        "id": "194701054977",
+        "name": "Tyrone"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1380000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054977~2487233806064",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Tyrone"
+        },
+        "criterionId": "2487233806064",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054977~2487233806064"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054257",
+        "id": "194701054257",
+        "name": "Sligo"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1370000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054257~2487233790944",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Sligo"
+        },
+        "criterionId": "2487233790944",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054257~2487233790944"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055177",
+        "id": "194701055177",
+        "name": "Derry"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1354835"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701055177~2487233807464",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Derry"
+        },
+        "criterionId": "2487233807464",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701055177~2487233807464"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053577",
+        "id": "194701053577",
+        "name": "Kilkenny"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1351596"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053577~2513430963764",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Kilkenny"
+        },
+        "criterionId": "2513430963764",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053577~2513430963764"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053777",
+        "id": "194701053777",
+        "name": "Kildare"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1350000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053777~1659437536276",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding bands Kildare"
+        },
+        "criterionId": "1659437536276",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053777~1659437536276"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701055017",
+        "id": "194701055017",
+        "name": "Fermanagh"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1350000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701055017~2487233807264",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "Fermanagh wedding bands"
+        },
+        "criterionId": "2487233807264",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701055017~2487233807264"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701053977",
+        "id": "194701053977",
+        "name": "Louth"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1348967"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701053977~2453068843909",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Louth"
+        },
+        "criterionId": "2453068843909",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701053977~2453068843909"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052777",
+        "id": "194701052777",
+        "name": "Cork"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1330000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052777~2406345318951",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 5
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "wedding bands Cork"
+        },
+        "criterionId": "2406345318951",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052777~2406345318951"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1326750"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~325087748151",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "ceremony music ireland"
+        },
+        "criterionId": "325087748151",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048537~325087748151"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701054057",
+        "id": "194701054057",
+        "name": "Monaghan"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1320000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701054057~2487233789744",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Monaghan"
+        },
+        "criterionId": "2487233789744",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701054057~2487233789744"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048537",
+        "id": "194701048537",
+        "name": "Ceremony and drinks music"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1300000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048537~412515467257",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding ceremony music ireland"
+        },
+        "criterionId": "412515467257",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048537~412515467257"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701052617",
+        "id": "194701052617",
+        "name": "Dublin"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "1090000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701052617~2484348424443",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "EXACT",
+          "text": "wedding band Dublin"
+        },
+        "criterionId": "2484348424443",
+        "cpcBidMicros": "1400000",
+        "effectiveCpcBidMicros": "1400000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701052617~2484348424443"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048217",
+        "id": "194701048217",
+        "name": "Band names"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "900000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048217~861088047324",
+        "status": "ENABLED",
+        "qualityInfo": {
+          "qualityScore": 7
+        },
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "beat boutique band"
+        },
+        "criterionId": "861088047324",
+        "cpcBidMicros": "900000",
+        "effectiveCpcBidMicros": "900000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048217~861088047324"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "adGroup": {
+        "resourceName": "customers/8732162982/adGroups/194701048057",
+        "id": "194701048057",
+        "name": "MusicAngel brand"
+      },
+      "metrics": {
+        "clicks": "1",
+        "conversions": 0,
+        "costMicros": "760000"
+      },
+      "adGroupCriterion": {
+        "resourceName": "customers/8732162982/adGroupCriteria/194701048057~303080802873",
+        "status": "ENABLED",
+        "keyword": {
+          "matchType": "PHRASE",
+          "text": "musicangel"
+        },
+        "criterionId": "303080802873",
+        "cpcBidMicros": "800000",
+        "effectiveCpcBidMicros": "800000"
+      },
+      "keywordView": {
+        "resourceName": "customers/8732162982/keywordViews/194701048057~303080802873"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23880653751",
+        "status": "ENABLED",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Brand & Bands",
+        "id": "23880653751"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977743",
+        "amountMicros": "2000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23885892845",
+        "status": "PAUSED",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Wedding Music Guides",
+        "id": "23885892845"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15606778227",
+        "amountMicros": "5000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295740",
+        "status": "ENABLED",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Wedding Bands Ireland",
+        "id": "23890295740"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977527",
+        "amountMicros": "10000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890295743",
+        "status": "ENABLED",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - County Wedding Bands",
+        "id": "23890295743"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15611987188",
+        "amountMicros": "6000000"
+      }
+    },
+    {
+      "campaign": {
+        "resourceName": "customers/8732162982/campaigns/23890296172",
+        "status": "ENABLED",
+        "biddingStrategyType": "MANUAL_CPC",
+        "name": "Search - Venue Wedding Bands",
+        "id": "23890296172"
+      },
+      "campaignBudget": {
+        "resourceName": "customers/8732162982/campaignBudgets/15601977746",
+        "amountMicros": "2000000"
+      }
+    }
+  ]
+}

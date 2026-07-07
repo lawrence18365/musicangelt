@@ -1,0 +1,141 @@
+{
+  "partialFailureError": {
+    "code": 3,
+    "message": "Multiple errors in ‘details’. First error: New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information., at conversions[0]",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.ads.googleads.v24.errors.GoogleAdsFailure",
+        "errors": [
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 0
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 1
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 2
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 3
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 4
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 5
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 6
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 7
+                }
+              ]
+            }
+          },
+          {
+            "errorCode": {
+              "notAllowlistedError": "CUSTOMER_NOT_ALLOWLISTED_FOR_THIS_FEATURE"
+            },
+            "message": "New integrations for uploading click conversions should use the Data Manager API. Usage of ConversionUploadService.UploadClickConversions is limited to existing users. Please see https://developers.google.com/data-manager/api/devguides/events/google-ads/offline for more information.",
+            "location": {
+              "fieldPathElements": [
+                {
+                  "fieldName": "conversions",
+                  "index": 8
+                }
+              ]
+            }
+          }
+        ],
+        "requestId": "K6OdJ3FFC801dkOe1GxIjw"
+      }
+    ]
+  },
+  "jobId": "4320261453416072214"
+}

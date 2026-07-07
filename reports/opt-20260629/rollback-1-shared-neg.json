@@ -1,0 +1,18 @@
+{
+  "endpoint": "sharedCriteria",
+  "validateOnly": false,
+  "operations": [
+    {
+      "remove": "customers/8732162982/sharedCriteria/12099313337~314331854384"
+    },
+    {
+      "remove": "customers/8732162982/sharedCriteria/12099313337~849430795153"
+    },
+    {
+      "remove": "customers/8732162982/sharedCriteria/12099313337~2031915277656"
+    },
+    {
+      "remove": "customers/8732162982/sharedCriteria/12099313337~303350196439"
+    }
+  ]
+}
