@@ -47,17 +47,18 @@ export async function onRequestGet({ request, env }) {
 
     const url = new URL(request.url);
     const view = url.searchParams.get('view') || 'all';
+    let source = 'leads';
     let where = '1=1';
-    if (view === 'real') where = 'count_as_real_lead = 1 AND is_test = 0 AND is_duplicate = 0 AND spam_flag = 0';
-    if (view === 'google_ads') where = 'count_as_google_ads = 1 AND count_as_real_lead = 1 AND is_test = 0 AND is_duplicate = 0 AND spam_flag = 0';
-    if (view === 'unknown') where = "lead_source_classification = 'direct_or_unknown' AND count_as_real_lead = 1 AND is_test = 0 AND spam_flag = 0";
+    if (view === 'real') source = 'clean_real_leads';
+    if (view === 'google_ads') source = 'clean_google_ads_leads';
+    if (view === 'unknown') source = 'clean_unknown_leads';
     if (view === 'tests') where = 'is_test = 1';
     if (view === 'duplicates') where = 'possible_duplicate = 1 OR is_duplicate = 1';
     if (view === 'booked') where = "booking_status = 'booked'";
 
     const rows = await env.LEADS_DB.prepare(`
         SELECT ${EXPORT_COLUMNS.join(', ')}
-        FROM leads
+        FROM ${source}
         WHERE ${where}
         ORDER BY created_unix_ms DESC
         LIMIT 5000

@@ -8,3 +8,6 @@ node_modules
 .playwright-cli/
 .lead-logger-token
 .DS_Store
+
+# Generated retrospective reports (produced by scripts, not source)
+reports/2026-07-17-google-ads-post-pause-retrospective.md
