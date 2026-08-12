@@ -5,40 +5,29 @@
  *   node scripts/weekly-report.js                # last 7 days
  *   node scripts/weekly-report.js --days=28      # last 28 days
  *   node scripts/weekly-report.js --site=sc-domain:musicangel.ie
+ *   node scripts/weekly-report.js --check-auth  # verify credentials, list GSC sites
  *
  * Output: a Markdown report at reports/YYYY-MM-DD-report.md
  *
- * Reads credentials from env-configured token paths. GitHub Actions restores:
- *   .tokens/.gsc-token.json
- *   .tokens/.ga4-admin-token.json
+ * Auth (see scripts/lib/google-auth.js):
+ *   Primary: a Google service-account key, taken from GOOGLE_SERVICE_ACCOUNT_JSON
+ *            (raw JSON, e.g. a CI secret) or GOOGLE_SERVICE_ACCOUNT_PATH,
+ *            defaulting to .tokens/google-ads-service-account.json.
+ *   Fallback: legacy user-OAuth refresh tokens at .tokens/.gsc-token.json and
+ *            .tokens/.ga4-admin-token.json with GOOGLE_OAUTH_CLIENT_ID/SECRET.
  *
  * Default Search Console site: sc-domain:musicangel.ie.
  */
 const fs = require('fs');
 const path = require('path');
+const { getAccessToken } = require('./lib/google-auth');
 
 const ROOT = path.resolve(__dirname, '..');
 const REPORTS_DIR = path.join(ROOT, 'reports');
-const GSC_TOKEN_PATH = process.env.GSC_TOKEN_PATH || path.join(ROOT, '.tokens/.gsc-token.json');
-const GA4_TOKEN_PATH = process.env.GA4_TOKEN_PATH || path.join(ROOT, '.tokens/.ga4-admin-token.json');
-const CLIENT_ID = process.env.GOOGLE_OAUTH_CLIENT_ID;
-const CLIENT_SECRET = process.env.GOOGLE_OAUTH_CLIENT_SECRET;
 const GA4_PROPERTY = process.env.GA4_PROPERTY || 'properties/537964782';
 
-if (!CLIENT_ID || !CLIENT_SECRET) {
-    console.error(`Error: GOOGLE_OAUTH_CLIENT_ID and GOOGLE_OAUTH_CLIENT_SECRET env vars are required.
-
-Set them in your shell profile or pass inline:
-
-    export GOOGLE_OAUTH_CLIENT_ID='...your client id...'
-    export GOOGLE_OAUTH_CLIENT_SECRET='...your client secret...'
-    node scripts/weekly-report.js
-
-Use the Google Cloud OAuth client that owns the MusicAngel Search Console
-and GA4 access tokens restored by the workflow.
-`);
-    process.exit(1);
-}
+const GSC_SCOPE = 'https://www.googleapis.com/auth/webmasters.readonly';
+const GA4_SCOPE = 'https://www.googleapis.com/auth/analytics.readonly';
 
 function parseArgs() {
     const args = { days: 7, site: 'sc-domain:musicangel.ie' };
@@ -47,24 +36,6 @@ function parseArgs() {
         if (a.startsWith('--site=')) args.site = a.slice(7);
     }
     return args;
-}
-
-async function getToken(tokenPath) {
-    const token = JSON.parse(fs.readFileSync(tokenPath, 'utf8'));
-    const params = new URLSearchParams({
-        client_id: CLIENT_ID,
-        client_secret: CLIENT_SECRET,
-        refresh_token: token.refresh_token,
-        grant_type: 'refresh_token'
-    });
-    const resp = await fetch('https://oauth2.googleapis.com/token', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: params.toString()
-    });
-    const data = await resp.json();
-    if (!data.access_token) throw new Error(`Token refresh failed: ${JSON.stringify(data)}`);
-    return data.access_token;
 }
 
 async function gscQuery(token, site, body) {
@@ -97,7 +68,72 @@ async function ga4Report(token, body) {
 function fmtDate(d) { return d.toISOString().slice(0, 10); }
 function pct(n) { return (n * 100).toFixed(1) + '%'; }
 
+/**
+ * Preflight: verify credentials mint tokens, print the Search Console sites
+ * the credential can see, and exit non-zero if that list is empty (i.e. the
+ * service account has not been granted access in the Search Console UI).
+ */
+async function checkAuth() {
+    console.log('Auth preflight: verifying credentials...\n');
+
+    let gscToken;
+    try {
+        gscToken = await getAccessToken([GSC_SCOPE]);
+        console.log('  GSC token (webmasters.readonly): OK');
+    } catch (err) {
+        console.error(`\nAuth check FAILED (GSC): ${err.message}`);
+        process.exit(1);
+    }
+
+    // GA4 token + property access (informational; the report tolerates GA4 failures)
+    let ga4Note = null;
+    try {
+        const ga4Token = await getAccessToken([GA4_SCOPE]);
+        const resp = await ga4Report(ga4Token, {
+            dateRanges: [{ startDate: 'yesterday', endDate: 'yesterday' }],
+            metrics: [{ name: 'sessions' }],
+            limit: 1
+        });
+        if (resp.error) {
+            ga4Note = resp.error.message;
+        } else {
+            console.log('  GA4 token (analytics.readonly) + property access: OK');
+        }
+    } catch (err) {
+        ga4Note = err.message;
+    }
+
+    const sitesResp = await listGscSites(gscToken);
+    if (sitesResp.error) {
+        console.error(`\nAuth check FAILED (GSC sites): ${sitesResp.error.message}`);
+        process.exit(1);
+    }
+    const sites = (sitesResp.siteEntry || []).map(s => s.siteUrl);
+
+    console.log('\n  Search Console sites visible to this credential:');
+    if (sites.length === 0) {
+        console.log('    (none)');
+    } else {
+        for (const s of sites) console.log(`    - ${s}`);
+    }
+
+    if (sites.length === 0) {
+        console.error(`
+Auth check FAILED: the credential authenticates, but it has no access to any Search Console site.
+This usually means the service account has not been granted access yet.
+Add the service-account client_email as a user on the Search Console property
+(e.g. sc-domain:musicangel.ie) at https://search.google.com/search-console/users, then re-run.`);
+        if (ga4Note) console.error(`  (GA4 note: ${ga4Note})`);
+        process.exit(1);
+    }
+
+    if (ga4Note) console.log(`\n  ⚠️  GA4 note: ${ga4Note}`);
+    console.log('\nAuth check OK.');
+}
+
 async function main() {
+    if (process.argv.includes('--check-auth')) return checkAuth();
+
     const args = parseArgs();
     const endDate = new Date();
     const startDate = new Date(); startDate.setDate(startDate.getDate() - args.days);
@@ -109,12 +145,12 @@ async function main() {
 
     console.log(`Pulling ${args.days}-day report (${start} to ${end})...`);
 
-    let gscToken = await getToken(GSC_TOKEN_PATH);
+    let gscToken = await getAccessToken([GSC_SCOPE]);
     const sites = await listGscSites(gscToken);
     const ourSites = (sites.siteEntry || []).map(s => s.siteUrl);
     if (!ourSites.includes(args.site)) {
         const available = ourSites.filter(s => s.includes('musicangel')).join(', ') || 'none containing musicangel';
-        throw new Error(`${args.site} is not available to this GSC token. Available MusicAngel sites: ${available}`);
+        throw new Error(`${args.site} is not available to this GSC credential. Available MusicAngel sites: ${available}`);
     }
 
     // GSC: top queries + top pages + key counts
@@ -132,7 +168,7 @@ async function main() {
     // GA4: sessions + key events
     let ga4Pages = { rows: [] }, ga4Events = { rows: [] }, ga4Channels = { rows: [] };
     try {
-        const ga4Token = await getToken(GA4_TOKEN_PATH);
+        const ga4Token = await getAccessToken([GA4_SCOPE]);
         const [p, e, c] = await Promise.all([
             ga4Report(ga4Token, {
                 dateRanges: [{ startDate: start, endDate: end }],

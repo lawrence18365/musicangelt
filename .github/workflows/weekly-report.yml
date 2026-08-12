@@ -21,29 +21,42 @@ jobs:
         with:
           node-version: 24
 
-      - name: Restore GSC + GA4 tokens from secrets
+      - name: Restore Google credentials (service account preferred, legacy tokens fallback)
         env:
+          SA_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           GSC_TOKEN_JSON: ${{ secrets.GSC_TOKEN_JSON }}
           GA4_TOKEN_JSON: ${{ secrets.GA4_TOKEN_JSON }}
         run: |
-          if [ -z "$GSC_TOKEN_JSON" ] || [ -z "$GA4_TOKEN_JSON" ]; then
-            echo "GSC_TOKEN_JSON and GA4_TOKEN_JSON repository secrets are required."
+          if [ -n "$SA_JSON" ]; then
+            # Preferred path: service-account key as raw JSON (never expires).
+            {
+              echo 'GOOGLE_SERVICE_ACCOUNT_JSON<<EOF'
+              printf '%s\n' "$SA_JSON"
+              echo 'EOF'
+            } >> "$GITHUB_ENV"
+            echo "Service account secret found - using it."
+          elif [ -n "$GSC_TOKEN_JSON" ] && [ -n "$GA4_TOKEN_JSON" ]; then
+            # Legacy fallback: user-OAuth refresh tokens.
+            mkdir -p .tokens
+            # printf is more reliable than echo for content with backslashes
+            printf '%s' "$GSC_TOKEN_JSON" > .tokens/.gsc-token.json
+            printf '%s' "$GA4_TOKEN_JSON" > .tokens/.ga4-admin-token.json
+            chmod 600 .tokens/.gsc-token.json .tokens/.ga4-admin-token.json
+            echo "GSC_TOKEN_PATH=.tokens/.gsc-token.json" >> "$GITHUB_ENV"
+            echo "GA4_TOKEN_PATH=.tokens/.ga4-admin-token.json" >> "$GITHUB_ENV"
+            if [ -n "${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}" ]; then
+              echo "GOOGLE_OAUTH_CLIENT_ID=${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}" >> "$GITHUB_ENV"
+            fi
+            if [ -n "${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}" ]; then
+              echo "GOOGLE_OAUTH_CLIENT_SECRET=${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}" >> "$GITHUB_ENV"
+            fi
+            echo "Legacy token secrets restored (service-account secret not set)."
+          else
+            echo "No Google credentials available. Set the GOOGLE_SERVICE_ACCOUNT_JSON secret (preferred) or GSC_TOKEN_JSON + GA4_TOKEN_JSON (legacy)." >&2
             exit 1
           fi
-          mkdir -p .tokens
-          # printf is more reliable than echo for content with backslashes
-          printf '%s' "$GSC_TOKEN_JSON" > .tokens/.gsc-token.json
-          printf '%s' "$GA4_TOKEN_JSON" > .tokens/.ga4-admin-token.json
-          chmod 600 .tokens/.gsc-token.json .tokens/.ga4-admin-token.json
-          node -e "JSON.parse(require('fs').readFileSync('.tokens/.gsc-token.json', 'utf8')); JSON.parse(require('fs').readFileSync('.tokens/.ga4-admin-token.json', 'utf8'));"
-          echo "Analytics token secrets restored and parsed."
 
       - name: Generate weekly report
-        env:
-          GOOGLE_OAUTH_CLIENT_ID: ${{ secrets.GOOGLE_OAUTH_CLIENT_ID }}
-          GOOGLE_OAUTH_CLIENT_SECRET: ${{ secrets.GOOGLE_OAUTH_CLIENT_SECRET }}
-          GSC_TOKEN_PATH: .tokens/.gsc-token.json
-          GA4_TOKEN_PATH: .tokens/.ga4-admin-token.json
         run: |
           node scripts/weekly-report.js --days=7
 
