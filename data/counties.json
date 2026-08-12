@@ -15,7 +15,45 @@
             "the-beat-boutique",
             "sway-social",
             "blacktye"
-        ]
+        ],
+        "travelNote": "Most wedding bands are either based in Dublin or travelling in from surrounding counties, so the run to a Dublin venue is rarely more than ninety minutes door to door. City-centre hotels and converted spaces add loading-bay and parking headaches that country houses do not, and a late finish can mean a slow crawl out of town or a city hotel night rather than a same-day return home.",
+        "venueNotes": [
+            {
+                "name": "Powerscourt House (just over the Wicklow border)",
+                "note": "A grand country-house setting with multiple rooms; the band will need clarity on which entrance and lift route is approved for load-in."
+            },
+            {
+                "name": "Carton House",
+                "note": "Estate scale means a long walk from car park to ballroom; confirm whether the venue provides a trolley or allows closer access for equipment."
+            },
+            {
+                "name": "The Westbury",
+                "note": "Central-city luxury with tight loading windows; evening parking is limited, so bands usually factor extra time for set-down."
+            },
+            {
+                "name": "The Marker",
+                "note": "A modern, design-led space in the docklands with good lift access but a specific after-hours route; worth confirming load-out times in advance."
+            },
+            {
+                "name": "Tankardstown House (just over the Meath border)",
+                "note": "A short run from Dublin with a rural, boutique feel; the band can usually same-day it unless the finish is very late."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Dublin wedding bands charge extra for city-centre parking and loading?",
+                "a": "Most bands include a modest travel allowance within Dublin, but city-centre venues with paid parking or controlled loading bays can add a small surcharge; it's worth asking for this in the quote."
+            },
+            {
+                "q": "Can a band set up early in a Dublin hotel ballroom before the reception?",
+                "a": "Many city hotels schedule multiple events, so an early sound check isn't guaranteed; bands usually plan a discrete line-check during room turnaround."
+            },
+            {
+                "q": "Is a late licence common at Dublin wedding venues?",
+                "a": "City and hotel venues vary widely; some have late licences until the small hours, while others require music to finish earlier, so confirm the curfew before you book."
+            }
+        ],
+        "planningNote": "Dublin's wedding season runs strongest from April through October, with Saturday dates in May, June and September booking out well over a year ahead. Friday and Sunday slots are increasingly popular as couples look for availability and better rates, while mid-winter weddings remain less common but easier to secure."
     },
     {
         "slug": "cork",
@@ -33,7 +71,45 @@
             "the-beat-boutique",
             "blacktye",
             "sway-social"
-        ]
+        ],
+        "travelNote": "A Dublin band driving to Cork faces a solid two-and-a-half to three hours on the M7 and M8, so most treat it as a full travel day and often prefer an overnight, especially if the finish is after midnight. Cork-based bands cover the county easily, with most venues within an hour of the city, but coastal locations like Baltimore or Kinsale can still add time on narrow roads.",
+        "venueNotes": [
+            {
+                "name": "Castlemartyr Resort",
+                "note": "A large resort with a dedicated ballroom; load-in is straightforward but the walk from the car park can be long, so trolleys help."
+            },
+            {
+                "name": "Fota Island Resort",
+                "note": "Spread across the island estate, so confirm exactly which building and entrance the band should use."
+            },
+            {
+                "name": "Ballymaloe House",
+                "note": "A farmhouse-country-house feel with a more intimate room; the stage area is modest, so a compact band line-up suits it best."
+            },
+            {
+                "name": "Hayfield Manor",
+                "note": "City-centre manor house with a smaller, refined ballroom; good for an acoustic-led or scaled-back setup."
+            },
+            {
+                "name": "Castle Lyons",
+                "note": "A village venue with character; parking is generally easy but check whether the band can load close to the performance space."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do bands from Dublin charge travel fees for Cork weddings?",
+                "a": "Yes, most Dublin-based bands add a travel fee for Cork to cover fuel and the longer day; Cork-based bands may not charge travel within the county."
+            },
+            {
+                "q": "Should we book accommodation for the band in Cork?",
+                "a": "For late finishes or venues more than an hour from the band's base, an overnight room is often appreciated and sometimes written into the contract."
+            },
+            {
+                "q": "Can we have our ceremony and reception at the same Cork venue?",
+                "a": "Many Cork hotels and country houses offer both, which simplifies logistics; just confirm the room flip and sound-check timing with the coordinator."
+            }
+        ],
+        "planningNote": "Cork weddings peak from May through September, with coastal venues in particular filling fast for summer Saturdays. The county also has a strong off-season scene in manor houses and city hotels, though winter coastal weddings are quieter."
     },
     {
         "slug": "galway",
@@ -51,7 +127,45 @@
             "sway-social",
             "the-best-men",
             "the-beat-boutique"
-        ]
+        ],
+        "travelNote": "The M6 from Dublin gets a band to Galway city in roughly two to two-and-a-half hours, so city and nearby venues are often feasible as a same-day return. Connemara, the Aran-side coast and late finishes push most bands toward an overnight, especially when the route winds beyond Oughterard onto smaller roads.",
+        "venueNotes": [
+            {
+                "name": "Ashford Castle (just over the Mayo border)",
+                "note": "One of Ireland's most exacting venues; the band will coordinate closely with the events team on load-in timing and room layout."
+            },
+            {
+                "name": "Glenlo Abbey",
+                "note": "A country-estate hotel with a generous ballroom; access is good but confirm whether the reception is in the main house or the abbey."
+            },
+            {
+                "name": "Ballynahinch Castle",
+                "note": "Remote Connemara setting with a warm, intimate room; the band usually needs overnight accommodation given the distance."
+            },
+            {
+                "name": "The Lough Rea Hotel",
+                "note": "A convenient stop just off the Galway-Dublin road with straightforward loading and parking."
+            },
+            {
+                "name": "Cashel House",
+                "note": "A quieter Connemara house with a smaller reception room; worth discussing the ideal band size for the space."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "How far in advance should we book a Galway wedding band?",
+                "a": "Summer Saturdays, especially around Race Week and bank holidays, book up quickly; aim to secure your band nine to twelve months ahead."
+            },
+            {
+                "q": "Do bands need overnight accommodation for Connemara weddings?",
+                "a": "Yes, venues in Connemara or on the west coast are far enough from Dublin and Cork that an overnight room is standard."
+            },
+            {
+                "q": "Are rural Galway venues reliable for power supply?",
+                "a": "Most established venues have ample power, but older country houses may need the band to bring a smaller PA or confirm socket locations during the site visit."
+            }
+        ],
+        "planningNote": "Galway's wedding calendar is heavily weighted toward late spring through early autumn, with July and August especially busy due to visitors and festival weekends. September has become almost as sought-after as June for couples wanting softer light and fewer tourists."
     },
     {
         "slug": "kerry",
@@ -69,7 +183,45 @@
             "the-beat-boutique",
             "blacktye",
             "sway-social"
-        ]
+        ],
+        "travelNote": "From Dublin, a Kerry wedding means a four-to-four-and-a-half-hour run to Killarney and even longer to Dingle or the Beara side, so bands almost always need an overnight. Cork-based bands can reach Killarney in under two hours, but the Ring of Kerry and Dingle peninsula roads still demand extra time and careful routing.",
+        "venueNotes": [
+            {
+                "name": "Park Hotel Kenmare",
+                "note": "A refined, compact ballroom in a stunning town; loading is via a discreet service entrance, best confirmed in advance."
+            },
+            {
+                "name": "Sheen Falls Lodge",
+                "note": "Luxury country-house setting with a riverside location; the band usually needs overnight accommodation."
+            },
+            {
+                "name": "Muckross Park Hotel",
+                "note": "A large Killarney hotel with good access; the main ballroom suits a full band and a lively dance floor."
+            },
+            {
+                "name": "Cahernane House",
+                "note": "A Victorian mansion on the edge of Killarney National Park; load-in is manageable but the route is narrow."
+            },
+            {
+                "name": "Ballygarry Estate",
+                "note": "Modern estate hotel with a dedicated events wing and straightforward parking."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is it harder to get a band to a Dingle peninsula wedding?",
+                "a": "The Conor Pass and narrow peninsula roads make Dingle a longer, slower journey, so bands generally allow extra travel time and may add a travel supplement."
+            },
+            {
+                "q": "What should couples ask Kerry venues about managing sound levels?",
+                "a": "Some hotels and estates use sound management; rather than relying on hearsay, ask the venue directly what their policy is and share it with your band early."
+            },
+            {
+                "q": "What time does the music usually finish in Kerry?",
+                "a": "Many Kerry hotels have standard late licences, but rural venues and residential areas can have earlier curfews; confirm the exact finish time before you book."
+            }
+        ],
+        "planningNote": "Kerry's destination-wedding peak runs from May to October, with July and August Saturdays commanding the highest demand. Spring and late-autumn weddings can offer better availability and rates, though some coastal venues close or reduce capacity in winter."
     },
     {
         "slug": "limerick",
@@ -86,7 +238,41 @@
             "blacktye",
             "the-beat-boutique",
             "sway-social"
-        ]
+        ],
+        "travelNote": "The M7 gets a Dublin band to Limerick in around two hours, and Cork is only ninety minutes to the south, so many Limerick weddings are same-day returns. Adare Manor and other rural estates can tip the balance toward an overnight if the finish is late or the load-out is drawn out.",
+        "venueNotes": [
+            {
+                "name": "Adare Manor",
+                "note": "A five-star estate with very high production standards; the band will liaise with the in-house events team on timing and staging."
+            },
+            {
+                "name": "The Strand Hotel",
+                "note": "A city-centre hotel with a modern ballroom and good loading access via the riverside."
+            },
+            {
+                "name": "Castletroy Park Hotel",
+                "note": "Suburban hotel with generous function rooms and easy parking."
+            },
+            {
+                "name": "Glin Castle",
+                "note": "A remote castle on the Shannon estuary; the band almost always stays overnight given the rural location."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do bands charge a travel fee for Limerick if they're coming from Dublin?",
+                "a": "Some Dublin bands include Limerick within their standard radius, while others add a travel fee; always confirm whether travel is included or itemised."
+            },
+            {
+                "q": "Can the band play outdoors at a Limerick country house?",
+                "a": "Outdoor reception music is popular in summer, but you need a wet-weather backup and a power source; most bands will plan for an indoor setup as the default."
+            },
+            {
+                "q": "Is parking easy for bands at Limerick city venues?",
+                "a": "City hotels generally have loading bays or nearby car parks, but it's worth reserving a space so the band isn't circling with heavy gear."
+            }
+        ],
+        "planningNote": "Limerick weddings are busy from April through October, with Adare Manor setting the pace for premium dates. The county also sees strong corporate and international wedding traffic, which can make midweek dates at the top venues surprisingly competitive."
     },
     {
         "slug": "mayo",
@@ -103,7 +289,41 @@
             "the-beat-boutique",
             "blacktye",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Dublin to Mayo is a three-to-three-and-a-half-hour haul to Castlebar or Westport, and the Atlantic coast adds another stretch on slower roads, so an overnight is normal. Galway bands are much closer, but venues near Achill or the north Mayo coast still require careful timing.",
+        "venueNotes": [
+            {
+                "name": "Ashford Castle",
+                "note": "A destination venue with exacting standards; the band coordinates load-in and sound-check tightly with the events team."
+            },
+            {
+                "name": "Mount Falcon Estate",
+                "note": "A country-house hotel with a warm ballroom; load-in is straightforward via the main courtyard."
+            },
+            {
+                "name": "Knockranny House Hotel",
+                "note": "Westport town-centre location with good access and a lively wedding crowd."
+            },
+            {
+                "name": "The Ice House Hotel",
+                "note": "A contemporary hotel on the river with compact function spaces; the band setup needs to suit a more intimate room."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do bands need to stay overnight for Mayo weddings?",
+                "a": "Most do, given the distance from Dublin and Cork and the reality of late finishes; the overnight room is usually discussed when you book."
+            },
+            {
+                "q": "Are Westport and Castlebar easy for bands to reach?",
+                "a": "Yes, both towns are well connected, but the final stretch to rural or coastal venues can be narrow and slow, so bands build in extra time."
+            },
+            {
+                "q": "What's the typical curfew for Mayo wedding venues?",
+                "a": "Town hotels often have later music licences, while rural venues may need to finish earlier; check the licence with the venue before signing."
+            }
+        ],
+        "planningNote": "Mayo's wedding season runs from April through September, with Westport and the Ashford Castle area especially popular for summer Saturdays. Autumn can be beautiful along the coast, though weather contingency becomes more important for marquee or outdoor receptions."
     },
     {
         "slug": "donegal",
@@ -120,7 +340,41 @@
             "the-beat-boutique",
             "sway-social",
             "blacktye"
-        ]
+        ],
+        "travelNote": "Donegal is one of the longest drives from Dublin, often three-and-a-half to four-and-a-half hours depending on whether the venue sits in the south of the county or up towards Dunfanaghy and the Atlantic coast, so bands almost always stay overnight. Belfast-based bands are closer for northern Donegal, but the Inishowen peninsula and remote coastal roads still demand a full travel day.",
+        "venueNotes": [
+            {
+                "name": "Lough Eske Castle",
+                "note": "A five-star castle hotel with a dedicated events team; load-in routes and timings are planned in advance."
+            },
+            {
+                "name": "Harvey's Point",
+                "note": "A lakeside hotel with an intimate, warmly lit ballroom; the room suits a band that can scale its energy to a smaller space."
+            },
+            {
+                "name": "Solis Lough Eske",
+                "note": "A modern castle hotel with good access and a refined ballroom; confirm the specific entrance for load-in."
+            },
+            {
+                "name": "Rosapenna Hotel",
+                "note": "A coastal resort on the Wild Atlantic Way; the band usually needs overnight accommodation given the distance."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is cross-border travel an issue for booking a band from the Republic for a Donegal wedding?",
+                "a": "Donegal is in the Republic, so there are no border checks for bands travelling from Dublin, Galway or Cork; just allow extra time for the long drive."
+            },
+            {
+                "q": "Do bands charge more for remote Donegal venues?",
+                "a": "The distance and overnight stay mean most bands add a travel supplement; ask for this to be itemised in your quote."
+            },
+            {
+                "q": "What should we ask Donegal venues about late finishes?",
+                "a": "Coastal and rural venues can have earlier noise curfews than city hotels; confirm the music finish time and any sound-management policy before you book."
+            }
+        ],
+        "planningNote": "Donegal's wedding season is concentrated from May to September, with coastal and Wild Atlantic Way venues drawing couples from across Ireland and abroad. June and July are the busiest months, while autumn weddings can be stunning but require backup plans for Atlantic weather."
     },
     {
         "slug": "wicklow",
@@ -138,7 +392,45 @@
             "sway-social",
             "the-beat-boutique",
             "the-best-men"
-        ]
+        ],
+        "travelNote": "Most Wicklow venues sit within thirty to ninety minutes of Dublin, making same-day returns the norm for bands based in the capital. Mountain and glen locations such as Brooklodge or the deeper Wicklow venues still need careful routing, especially after dark on narrow roads.",
+        "venueNotes": [
+            {
+                "name": "Powerscourt House",
+                "note": "A grand Palladian house with a sweeping staircase; the band will need the approved load-in route, which is not the guest entrance."
+            },
+            {
+                "name": "Druids Glen",
+                "note": "A resort with multiple event spaces; confirm which room is booked and where the band can park closest."
+            },
+            {
+                "name": "Tinakilly Country House",
+                "note": "A Victorian country house with sea views; the ballroom is charming and suits a full live band."
+            },
+            {
+                "name": "Brooklodge",
+                "note": "A mountain-valley hotel with a rustic feel; the drive in is winding, so bands allow extra time."
+            },
+            {
+                "name": "The Glenview",
+                "note": "A family-run hotel with straightforward access and a welcoming wedding crowd."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is there an extra charge for a band to play in Wicklow?",
+                "a": "Because most Wicklow venues are close to Dublin, many bands include the county in their base rate; only the furthest mountain venues might attract a small supplement."
+            },
+            {
+                "q": "Can the band set up outdoors at a Wicklow country house?",
+                "a": "Summer marquee receptions are popular, but you need a firm wet-weather plan and power for the PA; bands usually treat the indoor room as the main setup."
+            },
+            {
+                "q": "How do late finishes work for bands travelling back to Dublin?",
+                "a": "Most Wicklow weddings finish late enough that a Dublin band can still be home in under two hours, so an overnight is rarely needed."
+            }
+        ],
+        "planningNote": "Wicklow's wedding season mirrors Dublin's, peaking from May through September with Saturday dates at Powerscourt and Druids Glen booking out early. The county is also a popular choice for Friday and Sunday weddings because guests can stay over and enjoy the mountains or coast."
     },
     {
         "slug": "clare",
@@ -155,7 +447,41 @@
             "the-beat-boutique",
             "blacktye",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Dublin to Clare is a two-and-a-half to three-hour run to Ennis, with West Clare and the coast adding more time on smaller roads, so bands often stay overnight for coastal or late-finish weddings. Limerick and Galway bands are much closer, and Shannon Airport is handy for guests flying in.",
+        "venueNotes": [
+            {
+                "name": "Dromoland Castle",
+                "note": "A five-star castle with a dedicated events team; the band coordinates closely on staging and timing."
+            },
+            {
+                "name": "Vaughan Lodge",
+                "note": "A boutique coastal hotel with a compact, stylish room; a scaled-back band line-up often works best."
+            },
+            {
+                "name": "The Old Ground Hotel",
+                "note": "A historic hotel in the centre of Ennis with good access and a lively wedding atmosphere."
+            },
+            {
+                "name": "Trump International (Doonbeg)",
+                "note": "A coastal resort with high standards; load-in and parking arrangements should be confirmed in advance."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Should we book accommodation for the band in Clare?",
+                "a": "For West Clare, the Burren or any late finish, an overnight room is standard; closer to Limerick or Ennis it may not be needed."
+            },
+            {
+                "q": "Can we have a band at a small Clare boutique venue?",
+                "a": "Yes, but the room size and power need to match the band's footprint; many bands offer a compact acoustic option for smaller spaces."
+            },
+            {
+                "q": "What should couples confirm with Clare venues about noise management?",
+                "a": "Some hotels and estates manage sound levels, particularly in residential or coastal areas; ask the venue directly about their policy and pass it to your band."
+            }
+        ],
+        "planningNote": "Clare's wedding season runs strongest from April through September, with coastal venues around Lahinch and Doonbeg peaking in July and August. The county also draws couples for autumn weddings when the Burren light is at its best."
     },
     {
         "slug": "tipperary",
@@ -172,7 +498,41 @@
             "the-beat-boutique",
             "the-best-men",
             "blacktye"
-        ]
+        ],
+        "travelNote": "Dublin to north Tipperary is around an hour and a half, while the southern half near Cashel and the Cork border can stretch past two hours, so most Dublin bands can same-day it. Cork bands are even closer, often under an hour to Cashel, making overnight stays uncommon unless the venue is very rural.",
+        "venueNotes": [
+            {
+                "name": "Cashel Palace",
+                "note": "A recently restored palace hotel in the shadow of the Rock; load-in needs to respect the historic fabric and narrow access."
+            },
+            {
+                "name": "Dundrum House",
+                "note": "A Georgian country house with a generous ballroom set away from the main house; access is generally easy."
+            },
+            {
+                "name": "Bansha Castle",
+                "note": "A private castle with a more intimate scale; the band setup needs to fit a smaller reception room."
+            },
+            {
+                "name": "Aherlow House",
+                "note": "A country hotel beneath the Galtee Mountains with panoramic views; the drive up is steep and narrow in places."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do bands charge travel fees for Tipperary?",
+                "a": "Many Dublin and Cork bands include Tipperary in their standard travel area, but always confirm whether travel costs are built in or itemised."
+            },
+            {
+                "q": "What's the best way to handle power at a rural Tipperary venue?",
+                "a": "Established venues have proper power, but if you're hiring a marquee or using a private house, arrange an electrician's sign-off and tell the band early."
+            },
+            {
+                "q": "Can the band set up early if the ceremony and reception are at the same Tipperary venue?",
+                "a": "Yes, same-venue weddings make logistics easier, but the band still needs a clear window during room turnaround or a separate space to store cases."
+            }
+        ],
+        "planningNote": "Tipperary's wedding calendar peaks from May through September, with Cashel and the mid-county estates drawing strong demand. The county's central location makes it a practical choice for families split between Dublin and Cork, which keeps Saturday dates competitive."
     },
     {
         "slug": "waterford",
@@ -189,7 +549,41 @@
             "sway-social",
             "the-best-men",
             "the-beat-boutique"
-        ]
+        ],
+        "travelNote": "The M9 from Dublin gets a band to Waterford city in about two to two-and-a-half hours, and Cork is roughly ninety minutes to the east, so many Waterford weddings are same-day returns. Venues along the Copper Coast or beyond Dungarvan add extra time on smaller roads and can tip the balance toward an overnight.",
+        "venueNotes": [
+            {
+                "name": "Faithlegg House",
+                "note": "A country-house hotel with a riverside setting and a well-proportioned ballroom; load-in is straightforward."
+            },
+            {
+                "name": "Cliff House Hotel",
+                "note": "A dramatic clifftop boutique hotel with compact spaces; the band needs to suit a smaller, design-led room."
+            },
+            {
+                "name": "Mount Congreve",
+                "note": "A historic estate with gardens; marquee and outdoor receptions are common, so power and weather backup need planning."
+            },
+            {
+                "name": "Waterford Castle",
+                "note": "An island castle reached by ferry; the band must coordinate ferry times carefully for load-in and load-out."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "How does the ferry work for a Waterford Castle wedding band?",
+                "a": "The island is reached by private ferry, so the band needs to know the timetable and allow buffer time; late finishes require a confirmed return crossing."
+            },
+            {
+                "q": "Are Waterford venues strict on sound curfews?",
+                "a": "Coastal and residential venues can have earlier curfews; ask the venue for their music finish time and any sound-management policy."
+            },
+            {
+                "q": "Do bands from Dublin need accommodation in Waterford?",
+                "a": "Usually not for city venues, but for Ardmore, the Copper Coast or very late finishes, an overnight room is often arranged."
+            }
+        ],
+        "planningNote": "Waterford's wedding season runs from April through September, with summer Saturdays and bank-holiday weekends filling first. The county has a strong autumn-wedding appeal thanks to the gardens and softer coastal light."
     },
     {
         "slug": "wexford",
@@ -206,7 +600,41 @@
             "the-best-men",
             "sway-social",
             "the-beat-boutique"
-        ]
+        ],
+        "travelNote": "Dublin to Wexford town is roughly an hour and a half on the M11, and the county is a straightforward same-day return for most capital-based bands. The Hook Peninsula and south Wexford coast push the journey closer to two hours and can make an overnight worth considering for very late finishes.",
+        "venueNotes": [
+            {
+                "name": "Marlfield House",
+                "note": "A Victorian country house with elegant, medium-sized reception rooms; the band needs to fit a refined space without overwhelming it."
+            },
+            {
+                "name": "Ferrycarrig Hotel",
+                "note": "A modern hotel overlooking the River Slaney with level access and good parking for load-in."
+            },
+            {
+                "name": "Brooklodge",
+                "note": "A mountain-valley hotel just over the Wicklow border; the winding approach means bands allow extra travel time."
+            },
+            {
+                "name": "Loftus Hall",
+                "note": "A remote historic house on the Hook Peninsula; the band almost always stays overnight and coordinates road access carefully."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Wexford venues charge extra for bands travelling from Dublin?",
+                "a": "Most Dublin bands include Wexford in their standard area, but the very south of the county or late finishes may attract a small travel supplement."
+            },
+            {
+                "q": "Can we have a late licence at a Wexford country house?",
+                "a": "Licences vary by venue and location; rural venues near residential areas may have earlier curfews, so confirm the finish time in writing."
+            },
+            {
+                "q": "Is it easy to load equipment into Loftus Hall?",
+                "a": "The remote location and historic building mean load-in needs advance planning; the band will usually ask for a site contact and approved access route."
+            }
+        ],
+        "planningNote": "Wexford's wedding season peaks from May through September, with coastal and country-house venues drawing Dublin couples looking for a getaway feel. June and August are the busiest months, while spring and autumn can offer better availability."
     },
     {
         "slug": "kilkenny",
@@ -223,7 +651,41 @@
             "the-beat-boutique",
             "blacktye",
             "the-best-men"
-        ]
+        ],
+        "travelNote": "Dublin to Kilkenny is around an hour and a half on the M9, and Cork is roughly ninety minutes to the south, so most bands can same-day it. The county is compact, with even rural venues usually within half an hour of the city.",
+        "venueNotes": [
+            {
+                "name": "Mount Juliet Estate",
+                "note": "A large estate with a dedicated ballroom; load-in is well organised and the events team manages timings."
+            },
+            {
+                "name": "Lyrath Estate",
+                "note": "A modern country-house hotel with a grand ballroom and good access via the main drive."
+            },
+            {
+                "name": "Newpark Hotel",
+                "note": "A city hotel with a contemporary function suite and convenient parking."
+            },
+            {
+                "name": "Kilkenny Hibernian",
+                "note": "A boutique hotel in the city centre with a smaller, characterful room; best suited to a scaled-back band."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Kilkenny wedding bands need accommodation?",
+                "a": "For city venues, usually not; for very late finishes or bands travelling from further afield, an overnight room may be requested."
+            },
+            {
+                "q": "Can we fit a full band in the Kilkenny Hibernian?",
+                "a": "The room is more intimate, so many couples choose a smaller line-up or an acoustic-led band for that venue."
+            },
+            {
+                "q": "What should we check with Kilkenny venues about evening noise?",
+                "a": "Some city hotels and residential areas manage sound levels; ask the venue directly and share the policy with your band."
+            }
+        ],
+        "planningNote": "Kilkenny's wedding season runs from April through September, with Mount Juliet and Lyrath setting the pace for summer Saturdays. The city's compact nature and strong hotel stock make it popular for multi-day weddings and guest stays."
     },
     {
         "slug": "carlow",
@@ -240,7 +702,41 @@
             "the-best-men",
             "the-beat-boutique",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Carlow is roughly an hour to an hour and a half from Dublin on the M9 or M7, and about two hours from Cork, so Dublin bands usually treat it as a same-day return. The county is compact and its venues are close to the main road network.",
+        "venueNotes": [
+            {
+                "name": "Mount Wolseley Hotel",
+                "note": "A modern hotel with spacious function rooms and straightforward loading access."
+            },
+            {
+                "name": "Lord Bagenal Inn",
+                "note": "A boutique inn in Leighlinbridge with characterful, smaller rooms; the band needs to suit an intimate setting."
+            },
+            {
+                "name": "Step House Hotel",
+                "note": "A stylish townhouse hotel in Borris with a warm, compact reception space."
+            },
+            {
+                "name": "Seven Oaks",
+                "note": "A hotel on the edge of Carlow town with good parking and a practical function suite."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is Carlow a good choice for a band travelling from Dublin?",
+                "a": "Yes, the short run down the M9 makes it an easy same-day return for most Dublin-based bands, with minimal travel supplement."
+            },
+            {
+                "q": "Do small Carlow venues suit a full live band?",
+                "a": "Some boutique venues are better suited to a scaled-back line-up; discuss room size and the band's footprint before booking."
+            },
+            {
+                "q": "What time does music usually finish at Carlow hotels?",
+                "a": "Most town hotels have standard late licences, but confirm the curfew with your venue as it can vary by location."
+            }
+        ],
+        "planningNote": "Carlow's wedding season follows the Leinster pattern, peaking from May through September. The county's affordability and proximity to Dublin make it popular with couples who want a country feel without a long guest journey."
     },
     {
         "slug": "kildare",
@@ -258,7 +754,45 @@
             "the-beat-boutique",
             "sway-social",
             "blacktye"
-        ]
+        ],
+        "travelNote": "Kildare venues are rarely more than an hour from Dublin city centre, with many sitting just off the M4, M7 or M9 within twenty to fifty minutes of the M50. Same-day returns are standard, and even late finishes still allow an easy run back to the capital.",
+        "venueNotes": [
+            {
+                "name": "The K Club",
+                "note": "A five-star estate with a refined ballroom and a well-drilled events team; load-in is managed to the minute."
+            },
+            {
+                "name": "Carton House",
+                "note": "A grand country house with multiple event spaces; confirm which room is allocated and the closest drop-off point."
+            },
+            {
+                "name": "Barberstown Castle",
+                "note": "A castle hotel with a warm, medieval-meets-modern atmosphere; the reception room suits a lively band."
+            },
+            {
+                "name": "Killashee Hotel",
+                "note": "A Victorian hotel set in parkland with a large ballroom and plenty of parking."
+            },
+            {
+                "name": "Cliff at Lyons",
+                "note": "A restored canal-side village with intimate, design-led spaces; a smaller band line-up fits best."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Kildare bands charge travel fees from Dublin?",
+                "a": "Most Kildare venues are so close to Dublin that travel is included in the base rate; always confirm if your venue is on the border of a band's standard area."
+            },
+            {
+                "q": "Can the band set up early at a Kildare venue?",
+                "a": "Many hotels host more than one event, so early setup isn't guaranteed; bands usually plan a line-check during the room turnaround."
+            },
+            {
+                "q": "Is parking a problem for bands at Kildare venues?",
+                "a": "Generally no, but city-style or canal-side venues can have tighter parking; reserving a spot near the loading door helps."
+            }
+        ],
+        "planningNote": "Kildare's wedding season mirrors Dublin's, with May, June, July and September Saturdays booking up fast. The county's convenience means it also attracts a lot of Friday and Sunday weddings, often with strong guest attendance."
     },
     {
         "slug": "meath",
@@ -275,7 +809,41 @@
             "the-beat-boutique",
             "blacktye",
             "the-best-men"
-        ]
+        ],
+        "travelNote": "Meath sits just north of Dublin, with most venues thirty to sixty minutes from the city centre depending on traffic and how deep into the Boyne Valley you go. Same-day returns are the norm, though a very late finish at a rural estate can still make a local hotel room worthwhile.",
+        "venueNotes": [
+            {
+                "name": "Tankardstown House",
+                "note": "A boutique country house with a rustic-luxe barn; the band setup needs to suit a stylish but compact space."
+            },
+            {
+                "name": "Bellinter House",
+                "note": "A Georgian house with a modern events wing; load-in is straightforward via the courtyard."
+            },
+            {
+                "name": "Slane Castle",
+                "note": "A historic castle with large-scale event experience; the band will coordinate with the in-house production team."
+            },
+            {
+                "name": "The Knightsbrook",
+                "note": "A hotel and spa with a large ballroom and easy access from the main road."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is Meath an easy county for Dublin bands to reach?",
+                "a": "Yes, most Meath venues are within an hour of Dublin, so travel is usually included and same-day returns are standard."
+            },
+            {
+                "q": "Can we fit a big band in Tankardstown House?",
+                "a": "The barn is stylish but not stadium-sized, so many couples opt for a compact, high-energy line-up rather than a large ensemble."
+            },
+            {
+                "q": "What should couples ask Meath estates about sound limits?",
+                "a": "Some estates manage noise, especially near residential areas; ask the venue about their policy and share it with the band."
+            }
+        ],
+        "planningNote": "Meath's wedding season peaks from April through September, with Slane Castle and Tankardstown driving the highest demand. The county's proximity to Dublin and its strong accommodation options make it a reliable choice for weekend-long celebrations."
     },
     {
         "slug": "louth",
@@ -292,7 +860,45 @@
             "sway-social",
             "the-best-men",
             "the-beat-boutique"
-        ]
+        ],
+        "travelNote": "Louth sits on the Dublin-Belfast corridor, so most bands reach Dundalk or Drogheda venues in under an hour from either city. The M1 and N1 make same-day returns common, though a late finish or a midweek run can still make a hotel night the more sensible option.",
+        "venueNotes": [
+            {
+                "name": "Ballymascanlon House",
+                "note": "A country-house hotel set in parkland near Carlingford Lough; the band can usually unload close to the function room, but the route should be confirmed with the events team."
+            },
+            {
+                "name": "Darver Castle",
+                "note": "A castle venue with a rural feel and a dedicated ballroom; parking is plentiful and load-in is generally straightforward."
+            },
+            {
+                "name": "Crowne Plaza Dundalk",
+                "note": "A modern city hotel with level access and a lift, though Dundalk centre loading windows and parking need to be agreed in advance."
+            },
+            {
+                "name": "Bellingham Castle",
+                "note": "A castle estate on the east side of the county with a grand reception room; the approach is narrow in places, so bands allow extra time."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Belfast-based bands charge extra for Louth weddings?",
+                "a": "Louth is just south of the border, so Belfast-based bands usually include it within their standard travel area; Republic-based bands treat it as a normal Leinster booking."
+            },
+            {
+                "q": "Is parking easy for a wedding band at Dundalk city hotels?",
+                "a": "City-centre hotels have loading bays or nearby car parks, but reserving a space near the service entrance saves time during set-up."
+            },
+            {
+                "q": "Can we hold both our ceremony and reception at a single Louth venue?",
+                "a": "Several Louth country houses and hotels offer both, which makes the day smoother; just confirm the room turnaround and sound-check window with your coordinator."
+            },
+            {
+                "q": "How late can live music run at Louth coastal venues?",
+                "a": "Coastal and rural venues can have earlier curfews than town hotels, so ask the venue for their music finish time before you book."
+            }
+        ],
+        "planningNote": "Louth's wedding season runs from April through September, with coastal and country-house venues drawing couples from both Dublin and Belfast. Saturday dates fill first, but the county's short travel times also make Friday and Sunday weddings popular."
     },
     {
         "slug": "cavan",
@@ -309,7 +915,45 @@
             "sway-social",
             "the-best-men",
             "the-beat-boutique"
-        ]
+        ],
+        "travelNote": "Cavan is roughly an hour and a half to two hours from Dublin on the M3 and N3, and about two hours from Belfast via the M1 and A3, so it is a practical same-day return for many bands. A very late finish at a rural castle or lakeland hotel usually tips the balance toward an overnight stay.",
+        "venueNotes": [
+            {
+                "name": "Cabra Castle",
+                "note": "A dramatic castle estate near the Meath border with a large ballroom; the events team manages load-in timing, and the route from the car park should be confirmed."
+            },
+            {
+                "name": "Farnham Estate",
+                "note": "A sprawling luxury resort on mature parkland; the distance between reception room and parking means trolleys and a clear access route help enormously."
+            },
+            {
+                "name": "Slieve Russell Hotel",
+                "note": "A large resort near Ballyconnell with generous function suites and straightforward parking, though the scale means the band needs the correct entrance."
+            },
+            {
+                "name": "Errigal Country House",
+                "note": "A boutique country house in a quieter lakeland setting; the intimate reception room suits a scaled-back line-up."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do wedding bands charge extra to play in Cavan?",
+                "a": "Cavan is within easy reach of Dublin and Belfast, so many bands include it in standard travel rates; remote lakeland venues or very late finishes may add a modest supplement."
+            },
+            {
+                "q": "Can a band handle both ceremony and reception at a Cavan venue?",
+                "a": "Yes, many Cavan hotels and estates host the full day; the band will need a clear schedule for the room flip and any outdoor-to-indoor move."
+            },
+            {
+                "q": "What should we ask Cavan venues about sound limits?",
+                "a": "Some country houses and hotels manage noise levels, especially in residential or rural areas; confirm the venue's policy and share it with your band rather than relying on second-hand information."
+            },
+            {
+                "q": "Are Cavan's lakeland venues reliable for band power supply?",
+                "a": "Established venues have proper power, but if you're adding a marquee or using a lakeside site, arrange an electrician's check and tell the band early."
+            }
+        ],
+        "planningNote": "Cavan's wedding season runs from April through September, with castle and estate venues booking strongest for summer Saturdays. Its central position between Dublin and Belfast also makes it popular with split families, so autumn Friday and Sunday dates can fill faster than couples expect."
     },
     {
         "slug": "monaghan",
@@ -325,7 +969,37 @@
             "the-best-men",
             "the-beat-boutique",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Dublin bands reach Monaghan in roughly an hour and a half on the N2, while Belfast is only slightly farther north, making it one of the easier border counties for same-day travel. A late finish at Castle Leslie or a rural estate often makes an overnight room worthwhile.",
+        "venueNotes": [
+            {
+                "name": "Castle Leslie",
+                "note": "A 1,000-acre estate with a characterful ballroom; the events team controls load-in routes and timings, and the rural location usually means the band stays over."
+            },
+            {
+                "name": "Hillgrove Hotel",
+                "note": "A modern hotel in Monaghan town with good access and parking; the function suite suits a full live band."
+            },
+            {
+                "name": "Nuremore Hotel",
+                "note": "A country hotel with landscaped grounds and a well-proportioned ballroom; load-in is generally straightforward."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is Monaghan a cross-border issue for Republic-based wedding bands?",
+                "a": "Monaghan is in the Republic, so there are no border checks; bands from Dublin or Belfast simply factor in the normal drive time."
+            },
+            {
+                "q": "Do Monaghan venues tend to have sound limiters?",
+                "a": "Some estates and hotels manage noise, particularly near residential areas; ask the venue directly about their policy and pass it to your band."
+            },
+            {
+                "q": "Should we book accommodation for the band at Castle Leslie?",
+                "a": "Yes, Castle Leslie's rural location and late finishes mean an overnight room is typically arranged for the band."
+            }
+        ],
+        "planningNote": "Monaghan's wedding season peaks from May through September, with Castle Leslie driving the highest demand. Its proximity to both Dublin and Belfast keeps Saturday dates competitive, while midweek and winter weddings are less common but easier to secure."
     },
     {
         "slug": "leitrim",
@@ -341,7 +1015,41 @@
             "the-beat-boutique",
             "the-best-men",
             "sway-social"
-        ]
+        ],
+        "travelNote": "From Dublin, Leitrim is a two-and-a-half to three-hour run along the N4, so Dublin bands usually treat a wedding here as an overnight trip, especially after a late finish. Galway and Sligo bands are much closer, and the county's lake roads can be narrow once you leave the main route.",
+        "venueNotes": [
+            {
+                "name": "Lough Rynn Castle",
+                "note": "A lakeside castle estate with a grand ballroom; the long driveway and estate grounds mean load-in timing is best agreed with the events team."
+            },
+            {
+                "name": "Bush Hotel",
+                "note": "A historic hotel in Carrick-on-Shannon with straightforward town-centre access and a warm, compact function room."
+            },
+            {
+                "name": "The Landmark Hotel",
+                "note": "A modern hotel on the Shannon with good parking and level access; the ballroom suits a lively band."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Leitrim wedding venues have sound limiters?",
+                "a": "Some hotels and estates manage noise, particularly in town centres or near residential areas; couples should confirm the venue's policy and share it with the band."
+            },
+            {
+                "q": "Is Carrick-on-Shannon easy for bands to reach?",
+                "a": "The town is well connected from the N4, but rural lake venues can add narrow lanes and slower final miles, so bands build in extra time."
+            },
+            {
+                "q": "Can we have our ceremony and reception at the same Leitrim venue?",
+                "a": "Many Leitrim hotels and castles host both, which is ideal for guests; just confirm the room turnaround and whether the band can set up during the ceremony."
+            },
+            {
+                "q": "Are boat transfers a practical option for Leitrim wedding parties?",
+                "a": "Lakeland scenery is beautiful, but moving a band by boat is rarely practical; plan a standard road load-in and treat any water element as a guest experience."
+            }
+        ],
+        "planningNote": "Leitrim's wedding season runs from April through September, with lakeside castle venues and Carrick-on-Shannon drawing most of the summer demand. The county's quieter profile means good availability outside peak Saturdays, though midweek dates remain uncommon."
     },
     {
         "slug": "sligo",
@@ -358,7 +1066,45 @@
             "the-beat-boutique",
             "the-best-men",
             "blacktye"
-        ]
+        ],
+        "travelNote": "A Dublin band driving to Sligo faces around two and a half to three hours on the N4, so most treat it as an overnight, especially for a late finish or a coastal venue. Galway and Mayo bands are closer, but Atlantic weather and narrow final roads can still slow the last stretch.",
+        "venueNotes": [
+            {
+                "name": "Markree Castle",
+                "note": "A fairytale castle hotel with a warm, characterful ballroom; the events team manages load-in through the historic entrance."
+            },
+            {
+                "name": "Castle Dargan",
+                "note": "A resort in the hills with a modern events suite; the winding approach means bands allow extra time, particularly after dark."
+            },
+            {
+                "name": "Glasshouse Hotel",
+                "note": "A contemporary hotel in Sligo town with level access and good loading facilities."
+            },
+            {
+                "name": "Yeats Country Hotel",
+                "note": "A coastal hotel in Rosses Point with a relaxed atmosphere; the function room suits a versatile, scaled-back or full band depending on layout."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Sligo coastal venues have earlier music curfews?",
+                "a": "Atlantic coast and village venues can have noise restrictions; ask the venue for their music finish time and any sound-management policy before you book."
+            },
+            {
+                "q": "Should we book accommodation for a Dublin band playing in Sligo?",
+                "a": "Most Dublin-based bands will need an overnight room given the distance and late finish; this is usually discussed when you get your quote."
+            },
+            {
+                "q": "Can a band set up early if our ceremony and reception are both at Markree Castle?",
+                "a": "Same-venue weddings make logistics easier, but historic castles often schedule room flips; confirm the sound-check window with the events team."
+            },
+            {
+                "q": "Is parking easy for bands at Sligo town hotels?",
+                "a": "Town hotels generally have car parks or loading bays, but reserving a spot near the function suite avoids last-minute delays."
+            }
+        ],
+        "planningNote": "Sligo's wedding season peaks from May through September, with coastal and castle venues drawing couples who want Atlantic scenery. June and July are busiest, while autumn can offer dramatic light and better availability."
     },
     {
         "slug": "roscommon",
@@ -374,7 +1120,41 @@
             "the-best-men",
             "sway-social",
             "the-beat-boutique"
-        ]
+        ],
+        "travelNote": "Roscommon is roughly two hours from Dublin on the M6 and N63, so many Dublin bands can same-day it for an early finish, but rural lakeland venues and late nights usually mean an overnight. Galway bands are much closer and often the more economical choice for travel.",
+        "venueNotes": [
+            {
+                "name": "Kilronan Castle",
+                "note": "A lakeside castle estate with a grand ballroom; the long avenue and estate scale mean load-in timing is agreed with the events team."
+            },
+            {
+                "name": "Glasson Lakehouse",
+                "note": "A boutique lakehouse hotel with a bright, modern function room; the setting is scenic but the final roads can be narrow."
+            },
+            {
+                "name": "Castlecoote House",
+                "note": "A smaller historic house with a more intimate reception room; the band line-up should suit the scale of the space."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Roscommon venues have sound limiters?",
+                "a": "Some hotels and historic houses manage noise, particularly in rural or residential settings; confirm the venue's policy directly and share it with your band."
+            },
+            {
+                "q": "Is an overnight stay typical for a band at Kilronan Castle?",
+                "a": "Yes, the rural lakeland location and late finishes mean most bands arrange accommodation nearby."
+            },
+            {
+                "q": "Can the band play at a lakeside outdoor reception in Roscommon?",
+                "a": "Summer marquee receptions are popular, but you need a wet-weather backup and a confirmed power source; the band will usually plan an indoor setup as the default."
+            },
+            {
+                "q": "Are Roscommon venues easy to reach from Galway?",
+                "a": "Galway is under an hour away for most Roscommon venues, making it an easy same-day return for bands based there."
+            }
+        ],
+        "planningNote": "Roscommon's wedding season runs from April through September, with Kilronan Castle and the lakeland venues drawing steady summer demand. The county's lower profile means Friday and Sunday dates are often more available than in neighbouring counties."
     },
     {
         "slug": "longford",
@@ -389,7 +1169,37 @@
             "the-best-men",
             "the-beat-boutique",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Longford is about an hour and a half to two hours from Dublin on the N4, close enough for many bands to same-day it if the finish is reasonable. Galway bands are under an hour away, while a late finish or a rural lakeland setting usually pushes the band toward an overnight.",
+        "venueNotes": [
+            {
+                "name": "Viewmount House",
+                "note": "A boutique country house on the shores of Lough Ree; the intimate reception room suits a scaled-back band and load-in needs advance planning."
+            },
+            {
+                "name": "Longford Arms Hotel",
+                "note": "A town-centre hotel with a practical function suite and straightforward parking."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do small Longford venues suit a full live band?",
+                "a": "Viewmount House and similar boutique venues are better suited to a compact line-up; discuss room size and the band's footprint before booking."
+            },
+            {
+                "q": "What should couples ask Longford venues about late licences?",
+                "a": "Town hotels often have standard late licences, but rural or lakeside venues may finish earlier; confirm the curfew in writing."
+            },
+            {
+                "q": "Is power supply a concern at rural Longford venues?",
+                "a": "Established venues have proper power, but marquee or outdoor lakeside setups need an electrician's sign-off and early communication with the band."
+            },
+            {
+                "q": "Do Dublin bands charge extra for Longford?",
+                "a": "Longford is within standard travel range for many Dublin bands, though very late finishes or remote lakeside locations may add a modest supplement."
+            }
+        ],
+        "planningNote": "Longford's wedding season is concentrated from May through September, with the country-house and lakeland venues drawing most of the summer bookings. The county's smaller market means good availability outside peak Saturdays."
     },
     {
         "slug": "westmeath",
@@ -406,7 +1216,45 @@
             "the-beat-boutique",
             "the-best-men",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Westmeath venues are roughly an hour to an hour and a half from Dublin on the M4 and M6, making same-day returns common for most bands. Galway bands are also close, and Athlone's central road and rail links make it one of the easier midland counties to reach.",
+        "venueNotes": [
+            {
+                "name": "Bloomfield House",
+                "note": "A country-house hotel on Lough Owel with generous function rooms; the estate access is good but the band should confirm the drop-off point."
+            },
+            {
+                "name": "Mullingar Park Hotel",
+                "note": "A large modern hotel with a spacious ballroom, good parking and level access."
+            },
+            {
+                "name": "Hodson Bay Hotel",
+                "note": "A lakeside hotel south of Athlone with a lively wedding atmosphere and straightforward loading."
+            },
+            {
+                "name": "Sheraton Athlone",
+                "note": "A city-centre hotel with modern function suites; loading bays and parking need to be arranged in advance."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Westmeath venues charge extra for Dublin-based bands?",
+                "a": "Most Westmeath venues are within standard travel range for Dublin bands, so travel is often included; always confirm whether any supplement applies."
+            },
+            {
+                "q": "Can we have our ceremony and reception at the same Westmeath hotel?",
+                "a": "Many Westmeath hotels offer both, which simplifies the day; confirm the room turnaround and whether the band can set up during the ceremony."
+            },
+            {
+                "q": "What should we ask Westmeath hotels about evening noise?",
+                "a": "Some town hotels and residential areas manage sound levels; ask the venue directly about their policy and share it with the band."
+            },
+            {
+                "q": "Is parking easy for wedding bands in Athlone?",
+                "a": "City-centre hotels have loading bays or nearby car parks, but reserving a space near the service entrance helps."
+            }
+        ],
+        "planningNote": "Westmeath's wedding season peaks from May through September, with Athlone and Mullingar hotels setting the pace. The county's central location makes it a popular compromise for families split between east and west, so summer Saturdays book up quickly."
     },
     {
         "slug": "offaly",
@@ -422,7 +1270,41 @@
             "the-best-men",
             "the-beat-boutique",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Offaly sits right in the midlands, about an hour and a half to two hours from Dublin via the M6 and M7, and roughly an hour from Galway, so most bands can same-day it. A late finish at Kinnitty Castle or a rural venue can still tip the balance toward an overnight stay.",
+        "venueNotes": [
+            {
+                "name": "Kinnitty Castle",
+                "note": "A castle hotel at the foot of the Slieve Bloom Mountains with a grand, atmospheric ballroom; the rural location and historic access mean load-in is planned with the events team."
+            },
+            {
+                "name": "Bridge House Hotel",
+                "note": "A town-centre hotel in Tullamore with modern function suites and good loading access."
+            },
+            {
+                "name": "Tullamore Court Hotel",
+                "note": "A large hotel on the edge of Tullamore with generous parking and a practical ballroom."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do wedding bands charge travel fees for Offaly?",
+                "a": "Offaly's central location means many Dublin and Galway bands include it in standard rates; remote rural venues or very late finishes may add a modest travel supplement."
+            },
+            {
+                "q": "Can a band play both our ceremony and reception at Kinnitty Castle?",
+                "a": "Yes, many couples hold the full day at the castle; the band needs a clear schedule for room flips and any outdoor element."
+            },
+            {
+                "q": "What should couples ask Offaly venues about sound management?",
+                "a": "Some hotels and historic venues manage noise levels; confirm the venue's policy directly and share it with your band rather than relying on rumour."
+            },
+            {
+                "q": "Is it easy for bands to load in at Tullamore hotels?",
+                "a": "Town hotels generally have level access and nearby parking, but reserving a loading spot near the function suite avoids delays."
+            }
+        ],
+        "planningNote": "Offaly's wedding season runs from April through September, with Kinnitty Castle and the Tullamore hotels carrying the bulk of the summer demand. The county's affordability and midland position make it a popular choice for couples balancing guest travel from Dublin and the west."
     },
     {
         "slug": "laois",
@@ -438,7 +1320,41 @@
             "blacktye",
             "the-beat-boutique",
             "the-best-men"
-        ]
+        ],
+        "travelNote": "Laois is about an hour and a half from Dublin on the M7 and M8, and Cork bands can reach the county in around ninety minutes, making it an easy same-day return for many. Ballyfin Demesne and other rural estates may still prefer an overnight room because of the late finish and private-road access.",
+        "venueNotes": [
+            {
+                "name": "Ballyfin Demesne",
+                "note": "Ireland's most exclusive country-house venue with exacting standards; the band coordinates closely with the events team on staging, timing and access."
+            },
+            {
+                "name": "Heritage Hotel Killenard",
+                "note": "A modern hotel near Portarlington with generous function rooms and straightforward parking."
+            },
+            {
+                "name": "Roundwood House",
+                "note": "A boutique country house near Mountrath with a warm, intimate reception room; a scaled-back band line-up suits the space."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do bands need to stay overnight at Ballyfin Demesne?",
+                "a": "Yes, Ballyfin's rural estate setting and late finishes mean the band almost always stays nearby."
+            },
+            {
+                "q": "Can we have our ceremony and reception at the same Laois venue?",
+                "a": "Many Laois hotels and estates host both, which keeps the day seamless; confirm the room turnaround and sound-check timing."
+            },
+            {
+                "q": "Are Laois venues strict on sound limits?",
+                "a": "Some country houses and hotels manage noise, particularly near residential areas; ask the venue directly and pass the policy to your band."
+            },
+            {
+                "q": "Do Cork bands charge extra for Laois weddings?",
+                "a": "Laois is within reasonable reach of Cork, but the travel time means some bands add a supplement; always ask whether travel is included or itemised."
+            }
+        ],
+        "planningNote": "Laois's wedding season runs from April through October, with Ballyfin Demesne setting the pace for the most sought-after dates. The county's accessibility from Dublin, Cork and Limerick keeps Saturday demand high, while midweek bookings at the top estates are increasingly common."
     },
     {
         "slug": "antrim",
@@ -455,7 +1371,45 @@
             "the-beat-boutique",
             "sway-social",
             "blacktye"
-        ]
+        ],
+        "travelNote": "Antrim venues are within half an hour to an hour of Belfast, making the city the natural hub for bands. Republic-based bands regularly cross the border for Antrim weddings, with Dublin about two to two and a half hours away, and couples should clarify whether quotes are in euro or sterling.",
+        "venueNotes": [
+            {
+                "name": "Galgorm Resort",
+                "note": "A large luxury resort on the river with multiple event spaces; confirm which suite is booked and the approved loading route."
+            },
+            {
+                "name": "Belfast Castle",
+                "note": "A historic city venue with scenic views and specific access requirements; load-in timing and parking need advance agreement."
+            },
+            {
+                "name": "Hilton Templepatrick",
+                "note": "A modern hotel near the airport with generous function rooms and good parking."
+            },
+            {
+                "name": "Ballygally Castle",
+                "note": "A coastal castle hotel on the Antrim Coast Road; the scenic final stretch is narrow in places, so bands allow extra time."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Republic-based wedding bands charge extra for cross-border travel to Antrim?",
+                "a": "There are no border checks, but the longer drive and possible overnight mean most bands add a travel supplement; confirm whether the quote is in euro or sterling."
+            },
+            {
+                "q": "Is Belfast a good base for Antrim wedding bands?",
+                "a": "Yes, most Antrim venues are within an easy drive of Belfast, so local bands rarely need accommodation unless the venue is on the north coast."
+            },
+            {
+                "q": "Can a band set up early at a Belfast city venue?",
+                "a": "City hotels often host multiple events, so early setup isn't guaranteed; bands usually plan a line-check during room turnaround."
+            },
+            {
+                "q": "What should couples ask Antrim venues about currency?",
+                "a": "Northern Ireland uses sterling, so confirm with your band whether their quote is in euro or sterling and how any exchange difference is handled."
+            }
+        ],
+        "planningNote": "Antrim's wedding season runs from April through September, with Galgorm Resort and Belfast Castle leading demand. The county's mix of city, coast and estate venues keeps Saturday dates competitive, while winter weddings are less common but easier to book."
     },
     {
         "slug": "down",
@@ -471,7 +1425,37 @@
             "the-beat-boutique",
             "the-best-men",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Down venues are close to Belfast, many within thirty to forty-five minutes of the city, so local bands can usually same-day it. Republic-based bands crossing from Dublin face a two-hour run and a currency change, so an overnight is common for late finishes.",
+        "venueNotes": [
+            {
+                "name": "Slieve Donard Resort",
+                "note": "A grand coastal hotel at the foot of the Mourne Mountains with a large ballroom; loading is via the service entrance, best confirmed in advance."
+            },
+            {
+                "name": "The Old Inn Crawfordsburn",
+                "note": "A historic coaching inn with characterful, smaller rooms; the band line-up should suit a more intimate space."
+            },
+            {
+                "name": "Killyhevlin Hotel",
+                "note": "A modern hotel with a large function suite and straightforward access; its location suits couples who want a waterside setting."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Down wedding venues have sound limiters?",
+                "a": "Some hotels and coastal venues manage noise, especially near residential areas; ask the venue directly about their policy and share it with the band."
+            },
+            {
+                "q": "Should we book accommodation for a Republic band playing in Down?",
+                "a": "For late finishes or venues more than an hour from the band's base, an overnight room is usually arranged; Down-based or Belfast bands may not need it."
+            },
+            {
+                "q": "Can we pay a Republic band in euro for a Down wedding?",
+                "a": "Couples can agree any payment method, but clarify the currency in the contract; Northern Ireland uses sterling, so exchange timing may matter."
+            }
+        ],
+        "planningNote": "Down's wedding season peaks from May through September, with coastal and mountain-backdrop venues drawing strong demand. The county's proximity to Belfast makes it a popular choice for weekend-long celebrations, and June Saturdays book up first."
     },
     {
         "slug": "armagh",
@@ -487,7 +1471,37 @@
             "the-best-men",
             "the-beat-boutique",
             "blacktye"
-        ]
+        ],
+        "travelNote": "Armagh is roughly an hour from Belfast and about an hour and a half from Dublin, so it is within same-day range for bands from both cities. Republic-based bands crossing the border should confirm whether quotes are in euro or sterling, and late finishes often make an overnight sensible.",
+        "venueNotes": [
+            {
+                "name": "Killeavy Castle Estate",
+                "note": "A restored castle estate in the Ring of Gullion with a grand ballroom; the rural setting means the band usually stays overnight."
+            },
+            {
+                "name": "Newforge House",
+                "note": "A Georgian country-house hotel with intimate reception rooms; a scaled-back band line-up suits the space."
+            },
+            {
+                "name": "The Argory",
+                "note": "A National Trust property with event spaces in a historic house; access and load-in restrictions need advance planning."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Is cross-border travel a problem for Armagh weddings?",
+                "a": "There are no border checks, but Republic-based bands need to factor the drive and currency; confirm whether the quote is in euro or sterling."
+            },
+            {
+                "q": "Do Armagh country houses have sound limits?",
+                "a": "Historic houses and rural venues often manage noise; ask the venue directly and share the policy with your band."
+            },
+            {
+                "q": "Can the band set up early at Killeavy Castle Estate?",
+                "a": "Same-venue ceremonies and receptions help, but estate timings are controlled by the events team; confirm the sound-check window when you book."
+            }
+        ],
+        "planningNote": "Armagh's wedding season runs from May through September, with Killeavy Castle Estate driving the highest demand. The county's smaller venue circuit means Saturday dates are limited, while off-peak and midweek weddings can offer better availability."
     },
     {
         "slug": "tyrone",
@@ -503,7 +1517,37 @@
             "the-best-men",
             "the-beat-boutique",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Tyrone is about an hour to an hour and a half from Belfast and less than an hour from Derry, while Dublin bands face a two-hour cross-border run. Republic-based bands should confirm currency and any travel supplement, and rural estates often require an overnight.",
+        "venueNotes": [
+            {
+                "name": "Cohannon Inn",
+                "note": "A large hotel near Dungannon with generous function suites and straightforward parking."
+            },
+            {
+                "name": "Blessingbourne Estate",
+                "note": "A country estate near Fivemiletown with a characterful reception room; the rural location means the band usually stays overnight."
+            },
+            {
+                "name": "Hill of The O'Neill",
+                "note": "A historic venue in Dungannon with unique spaces; access and load-in need to be agreed with the venue team."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Republic-based bands charge more for Tyrone weddings?",
+                "a": "The cross-border drive and possible overnight mean most add a travel supplement; clarify whether the quote is in euro or sterling."
+            },
+            {
+                "q": "Are Tyrone venues reliable for band power supply?",
+                "a": "Established hotels have proper power, but rural estates or marquee setups need an electrician's sign-off and early communication with the band."
+            },
+            {
+                "q": "What should couples ask Tyrone venues about late finishes?",
+                "a": "Rural and town-centre venues can have different curfews; confirm the music finish time and any sound-management policy in writing."
+            }
+        ],
+        "planningNote": "Tyrone's wedding season peaks from May through September, with country estates and larger hotels carrying most of the demand. The county's central position in the west of Northern Ireland makes it convenient for guests from both Belfast and Derry."
     },
     {
         "slug": "fermanagh",
@@ -519,7 +1563,41 @@
             "the-beat-boutique",
             "blacktye",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Fermanagh is about an hour and a half from Belfast and two to two and a half hours from Dublin on the A4 and N16, so bands usually treat it as an overnight trip. The lakeland setting and cross-border currency difference are the two practical details to confirm with a Republic-based band.",
+        "venueNotes": [
+            {
+                "name": "Lough Erne Resort",
+                "note": "A five-star lakeland resort with high production standards; the events team coordinates load-in, staging and timing closely."
+            },
+            {
+                "name": "Manor House Country Hotel",
+                "note": "A country hotel on the shores of Lower Lough Erne with a warm ballroom; the scenic approach includes narrow lakeside roads."
+            },
+            {
+                "name": "Killyhevlin Lakeside Hotel",
+                "note": "A modern hotel on the edge of Enniskillen with good access and parking; the function suite suits a lively band."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Fermanagh venues have boat access for wedding bands?",
+                "a": "Boat transfers are rarely practical for equipment; plan a standard road load-in and treat any boat element as a guest experience rather than band transport."
+            },
+            {
+                "q": "Should we book accommodation for the band at Lough Erne Resort?",
+                "a": "Yes, the distance from Dublin and Belfast and the likelihood of a late finish mean an overnight room is standard."
+            },
+            {
+                "q": "How does currency work when booking a Republic band for a Fermanagh wedding?",
+                "a": "Northern Ireland uses sterling, so confirm whether the band quotes in euro or sterling and how payment will be handled."
+            },
+            {
+                "q": "Are Fermanagh lakeland venues strict on sound curfews?",
+                "a": "Lakeside and rural venues can have noise restrictions; ask the venue directly about their music finish time and any sound-management policy."
+            }
+        ],
+        "planningNote": "Fermanagh's wedding season runs from April through September, with Lough Erne Resort and the lakeland hotels drawing most of the summer demand. The county's international wedding crowd and tight Saturday availability mean top venues book out well ahead."
     },
     {
         "slug": "derry",
@@ -535,6 +1613,40 @@
             "the-beat-boutique",
             "the-best-men",
             "sway-social"
-        ]
+        ],
+        "travelNote": "Derry is roughly an hour and a half from Belfast and two and a half to three hours from Dublin, so Republic-based bands usually need an overnight. Donegal and Tyrone bands are closer, and the city itself has good loading access at the hotels.",
+        "venueNotes": [
+            {
+                "name": "Beech Hill Country House",
+                "note": "A country-house hotel just outside the city with a relaxed atmosphere and a compact reception room; a scaled-back band line-up suits it well."
+            },
+            {
+                "name": "Bishop's Gate Hotel",
+                "note": "A boutique hotel inside the historic city walls with stylish function spaces; loading access and parking need advance agreement."
+            },
+            {
+                "name": "Da Vinci's Hotel",
+                "note": "A modern hotel near the river with a large function suite and good parking."
+            }
+        ],
+        "localFaq": [
+            {
+                "q": "Do Republic-based bands charge extra to play in Derry?",
+                "a": "The longer cross-border drive and overnight mean most bands add a travel supplement; confirm whether the quote is in euro or sterling."
+            },
+            {
+                "q": "Is Derry easy for Belfast bands to reach?",
+                "a": "Yes, Belfast is only about an hour and a half away, so many Derry weddings are same-day returns for Belfast-based bands."
+            },
+            {
+                "q": "What should couples ask Derry venues about late licences?",
+                "a": "City hotels and country houses can have different curfews; confirm the music finish time and any sound-management policy before booking."
+            },
+            {
+                "q": "Can the band set up early if our ceremony and reception are both at Beech Hill?",
+                "a": "Same-venue weddings simplify logistics, but the band still needs a clear window during room turnaround or a secure storage space."
+            }
+        ],
+        "planningNote": "Derry's wedding season runs from April through September, with city-centre and country-house venues drawing couples from across the north west. The county's strong cultural scene makes live music popular, and summer Saturdays book up ahead of the rest of the year."
     }
 ]
