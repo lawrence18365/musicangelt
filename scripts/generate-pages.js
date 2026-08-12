@@ -16,6 +16,18 @@ const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const VENUES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/venues.json'), 'utf8'));
 const COUNTIES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/counties.json'), 'utf8'));
+const VENUE_BY_NAME = Object.fromEntries(VENUES.map(v => [v.name.toLowerCase(), v.slug]));
+
+function resolveVenueSlug(rawName) {
+    const lower = rawName.toLowerCase();
+    let matchSlug = VENUE_BY_NAME[lower] || null;
+    if (!matchSlug) {
+        for (const v of VENUES) {
+            if (lower.startsWith(v.name.toLowerCase())) { matchSlug = v.slug; break; }
+        }
+    }
+    return matchSlug;
+}
 
 const GA_ID = 'G-WV874YXC8Z';
 const SITE = 'https://musicangel.ie';
@@ -510,10 +522,23 @@ ${picksHtml}
 `;
 }
 
-function renderCounty(c) {
+function renderCounty(c, index = 0) {
     const canonical = pageUrl(`wedding-bands-${c.slug}`);
-    const title = `Wedding Bands in ${c.name} | MusicAngel`;
-    const description = `Looking for a wedding band in County ${c.name}? Explore four live wedding bands serving ${c.name} and the rest of Ireland. 100% live, pricing from €2450.`;
+
+    const titlePatterns = [
+        `Wedding Bands ${c.name} | MusicAngel`,
+        `Wedding Band ${c.name} | MusicAngel`,
+        `Wedding Bands in ${c.name} | MusicAngel`,
+        `Live Wedding Bands ${c.name} | MusicAngel`
+    ];
+    const descriptionPatterns = [
+        `Wedding bands in County ${c.name}: four live bands, 100% live sets and packages from €2450. Check availability for your date and venue.`,
+        `Looking for a wedding band in County ${c.name}? Compare four live Irish wedding bands, check packages from €2450 and availability.`,
+        `Book a live wedding band in County ${c.name}. Four bands, fully live sets, prices from €2450. Enquire for your venue and date.`,
+        `County ${c.name} wedding bands: four 100% live bands for Irish weddings. Pricing from €2450. Check availability and get a quote.`
+    ];
+    const title = titlePatterns[index % titlePatterns.length];
+    const description = descriptionPatterns[index % descriptionPatterns.length];
     const heroImage = `${SITE}/assets/bands/hero-beat-boutique.webp`;
 
     const jsonLd = {
@@ -557,29 +582,65 @@ function renderCounty(c) {
     }).join('\n');
 
     // Cross-link venue names → venue pages where they exist.
-    const venueBySlug = Object.fromEntries(VENUES.map(v => [v.slug, v]));
-    const venueByName = Object.fromEntries(VENUES.map(v => [v.name.toLowerCase(), v.slug]));
     const venuesList = c.venues.map(rawName => {
-        // Match by exact name OR by leading words ("Ashford Castle (just over the Mayo border)" → "ashford castle")
-        const lower = rawName.toLowerCase();
-        let matchSlug = venueByName[lower] || null;
-        if (!matchSlug) {
-            for (const v of VENUES) {
-                if (lower.startsWith(v.name.toLowerCase())) { matchSlug = v.slug; break; }
-            }
-        }
+        const matchSlug = resolveVenueSlug(rawName);
         if (matchSlug) {
             return `                <li><a href="/wedding-band-${matchSlug}/" style="text-decoration:none;color:inherit;display:block">${esc(rawName)} &rarr;</a></li>`;
         }
         return `                <li>${esc(rawName)}</li>`;
     }).join('\n');
 
-    const faq = [
-        { q: `Do MusicAngel bands play weddings in County ${c.name}?`, a: `Yes. All four MusicAngel bands play across all of Ireland, including ${c.name}. Travel logistics are factored into the quote and confirmed with you at booking.` },
-        { q: `Which MusicAngel bands can we check for County ${c.name}?`, a: `Send an enquiry with your venue and date and we'll check availability across the MusicAngel bands for your day.` },
-        { q: `How much does a wedding band cost in County ${c.name}?`, a: `Packages start from €2450. The final quote depends on your wedding date, the venue location within ${c.name}, ceremony or drinks-reception add-ons, and the package you choose.` },
-        { q: `When should I book a wedding band for a ${c.name} wedding?`, a: `12-18 months in advance is normal for peak summer Saturday dates, particularly at the larger venues. Earlier is always better; popular bands and dates go quickly.` }
-    ];
+    const faq = Array.isArray(c.localFaq) && c.localFaq.length > 0
+        ? c.localFaq.map(f => ({ q: String(f.q || ''), a: String(f.a || '') }))
+        : [
+            { q: `Do MusicAngel bands play weddings in County ${c.name}?`, a: `Yes. All four MusicAngel bands play across all of Ireland, including ${c.name}. Travel logistics are factored into the quote and confirmed with you at booking.` },
+            { q: `Which MusicAngel bands can we check for County ${c.name}?`, a: `Send an enquiry with your venue and date and we'll check availability across the MusicAngel bands for your day.` },
+            { q: `How much does a wedding band cost in County ${c.name}?`, a: `Packages start from €2450. The final quote depends on your wedding date, the venue location within ${c.name}, ceremony or drinks-reception add-ons, and the package you choose.` },
+            { q: `When should I book a wedding band for a ${c.name} wedding?`, a: `12-18 months in advance is normal for peak summer Saturday dates, particularly at the larger venues. Earlier is always better; popular bands and dates go quickly.` }
+        ];
+
+    const hasTravelNote = typeof c.travelNote === 'string' && c.travelNote.trim() !== '';
+    const hasVenueNotes = Array.isArray(c.venueNotes) && c.venueNotes.length > 0;
+    const hasPlanningNote = typeof c.planningNote === 'string' && c.planningNote.trim() !== '';
+
+    const travelNoteSection = hasTravelNote ? `
+    <section>
+        <div class="wrap">
+            <p class="sec-eye">Travel &amp; logistics</p>
+            <h2 class="sec-h2">Getting your band to <em>${esc(c.name)}</em></h2>
+            <div class="detail">
+                <p>${esc(c.travelNote)}</p>
+            </div>
+        </div>
+    </section>` : '';
+
+    const venueNotesSection = hasVenueNotes ? `
+    <section>
+        <div class="wrap">
+            <p class="sec-eye">Venue notes</p>
+            <h2 class="sec-h2">Notes on <em>${esc(c.name)}</em> wedding venues</h2>
+            <div class="detail">
+${c.venueNotes.map(vn => {
+    const matchSlug = resolveVenueSlug(vn.name);
+    const nameHtml = matchSlug
+        ? `<a href="/wedding-band-${matchSlug}/" style="text-decoration:none;color:inherit;border-bottom:1px solid var(--border-strong)">${esc(vn.name)}</a>`
+        : esc(vn.name);
+    return `                <p><strong>${nameHtml}</strong> — ${esc(vn.note)}</p>`;
+}).join('\n')}
+            </div>
+        </div>
+    </section>` : '';
+
+    const planningNoteSection = hasPlanningNote ? `
+    <section>
+        <div class="wrap">
+            <p class="sec-eye">Dates &amp; demand</p>
+            <h2 class="sec-h2">Planning your <em>${esc(c.name)}</em> wedding date</h2>
+            <div class="detail">
+                <p>${esc(c.planningNote)}</p>
+            </div>
+        </div>
+    </section>` : '';
 
     return `${sharedHead({ title, description, canonical, ogImage: heroImage, ogImageW: 1400, ogImageH: 788, jsonLd: { ...jsonLd, "@graph": [...jsonLd["@graph"], { "@type": "FAQPage", "mainEntity": faq.map(f => ({ "@type": "Question", "name": f.q, "acceptedAnswer": { "@type": "Answer", "text": f.a } })) }] } })}
 <body>
@@ -633,6 +694,8 @@ ${picksHtml}
         </div>
     </section>
 
+    ${travelNoteSection}
+
     <section>
         <div class="wrap">
             <p class="sec-eye">Where in ${esc(c.name)}</p>
@@ -644,6 +707,8 @@ ${venuesList}
         </div>
     </section>
 
+    ${venueNotesSection}
+
     <div class="price-band">
         <div class="wrap">
             <div class="price-band-inner">
@@ -653,6 +718,8 @@ ${venuesList}
             </div>
         </div>
     </div>
+
+    ${planningNoteSection}
 
     ${bandsFaqSection(faq)}
 
@@ -715,33 +782,50 @@ ${body}
 
 function renderVenuesIndex() {
     const canonical = pageUrl('venues');
+    const title = 'Wedding Venues in Ireland by County | MusicAngel';
+    const description = `Wedding venues in Ireland by county — Cavan, Offaly, Kerry, Clare, Kildare and more. Match your venue with a live wedding band and check availability.`;
+
+    // Group real venue pages by county. Only venues in data/venues.json get a /wedding-band-<slug>/ link.
+    const venueSlugs = new Set(VENUES.map(v => v.slug));
     const byCounty = {};
     for (const v of VENUES) {
         (byCounty[v.county] = byCounty[v.county] || []).push(v);
     }
-    const counties = Object.keys(byCounty).sort();
-    const countyBlocks = counties.map(c => {
-        const items = byCounty[c]
-            .sort((a, b) => a.name.localeCompare(b.name))
-            .map(v => `                <li><a href="/wedding-band-${v.slug}/"><strong>${esc(v.name)}</strong><span> &middot; ${esc(v.town)}, Co. ${esc(v.county)}</span></a></li>`)
+
+    // Sort counties alphabetically by display name for consistent, scannable output.
+    const sortedCounties = COUNTIES.slice().sort((a, b) => a.name.localeCompare(b.name));
+
+    const countyNavLinks = sortedCounties.map(c =>
+        `                <a href="#county-${c.slug}">${esc(c.name)}</a>`
+    ).join('\n');
+
+    const countyBlocks = sortedCounties.map(c => {
+        const countyVenues = (byCounty[c.name] || [])
+            .sort((a, b) => a.name.localeCompare(b.name));
+        const venueItems = countyVenues
+            .map(v => {
+                const hasPage = venueSlugs.has(v.slug);
+                const venueLine = `<strong>${esc(v.name)}</strong><span> &middot; ${esc(v.town)}, Co. ${esc(v.county)}</span>`;
+                return hasPage
+                    ? `                <li><a href="/wedding-band-${v.slug}/">${venueLine}</a></li>`
+                    : `                <li><a href="/check-availability/" style="text-decoration:none;color:inherit;display:block">${venueLine}</a></li>`;
+            })
             .join('\n');
-        return `        <section class="county-block">
-            <h2 class="county-h"><em>Co. ${esc(c)}</em></h2>
-            <ul class="venue-list">
-${items}
-            </ul>
+        const venueList = venueItems
+            ? `            <ul class="venue-list">\n${venueItems}\n            </ul>`
+            : '';
+        return `        <section class="county-block" id="county-${c.slug}">
+            <h2 class="county-h">Wedding venues in <em>${esc(c.name)}</em></h2>
+            <p class="county-intro">${esc(c.intro)}</p>
+${venueList}
+            <p class="county-cta">Find the right band for your ${esc(c.name)} venue: <a href="/wedding-bands-${c.slug}/">Wedding bands in ${esc(c.name)}</a> &middot; <a href="/check-availability/">Check availability</a></p>
         </section>`;
     }).join('\n');
-    const countyLinks = COUNTIES
-        .slice()
-        .sort((a, b) => a.name.localeCompare(b.name))
-        .map(c => `                <li><a href="/wedding-bands-${c.slug}/"><strong>Wedding bands in ${esc(c.name)}</strong><span>County guide</span></a></li>`)
-        .join('\n');
 
     const jsonLd = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "CollectionPage", "name": "Irish Wedding Venues | MusicAngel", "url": canonical, "description": "Directory of every Irish wedding venue MusicAngel has bespoke pages for, grouped by county." },
+            { "@type": "CollectionPage", "name": title, "url": canonical, "description": description },
             { "@type": "BreadcrumbList", "itemListElement": [
                 { "@type": "ListItem", "position": 1, "name": "MusicAngel", "item": pageUrl('') },
                 { "@type": "ListItem", "position": 2, "name": "Venues", "item": canonical }
@@ -754,8 +838,8 @@ ${items}
     };
 
     return `${sharedHead({
-        title: 'Irish Wedding Venues Directory | MusicAngel',
-        description: `Every Irish wedding venue we have a dedicated page for, ${VENUES.length} venues across Ireland, grouped by county. Find the right wedding band for your venue.`,
+        title,
+        description,
         canonical,
         ogImage: `${SITE}/assets/bands/hero-beat-boutique.webp`,
         ogImageW: 1400,
@@ -778,7 +862,7 @@ ${items}
         </header>
 
         <style>
-            .county-block { margin-bottom: 3rem; }
+            .county-block { margin-bottom: 3rem; scroll-margin-top: 5.5rem; }
             .county-h { font-family: var(--serif); font-size: 1.6rem; color: var(--ink); font-weight: 400; margin-bottom: 1.25rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border); }
             .county-h em { font-style: italic; color: var(--pink); font-weight: 500; }
             .venue-list { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 0.5rem; }
@@ -786,13 +870,21 @@ ${items}
             .venue-list li a:hover { border-color: var(--pink); transform: translateY(-1px); }
             .venue-list li a strong { display: block; font-family: var(--serif); font-weight: 500; color: var(--ink); font-size: 1.08rem; line-height: 1.2; }
             .venue-list li a span { font-size: 0.78rem; color: var(--text-muted); letter-spacing: 0.01em; }
+            .county-intro { font-size: 0.95rem; line-height: 1.7; color: var(--text-muted); max-width: 46rem; margin-bottom: 1rem; }
+            .county-cta { margin-top: 0.9rem; font-size: 0.87rem; color: var(--ink-soft); }
+            .county-cta a { color: var(--pink); font-weight: 600; text-decoration: none; transition: color 0.18s; }
+            .county-cta a:hover { text-decoration: underline; text-underline-offset: 3px; }
+            .county-nav { display: flex; flex-wrap: wrap; gap: 0.55rem; margin: 0.25rem 0 2.5rem; }
+            .county-nav a { display: inline-flex; align-items: center; min-height: 2.25rem; padding: 0.52rem 0.85rem; border: 1px solid var(--border); border-radius: 999px; color: var(--ink-soft); text-decoration: none; background: #fff; font-size: 0.82rem; transition: border-color 0.18s, color 0.18s, transform 0.18s; }
+            .county-nav a:hover { border-color: var(--pink); color: var(--pink); transform: translateY(-1px); }
         </style>
 
-        <section class="county-block">
-            <h2 class="county-h"><em>Browse wedding bands by county</em></h2>
-            <ul class="venue-list">
-${countyLinks}
-            </ul>
+        <section class="county-block" id="county-jump">
+            <h2 class="county-h">Jump to <em>your county</em></h2>
+            <p class="county-intro">Looking for wedding venues in a specific county — Cavan, Offaly, Kerry, Clare, Kildare or anywhere else in Ireland? Jump straight to the right section.</p>
+            <nav class="county-nav" aria-label="Wedding venues by county">
+${countyNavLinks}
+            </nav>
         </section>
 
 ${countyBlocks}
@@ -825,10 +917,10 @@ function main() {
         fs.writeFileSync(path.join(dir, 'index.html'), renderVenue(v));
         venueCount++;
     }
-    for (const c of COUNTIES) {
+    for (const [i, c] of COUNTIES.entries()) {
         const dir = path.join(ROOT, `wedding-bands-${c.slug}`);
         fs.mkdirSync(dir, { recursive: true });
-        fs.writeFileSync(path.join(dir, 'index.html'), renderCounty(c));
+        fs.writeFileSync(path.join(dir, 'index.html'), renderCounty(c, i));
         countyCount++;
     }
     regenerateSitemap();
