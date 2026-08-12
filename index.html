@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wedding Bands Ireland | 100% Live Bands | MusicAngel</title>
-    <meta name="description" content="Compare four vetted live wedding bands across Ireland, check availability for your date, and review pricing from EUR 2450 before you enquire.">
+    <meta name="description" content="Wedding bands near you across Ireland. Compare four vetted live bands that travel nationwide, check real availability, and see packages from EUR 2450.">
     <meta name="theme-color" content="#FBF8F5">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://musicangel.ie/">
@@ -27,7 +27,7 @@
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="MusicAngel">
     <meta property="og:title" content="Wedding Bands Ireland | 100% Live Bands | MusicAngel">
-    <meta property="og:description" content="Compare four vetted live wedding bands across Ireland, check availability for your date, and review pricing from EUR 2450 before you enquire.">
+    <meta property="og:description" content="Wedding bands near you across Ireland. Compare four vetted live bands that travel nationwide, check real availability, and see packages from EUR 2450.">
     <meta property="og:url" content="https://musicangel.ie/">
     <meta property="og:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
     <meta property="og:image:width" content="1400">
@@ -38,7 +38,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Wedding Bands Ireland | 100% Live Bands | MusicAngel">
-    <meta name="twitter:description" content="Compare four vetted live wedding bands across Ireland, check availability for your date, and review pricing from EUR 2450 before you enquire.">
+    <meta name="twitter:description" content="Wedding bands near you across Ireland. Compare four vetted live bands that travel nationwide, check real availability, and see packages from EUR 2450.">
     <meta name="twitter:image" content="https://musicangel.ie/assets/bands/hero-beat-boutique.webp">
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="preload" as="image" href="/assets/bands/hero-beat-boutique-small.webp" imagesrcset="/assets/bands/hero-beat-boutique-small.webp 640w, /assets/bands/hero-beat-boutique-960.webp 960w, /assets/bands/hero-beat-boutique.webp 1400w" imagesizes="(max-width: 980px) 45vw, 18vw" fetchpriority="high">
@@ -1827,6 +1827,143 @@
         @media (max-width: 480px) {
             .cc { left: 0.6rem; right: 0.6rem; bottom: 0.6rem; padding: 0.95rem 1rem 0.85rem; }
         }
+
+        /* ========== Pricing strip ========== */
+        .price-strip {
+            padding: 1.5rem 0;
+            background: var(--blush-light);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            text-align: center;
+        }
+        .price-strip p {
+            font-family: var(--sans);
+            font-size: 0.9rem;
+            color: var(--ink-soft);
+            letter-spacing: 0.01em;
+        }
+        .price-strip strong { color: var(--pink); font-weight: 600; }
+        .price-strip a {
+            color: var(--pink);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(242, 108, 167, 0.35);
+            transition: border-color 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+        .price-strip a:hover { border-color: var(--pink); color: var(--pink-hover); }
+        @media (max-width: 520px) {
+            .price-strip { padding: 1.1rem 0; }
+            .price-strip p { font-size: 0.8rem; line-height: 1.5; }
+        }
+
+        /* ========== Wedding bands by county ========== */
+        .counties {
+            background: var(--ivory);
+            padding: 6.5rem 0 5.5rem;
+            scroll-margin-top: 84px;
+        }
+        .counties-head {
+            text-align: center;
+            max-width: 640px;
+            margin: 0 auto 2.2rem;
+        }
+        .nearme {
+            max-width: 720px;
+            margin: 0 auto 3.2rem;
+            padding: 1.7rem clamp(1.2rem, 4vw, 2.2rem);
+            background: rgba(255,255,255,0.7);
+            border: 1px solid var(--border-strong);
+            border-left: 3px solid var(--pink);
+            border-radius: 14px;
+            text-align: center;
+        }
+        .nearme-title {
+            font-family: var(--serif);
+            font-style: italic;
+            font-weight: 300;
+            font-size: clamp(1.35rem, 3vw, 1.75rem);
+            color: var(--ink);
+            margin-bottom: 0.65rem;
+            line-height: 1.3;
+        }
+        .nearme-title em { color: var(--pink); }
+        .nearme-answer {
+            font-size: 0.92rem;
+            color: var(--text-muted);
+            line-height: 1.75;
+        }
+        .nearme-answer strong { color: var(--ink); }
+        .nearme-answer a {
+            color: var(--pink);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(242, 108, 167, 0.35);
+            transition: border-color 0.2s, color 0.2s;
+        }
+        .nearme-answer a:hover { border-color: var(--pink); color: var(--pink-hover); }
+        .province-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1.4rem;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .province-block {
+            background: rgba(255,255,255,0.76);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.7rem clamp(1.1rem, 3vw, 1.9rem);
+            box-shadow: var(--shadow-soft);
+        }
+        .province-name {
+            font-family: var(--serif);
+            font-size: 1.05rem;
+            font-weight: 400;
+            color: var(--ink);
+            letter-spacing: 0.02em;
+            margin-bottom: 1.05rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 1px solid var(--border);
+        }
+        .county-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.45rem;
+        }
+        .county-list li { margin: 0; }
+        .county-list a {
+            display: inline-block;
+            padding: 0.5rem 0.95rem;
+            background: var(--blush-light);
+            border: 1px solid var(--border);
+            border-radius: 999px;
+            font-size: 0.8rem;
+            color: var(--ink-soft);
+            text-decoration: none;
+            transition: border-color 0.18s, color 0.18s, background 0.18s, transform 0.18s var(--ease-out);
+        }
+        .county-list a:hover {
+            border-color: var(--pink);
+            color: var(--pink);
+            background: #fff;
+            transform: translateY(-2px);
+        }
+        .counties-cta {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.85rem;
+            margin-top: 2.6rem;
+        }
+        @media (max-width: 760px) {
+            .province-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 520px) {
+            .counties { padding: 4.5rem 0 3.5rem; }
+            .county-list a { font-size: 0.74rem; padding: 0.45rem 0.8rem; }
+        }
     </style>
 
     <!-- Marketing tags (Meta Pixel, LinkedIn Insight). Set the IDs below to activate. -->
@@ -1926,6 +2063,13 @@
         <svg viewBox="0 0 1200 20" preserveAspectRatio="none" fill="none">
             <path d="M0 10 C100 3,200 17,300 10 S500 3,600 10 S800 17,900 10 S1100 3,1200 10" stroke="#F7D6E4" stroke-width="1"/>
         </svg>
+    </div>
+
+    <!-- ========== PRICING SNAPSHOT ========== -->
+    <div class="price-strip" role="note" aria-label="Wedding band pricing from EUR 2450">
+        <div class="contain">
+            <p>Wedding band packages start from <strong>&euro;2450</strong> &mdash; <a href="/wedding-band-cost-ireland/">see the full price breakdown</a></p>
+        </div>
     </div>
 
     <!-- ========== BANDS ========== -->
@@ -2131,6 +2275,85 @@
         <span></span>
     </div>
 
+    <!-- ========== WEDDING BANDS BY COUNTY ========== -->
+    <section class="counties" id="counties" aria-labelledby="counties-title">
+        <div class="contain">
+            <div class="counties-head">
+                <p class="sec-eye rv">Find your county</p>
+                <h2 class="sec-h2 rv" id="counties-title" style="text-align:center;">Wedding bands <em>in your county</em></h2>
+            </div>
+
+            <div class="nearme rv">
+                <h3 class="nearme-title">Looking for a wedding band <em>near you</em>?</h3>
+                <p class="nearme-answer">All four MusicAngel bands travel nationwide, so there&rsquo;s a vetted live band near you in every county &mdash; from Donegal to Dublin, Cork to Derry. Pick your county below to see the venues and band picks there, then <a href="/check-availability/">check availability for your date</a>.</p>
+            </div>
+
+            <div class="province-grid">
+                <div class="province-block rv">
+                    <h3 class="province-name">Leinster</h3>
+                    <ul class="county-list">
+                    <li><a href="/wedding-bands-dublin/">Dublin</a></li>
+                    <li><a href="/wedding-bands-wicklow/">Wicklow</a></li>
+                    <li><a href="/wedding-bands-wexford/">Wexford</a></li>
+                    <li><a href="/wedding-bands-kilkenny/">Kilkenny</a></li>
+                    <li><a href="/wedding-bands-carlow/">Carlow</a></li>
+                    <li><a href="/wedding-bands-kildare/">Kildare</a></li>
+                    <li><a href="/wedding-bands-meath/">Meath</a></li>
+                    <li><a href="/wedding-bands-louth/">Louth</a></li>
+                    <li><a href="/wedding-bands-longford/">Longford</a></li>
+                    <li><a href="/wedding-bands-westmeath/">Westmeath</a></li>
+                    <li><a href="/wedding-bands-offaly/">Offaly</a></li>
+                    <li><a href="/wedding-bands-laois/">Laois</a></li>
+                    </ul>
+                </div>
+                <div class="province-block rv">
+                    <h3 class="province-name">Munster</h3>
+                    <ul class="county-list">
+                    <li><a href="/wedding-bands-cork/">Cork</a></li>
+                    <li><a href="/wedding-bands-kerry/">Kerry</a></li>
+                    <li><a href="/wedding-bands-limerick/">Limerick</a></li>
+                    <li><a href="/wedding-bands-clare/">Clare</a></li>
+                    <li><a href="/wedding-bands-tipperary/">Tipperary</a></li>
+                    <li><a href="/wedding-bands-waterford/">Waterford</a></li>
+                    </ul>
+                </div>
+                <div class="province-block rv">
+                    <h3 class="province-name">Connacht</h3>
+                    <ul class="county-list">
+                    <li><a href="/wedding-bands-galway/">Galway</a></li>
+                    <li><a href="/wedding-bands-mayo/">Mayo</a></li>
+                    <li><a href="/wedding-bands-leitrim/">Leitrim</a></li>
+                    <li><a href="/wedding-bands-sligo/">Sligo</a></li>
+                    <li><a href="/wedding-bands-roscommon/">Roscommon</a></li>
+                    </ul>
+                </div>
+                <div class="province-block rv">
+                    <h3 class="province-name">Ulster</h3>
+                    <ul class="county-list">
+                    <li><a href="/wedding-bands-donegal/">Donegal</a></li>
+                    <li><a href="/wedding-bands-cavan/">Cavan</a></li>
+                    <li><a href="/wedding-bands-monaghan/">Monaghan</a></li>
+                    <li><a href="/wedding-bands-antrim/">Antrim</a></li>
+                    <li><a href="/wedding-bands-down/">Down</a></li>
+                    <li><a href="/wedding-bands-armagh/">Armagh</a></li>
+                    <li><a href="/wedding-bands-tyrone/">Tyrone</a></li>
+                    <li><a href="/wedding-bands-fermanagh/">Fermanagh</a></li>
+                    <li><a href="/wedding-bands-derry/">Derry</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="counties-cta rv">
+                <a href="/compare-bands/" class="btn-ghost">Compare Our Bands</a>
+                <a href="/check-availability/" class="btn-pink">Check Availability</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="dot-break">
+        <span></span>
+    </div>
+
     <!-- ========== WHERE WE PLAY ========== -->
     <section class="where" id="where" aria-labelledby="where-title">
         <div class="contain">
@@ -2158,6 +2381,7 @@
                     <li><a href="/wedding-band-and-dj-package/">Band + DJ package</a></li>
                     <li><a href="/wedding-band-showcases/">Wedding band showcases</a></li>
                     <li><a href="/corporate-events/">Corporate event bands</a></li>
+                    <li><a href="/venues/">Wedding venues</a></li>
                     <li><a href="/about/">About MusicAngel</a></li>
                 </ul>
             </div>
