@@ -9,18 +9,19 @@
  *
  * Output: a Markdown report at reports/YYYY-MM-DD-report.md
  *
- * Auth (see scripts/lib/google-auth.js):
- *   Primary: a Google service-account key, taken from GOOGLE_SERVICE_ACCOUNT_JSON
- *            (raw JSON, e.g. a CI secret) or GOOGLE_SERVICE_ACCOUNT_PATH,
- *            defaulting to .tokens/google-ads-service-account.json.
- *   Fallback: legacy user-OAuth refresh tokens at .tokens/.gsc-token.json and
- *            .tokens/.ga4-admin-token.json with GOOGLE_OAUTH_CLIENT_ID/SECRET.
+ * Auth (see scripts/lib/google-auth.js), tried in order until one succeeds:
+ *   1. legacy user-OAuth refresh token (GOOGLE_OAUTH_CLIENT_ID/SECRET +
+ *      GOOGLE_REFRESH_TOKEN or a file at GSC_TOKEN_PATH / GA4_TOKEN_PATH)
+ *   2. gcloud Application Default Credentials
+ *      (GOOGLE_APPLICATION_CREDENTIALS or ~/.config/gcloud/application_default_credentials.json)
+ *   3. service-account key (GOOGLE_SERVICE_ACCOUNT_JSON, GOOGLE_SERVICE_ACCOUNT_PATH,
+ *      or .tokens/google-ads-service-account.json).
  *
  * Default Search Console site: sc-domain:musicangel.ie.
  */
 const fs = require('fs');
 const path = require('path');
-const { getAccessToken } = require('./lib/google-auth');
+const { getAccessToken, getLastAuthSource } = require('./lib/google-auth');
 
 const ROOT = path.resolve(__dirname, '..');
 const REPORTS_DIR = path.join(ROOT, 'reports');
@@ -80,6 +81,8 @@ async function checkAuth() {
     try {
         gscToken = await getAccessToken([GSC_SCOPE]);
         console.log('  GSC token (webmasters.readonly): OK');
+        const source = getLastAuthSource();
+        console.log(`  Credential source: ${source || 'unknown'}`);
     } catch (err) {
         console.error(`\nAuth check FAILED (GSC): ${err.message}`);
         process.exit(1);
@@ -120,8 +123,8 @@ async function checkAuth() {
     if (sites.length === 0) {
         console.error(`
 Auth check FAILED: the credential authenticates, but it has no access to any Search Console site.
-This usually means the service account has not been granted access yet.
-Add the service-account client_email as a user on the Search Console property
+This usually means the credential (${getLastAuthSource() || 'unknown source'}) has not been granted access yet.
+Add the account it impersonates as a user on the Search Console property
 (e.g. sc-domain:musicangel.ie) at https://search.google.com/search-console/users, then re-run.`);
         if (ga4Note) console.error(`  (GA4 note: ${ga4Note})`);
         process.exit(1);
