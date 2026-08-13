@@ -10,7 +10,7 @@ const ROOT = path.resolve(__dirname, '..');
 const ENV_PATH = path.join(ROOT, '.env.google-ads.local');
 
 const RESTART_DATE = '2026-08-13';
-const CAP_EUR = 380;
+const CAP_EUR = 392; // Hard ceiling on cumulative euro spend since RESTART_DATE, sized to sit just under the EUR400 promotional credit with a small buffer for overshoot between guard runs.
 const LOG_PATH = path.join(ROOT, 'reports', 'credit-cap-guard.log');
 
 function loadEnv(filePath) {
