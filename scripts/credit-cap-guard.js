@@ -11,7 +11,7 @@ const ENV_PATH = path.join(ROOT, '.env.google-ads.local');
 
 const RESTART_DATE = '2026-08-13';
 const CAP_EUR = 398; // Hard ceiling on cumulative euro spend since RESTART_DATE, sized to sit just under the EUR400 promotional credit with a small buffer for overshoot between guard runs.
-const TAPER_AT_EUR = 340; // Soft threshold: once spend reaches this level, reduce daily campaign budgets to slow further spend.
+const TAPER_AT_EUR = 375; // Promotional credit expires 2026-09-16, so keep the taper threshold high to maintain the full burn rate as long as possible. Only the final stretch runs at the reduced rate, which is enough to keep the stop at CAP_EUR precise despite Google's reporting lag.
 const TAPER_DAILY_MICROS = 2000000; // EUR2/day per campaign budget in micros.
 const LOG_PATH = path.join(ROOT, 'reports', 'credit-cap-guard.log');
 
