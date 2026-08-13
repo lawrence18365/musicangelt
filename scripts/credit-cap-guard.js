@@ -10,7 +10,9 @@ const ROOT = path.resolve(__dirname, '..');
 const ENV_PATH = path.join(ROOT, '.env.google-ads.local');
 
 const RESTART_DATE = '2026-08-13';
-const CAP_EUR = 392; // Hard ceiling on cumulative euro spend since RESTART_DATE, sized to sit just under the EUR400 promotional credit with a small buffer for overshoot between guard runs.
+const CAP_EUR = 398; // Hard ceiling on cumulative euro spend since RESTART_DATE, sized to sit just under the EUR400 promotional credit with a small buffer for overshoot between guard runs.
+const TAPER_AT_EUR = 340; // Soft threshold: once spend reaches this level, reduce daily campaign budgets to slow further spend.
+const TAPER_DAILY_MICROS = 2000000; // EUR2/day per campaign budget in micros.
 const LOG_PATH = path.join(ROOT, 'reports', 'credit-cap-guard.log');
 
 function loadEnv(filePath) {
@@ -150,7 +152,23 @@ function makeClient() {
     }, body);
   }
 
-  return { customerId, search, mutateCampaigns };
+  async function mutateCampaignBudgets(operations, validateOnly) {
+    const body = JSON.stringify({
+      customerId,
+      operations,
+      validateOnly,
+      partialFailure: false,
+    });
+    return requestJson(`https://googleads.googleapis.com/${API_VERSION}/customers/${customerId}/campaignBudgets:mutate`, {
+      method: 'POST',
+      headers: {
+        ...(await headers()),
+        'content-length': Buffer.byteLength(body),
+      },
+    }, body);
+  }
+
+  return { customerId, search, mutateCampaigns, mutateCampaignBudgets };
 }
 
 function getTodayDublin() {
@@ -206,6 +224,46 @@ async function pauseEnabledCampaigns(client) {
   };
 }
 
+async function applyTaper(client) {
+  const rows = await client.search(`
+    SELECT
+      campaign.id,
+      campaign.name,
+      campaign.status,
+      campaign_budget.resource_name,
+      campaign_budget.amount_micros
+    FROM campaign
+    WHERE campaign.status = 'ENABLED'
+  `);
+
+  const budgetsToLower = new Map();
+  for (const row of rows) {
+    const budget = row.campaignBudget;
+    if (!budget) continue;
+    const resourceName = budget.resourceName;
+    const amountMicros = Number(budget.amountMicros || 0);
+    if (resourceName && amountMicros > TAPER_DAILY_MICROS) {
+      budgetsToLower.set(resourceName, amountMicros);
+    }
+  }
+
+  const taperedBudgets = Array.from(budgetsToLower.keys());
+  if (!taperedBudgets.length) {
+    return { taperedBudgets: [], alreadyTapered: true };
+  }
+
+  const operations = taperedBudgets.map(resourceName => ({
+    update: {
+      resourceName,
+      amountMicros: String(TAPER_DAILY_MICROS),
+    },
+    updateMask: 'amount_micros',
+  }));
+
+  await client.mutateCampaignBudgets(operations, false);
+  return { taperedBudgets, alreadyTapered: false };
+}
+
 function writeLog(entry) {
   const dir = path.dirname(LOG_PATH);
   fs.mkdirSync(dir, { recursive: true });
@@ -226,6 +284,7 @@ async function main() {
 
   let action = 'none';
   let pausedCampaigns = [];
+  let taperedBudgets = [];
   let enabledCampaigns = [];
 
   if (command === 'check') {
@@ -235,6 +294,10 @@ async function main() {
       const result = await pauseEnabledCampaigns(client);
       action = 'paused';
       pausedCampaigns = result.pausedCampaigns;
+    } else if (spentEur >= TAPER_AT_EUR) {
+      const result = await applyTaper(client);
+      taperedBudgets = result.taperedBudgets;
+      action = result.alreadyTapered ? 'taper_already_applied' : 'tapered';
     }
   }
 
@@ -244,11 +307,13 @@ async function main() {
     today,
     spentEur,
     capEur: CAP_EUR,
+    taperAtEur: TAPER_AT_EUR,
     remainingEur,
     overCap,
     action,
     enabledCampaigns,
     pausedCampaigns,
+    taperedBudgets,
   };
 
   writeLog({
@@ -258,9 +323,11 @@ async function main() {
     today,
     spentEur,
     capEur: CAP_EUR,
+    taperAtEur: TAPER_AT_EUR,
     overCap,
     action,
     pausedCampaigns,
+    taperedBudgets,
   });
 
   console.log(JSON.stringify(output, null, 2));
