@@ -36,6 +36,7 @@
   .sub{font-size:11.5px;color:var(--muted);margin-bottom:12px}
 
   .score{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:13px}
+  .score4{grid-template-columns:repeat(4,1fr)}
   .tile{background:var(--card);border:1px solid var(--border);border-radius:6px;
     padding:9px 11px 8px}
   .tile .v{font-family:var(--serif);font-size:22px;color:var(--ink);
@@ -60,6 +61,7 @@
   td{padding:5px 8px;border-bottom:1px solid var(--blush-light);text-align:right;color:var(--text)}
   tr:last-child td{border-bottom:1px solid var(--border)}
   td.num{font-weight:600;color:var(--ink)}
+  td.pk{font-weight:700;color:var(--pink)}
   .tot td{background:var(--blush-light);font-weight:600;color:var(--ink);
     border-top:1.5px solid var(--pink)}
   .chip{display:inline-block;background:var(--pink);color:#fff;border-radius:8px;
@@ -86,47 +88,134 @@
 </head>
 <body>
 
-<!-- ============================ PAGE 1 — GOOGLE ADS ============================ -->
+<!-- ============================ PAGE 1 — GOOGLE ADS ALL-TIME ============================ -->
 <section class="page">
   <div class="head">
     <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
     <div class="rt">Meeting 30 Aug 2026 · Prepared from Google Ads API, Search Console, and the D1 lead database</div>
   </div>
 
-  <div class="eyebrow">01 · Google Ads</div>
-  <h1>€400 promotional credit — full burn</h1>
-  <div class="sub">Period 13–25 Aug 2026 (13 days) · funded by promo credit, not cash · all campaigns <b>auto-paused 25 Aug at the spend cap</b> and remain paused</div>
+  <div class="eyebrow">01 · Google Ads — full account history</div>
+  <h1>All-time performance · May–Aug 2026</h1>
+  <div class="sub">Every euro the account has ever spent · May–Jul funded by cash (paused 11 Jul) · Aug funded by the €400 promo credit (13–25 Aug, auto-paused at cap)</div>
 
   <div class="score">
-    <div class="tile"><div class="v">€401.27</div><div class="l">Media spend (credit €400)</div></div>
-    <div class="tile"><div class="v">283</div><div class="l">Clicks</div></div>
-    <div class="tile"><div class="v">14.0%</div><div class="l">CTR · avg CPC €1.42</div></div>
-    <div class="tile hot"><div class="v">1</div><div class="l">Verified paid leads (D1)</div></div>
-    <div class="tile hot"><div class="v">€401<small>.27</small></div><div class="l">Cost per verified lead</div></div>
-    <div class="tile"><div class="v">64.9%</div><div class="l">Spend in zero-lead campaigns (€260.23)</div></div>
+    <div class="tile"><div class="v">€1,208<small>.01</small></div><div class="l">Total media spend</div></div>
+    <div class="tile"><div class="v">784</div><div class="l">Clicks · all-time</div></div>
+    <div class="tile hot"><div class="v">19</div><div class="l">Verified paid leads (D1)</div></div>
+    <div class="tile hot"><div class="v">€63.58</div><div class="l">All-time cost per lead</div></div>
+    <div class="tile"><div class="v">8</div><div class="l">Paid leads quoted or booked · €151.00 each</div></div>
+    <div class="tile"><div class="v">1</div><div class="l">Booking (The Beat Boutique, Jun lead)</div></div>
   </div>
 
   <div class="cols c2">
     <div class="stack">
       <table>
-        <caption>Spend by campaign · 13–25 Aug</caption>
-        <tr><th>Campaign</th><th>Spend</th><th>Clicks</th><th>Impr.</th><th>CPC</th><th>CTR</th><th>D1 leads</th></tr>
-        <tr><td>County Wedding Bands</td><td class="num">€162.01</td><td>118</td><td>847</td><td>€1.37</td><td>13.9%</td><td><span class="chip zero">0</span></td></tr>
-        <tr><td>Wedding Bands Ireland</td><td class="num">€141.04</td><td>71</td><td>492</td><td>€1.99</td><td>14.4%</td><td><span class="chip">1</span></td></tr>
-        <tr><td>Wedding Music Guides</td><td class="num">€69.07</td><td>75</td><td>608</td><td>€0.92</td><td>12.3%</td><td><span class="chip zero">0</span></td></tr>
-        <tr><td>Brand &amp; Bands</td><td class="num">€29.15</td><td>19</td><td>71</td><td>€1.53</td><td>26.8%</td><td><span class="chip zero">0</span></td></tr>
-        <tr><td>Venue Wedding Bands</td><td class="num">€0.00</td><td>0</td><td>0</td><td>—</td><td>—</td><td><span class="chip zero">0</span></td></tr>
-        <tr class="tot"><td>Total</td><td>€401.27</td><td>283</td><td>2,018</td><td>€1.42</td><td>14.0%</td><td>1</td></tr>
+        <caption>Month by month · spend, clicks, leads</caption>
+        <tr><th>Month</th><th>Funding</th><th>Spend</th><th>Clicks</th><th>D1 paid leads</th><th>CPL</th></tr>
+        <tr><td>May</td><td>Cash</td><td class="num">€69.51</td><td>40</td><td>1</td><td>€69.51</td></tr>
+        <tr><td>Jun</td><td>Cash</td><td class="num">€532.61</td><td>332</td><td class="pk">11</td><td>€48.42</td></tr>
+        <tr><td>Jul (1–11)</td><td>Cash</td><td class="num">€204.62</td><td>129</td><td>6</td><td>€34.10</td></tr>
+        <tr><td>Aug (13–25)</td><td>Promo credit</td><td class="num">€401.27</td><td>283</td><td>1</td><td>€401.27</td></tr>
+        <tr class="tot"><td>Total</td><td></td><td>€1,208.01</td><td>784</td><td>19</td><td>€63.58</td></tr>
       </table>
 
       <div class="box">
-        <h3>Spend classified · share of €401.27</h3>
-        <svg viewBox="0 0 560 96" width="100%" height="96" role="img" aria-label="Spend classification bars">
+        <h3>Monthly spend · cash vs credit · paid leads labelled</h3>
+        <svg viewBox="0 0 560 152" width="100%" height="140" role="img" aria-label="Monthly spend bars">
+          <line x1="30" y1="126" x2="548" y2="126" stroke="#e8dfe3"/>
+          <!-- scale: €532.61 = 100px -->
+          <rect x="76"  y="113" width="56" height="13"  rx="3" fill="#C2185B"/>
+          <rect x="206" y="26"  width="56" height="100" rx="3" fill="#C2185B"/>
+          <rect x="336" y="88"  width="56" height="38"  rx="3" fill="#C2185B"/>
+          <rect x="466" y="51"  width="56" height="75"  rx="3" fill="#C8B28A"/>
+          <g font-size="11" font-weight="600" fill="#22191c" text-anchor="middle">
+            <text x="104" y="107">€69.51</text><text x="234" y="20">€532.61</text>
+            <text x="364" y="82">€204.62</text><text x="494" y="45">€401.27</text>
+          </g>
+          <g font-size="10" fill="#6a6266" text-anchor="middle">
+            <text x="104" y="140">May · 1 lead</text><text x="234" y="140">Jun · 11 leads</text>
+            <text x="364" y="140">Jul · 6 leads</text><text x="494" y="140">Aug · 1 lead</text>
+          </g>
+          <g font-size="10.5">
+            <rect x="30" y="6" width="10" height="10" rx="2" fill="#C2185B"/><text x="45" y="15" fill="#2a2a2a">Cash</text>
+            <rect x="92" y="6" width="10" height="10" rx="2" fill="#C8B28A"/><text x="107" y="15" fill="#2a2a2a">Promo credit</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="stack">
+      <table>
+        <caption>Conversion tracking vs lead database</caption>
+        <tr><th>Month</th><th>Ads-recorded conversions</th><th>D1 paid leads</th></tr>
+        <tr><td>May</td><td>1</td><td>1</td></tr>
+        <tr><td>Jun</td><td>9</td><td>11</td></tr>
+        <tr><td>Jul</td><td>3</td><td>6</td></tr>
+        <tr><td>Aug</td><td class="pk">0</td><td>1</td></tr>
+      </table>
+      <div class="flag">
+        <b>Tracking worked May–Jul (13 conversions recorded), then broke at the Aug restart</b> — 0 recorded against €401.27 of credit spend. Google's bidding ran blind for the entire credit burn.
+      </div>
+      <div class="box">
+        <h3>All-time spend by campaign</h3>
+        <table style="background:transparent">
+          <tr><th>Campaign</th><th>Spend</th></tr>
+          <tr><td>Wedding Bands Ireland</td><td class="num">€607.97</td></tr>
+          <tr><td>County Wedding Bands</td><td class="num">€435.11</td></tr>
+          <tr><td>Brand &amp; Bands</td><td class="num">€95.87</td></tr>
+          <tr><td>Wedding Music Guides</td><td class="num">€69.07</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="src">Source: Google Ads API pulled 30 Aug 2026 · all campaigns currently PAUSED · booking value not recorded, so return on spend is not computable</div>
+  <div class="pageno">1 / 4</div>
+</section>
+
+<!-- ============================ PAGE 2 — CASH ERA vs CREDIT ERA ============================ -->
+<section class="page">
+  <div class="head">
+    <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
+    <div class="rt">Google Ads API · same account, same campaigns, two funding periods</div>
+  </div>
+
+  <div class="eyebrow">02 · Google Ads — cash era vs credit restart</div>
+  <h1>€44.82 per lead, then €401.27 per lead</h1>
+  <div class="sub">May–11 Jul cash spend vs 13–25 Aug promo-credit burn</div>
+
+  <div class="score score4">
+    <div class="tile"><div class="v">€44.82</div><div class="l">Cash-era cost per lead (18 leads)</div></div>
+    <div class="tile hot"><div class="v">€401.27</div><div class="l">Credit-era cost per lead (1 lead) · 9.0×</div></div>
+    <div class="tile"><div class="v">3.59%</div><div class="l">Cash-era click-to-lead (18 / 501)</div></div>
+    <div class="tile hot"><div class="v">0.35%</div><div class="l">Credit-era click-to-lead (1 / 283)</div></div>
+  </div>
+
+  <div class="cols c2">
+    <div class="stack">
+      <table>
+        <caption>The two eras, side by side</caption>
+        <tr><th>Period</th><th>Spend</th><th>Clicks</th><th>D1 leads</th><th>CPL</th><th>Ads conv.</th></tr>
+        <tr><td>Cash era · May–11 Jul</td><td class="num">€806.74</td><td>501</td><td class="pk">18</td><td>€44.82</td><td>13</td></tr>
+        <tr><td>Credit era · 13–25 Aug</td><td class="num">€401.27</td><td>283</td><td>1</td><td class="pk">€401.27</td><td>0</td></tr>
+      </table>
+      <table>
+        <caption>Credit-era spend by campaign · 13–25 Aug</caption>
+        <tr><th>Campaign</th><th>Spend</th><th>Clicks</th><th>CPC</th><th>D1 leads</th></tr>
+        <tr><td>County Wedding Bands</td><td class="num">€162.01</td><td>118</td><td>€1.37</td><td><span class="chip zero">0</span></td></tr>
+        <tr><td>Wedding Bands Ireland</td><td class="num">€141.04</td><td>71</td><td>€1.99</td><td><span class="chip">1</span></td></tr>
+        <tr><td>Wedding Music Guides</td><td class="num">€69.07</td><td>75</td><td>€0.92</td><td><span class="chip zero">0</span></td></tr>
+        <tr><td>Brand &amp; Bands</td><td class="num">€29.15</td><td>19</td><td>€1.53</td><td><span class="chip zero">0</span></td></tr>
+        <tr><td>Venue Wedding Bands</td><td class="num">€0.00</td><td>0</td><td>—</td><td><span class="chip zero">0</span></td></tr>
+      </table>
+      <div class="box">
+        <h3>Credit-era spend classified · share of €401.27</h3>
+        <svg viewBox="0 0 560 96" width="100%" height="86" preserveAspectRatio="none" role="img" aria-label="Spend classification bars">
           <rect x="150" y="8"  width="196" height="16" rx="4" fill="#C2185B"/>
           <rect x="150" y="34" width="97"  height="16" rx="4" fill="#C8B28A"/>
           <rect x="150" y="60" width="41"  height="16" rx="4" fill="#7E8D82"/>
           <rect x="150" y="86" width="6"   height="8"  rx="3" fill="#b5aeb0"/>
-          <text x="144" y="20" text-anchor="end" font-size="11" fill="#2a2a2a">County + Ireland (commercial)</text>
+          <text x="144" y="20" text-anchor="end" font-size="11" fill="#2a2a2a">Commercial intent</text>
           <text x="144" y="46" text-anchor="end" font-size="11" fill="#2a2a2a">Song-guide info queries</text>
           <text x="144" y="72" text-anchor="end" font-size="11" fill="#2a2a2a">Own-brand terms</text>
           <text x="144" y="94" text-anchor="end" font-size="11" fill="#2a2a2a">Junk queries</text>
@@ -140,42 +229,118 @@
 
     <div class="stack">
       <div class="flag">
-        <b>Measurement discrepancy.</b> Google Ads conversion column recorded <b>0</b> for the whole period. D1 verified paid leads: <b>1</b>. Conversion firing is broken — no browser event and no offline upload ran. Google's bidding optimised on zero conversion data.
+        <b>Measurement discrepancy, credit era.</b> Google Ads conversion column: <b>0</b>. D1 verified paid leads: <b>1</b>. No browser conversion fired and no offline upload ran after the 13 Aug restart — the same tracking recorded 13 conversions in the cash era.
       </div>
       <div class="box">
-        <h3>The verified paid lead</h3>
+        <h3>The credit era's one verified lead</h3>
         <ul class="facts">
           <li>18 Aug · query <b>"wedding band prices ireland"</b> → /wedding-band-cost-ireland/</li>
           <li>Qualified: wedding Jun 2027, ~100 guests, Landmark Hotel, Carrick-on-Shannon</li>
           <li>Same couple returned 22 Aug via a <b>chatgpt.com referral</b>, requesting The Beat Boutique by name — a return visit, not a second acquisition</li>
-          <li>Converting-campaign cost per lead: <b>€141.04</b> · click-to-lead rate: <b>0.35%</b> (1 / 283)</li>
         </ul>
       </div>
       <div class="box">
-        <h3>Top spend keywords</h3>
+        <h3>Credit-era top spend keywords</h3>
         <table style="background:transparent">
           <tr><th>Keyword</th><th>Spend</th><th>Clicks</th></tr>
           <tr><td>live wedding band ireland</td><td class="num">€41.35</td><td>19</td></tr>
           <tr><td>wedding band prices ireland</td><td class="num">€41.73</td><td>18</td></tr>
           <tr><td>first-dance-songs cluster (3 kws)</td><td class="num">€46.70</td><td>47</td></tr>
-          <tr><td>wedding bands Kerry</td><td class="num">€15.05</td><td>11</td></tr>
           <tr><td>Cork wedding bands</td><td class="num">€17.76</td><td>13</td></tr>
         </table>
       </div>
     </div>
   </div>
-  <div class="src">Source: Google Ads API pulled 30 Aug 2026 · spend €1.27 over credit is billable · earlier 2026 cash spend €806.74 was paused 11 Jul</div>
-  <div class="pageno">1 / 3</div>
+  <div class="src">Source: Google Ads API pulled 30 Aug 2026 · credit spend €1.27 over the €400 credit is billable · all campaigns paused 25 Aug at the spend cap</div>
+  <div class="pageno">2 / 4</div>
 </section>
 
-<!-- ============================ PAGE 2 — SEO ============================ -->
+<!-- ============================ PAGE 3 — LEAD FUNNEL ============================ -->
+<section class="page">
+  <div class="head">
+    <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
+    <div class="rt">D1 lead database = source of truth · real leads only (test &amp; spam excluded)</div>
+  </div>
+
+  <div class="eyebrow">03 · Lead funnel &amp; commercial outcomes</div>
+  <h1>31 leads · 8 progressed · 1 booked</h1>
+  <div class="sub">All sources, May–Aug 2026 · musicangel.ie enquiry form → D1</div>
+
+  <div class="score score4">
+    <div class="tile"><div class="v">31</div><div class="l">Real leads, all sources</div></div>
+    <div class="tile hot"><div class="v">61.3%</div><div class="l">Of all leads came from Google Ads (19 / 31)</div></div>
+    <div class="tile hot"><div class="v">42.1%</div><div class="l">Paid leads reaching quoted or booked (8 / 19)</div></div>
+    <div class="tile"><div class="v">8 / 8</div><div class="l">Every quoted or booked lead is Ads-sourced</div></div>
+  </div>
+
+  <div class="cols c2b" style="flex:1">
+    <div class="stack">
+      <div class="box">
+        <h3>Funnel · all-time</h3>
+        <svg viewBox="0 0 560 148" width="100%" height="136" role="img" aria-label="Lead funnel bars">
+          <rect x="150" y="10"  width="392" height="20" rx="4" fill="#F7D6E4"/>
+          <rect x="150" y="42"  width="240" height="20" rx="4" fill="#C2185B"/>
+          <rect x="150" y="74"  width="101" height="20" rx="4" fill="#C8B28A"/>
+          <rect x="150" y="106" width="14"  height="20" rx="4" fill="#7E8D82"/>
+          <text x="144" y="24"  text-anchor="end" font-size="11" fill="#2a2a2a">All real leads</text>
+          <text x="144" y="56"  text-anchor="end" font-size="11" fill="#2a2a2a">Google Ads leads</text>
+          <text x="144" y="88"  text-anchor="end" font-size="11" fill="#2a2a2a">Quoted</text>
+          <text x="144" y="120" text-anchor="end" font-size="11" fill="#2a2a2a">Booked</text>
+          <text x="548" y="24"  text-anchor="end" font-size="11" font-weight="600" fill="#22191c">31</text>
+          <text x="396" y="56"  font-size="11" font-weight="600" fill="#22191c">19 · 61.3%</text>
+          <text x="257" y="88"  font-size="11" font-weight="600" fill="#22191c">7 · all Ads-sourced</text>
+          <text x="170" y="120" font-size="11" font-weight="600" fill="#22191c">1 · The Beat Boutique, Jun Ads lead · €1,208.01 spend per booking (n = 1)</text>
+        </svg>
+      </div>
+      <table>
+        <caption>Real leads by month × source</caption>
+        <tr><th>Month</th><th>Google Ads</th><th>Organic</th><th>Referral</th><th>Direct / unknown</th><th>Total</th></tr>
+        <tr><td>May</td><td class="num">1</td><td>0</td><td>0</td><td>0</td><td class="num">1</td></tr>
+        <tr><td>Jun</td><td class="num">11</td><td>1</td><td>0</td><td>2</td><td class="num">14</td></tr>
+        <tr><td>Jul</td><td class="num">6</td><td>2</td><td>0</td><td>3</td><td class="num">11</td></tr>
+        <tr><td>Aug</td><td class="num">1</td><td>1</td><td>1</td><td>2</td><td class="num">5</td></tr>
+        <tr class="tot"><td>Total</td><td>19</td><td>4</td><td>1</td><td>7</td><td>31</td></tr>
+      </table>
+      <div class="flag">
+        <b>August detail — 5 leads:</b> 1 Google Ads · 1 organic · 1 ChatGPT referral · 2 direct. The Ads lead and the ChatGPT referral are the <b>same returning couple</b> (partner submitted the second form) → 4 unique prospects.
+      </div>
+    </div>
+
+    <div class="stack">
+      <table>
+        <caption>Band requested on the form (where specified)</caption>
+        <tr><th>Month</th><th>Sway Social</th><th>Beat Boutique</th><th>Best Men</th><th>Blacktye</th><th>Undecided</th></tr>
+        <tr><td>May</td><td>0</td><td class="num">1</td><td>0</td><td>0</td><td>0</td></tr>
+        <tr><td>Jun</td><td class="num">5</td><td class="num">3</td><td class="num">2</td><td>0</td><td>3</td></tr>
+        <tr><td>Jul</td><td class="num">2</td><td>0</td><td class="num">2</td><td class="num">2</td><td>1</td></tr>
+        <tr><td>Aug</td><td>0</td><td class="num">1</td><td>0</td><td class="num">2</td><td>1</td></tr>
+      </table>
+      <div class="flag">
+        <b>Data completeness:</b> 18 of 31 lead records (58.1%) remain at "pending" with no contact activity recorded in D1. D1 cannot distinguish between no contact and contact that was not recorded. This limits interpretation of the funnel rates above.
+      </div>
+      <div class="box">
+        <h3>Data coverage notes</h3>
+        <ul class="facts">
+          <li>Booking value and revenue are not recorded in D1 — return on ad spend is not computable</li>
+          <li>Beat Boutique's own-site bookings go to email and are <b>not counted here</b></li>
+          <li>GA4 excluded — current Google credential lacks the Analytics API scope</li>
+          <li>One ChatGPT-referred enquiry in Aug — first recorded lead from an AI assistant surface</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="src">Source: Cloudflare D1 musicangel_leads, queried 30 Aug 2026 · is_test=0, spam_flag=0, count_as_real_lead=1</div>
+  <div class="pageno">3 / 4</div>
+</section>
+
+<!-- ============================ PAGE 4 — SEO ============================ -->
 <section class="page">
   <div class="head">
     <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
     <div class="rt">Search Console · web search only · GSC data lags ~2 days</div>
   </div>
 
-  <div class="eyebrow">02 · SEO — organic search</div>
+  <div class="eyebrow">04 · SEO — organic search</div>
   <h1>musicangel.ie &amp; thebeatboutique.ie</h1>
   <div class="sub">August window 1–28 Aug 2026 · comparison window 4–31 Jul 2026</div>
 
@@ -263,84 +428,7 @@
     </div>
   </div>
   <div class="src">Source: Google Search Console (sc-domain properties), pulled 30 Aug 2026 · GA4 not included — API scope unavailable on current credential</div>
-  <div class="pageno">2 / 3</div>
-</section>
-
-<!-- ============================ PAGE 3 — LEADS ============================ -->
-<section class="page">
-  <div class="head">
-    <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
-    <div class="rt">D1 lead database = source of truth · real leads only (test &amp; spam excluded)</div>
-  </div>
-
-  <div class="eyebrow">03 · Lead outcomes</div>
-  <h1>Enquiries by month and source</h1>
-  <div class="sub">musicangel.ie enquiry form → D1 · May–Aug 2026</div>
-
-  <div class="cols c2b" style="flex:1">
-    <div class="stack">
-      <table>
-        <caption>Real leads by month × source</caption>
-        <tr><th>Month</th><th>Google Ads</th><th>Organic</th><th>Referral</th><th>Direct / unknown</th><th>Total</th></tr>
-        <tr><td>May</td><td class="num">1</td><td>0</td><td>0</td><td>0</td><td class="num">1</td></tr>
-        <tr><td>Jun</td><td class="num">11</td><td>1</td><td>0</td><td>2</td><td class="num">14</td></tr>
-        <tr><td>Jul</td><td class="num">6</td><td>2</td><td>0</td><td>3</td><td class="num">11</td></tr>
-        <tr><td>Aug</td><td class="num">1</td><td>1</td><td>1</td><td>2</td><td class="num">5</td></tr>
-      </table>
-      <div class="box">
-        <h3>Monthly leads · paid vs all other sources</h3>
-        <svg viewBox="0 0 560 130" width="100%" height="130" role="img" aria-label="Monthly leads bars">
-          <g font-size="10" fill="#6a6266">
-            <text x="70" y="126" text-anchor="middle">May</text><text x="200" y="126" text-anchor="middle">Jun</text>
-            <text x="330" y="126" text-anchor="middle">Jul</text><text x="460" y="126" text-anchor="middle">Aug</text>
-          </g>
-          <line x1="16" y1="112" x2="548" y2="112" stroke="#e8dfe3"/>
-          <!-- 7px per lead; paid pink, other sage; 2px gap between bars -->
-          <rect x="44"  y="105" width="24" height="7"  rx="2" fill="#C2185B"/>
-          <rect x="174" y="35"  width="24" height="77" rx="2" fill="#C2185B"/>
-          <rect x="200" y="91"  width="24" height="21" rx="2" fill="#7E8D82"/>
-          <rect x="304" y="70"  width="24" height="42" rx="2" fill="#C2185B"/>
-          <rect x="330" y="77"  width="24" height="35" rx="2" fill="#7E8D82"/>
-          <rect x="434" y="105" width="24" height="7"  rx="2" fill="#C2185B"/>
-          <rect x="460" y="84"  width="24" height="28" rx="2" fill="#7E8D82"/>
-          <g font-size="11" font-weight="600" fill="#22191c" text-anchor="middle">
-            <text x="56" y="100">1</text><text x="186" y="30">11</text><text x="212" y="86">3</text>
-            <text x="316" y="65">6</text><text x="342" y="72">5</text><text x="446" y="100">1</text><text x="472" y="79">4</text>
-          </g>
-          <g font-size="10.5">
-            <rect x="16" y="8" width="10" height="10" rx="2" fill="#C2185B"/><text x="31" y="17" fill="#2a2a2a">Google Ads</text>
-            <rect x="106" y="8" width="10" height="10" rx="2" fill="#7E8D82"/><text x="121" y="17" fill="#2a2a2a">All other sources</text>
-          </g>
-        </svg>
-      </div>
-      <div class="flag">
-        <b>August detail — 5 leads:</b> 1 Google Ads · 1 organic · 1 ChatGPT referral · 2 direct. The Ads lead and the ChatGPT referral are the <b>same returning couple</b> (partner submitted the second form) → 4 unique prospects.
-      </div>
-    </div>
-
-    <div class="stack">
-      <table>
-        <caption>Band requested on the form (where specified)</caption>
-        <tr><th>Month</th><th>Sway Social</th><th>Beat Boutique</th><th>Best Men</th><th>Blacktye</th><th>Undecided</th></tr>
-        <tr><td>May</td><td>0</td><td class="num">1</td><td>0</td><td>0</td><td>0</td></tr>
-        <tr><td>Jun</td><td class="num">5</td><td class="num">3</td><td class="num">2</td><td>0</td><td>3</td></tr>
-        <tr><td>Jul</td><td class="num">2</td><td>0</td><td class="num">2</td><td class="num">2</td><td>1</td></tr>
-        <tr><td>Aug</td><td>0</td><td class="num">1</td><td>0</td><td class="num">2</td><td>1</td></tr>
-      </table>
-      <div class="box">
-        <h3>Data coverage notes</h3>
-        <ul class="facts">
-          <li>D1 database is the verified lead record; Google Ads' own conversion column reads 0 (tracking broken since restart)</li>
-          <li>Beat Boutique's own-site bookings go to email via Formspark and are <b>not counted here</b></li>
-          <li>GA4 excluded — current Google credential lacks the Analytics API scope</li>
-          <li>Ads were live 13–25 Aug only; Jun/Jul paid-lead volume was funded by cash spend (paused 11 Jul)</li>
-          <li>One ChatGPT-referred enquiry in Aug — first recorded lead from an AI assistant surface</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="src">Source: Cloudflare D1 musicangel_leads, queried 30 Aug 2026 · is_test=0, spam_flag=0, count_as_real_lead=1</div>
-  <div class="pageno">3 / 3</div>
+  <div class="pageno">4 / 4</div>
 </section>
 
 </body>
