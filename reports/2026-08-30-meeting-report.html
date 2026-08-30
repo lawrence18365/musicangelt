@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MusicAngel Performance Report — August 2026</title>
+<style>
+  :root{
+    --ink:#22191c; --text:#2a2a2a; --muted:#6a6266; --light:#b5aeb0;
+    --pink:#C2185B; --blush:#F7D6E4; --blush-light:#FDF0F5;
+    --ivory:#FBF8F5; --champagne:#C8B28A; --sage:#7E8D82;
+    --border:rgba(199,138,166,.35); --card:#ffffff;
+    --serif:Georgia,'Times New Roman',serif;
+    --sans:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:#e9e4e6;font-family:var(--sans);color:var(--text);
+    -webkit-print-color-adjust:exact;print-color-adjust:exact}
+  @page{size:13.333in 7.5in;margin:0}
+  .page{width:13.333in;height:7.5in;background:var(--ivory);padding:.42in .55in .3in;
+    display:flex;flex-direction:column;break-after:page;page-break-after:always;
+    break-inside:avoid;overflow:hidden;position:relative;margin:0 auto}
+  @media screen{.page{margin:16px auto;box-shadow:0 8px 30px rgba(34,25,28,.15)}}
+
+  .head{display:flex;align-items:baseline;justify-content:space-between;
+    border-bottom:2px solid var(--pink);padding-bottom:8px;margin-bottom:14px}
+  .wordmark{font-family:var(--serif);font-size:19px;color:var(--ink);letter-spacing:.2px}
+  .wordmark b{color:var(--pink);font-weight:normal;font-style:italic}
+  .head .rt{font-size:10.5px;color:var(--muted);text-align:right;line-height:1.5}
+  .pageno{position:absolute;bottom:.16in;right:.55in;font-size:9.5px;color:var(--light)}
+  .src{position:absolute;bottom:.16in;left:.55in;font-size:9.5px;color:var(--light)}
+
+  .eyebrow{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--pink);
+    font-weight:600;margin-bottom:2px}
+  h1{font-family:var(--serif);font-size:25px;font-weight:normal;color:var(--ink);
+    margin-bottom:3px;letter-spacing:.2px}
+  .sub{font-size:11.5px;color:var(--muted);margin-bottom:12px}
+
+  .score{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:13px}
+  .tile{background:var(--card);border:1px solid var(--border);border-radius:6px;
+    padding:9px 11px 8px}
+  .tile .v{font-family:var(--serif);font-size:22px;color:var(--ink);
+    font-variant-numeric:tabular-nums;line-height:1.1}
+  .tile .v small{font-size:12px;color:var(--muted)}
+  .tile.hot .v{color:var(--pink)}
+  .tile .l{font-size:9.6px;color:var(--muted);text-transform:uppercase;
+    letter-spacing:.07em;margin-top:3px;line-height:1.3}
+
+  .cols{display:grid;gap:14px;flex:1;min-height:0}
+  .c2{grid-template-columns:1.35fr 1fr}
+  .c2b{grid-template-columns:1fr 1fr}
+
+  table{width:100%;border-collapse:collapse;font-size:11.5px;
+    font-variant-numeric:tabular-nums;background:var(--card)}
+  caption{font-family:var(--serif);font-size:13.5px;color:var(--ink);text-align:left;
+    padding:0 0 6px;caption-side:top}
+  th{font-size:9.6px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);
+    font-weight:600;text-align:right;padding:5px 8px;border-bottom:1.5px solid var(--pink);
+    background:var(--blush-light)}
+  th:first-child,td:first-child{text-align:left}
+  td{padding:5px 8px;border-bottom:1px solid var(--blush-light);text-align:right;color:var(--text)}
+  tr:last-child td{border-bottom:1px solid var(--border)}
+  td.num{font-weight:600;color:var(--ink)}
+  .tot td{background:var(--blush-light);font-weight:600;color:var(--ink);
+    border-top:1.5px solid var(--pink)}
+  .chip{display:inline-block;background:var(--pink);color:#fff;border-radius:8px;
+    font-size:10px;font-weight:700;padding:1px 7px}
+  .chip.zero{background:transparent;color:var(--light);font-weight:400}
+  .pill{display:inline-block;border:1px solid var(--border);border-radius:8px;
+    background:var(--blush-light);color:var(--pink);font-size:9.6px;font-weight:700;
+    letter-spacing:.05em;text-transform:uppercase;padding:2px 8px;vertical-align:1px}
+
+  .box{background:var(--card);border:1px solid var(--border);border-radius:6px;padding:10px 12px}
+  .box h3{font-family:var(--serif);font-size:13.5px;font-weight:normal;color:var(--ink);margin-bottom:6px}
+  .facts{list-style:none;font-size:11.3px;line-height:1.5}
+  .facts li{padding:3px 0 3px 14px;position:relative;border-bottom:1px solid var(--blush-light)}
+  .facts li:last-child{border-bottom:0}
+  .facts li::before{content:"";position:absolute;left:0;top:9px;width:6px;height:6px;
+    border-radius:50%;background:var(--champagne)}
+  .facts b{color:var(--ink)}
+  .flag{border-left:3px solid var(--pink);background:var(--blush-light);
+    border-radius:0 6px 6px 0;padding:8px 12px;font-size:11.3px;line-height:1.5}
+  .flag b{color:var(--pink)}
+  svg text{font-family:var(--sans)}
+  .stack{display:flex;flex-direction:column;gap:12px;min-height:0}
+</style>
+</head>
+<body>
+
+<!-- ============================ PAGE 1 — GOOGLE ADS ============================ -->
+<section class="page">
+  <div class="head">
+    <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
+    <div class="rt">Meeting 30 Aug 2026 · Prepared from Google Ads API, Search Console, and the D1 lead database</div>
+  </div>
+
+  <div class="eyebrow">01 · Google Ads</div>
+  <h1>€400 promotional credit — full burn</h1>
+  <div class="sub">Period 13–25 Aug 2026 (13 days) · funded by promo credit, not cash · all campaigns <b>auto-paused 25 Aug at the spend cap</b> and remain paused</div>
+
+  <div class="score">
+    <div class="tile"><div class="v">€401.27</div><div class="l">Media spend (credit €400)</div></div>
+    <div class="tile"><div class="v">283</div><div class="l">Clicks</div></div>
+    <div class="tile"><div class="v">14.0%</div><div class="l">CTR · avg CPC €1.42</div></div>
+    <div class="tile hot"><div class="v">1</div><div class="l">Verified paid leads (D1)</div></div>
+    <div class="tile hot"><div class="v">€401<small>.27</small></div><div class="l">Cost per verified lead</div></div>
+    <div class="tile"><div class="v">64.9%</div><div class="l">Spend in zero-lead campaigns (€260.23)</div></div>
+  </div>
+
+  <div class="cols c2">
+    <div class="stack">
+      <table>
+        <caption>Spend by campaign · 13–25 Aug</caption>
+        <tr><th>Campaign</th><th>Spend</th><th>Clicks</th><th>Impr.</th><th>CPC</th><th>CTR</th><th>D1 leads</th></tr>
+        <tr><td>County Wedding Bands</td><td class="num">€162.01</td><td>118</td><td>847</td><td>€1.37</td><td>13.9%</td><td><span class="chip zero">0</span></td></tr>
+        <tr><td>Wedding Bands Ireland</td><td class="num">€141.04</td><td>71</td><td>492</td><td>€1.99</td><td>14.4%</td><td><span class="chip">1</span></td></tr>
+        <tr><td>Wedding Music Guides</td><td class="num">€69.07</td><td>75</td><td>608</td><td>€0.92</td><td>12.3%</td><td><span class="chip zero">0</span></td></tr>
+        <tr><td>Brand &amp; Bands</td><td class="num">€29.15</td><td>19</td><td>71</td><td>€1.53</td><td>26.8%</td><td><span class="chip zero">0</span></td></tr>
+        <tr><td>Venue Wedding Bands</td><td class="num">€0.00</td><td>0</td><td>0</td><td>—</td><td>—</td><td><span class="chip zero">0</span></td></tr>
+        <tr class="tot"><td>Total</td><td>€401.27</td><td>283</td><td>2,018</td><td>€1.42</td><td>14.0%</td><td>1</td></tr>
+      </table>
+
+      <div class="box">
+        <h3>Spend classified · share of €401.27</h3>
+        <svg viewBox="0 0 560 96" width="100%" height="96" role="img" aria-label="Spend classification bars">
+          <rect x="150" y="8"  width="196" height="16" rx="4" fill="#C2185B"/>
+          <rect x="150" y="34" width="97"  height="16" rx="4" fill="#C8B28A"/>
+          <rect x="150" y="60" width="41"  height="16" rx="4" fill="#7E8D82"/>
+          <rect x="150" y="86" width="6"   height="8"  rx="3" fill="#b5aeb0"/>
+          <text x="144" y="20" text-anchor="end" font-size="11" fill="#2a2a2a">County + Ireland (commercial)</text>
+          <text x="144" y="46" text-anchor="end" font-size="11" fill="#2a2a2a">Song-guide info queries</text>
+          <text x="144" y="72" text-anchor="end" font-size="11" fill="#2a2a2a">Own-brand terms</text>
+          <text x="144" y="94" text-anchor="end" font-size="11" fill="#2a2a2a">Junk queries</text>
+          <text x="352" y="20" font-size="11" font-weight="600" fill="#22191c">€303.05 · 75.5% · 1 lead</text>
+          <text x="253" y="46" font-size="11" font-weight="600" fill="#22191c">€69.07 · 17.2% · 0 leads</text>
+          <text x="197" y="72" font-size="11" font-weight="600" fill="#22191c">€29.15 · 7.3% · 0 leads</text>
+          <text x="162" y="94" font-size="11" font-weight="600" fill="#22191c">~€10 · 0 leads</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="stack">
+      <div class="flag">
+        <b>Measurement discrepancy.</b> Google Ads conversion column recorded <b>0</b> for the whole period. D1 verified paid leads: <b>1</b>. Conversion firing is broken — no browser event and no offline upload ran. Google's bidding optimised on zero conversion data.
+      </div>
+      <div class="box">
+        <h3>The verified paid lead</h3>
+        <ul class="facts">
+          <li>18 Aug · query <b>"wedding band prices ireland"</b> → /wedding-band-cost-ireland/</li>
+          <li>Qualified: wedding Jun 2027, ~100 guests, Landmark Hotel, Carrick-on-Shannon</li>
+          <li>Same couple returned 22 Aug via a <b>chatgpt.com referral</b>, requesting The Beat Boutique by name — a return visit, not a second acquisition</li>
+          <li>Converting-campaign cost per lead: <b>€141.04</b> · click-to-lead rate: <b>0.35%</b> (1 / 283)</li>
+        </ul>
+      </div>
+      <div class="box">
+        <h3>Top spend keywords</h3>
+        <table style="background:transparent">
+          <tr><th>Keyword</th><th>Spend</th><th>Clicks</th></tr>
+          <tr><td>live wedding band ireland</td><td class="num">€41.35</td><td>19</td></tr>
+          <tr><td>wedding band prices ireland</td><td class="num">€41.73</td><td>18</td></tr>
+          <tr><td>first-dance-songs cluster (3 kws)</td><td class="num">€46.70</td><td>47</td></tr>
+          <tr><td>wedding bands Kerry</td><td class="num">€15.05</td><td>11</td></tr>
+          <tr><td>Cork wedding bands</td><td class="num">€17.76</td><td>13</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="src">Source: Google Ads API pulled 30 Aug 2026 · spend €1.27 over credit is billable · earlier 2026 cash spend €806.74 was paused 11 Jul</div>
+  <div class="pageno">1 / 3</div>
+</section>
+
+<!-- ============================ PAGE 2 — SEO ============================ -->
+<section class="page">
+  <div class="head">
+    <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
+    <div class="rt">Search Console · web search only · GSC data lags ~2 days</div>
+  </div>
+
+  <div class="eyebrow">02 · SEO — organic search</div>
+  <h1>musicangel.ie &amp; thebeatboutique.ie</h1>
+  <div class="sub">August window 1–28 Aug 2026 · comparison window 4–31 Jul 2026</div>
+
+  <div class="score">
+    <div class="tile"><div class="v">101</div><div class="l">MA organic clicks · Aug</div></div>
+    <div class="tile"><div class="v">10.7k</div><div class="l">MA impressions · CTR 0.95%</div></div>
+    <div class="tile"><div class="v">−10.6%</div><div class="l">MA clicks vs July (113)</div></div>
+    <div class="tile hot"><div class="v">1</div><div class="l">MA organic leads (D1)</div></div>
+    <div class="tile"><div class="v">389</div><div class="l">Beat Boutique clicks · Aug</div></div>
+    <div class="tile"><div class="v">29–48</div><div class="l">MA county-page positions</div></div>
+  </div>
+
+  <div class="cols c2b">
+    <div class="stack">
+      <div class="box">
+        <h3>musicangel.ie · weekly organic clicks · Jun–Aug</h3>
+        <svg viewBox="0 0 560 150" width="100%" height="126" preserveAspectRatio="none" role="img" aria-label="Weekly clicks trend">
+          <line x1="36" y1="120" x2="548" y2="120" stroke="#e8dfe3" stroke-width="1"/>
+          <line x1="36" y1="78"  x2="548" y2="78"  stroke="#f3ecef" stroke-width="1"/>
+          <line x1="36" y1="36"  x2="548" y2="36"  stroke="#f3ecef" stroke-width="1"/>
+          <text x="30" y="124" text-anchor="end" font-size="10" fill="#b5aeb0">0</text>
+          <text x="30" y="82"  text-anchor="end" font-size="10" fill="#b5aeb0">16</text>
+          <text x="30" y="40"  text-anchor="end" font-size="10" fill="#b5aeb0">32</text>
+          <polyline fill="none" stroke="#C2185B" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"
+            points="52,75.4 92,101.6 132,83.3 172,91.1 212,70.1 252,62.3 292,43.9 332,38.6 372,43.9 412,36 452,75.4 492,41.3"/>
+          <polyline fill="none" stroke="#C2185B" stroke-width="2" stroke-dasharray="4 4"
+            points="492,41.3 532,85.9"/>
+          <g fill="#C2185B">
+            <circle cx="52" cy="75.4" r="3"/><circle cx="92" cy="101.6" r="3"/><circle cx="132" cy="83.3" r="3"/>
+            <circle cx="172" cy="91.1" r="3"/><circle cx="212" cy="70.1" r="3"/><circle cx="252" cy="62.3" r="3"/>
+            <circle cx="292" cy="43.9" r="3"/><circle cx="332" cy="38.6" r="3"/><circle cx="372" cy="43.9" r="3"/>
+            <circle cx="412" cy="36" r="4.5"/><circle cx="452" cy="75.4" r="3"/><circle cx="492" cy="41.3" r="3"/>
+          </g>
+          <circle cx="532" cy="85.9" r="3" fill="#fff" stroke="#C2185B" stroke-width="1.5"/>
+          <text x="412" y="24" text-anchor="middle" font-size="11" font-weight="600" fill="#22191c">32 · wk of 4 Aug</text>
+          <text x="532" y="102" text-anchor="middle" font-size="10" fill="#6a6266">13 (partial wk)</text>
+          <text x="52"  y="136" text-anchor="middle" font-size="10" fill="#6a6266">2 Jun</text>
+          <text x="252" y="136" text-anchor="middle" font-size="10" fill="#6a6266">7 Jul</text>
+          <text x="412" y="136" text-anchor="middle" font-size="10" fill="#6a6266">4 Aug</text>
+          <text x="532" y="136" text-anchor="middle" font-size="10" fill="#6a6266">25 Aug</text>
+        </svg>
+        <table style="background:transparent">
+          <tr><th>Month (28-day)</th><th>Clicks</th><th>Impr.</th><th>CTR</th><th>Change</th></tr>
+          <tr><td>1–28 Jun</td><td class="num">49</td><td>8,282</td><td>0.59%</td><td>—</td></tr>
+          <tr><td>4–31 Jul</td><td class="num">113</td><td>12,222</td><td>0.92%</td><td>+130.6%</td></tr>
+          <tr><td>1–28 Aug</td><td class="num">101</td><td>10,667</td><td>0.95%</td><td>−10.6%</td></tr>
+        </table>
+      </div>
+      <div class="box">
+        <h3>thebeatboutique.ie <span class="pill">separate property</span></h3>
+        <table style="background:transparent">
+          <tr><th>Month (28-day)</th><th>Clicks</th><th>Impr.</th><th>CTR</th></tr>
+          <tr><td>1–28 Jun</td><td class="num">405</td><td>16,227</td><td>2.50%</td></tr>
+          <tr><td>4–31 Jul</td><td class="num">371</td><td>13,896</td><td>2.67%</td></tr>
+          <tr><td>1–28 Aug</td><td class="num">389</td><td>14,329</td><td>2.71%</td></tr>
+        </table>
+        <ul class="facts" style="margin-top:6px">
+          <li>Brand queries lead: "the beat boutique" 38 clicks pos 2.6 · "first dance songs" 18 clicks pos 5.0</li>
+          <li>Own-site booking form goes to email — those leads are <b>not</b> in D1</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="stack">
+      <table>
+        <caption>musicangel.ie · top pages · Aug clicks</caption>
+        <tr><th>Page</th><th>Clicks</th><th>Jul</th><th>Impr.</th><th>Pos.</th></tr>
+        <tr><td>/wedding-songs-by-decade/</td><td class="num">19</td><td>12</td><td>536</td><td>9.5</td></tr>
+        <tr><td>/first-dance-songs/</td><td class="num">11</td><td>13</td><td>881</td><td>8.3</td></tr>
+        <tr><td>/ (homepage)</td><td class="num">10</td><td>8</td><td>783</td><td>46.6</td></tr>
+        <tr><td>/wedding-band-cost-ireland/</td><td class="num">6</td><td>9</td><td>833</td><td>8.1</td></tr>
+        <tr><td>/wedding-band-cabra-castle/</td><td class="num">5</td><td>0</td><td>205</td><td>25.7</td></tr>
+      </table>
+      <table>
+        <caption>County commercial queries · Aug position</caption>
+        <tr><th>Query</th><th>Position</th><th>Impr.</th><th>Clicks</th></tr>
+        <tr><td>wedding bands cork</td><td class="num">43</td><td>254</td><td>2</td></tr>
+        <tr><td>wedding bands dublin</td><td class="num">48</td><td>183</td><td>2</td></tr>
+        <tr><td>wedding bands kerry</td><td class="num">30</td><td>180</td><td>2</td></tr>
+        <tr><td>wedding bands sligo</td><td class="num">29</td><td>126</td><td>3</td></tr>
+      </table>
+      <div class="flag">
+        <b>First-dance query cluster:</b> 600+ impressions in Aug at positions 6–8 produced ~2 clicks — CTR ≤ 0.33% against a page-set that already ranks on page one.
+      </div>
+    </div>
+  </div>
+  <div class="src">Source: Google Search Console (sc-domain properties), pulled 30 Aug 2026 · GA4 not included — API scope unavailable on current credential</div>
+  <div class="pageno">2 / 3</div>
+</section>
+
+<!-- ============================ PAGE 3 — LEADS ============================ -->
+<section class="page">
+  <div class="head">
+    <div class="wordmark">Music<b>Angel</b> · Performance Report</div>
+    <div class="rt">D1 lead database = source of truth · real leads only (test &amp; spam excluded)</div>
+  </div>
+
+  <div class="eyebrow">03 · Lead outcomes</div>
+  <h1>Enquiries by month and source</h1>
+  <div class="sub">musicangel.ie enquiry form → D1 · May–Aug 2026</div>
+
+  <div class="cols c2b" style="flex:1">
+    <div class="stack">
+      <table>
+        <caption>Real leads by month × source</caption>
+        <tr><th>Month</th><th>Google Ads</th><th>Organic</th><th>Referral</th><th>Direct / unknown</th><th>Total</th></tr>
+        <tr><td>May</td><td class="num">1</td><td>0</td><td>0</td><td>0</td><td class="num">1</td></tr>
+        <tr><td>Jun</td><td class="num">11</td><td>1</td><td>0</td><td>2</td><td class="num">14</td></tr>
+        <tr><td>Jul</td><td class="num">6</td><td>2</td><td>0</td><td>3</td><td class="num">11</td></tr>
+        <tr><td>Aug</td><td class="num">1</td><td>1</td><td>1</td><td>2</td><td class="num">5</td></tr>
+      </table>
+      <div class="box">
+        <h3>Monthly leads · paid vs all other sources</h3>
+        <svg viewBox="0 0 560 130" width="100%" height="130" role="img" aria-label="Monthly leads bars">
+          <g font-size="10" fill="#6a6266">
+            <text x="70" y="126" text-anchor="middle">May</text><text x="200" y="126" text-anchor="middle">Jun</text>
+            <text x="330" y="126" text-anchor="middle">Jul</text><text x="460" y="126" text-anchor="middle">Aug</text>
+          </g>
+          <line x1="16" y1="112" x2="548" y2="112" stroke="#e8dfe3"/>
+          <!-- 7px per lead; paid pink, other sage; 2px gap between bars -->
+          <rect x="44"  y="105" width="24" height="7"  rx="2" fill="#C2185B"/>
+          <rect x="174" y="35"  width="24" height="77" rx="2" fill="#C2185B"/>
+          <rect x="200" y="91"  width="24" height="21" rx="2" fill="#7E8D82"/>
+          <rect x="304" y="70"  width="24" height="42" rx="2" fill="#C2185B"/>
+          <rect x="330" y="77"  width="24" height="35" rx="2" fill="#7E8D82"/>
+          <rect x="434" y="105" width="24" height="7"  rx="2" fill="#C2185B"/>
+          <rect x="460" y="84"  width="24" height="28" rx="2" fill="#7E8D82"/>
+          <g font-size="11" font-weight="600" fill="#22191c" text-anchor="middle">
+            <text x="56" y="100">1</text><text x="186" y="30">11</text><text x="212" y="86">3</text>
+            <text x="316" y="65">6</text><text x="342" y="72">5</text><text x="446" y="100">1</text><text x="472" y="79">4</text>
+          </g>
+          <g font-size="10.5">
+            <rect x="16" y="8" width="10" height="10" rx="2" fill="#C2185B"/><text x="31" y="17" fill="#2a2a2a">Google Ads</text>
+            <rect x="106" y="8" width="10" height="10" rx="2" fill="#7E8D82"/><text x="121" y="17" fill="#2a2a2a">All other sources</text>
+          </g>
+        </svg>
+      </div>
+      <div class="flag">
+        <b>August detail — 5 leads:</b> 1 Google Ads · 1 organic · 1 ChatGPT referral · 2 direct. The Ads lead and the ChatGPT referral are the <b>same returning couple</b> (partner submitted the second form) → 4 unique prospects.
+      </div>
+    </div>
+
+    <div class="stack">
+      <table>
+        <caption>Band requested on the form (where specified)</caption>
+        <tr><th>Month</th><th>Sway Social</th><th>Beat Boutique</th><th>Best Men</th><th>Blacktye</th><th>Undecided</th></tr>
+        <tr><td>May</td><td>0</td><td class="num">1</td><td>0</td><td>0</td><td>0</td></tr>
+        <tr><td>Jun</td><td class="num">5</td><td class="num">3</td><td class="num">2</td><td>0</td><td>3</td></tr>
+        <tr><td>Jul</td><td class="num">2</td><td>0</td><td class="num">2</td><td class="num">2</td><td>1</td></tr>
+        <tr><td>Aug</td><td>0</td><td class="num">1</td><td>0</td><td class="num">2</td><td>1</td></tr>
+      </table>
+      <div class="box">
+        <h3>Data coverage notes</h3>
+        <ul class="facts">
+          <li>D1 database is the verified lead record; Google Ads' own conversion column reads 0 (tracking broken since restart)</li>
+          <li>Beat Boutique's own-site bookings go to email via Formspark and are <b>not counted here</b></li>
+          <li>GA4 excluded — current Google credential lacks the Analytics API scope</li>
+          <li>Ads were live 13–25 Aug only; Jun/Jul paid-lead volume was funded by cash spend (paused 11 Jul)</li>
+          <li>One ChatGPT-referred enquiry in Aug — first recorded lead from an AI assistant surface</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="src">Source: Cloudflare D1 musicangel_leads, queried 30 Aug 2026 · is_test=0, spam_flag=0, count_as_real_lead=1</div>
+  <div class="pageno">3 / 3</div>
+</section>
+
+</body>
+</html>
