@@ -133,7 +133,9 @@ export async function onRequest(context) {
         return Response.redirect(destination, 302);
     }
 
-    if (PRIVATE_FILES.has(path) || PRIVATE_PREFIXES.some((prefix) => path.startsWith(prefix))) {
+    const isDotPath = path.split('/').some((segment) => segment.startsWith('.') && segment !== '.well-known');
+
+    if (isDotPath || PRIVATE_FILES.has(path) || PRIVATE_PREFIXES.some((prefix) => path.startsWith(prefix))) {
         return html(`<!doctype html>
 <html lang="en">
 <head>

@@ -11,3 +11,9 @@ node_modules
 
 # Generated retrospective reports (produced by scripts, not source)
 reports/2026-07-17-google-ads-post-pause-retrospective.md
+
+# Deploy staging copy (scripts/deploy-pages.sh)
+dist/
+
+# Cron output (credit-cap-guard)
+reports/*.log

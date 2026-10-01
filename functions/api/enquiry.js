@@ -139,6 +139,32 @@ function containsTestMarker(values) {
     return values.some(value => /\btest\b|TEST_|codex|do not count|do-not-count/i.test(String(value || '')));
 }
 
+// Cold B2B pitches (VA agencies, web redesign, lead-gen) arrive through the
+// real form, so they pass the honeypot and timing checks. Every one so far has
+// left the wedding date blank and tripped two or more of these patterns.
+const SOLICITATION_PATTERNS = [
+    /\b[Rr]eply\s+["'“]?[A-Z]{2,}\b/,
+    /\b(opt[\s-]?out|unsubscribe)\b/i,
+    /\bvirtual (assistant|team)s?\b|\bVAs?\b/,
+    /\bwe help (businesses|companies|brands|business owners|agencies)\b/i,
+    /\b(calendly\.com|grab a time|book a (call|time|demo)|schedule a (call|time|demo))\b/i,
+    /\b(free for \d+ days|free trial|risk[- ]free)\b/i,
+    /\b(redesign|leaky funnel|seo\b|backlinks?|lead generation|booked meetings|automations?)\b/i,
+    /\byour (website|site|homepage|business)\b/i,
+    /https?:\/\//i
+];
+
+function solicitationHits(values) {
+    const text = values.filter(Boolean).join('\n');
+    return SOLICITATION_PATTERNS.filter(pattern => pattern.test(text)).length;
+}
+
+function isSolicitation({ name, email, message, date, venue }) {
+    const hits = solicitationHits([name, email, message]);
+    const hasWeddingDetails = Boolean(date || venue);
+    return hits >= (hasWeddingDetails ? 3 : 2);
+}
+
 function rootHost(value) {
     try {
         return new URL(value).hostname.replace(/^www\./i, '').toLowerCase();
@@ -387,11 +413,14 @@ async function handlePost({ request, env }) {
 
     if (body.hp) return json({ ok: true }, 200, headers);
 
-    if (typeof body._t === 'number') {
-        const seconds = (Date.now() - body._t) / 1000;
-        if (seconds < MIN_FILL_SECONDS) {
-            return json({ error: 'Please wait a moment and try again' }, 400, headers);
-        }
+    // js/site.js always sends _t; a direct POST without it is a script.
+    if (typeof body._t !== 'number') {
+        return json({ ok: true }, 200, headers);
+    }
+
+    const seconds = (Date.now() - body._t) / 1000;
+    if (seconds < MIN_FILL_SECONDS) {
+        return json({ error: 'Please wait a moment and try again' }, 400, headers);
     }
 
     const name = clean(body.name, 120);
@@ -452,7 +481,18 @@ async function handlePost({ request, env }) {
     const now = new Date();
     const leadId = generateLeadId(now);
     const requestId = request.headers.get('CF-Ray') || `req-${randomHex(6)}`;
-    const classification = classifyLead({ name, email, message, campaign, page, referrer });
+    const isSpam = isSolicitation({ name, email, message, date, venue });
+    const classification = isSpam
+        ? {
+            status: 'spam',
+            classification: 'spam',
+            isTest: 0,
+            countAsRealLead: 0,
+            countAsGoogleAds: 0,
+            exclusionReason: 'Solicitation filter',
+            confidenceLevel: 'high'
+        }
+        : classifyLead({ name, email, message, campaign, page, referrer });
     const toInternal = recipientList(env.NOTIFY_TO);
     const shouldSendCustomerAutoreply = customerAutoreplyEnabled(env[CUSTOMER_AUTOREPLY_FLAG])
         && isBrandedMusicAngelSender(from);
@@ -476,7 +516,7 @@ async function handlePost({ request, env }) {
         is_duplicate: 0,
         duplicate_of_lead_id: '',
         possible_duplicate: 0,
-        spam_flag: 0,
+        spam_flag: isSpam ? 1 : 0,
         lead_source_classification: classification.classification,
         count_as_real_lead: classification.countAsRealLead,
         count_as_google_ads: classification.countAsGoogleAds,
@@ -559,6 +599,16 @@ async function handlePost({ request, env }) {
     } catch (storeErr) {
         leadStoreStatus = { stored: false, reason: storeErr.message };
         console.error('Lead store write failed', { lead_id: leadId, request_id: requestId, error: storeErr.message });
+    }
+
+    // Store spam for review but never email it or count it.
+    if (isSpam) {
+        try {
+            await updateLeadEmailStatus(env.LEADS_DB, leadId, 'suppressed_spam', 0);
+        } catch (updateErr) {
+            console.error('Spam status update failed', { lead_id: leadId, request_id: requestId, error: updateErr.message });
+        }
+        return json({ ok: true, lead_id: leadId }, 200, headers);
     }
 
     const firstName = name.split(/\s+/)[0];
