@@ -1,5 +1,21 @@
+/* Spacing scale: the one source of rhythm for every page.
+   Pages use these variables, not one-off rem values. */
+:root {
+    --space-1: 0.25rem;   /*  4px */
+    --space-2: 0.5rem;    /*  8px */
+    --space-3: 0.75rem;   /* 12px */
+    --space-4: 1rem;      /* 16px */
+    --space-5: 1.5rem;    /* 24px */
+    --space-6: 2rem;      /* 32px */
+    --space-7: 3rem;      /* 48px */
+    --space-8: 4rem;      /* 64px */
+    --space-9: 6rem;      /* 96px */
+    --section-y: clamp(3rem, 6vw, 6rem);                    /* top/bottom padding of every content section */
+    --hero-y: clamp(var(--space-5), 4vh, var(--space-7));   /* hero breathing room; tracks viewport height */
+}
+
 .seo-enquiry {
-    margin: 3rem 0;
+    margin: var(--space-7) 0;
     padding: clamp(1.4rem, 4vw, 2rem);
     background: rgba(247, 214, 228, 0.28);
     border: 1px solid var(--border, rgba(247, 214, 228, 0.5));

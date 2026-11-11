@@ -139,7 +139,7 @@ const sharedHead = ({ title, description, canonical, ogImage, ogImageW, ogImageH
 
     <link rel="preconnect" href="https://www.googletagmanager.com">
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23FBF8F5'/%3E%3Cpath d='M19 46V18l25-4v27' fill='none' stroke='%23F26CA7' stroke-width='4.5' stroke-linecap='round'/%3E%3Ccircle cx='19' cy='46' r='7' fill='%23F7D6E4'/%3E%3Ccircle cx='44' cy='41' r='7' fill='%23C8B28A'/%3E%3C/svg%3E">
-    <link rel="stylesheet" href="/css/seo-forms.css?v=20260619-seo">
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20261111-space">
 
     <script>
         window.dataLayer = window.dataLayer || [];
