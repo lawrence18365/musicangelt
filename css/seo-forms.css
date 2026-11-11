@@ -10,7 +10,7 @@
     --space-7: 3rem;      /* 48px */
     --space-8: 4rem;      /* 64px */
     --space-9: 6rem;      /* 96px */
-    --section-y: clamp(3rem, 6vw, 6rem);                    /* top/bottom padding of every content section */
+    --section-y: clamp(2.5rem, 5vw, 4.5rem);                /* top/bottom padding of every content section */
     --hero-y: clamp(var(--space-5), 4vh, var(--space-7));   /* hero breathing room; tracks viewport height */
 }
 
