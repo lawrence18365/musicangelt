@@ -82,24 +82,24 @@
         .nav-back { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); text-decoration: none; }
         .nav-back:hover { color: var(--pink); }
         .wrap { max-width: 920px; margin: 0 auto; padding: 0 clamp(1rem, 5vw, 3rem); }
-        .crumb { font-size: 0.72rem; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; padding: 1.25rem 0; }
+        .crumb { font-size: 0.72rem; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; padding: var(--space-4) 0; }
         .crumb a { color: var(--text-muted); text-decoration: none; }
         .crumb a:hover { color: var(--pink); }
         .crumb span { color: var(--ink); }
         .crumb .sep { padding: 0 0.45rem; color: var(--border-strong); }
-        .hero { padding: 1rem 0 2rem; max-width: 760px; }
-        .eye { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pink); margin-bottom: 1rem; }
-        h1 { font-family: var(--serif); font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 400; color: var(--ink); line-height: 1.07; margin-bottom: 1rem; }
+        .hero { padding: var(--space-4) 0 var(--space-6); max-width: 760px; }
+        .eye { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pink); margin-bottom: var(--space-4); }
+        h1 { font-family: var(--serif); font-size: clamp(2.4rem, 6vw, 4rem); font-weight: 400; color: var(--ink); line-height: 1.07; margin-bottom: var(--space-4); }
         h1 em, h2 em { font-style: italic; color: var(--pink); font-weight: 500; }
         .lede { font-family: var(--serif); font-style: italic; color: var(--ink-soft); font-size: 1.16rem; line-height: 1.7; }
-        .process { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: 1rem; margin: 2rem 0 0; }
+        .process { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: var(--space-4); margin: var(--space-7) 0 0; }
         .process div { padding: 1.1rem 1.2rem; background: #fff; border: 1px solid var(--border); border-radius: 12px; }
         .process strong { display: block; font-family: var(--serif); color: var(--ink); font-size: 1.08rem; font-weight: 500; }
         .process span { display: block; margin-top: 0.3rem; color: var(--text-muted); font-size: 0.9rem; }
         .btn { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; padding: 0.95rem 1.6rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; border-radius: 999px; text-decoration: none; cursor: pointer; transition: transform 0.18s, background 0.18s; border: 1px solid transparent; }
         .btn-pink { background: var(--pink); color: #fff; box-shadow: 0 12px 34px rgba(242, 108, 167, 0.28); }
         .btn-pink:hover { background: var(--pink-hover); transform: translateY(-2px); }
-        footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+        footer { padding: var(--space-7) 0; border-top: 1px solid var(--border); margin-top: var(--section-y); }
         .footer-inner { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); }
         .footer-inner a { color: var(--text-muted); text-decoration: none; }
         .footer-inner a:hover { color: var(--pink); }
@@ -112,6 +112,12 @@
         .cc-actions { display: flex; gap: 0.5rem; justify-content: flex-end; flex-wrap: wrap; }
         .cc-btn { border: 1px solid rgba(255, 255, 255, 0.22); background: transparent; color: #fff; padding: 0.5rem 0.95rem; font-size: 0.66rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; border-radius: 999px; cursor: pointer; }
         .cc-accept { background: var(--pink); border-color: var(--pink); }
+        main.wrap { max-width: 1180px; }
+        @media (min-width: 1024px) {
+            .avail-top { display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); gap: var(--space-7); align-items: start; }
+            .avail-top .hero { padding-top: var(--space-6); }
+            .avail-top .seo-enquiry { margin: 0; }
+        }
     </style>
 
     <script>
@@ -139,6 +145,7 @@
             <a href="/">MusicAngel</a><span class="sep">/</span><span>Check Availability</span>
         </nav>
 
+        <div class="avail-top">
         <header class="hero">
             <p class="eye">Wedding bands Ireland · availability</p>
             <h1>Check wedding band <em>availability</em></h1>
@@ -183,6 +190,7 @@
                 <p class="form-status" role="status" aria-live="polite"></p>
             </form>
         </section>
+        </div>
 
         <section class="process" aria-label="What happens next">
             <div><strong>1. We check the date</strong><span>Your venue, county and preferred band decide the availability check.</span></div>
