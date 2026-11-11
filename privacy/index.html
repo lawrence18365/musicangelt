@@ -78,6 +78,7 @@
         ]
     }
     </script>
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20261111-space">
     <style>
         :root {
             --ink: #111111;
@@ -99,14 +100,14 @@
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
         }
-        .wrap { max-width: 44rem; margin: 0 auto; padding: 4rem 1.5rem 6rem; }
+        .wrap { max-width: 44rem; margin: 0 auto; padding: var(--space-8) var(--space-5) var(--space-9); }
         .brand {
             font-family: var(--serif);
             font-size: 1.6rem;
             color: var(--ink);
             text-decoration: none;
             display: inline-block;
-            margin-bottom: 2.5rem;
+            margin-bottom: var(--space-6);
         }
         .brand i { color: var(--pink); font-style: italic; font-weight: 500; }
         h1 {
@@ -117,20 +118,20 @@
             margin-bottom: 0.5rem;
             line-height: 1.15;
         }
-        .meta { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 2.5rem; }
+        .meta { color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-6); }
         h2 {
             font-family: var(--serif);
             font-size: 1.6rem;
             font-weight: 500;
             color: var(--ink);
-            margin: 2.5rem 0 0.75rem;
+            margin: var(--space-6) 0 var(--space-3);
             line-height: 1.25;
         }
-        p, li { margin-bottom: 0.85rem; }
-        ul { padding-left: 1.25rem; margin-bottom: 1rem; }
+        p, li { margin-bottom: var(--space-3); }
+        ul { padding-left: var(--space-4); margin-bottom: var(--space-4); }
         a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--blush); }
         a:hover { text-decoration-color: var(--pink); }
-        .footer { margin-top: 4rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-muted); }
+        .footer { margin-top: var(--space-8); padding-top: var(--space-5); border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-muted); }
         .footer a { color: inherit; }
     </style>
 
