@@ -81,6 +81,7 @@
     }
     </script>
 
+    <link rel="stylesheet" href="/css/seo-forms.css?v=20261111-space">
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root { --ink: #111111; --ink-soft: #2a2a2a; --pink: #C2185B; --pink-hover: #A9144E; --blush: #F7D6E4; --ivory: #FBF8F5; --text: #2a2a2a; --text-muted: #6a6266; --border: rgba(247, 214, 228, 0.5); --border-strong: rgba(242, 108, 167, 0.22); --serif: Georgia, 'Times New Roman', serif; --sans: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; --shadow-soft: 0 24px 70px rgba(34, 25, 28, 0.08); --ease-out: cubic-bezier(0.16, 1, 0.3, 1); }
@@ -91,25 +92,25 @@
         .nav-brand i { color: var(--pink); font-style: italic; font-weight: 500; }
         .nav-back { font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); text-decoration: none; }
         .wrap { max-width: 760px; margin: 0 auto; padding: 0 clamp(1rem, 5vw, 3rem); }
-        .crumb { font-size: 0.72rem; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; padding: 1.25rem 0; }
+        .crumb { font-size: 0.72rem; color: var(--text-muted); letter-spacing: 0.08em; text-transform: uppercase; padding: var(--space-4) 0; }
         .crumb a { color: var(--text-muted); text-decoration: none; }
         .crumb a:hover { color: var(--pink); }
         .crumb span { color: var(--ink); }
         .crumb .sep { padding: 0 0.45rem; color: var(--border-strong); }
-        article header { padding: 1rem 0 3rem; }
-        .eye { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pink); margin-bottom: 1rem; }
-        h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 400; color: var(--ink); line-height: 1.1; margin-bottom: 1.1rem; }
+        article header { padding: var(--space-4) 0 var(--space-7); }
+        .eye { font-size: 0.74rem; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pink); margin-bottom: var(--space-4); }
+        h1 { font-family: var(--serif); font-size: clamp(2.2rem, 5vw, 3.4rem); font-weight: 400; color: var(--ink); line-height: 1.1; margin-bottom: var(--space-4); }
         h1 em { font-style: italic; color: var(--pink); font-weight: 500; }
         .lede { font-size: 1.13rem; line-height: 1.7; color: var(--ink-soft); margin-bottom: 0; font-family: var(--serif); font-style: italic; }
-        article h2 { font-family: var(--serif); font-size: clamp(1.7rem, 3.5vw, 2.2rem); font-weight: 400; color: var(--ink); line-height: 1.2; margin: 3rem 0 1.1rem; }
+        article h2 { font-family: var(--serif); font-size: clamp(1.7rem, 3.5vw, 2.2rem); font-weight: 400; color: var(--ink); line-height: 1.2; margin: var(--space-7) 0 var(--space-4); }
         article h2 em { font-style: italic; color: var(--pink); font-weight: 500; }
-        article p { font-size: 1.02rem; line-height: 1.78; color: var(--ink-soft); margin-bottom: 1.1rem; }
-        article ul { margin: 0.5rem 0 1.5rem 1.25rem; }
+        article p { font-size: 1.02rem; line-height: 1.78; color: var(--ink-soft); margin-bottom: var(--space-4); }
+        article ul { margin: 0.5rem 0 var(--space-5) var(--space-4); }
         article li { margin-bottom: 0.55rem; font-size: 1rem; color: var(--ink-soft); }
         article a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--blush); }
         article a:hover { text-decoration-color: var(--pink); }
-        .pull-quote { margin: 2.5rem 0; padding: 1.5rem 1.8rem; background: rgba(247, 214, 228, 0.2); border-left: 3px solid var(--pink); border-radius: 10px; font-family: var(--serif); font-style: italic; font-size: 1.1rem; line-height: 1.65; color: var(--ink-soft); }
-        .price-table { margin: 1.5rem 0 2rem; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: #fff; }
+        .pull-quote { margin: var(--space-6) 0; padding: var(--space-5) var(--space-6); background: rgba(247, 214, 228, 0.2); border-left: 3px solid var(--pink); border-radius: 10px; font-family: var(--serif); font-style: italic; font-size: 1.1rem; line-height: 1.65; color: var(--ink-soft); }
+        .price-table { margin: var(--space-5) 0 var(--space-6); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; background: #fff; }
         .price-table table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
         .price-table th, .price-table td { padding: 0.95rem 1.1rem; text-align: left; border-bottom: 1px solid var(--border); }
         .price-table th { background: rgba(247, 214, 228, 0.3); font-weight: 600; color: var(--ink); font-size: 0.74rem; letter-spacing: 0.08em; text-transform: uppercase; }
@@ -117,21 +118,21 @@
         .price-table td:nth-child(2) { font-family: var(--serif); font-style: italic; color: var(--pink); white-space: nowrap; }
         .price-table tr:last-child td { border-bottom: 0; }
         @media (max-width: 560px) { .price-table { font-size: 0.88rem; } .price-table th, .price-table td { padding: 0.75rem 0.8rem; } }
-        details.faq { border-bottom: 1px solid var(--border); padding: 1.1rem 0; }
+        details.faq { border-bottom: 1px solid var(--border); padding: var(--space-4) 0; }
         details.faq summary { cursor: pointer; list-style: none; font-family: var(--serif); font-size: 1.2rem; color: var(--ink); font-weight: 500; display: flex; justify-content: space-between; gap: 1.5rem; }
         details.faq summary::-webkit-details-marker { display: none; }
         details.faq summary::after { content: '+'; font-family: var(--sans); font-weight: 300; font-size: 1.55rem; color: var(--pink); transition: transform 0.25s; flex-shrink: 0; line-height: 1; }
         details.faq[open] summary::after { transform: rotate(45deg); }
-        details.faq p { margin: 0.9rem 0 0; padding-right: 2rem; }
-        .cta-band { background: rgba(247, 214, 228, 0.28); padding: 3rem 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: 3rem 0 2rem; text-align: center; }
+        details.faq p { margin: var(--space-4) 0 0; padding-right: var(--space-6); }
+        .cta-band { background: rgba(247, 214, 228, 0.28); padding: var(--section-y) 0; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); margin: var(--space-7) 0 var(--space-6); text-align: center; }
         .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.95rem 1.6rem; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; border-radius: 999px; text-decoration: none; cursor: pointer; transition: transform 0.18s, background 0.18s; border: 1px solid transparent; }
         .btn-pink { background: var(--pink); color: #fff; box-shadow: 0 12px 34px rgba(242, 108, 167, 0.28); }
         .btn-pink:hover { background: var(--pink-hover); transform: translateY(-2px); }
-        footer { padding: 3rem 0 3.5rem; border-top: 1px solid var(--border); }
-        .footer-inner { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); }
+        footer { padding: var(--section-y) 0 var(--section-y); border-top: 1px solid var(--border); }
+        .footer-inner { display: flex; flex-wrap: wrap; gap: var(--space-5); justify-content: space-between; align-items: center; font-size: 0.85rem; color: var(--text-muted); }
         .footer-inner a { color: var(--text-muted); text-decoration: none; }
         .footer-inner a:hover { color: var(--pink); }
-        .footer-links { display: flex; gap: 1.25rem; list-style: none; flex-wrap: wrap; }
+        .footer-links { display: flex; gap: var(--space-4); list-style: none; flex-wrap: wrap; }
         .cc { position: fixed; bottom: 1rem; left: 1rem; right: 1rem; max-width: 26rem; margin-left: auto; background: var(--ink); color: #fff; padding: 1.05rem 1.15rem 0.95rem; border-radius: 14px; box-shadow: 0 18px 52px rgba(34, 25, 28, 0.32); z-index: 1100; font-size: 0.78rem; line-height: 1.55; opacity: 0; transform: translateY(8px); transition: opacity 0.35s, transform 0.35s; }
         .cc[hidden] { display: none; }
         .cc.visible { opacity: 1; transform: translateY(0); }
