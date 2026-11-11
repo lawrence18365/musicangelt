@@ -550,7 +550,13 @@ function renderCounty(c, index = 0) {
                 "serviceType": "Wedding band booking",
                 "provider": { "@type": "Organization", "name": "MusicAngel", "url": pageUrl('') },
                 "areaServed": { "@type": "AdministrativeArea", "name": `County ${c.name}`, "containedInPlace": { "@type": "Country", "name": "Ireland" } },
-                "url": canonical
+                "url": canonical,
+                "offers": {
+                    "@type": "Offer",
+                    "name": "Packages from €2450",
+                    "description": `Final quote depends on date, location within ${c.name}, package and any ceremony or drinks-reception add-ons.`,
+                    "priceSpecification": { "@type": "PriceSpecification", "minPrice": 2450, "priceCurrency": "EUR" }
+                }
             },
             {
                 "@type": "BreadcrumbList",
