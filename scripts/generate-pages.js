@@ -169,7 +169,7 @@ ${JSON.stringify(cleanJsonLd(jsonLd), null, 4)}
 
     <style>${PAGE_CSS}</style>
 
-    <script defer src="https://a.178-105-145-93.sslip.io/g.js" data-website-id="81fe243d-6084-435d-9377-328a558b6df7"></script>
+    <script defer src="https://a.178-105-145-93.sslip.io/g.js" data-website-id="81fe243d-6084-435d-9377-328a558b6df7" data-domains="musicangel.ie"></script>
     <script defer src="https://a.178-105-145-93.sslip.io/c.js"></script>
 </head>`;
 
@@ -302,7 +302,7 @@ const sharedFooter = `
         </div>
     </div>
 
-    <script defer src="/js/site.js?v=20260612-ads-sot1"></script>
+    <script defer src="/js/site.js?v=20261123-umami"></script>
 </body>
 </html>
 `;

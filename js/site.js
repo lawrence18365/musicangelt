@@ -300,6 +300,7 @@
         var forms = document.querySelectorAll('form#enquiry, form#enquiryForm, form[data-enquiry]');
         forms.forEach(function (form) {
             var formStarted = false;
+            var formSubmitting = false;
             function trackFormStart() {
                 if (formStarted) return;
                 formStarted = true;
@@ -313,12 +314,14 @@
 
             form.addEventListener('submit', async function (event) {
                 event.preventDefault();
+                if (formSubmitting) return;
 
                 var btn = form.querySelector('button[type="submit"]');
                 var status = form.querySelector('.form-status') || document.getElementById('formStatus');
                 var original = btn ? btn.innerHTML : '';
                 var formId = form.getAttribute('id') || form.getAttribute('data-enquiry') || 'enquiry';
                 var data = enrichPayload(Object.fromEntries(new FormData(form).entries()), formId);
+                formSubmitting = true;
 
                 if (btn) {
                     btn.disabled = true;
@@ -340,6 +343,14 @@
                 try {
                     var res = await submitPayload(data);
                     if (res.ok) {
+                        if (window.location.hostname === 'musicangel.ie' && typeof window.umami?.track === 'function') {
+                            // Both APIs include lead_store only for accepted enquiries.
+                            res.json().then(function (result) {
+                                if (result?.ok === true && ['stored', 'not_stored'].includes(result.lead_store)) {
+                                    return window.umami.track('enquiry_submit');
+                                }
+                            }).catch(function () {});
+                        }
                         saveCurrentAttribution();
                         track('form_submit', {
                             form_id: formId,
@@ -371,6 +382,7 @@
                     }
                     throw new Error('HTTP ' + res.status);
                 } catch (err) {
+                    formSubmitting = false;
                     track('lead_mailto_fallback', {
                         form_id: formId,
                         page_path: window.location.pathname,
